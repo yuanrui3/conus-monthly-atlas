@@ -1,0 +1,36 @@
+{
+  "generatedAt": "2026-11-04T21:45:41.591474+00:00",
+  "passed": true,
+  "datasetSha256": "0e1d191fd6b6db297f32a472123f37fec82ce406714a6645b8ea87e9a8ae2bb8",
+  "scope": "Two independent endpoint checks of calendar dates, approved daily completeness and monthly aggregation; not a ground-truth validation of measurements or ungauged areas.",
+  "cases": [
+    {
+      "station": "USGS-03335500",
+      "name": "WABASH RIVER AT LAFAYETTE, IN",
+      "year": 2006,
+      "month": 11,
+      "approvedDailyCount": 30,
+      "dailyMeanCfs": 9142.0,
+      "publishedMonthlyMeanCfs": 9142.0,
+      "absoluteDifferenceCfs": 0.0,
+      "toleranceCfs": 0.5,
+      "passed": true,
+      "sourceUrl": "https://waterservices.usgs.gov/nwis/dv/?format=json&sites=03335500&parameterCd=00060&statCd=00003&startDT=2006-11-01&endDT=2006-11-30&siteStatus=all",
+      "sourceSha256": "54bf671ad4370d0d4ac662c8ba04c4844e3720b8146738b9acf60b45566213c7"
+    },
+    {
+      "station": "USGS-01646500",
+      "name": "POTOMAC RIVER NEAR WASH, DC LITTLE FALLS PUMP STA",
+      "year": 2025,
+      "month": 11,
+      "approvedDailyCount": 30,
+      "dailyMeanCfs": 1955.3333333333333,
+      "publishedMonthlyMeanCfs": 1955.0,
+      "absoluteDifferenceCfs": 0.33333333333325754,
+      "toleranceCfs": 0.5,
+      "passed": true,
+      "sourceUrl": "https://waterservices.usgs.gov/nwis/dv/?format=json&sites=01646500&parameterCd=00060&statCd=00003&startDT=2025-11-01&endDT=2025-11-30&siteStatus=all",
+      "sourceSha256": "49d4e8d0a7b0650bf571981fd0a1cb4746379fedb64eade6ad009d789b099793"
+    }
+  ]
+}

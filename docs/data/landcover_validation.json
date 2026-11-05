@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-04T22:28:18.870219+00:00",
+  "status": "passed with explicit overview-resolution limitations",
+  "sourceIsRawOneBandCategorical": true,
+  "sourceNoData": 250,
+  "expectedClassCodes": [
+    11,
+    12,
+    21,
+    22,
+    23,
+    24,
+    31,
+    41,
+    42,
+    43,
+    52,
+    71,
+    81,
+    82,
+    90,
+    95
+  ],
+  "observedClassCodes": [
+    11,
+    12,
+    21,
+    22,
+    23,
+    24,
+    31,
+    41,
+    42,
+    43,
+    52,
+    71,
+    81,
+    82,
+    90,
+    95
+  ],
+  "allValuesRecognized": true,
+  "valueCount": 613600,
+  "expectedValueCount": 613600,
+  "coordinateOrderChecked": true,
+  "coordinatesFromReturnedGeoTiff": true,
+  "paletteReadDirectly": true,
+  "colorDecodingUsed": false,
+  "providerAdvertises2025": true,
+  "sourceNative30mVerifiedFromDescribeCoverage": true,
+  "mappedCells": 252965,
+  "referenceOutlineCells": 245216,
+  "noDataWithinReferenceOutlineCells": 246,
+  "sourceValidOutsideGeneralizedLandOutline": 7995,
+  "missingOrOutOfScopeCells": 360635,
+  "classOverviewCounts": {
+    "11": 13312,
+    "12": 30,
+    "21": 7734,
+    "22": 5880,
+    "23": 2573,
+    "24": 615,
+    "31": 2787,
+    "41": 23036,
+    "42": 28334,
+    "43": 6984,
+    "52": 56958,
+    "71": 32188,
+    "81": 16697,
+    "82": 40612,
+    "90": 11369,
+    "95": 3856
+  },
+  "referenceOutlineFeatures": 49,
+  "referenceOutlineAppliedAsMask": false,
+  "nativeResolutionDiagnostics": [
+    {
+      "overviewClass": 41,
+      "row": 232,
+      "col": 647,
+      "lon": -92.97403047531242,
+      "lat": 39.00899819889096,
+      "nativeClass": 81,
+      "nativeResolutionMeters": [
+        29.99999997081856,
+        30.000000058828544
+      ],
+      "matchesOverview": false,
+      "source": {
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wcs?service=WCS&version=1.0.0&request=GetCoverage&coverage=Land-Cover-Native_conus_year_data&crs=EPSG%3A5070&response_crs=EPSG%3A5070&bbox=259512.88561084264%2C1780006.3160234448%2C259602.88561084264%2C1780096.3160234448&width=3&height=3&format=GeoTIFF&time=2025-01-01T00%3A00%3A00.000Z&interpolation=nearest+neighbor",
+        "cacheFile": "check_native_41.tif",
+        "bytes": 2194,
+        "sha256": "d65c3c4f0d1c2746ccc6c4d626c77fad39bda1eb072d6601d7fec2d4bea0d20a",
+        "cachedAt": "2026-11-04T22:21:55.685068+00:00"
+      }
+    },
+    {
+      "overviewClass": 42,
+      "row": 212,
+      "col": 388,
+      "lon": -107.4953462444312,
+      "lat": 40.20579144921071,
+      "nativeClass": 42,
+      "nativeResolutionMeters": [
+        29.99999997714379,
+        30.000000049360096
+      ],
+      "matchesOverview": true,
+      "source": {
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wcs?service=WCS&version=1.0.0&request=GetCoverage&coverage=Land-Cover-Native_conus_year_data&crs=EPSG%3A5070&response_crs=EPSG%3A5070&bbox=-967658.7692230466%2C1968582.9995404372%2C-967568.7692230466%2C1968672.9995404372&width=3&height=3&format=GeoTIFF&time=2025-01-01T00%3A00%3A00.000Z&interpolation=nearest+neighbor",
+        "cacheFile": "check_native_42.tif",
+        "bytes": 2194,
+        "sha256": "b0a6f9deaba8df08ee7213554633ea8d04e54caca7e60b5e1df97d49ea4a21d2",
+        "cachedAt": "2026-11-04T22:21:55.698406+00:00"
+      }
+    },
+    {
+      "overviewClass": 52,
+      "row": 262,
+      "col": 327,
+      "lon": -110.91542447576805,
+      "lat": 37.21380832341132,
+      "nativeClass": 31,
+      "nativeResolutionMeters": [
+        29.999999987659976,
+        30.000000078153487
+      ],
+      "matchesOverview": false,
+      "source": {
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wcs?service=WCS&version=1.0.0&request=GetCoverage&coverage=Land-Cover-Native_conus_year_data&crs=EPSG%3A5070&response_crs=EPSG%3A5070&bbox=-1305860.5551174148%2C1677353.7740941343%2C-1305770.5551174148%2C1677443.7740941343&width=3&height=3&format=GeoTIFF&time=2025-01-01T00%3A00%3A00.000Z&interpolation=nearest+neighbor",
+        "cacheFile": "check_native_52.tif",
+        "bytes": 2194,
+        "sha256": "636d43a834a15b0dbf2bbf00e442924e1d4519f510474222724b8891369d0046",
+        "cachedAt": "2026-11-04T22:21:55.785470+00:00"
+      }
+    },
+    {
+      "overviewClass": 71,
+      "row": 182,
+      "col": 194,
+      "lon": -118.37231635720742,
+      "lat": 42.00098132469034,
+      "nativeClass": 71,
+      "nativeResolutionMeters": [
+        29.99999998199443,
+        30.000000038494665
+      ],
+      "matchesOverview": true,
+      "source": {
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wcs?service=WCS&version=1.0.0&request=GetCoverage&coverage=Land-Cover-Native_conus_year_data&crs=EPSG%3A5070&response_crs=EPSG%3A5070&bbox=-1823552.7791233554%2C2326615.2455031853%2C-1823462.7791233554%2C2326705.2455031853&width=3&height=3&format=GeoTIFF&time=2025-01-01T00%3A00%3A00.000Z&interpolation=nearest+neighbor",
+        "cacheFile": "check_native_71.tif",
+        "bytes": 2194,
+        "sha256": "3b8c681cd019c909ed6343a40148373f52d4a0de47a1ee0ba8ce5146ae389b4d",
+        "cachedAt": "2026-11-04T22:21:59.728543+00:00"
+      }
+    },
+    {
+      "overviewClass": 82,
+      "row": 197,
+      "col": 813,
+      "lon": -83.66693233757607,
+      "lat": 41.103386386950525,
+      "nativeClass": 82,
+      "nativeResolutionMeters": [
+        29.99999997516473,
+        30.000000041831907
+      ],
+      "matchesOverview": true,
+      "source": {
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wcs?service=WCS&version=1.0.0&request=GetCoverage&coverage=Land-Cover-Native_conus_year_data&crs=EPSG%3A5070&response_crs=EPSG%3A5070&bbox=1024690.56156803%2C2077108.7326200355%2C1024780.56156803%2C2077198.7326200355&width=3&height=3&format=GeoTIFF&time=2025-01-01T00%3A00%3A00.000Z&interpolation=nearest+neighbor",
+        "cacheFile": "check_native_82.tif",
+        "bytes": 2194,
+        "sha256": "488bfc76d2abd67f739bd0d28b4062ffcb6bb9ff60d68d9b437cfd301f0a5815",
+        "cachedAt": "2026-11-04T22:21:59.790014+00:00"
+      }
+    },
+    {
+      "overviewClass": 90,
+      "row": 276,
+      "col": 905,
+      "lon": -78.50878156244508,
+      "lat": 36.376053048187494,
+      "nativeClass": 81,
+      "nativeResolutionMeters": [
+        29.99999999231659,
+        30.00000008707866
+      ],
+      "matchesOverview": false,
+      "source": {
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wcs?service=WCS&version=1.0.0&request=GetCoverage&coverage=Land-Cover-Native_conus_year_data&crs=EPSG%3A5070&response_crs=EPSG%3A5070&bbox=1546092.3296948045%2C1623498.8175935727%2C1546182.3296948045%2C1623588.8175935727&width=3&height=3&format=GeoTIFF&time=2025-01-01T00%3A00%3A00.000Z&interpolation=nearest+neighbor",
+        "cacheFile": "check_native_90.tif",
+        "bytes": 2194,
+        "sha256": "ff35ed52e09c150ddd031df458b25839f29e0ce3abca1df3fd619dfddc5fd06b",
+        "cachedAt": "2026-11-04T22:21:59.735421+00:00"
+      }
+    },
+    {
+      "overviewClass": 95,
+      "row": 182,
+      "col": 680,
+      "lon": -91.12382421901543,
+      "lat": 42.00098132469034,
+      "nativeClass": 31,
+      "nativeResolutionMeters": [
+        29.99999996794698,
+        30.000000031975407
+      ],
+      "matchesOverview": false,
+      "source": {
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wcs?service=WCS&version=1.0.0&request=GetCoverage&coverage=Land-Cover-Native_conus_year_data&crs=EPSG%3A5070&response_crs=EPSG%3A5070&bbox=400918.05114385585%2C2121266.1699311407%2C401008.05114385585%2C2121356.1699311407&width=3&height=3&format=GeoTIFF&time=2025-01-01T00%3A00%3A00.000Z&interpolation=nearest+neighbor",
+        "cacheFile": "check_native_95.tif",
+        "bytes": 2194,
+        "sha256": "150eaf47788a3845191a528fbe8008cae5c77ed62b90f7e4415d6340c979f8c5",
+        "cachedAt": "2026-11-04T22:22:03.050509+00:00"
+      }
+    }
+  ],
+  "nativeDiagnosticMeaning": "Checks compare selected coarse overview cell centers to separate 30 m service requests. Differences demonstrate that local native-pixel classes cannot be assumed from this overview. These are not independent field validation or source-accuracy estimates.",
+  "localLandCoverValidated": false,
+  "areaMajorityValidated": false,
+  "mobilityModelIncluded": false
+}
