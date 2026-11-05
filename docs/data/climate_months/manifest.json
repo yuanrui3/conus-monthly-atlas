@@ -1,0 +1,5067 @@
+{
+  "schemaVersion": 1,
+  "builtAt": "2026-11-04T23:58:23.387409+00:00",
+  "sourceUrl": "https://www.drought.gov/data-maps-tools/gridded-climate-datasets-noaas-nclimgrid-monthly",
+  "years": [
+    2006,
+    2025
+  ],
+  "months": [
+    {
+      "month": 1,
+      "name": "January",
+      "path": "data/climate_months/01.json.gz",
+      "sha256": "133e79ba6e0edeb6f32c30d29a6c49281c697a535710ab983cae6a68c027e583",
+      "decodedSha256": "4f6fd739a51ee984adb56a538f9d98a3f435458de72b71a03d5e20647129fe7d",
+      "bytes": 1286178,
+      "decodedBytes": 9180623,
+      "inputs": [
+        {
+          "year": 2006,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2006/nclimgrid-monthly-200601.tif",
+          "retrievedAt": "2026-11-04T23:54:06.087642+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8119482,
+          "sha256": "186c451f444e076d5672808f49f015f20a0a71e91dd0dfedcd258177163d7207"
+        },
+        {
+          "year": 2007,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2007/nclimgrid-monthly-200701.tif",
+          "retrievedAt": "2026-11-04T23:54:07.248604+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8201433,
+          "sha256": "2cdc936fb08106c086e3d6950ed84a2c2eb22f5d8618b59da49f63c08bd76af2"
+        },
+        {
+          "year": 2008,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2008/nclimgrid-monthly-200801.tif",
+          "retrievedAt": "2026-11-04T23:54:07.288485+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8192387,
+          "sha256": "2edc53eeeaa9d623e1e662138ecf9828b03b0262102c1b78e8fd1a379c80d061"
+        },
+        {
+          "year": 2009,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2009/nclimgrid-monthly-200901.tif",
+          "retrievedAt": "2026-11-04T23:54:07.273285+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8085388,
+          "sha256": "83e3e6c48821aacff481e615d928685fe38ed6f55caa3b9d08ed8b4fa57060c2"
+        },
+        {
+          "year": 2010,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2010/nclimgrid-monthly-201001.tif",
+          "retrievedAt": "2026-11-04T23:54:07.205370+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8201589,
+          "sha256": "48ecfd5afcdb98563674cc5ba651ed1a30d721b2dbb35ac6eaa99cf94deee274"
+        },
+        {
+          "year": 2011,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2011/nclimgrid-monthly-201101.tif",
+          "retrievedAt": "2026-11-04T23:54:06.609764+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8059268,
+          "sha256": "3e7935a5c9d66417b4176f4241fab81b8ecb9adc34802afbd88f43eb1629e24e"
+        },
+        {
+          "year": 2012,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2012/nclimgrid-monthly-201201.tif",
+          "retrievedAt": "2026-11-04T23:54:07.088433+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8119077,
+          "sha256": "ddfae13329ed0c2e7f1162ea91d56ed2e15e9194df9760949c1afd7d1e09c7eb"
+        },
+        {
+          "year": 2013,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2013/nclimgrid-monthly-201301.tif",
+          "retrievedAt": "2026-11-04T23:54:07.048893+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8173404,
+          "sha256": "de216e98f7d85aea6e5cc8f56065bfbe620039905a4baaa3ee0d07f867dbc788"
+        },
+        {
+          "year": 2014,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2014/nclimgrid-monthly-201401.tif",
+          "retrievedAt": "2026-11-04T23:54:11.365751+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8070221,
+          "sha256": "903e783a0daf2b8a79e03dfa9c3ec6b90c323d31a1d6b57f5be7cd77ec16822e"
+        },
+        {
+          "year": 2015,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2015/nclimgrid-monthly-201501.tif",
+          "retrievedAt": "2026-11-04T23:54:11.124860+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8067546,
+          "sha256": "9cc22d7a79e47695526f0570f82fec799f573c9b8beaf67902fea2673a6d21c4"
+        },
+        {
+          "year": 2016,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2016/nclimgrid-monthly-201601.tif",
+          "retrievedAt": "2026-11-04T23:54:11.417658+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8138799,
+          "sha256": "e9e767c6d4cd347acf8092a313f089dadb57e92915ff5c8de7be211355195030"
+        },
+        {
+          "year": 2017,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2017/nclimgrid-monthly-201701.tif",
+          "retrievedAt": "2026-11-04T23:54:11.441352+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8218634,
+          "sha256": "df6c542aaadd370a55875429eb3219b9cf61ec1c6224884e44080afb92e209b7"
+        },
+        {
+          "year": 2018,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2018/nclimgrid-monthly-201801.tif",
+          "retrievedAt": "2026-11-04T23:54:11.404931+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8151446,
+          "sha256": "7a68cf9bd6f1e4b36a820d7b2dd78e97a7443665b9464694c72465a04c12f997"
+        },
+        {
+          "year": 2019,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2019/nclimgrid-monthly-201901.tif",
+          "retrievedAt": "2026-11-04T23:54:10.804167+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8193808,
+          "sha256": "fe922f3c10379d1fdc51f1ec4e74bd475d7812e418255a9171f259f3edc079b5"
+        },
+        {
+          "year": 2020,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2020/nclimgrid-monthly-202001.tif",
+          "retrievedAt": "2026-11-04T23:54:11.208638+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8170876,
+          "sha256": "e1798b0512f71f1632a307243eebf642ef869905ea3e9b03d2351b9eaa7cf612"
+        },
+        {
+          "year": 2021,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2021/nclimgrid-monthly-202101.tif",
+          "retrievedAt": "2026-11-04T23:54:11.344583+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8100022,
+          "sha256": "00b5f1a621bd8bdc6cf264124d1931c5a67c2725d2ba0f40c078f05139b38f09"
+        },
+        {
+          "year": 2022,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2022/nclimgrid-monthly-202201.tif",
+          "retrievedAt": "2026-11-04T23:54:16.056937+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8094720,
+          "sha256": "1d9eef9a3641077e7f11347ade5b227c0f454cdc2463c05873d37cef4288b5af"
+        },
+        {
+          "year": 2023,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2023/nclimgrid-monthly-202301.tif",
+          "retrievedAt": "2026-11-04T23:54:15.960969+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8234330,
+          "sha256": "40e2b0ba8ed34665e51120c5e4da81e6514e17cc61f0ee1ca47d2a8d2ca80a67"
+        },
+        {
+          "year": 2024,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2024/nclimgrid-monthly-202401.tif",
+          "retrievedAt": "2026-11-04T23:54:15.998348+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8258873,
+          "sha256": "920bef0285cad60e0756c620eb522432487b54cb68371944b1a2ce1f64511817"
+        },
+        {
+          "year": 2025,
+          "month": 1,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2025/nclimgrid-monthly-202501.tif",
+          "retrievedAt": "2026-11-04T23:54:15.949959+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8059511,
+          "sha256": "65e82043f2688f64121dfb1d7db8e220e3268ee1c47bf68aad3154f885093b15"
+        }
+      ],
+      "validGridCells": 118839,
+      "nativeCompleteCells": 469758,
+      "validation": {
+        "sourceChecks": [
+          {
+            "year": 2006,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2007,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2008,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2009,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2010,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2011,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2012,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2013,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2014,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2015,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2016,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2017,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2018,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2019,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2020,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2021,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2022,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2023,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2024,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2025,
+            "validNativeCells": 469758
+          }
+        ],
+        "unitCrossCheck": {
+          "comparisons": 256,
+          "maxAbsoluteDifference": 1.6784667948854803e-06,
+          "tolerance": 0.0001,
+          "unitsDocumentationUrl": "https://www.ncei.noaa.gov/monitoring-content/data/us/climgrid/monthly/current/gridded-readme.txt",
+          "sourceSampleHashes": {
+            "precip": "73cd5e54c8f09863e6d4ada889cc8be650b3b6a153ff7391dffdd66945cb4354",
+            "tavg": "91f864cce50f078cb31e2b80e8999beb54bafc6173176176bf0e534b859df646",
+            "tmin": "4a77fec453f59ce1860fd74e257ec3eca9d73fe37f75334f2cf0f524c399ebbf",
+            "tmax": "1f7240bd1343e80fcb0220d9fa95e71edc789659cc575d3a7b7aee50894d8c69"
+          }
+        },
+        "rawWindowChecks": [
+          {
+            "name": "Indiana",
+            "gridIndex": 74604,
+            "latitude": 40.41669869,
+            "longitude": -86.91666833,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": -3.07999,
+                "published": -3.08
+              },
+              "min_temp_c": {
+                "fromRawWindows": -7.41074,
+                "published": -7.41
+              },
+              "max_temp_c": {
+                "fromRawWindows": 1.25377,
+                "published": 1.25
+              },
+              "precip_mm": {
+                "fromRawWindows": 58.27255,
+                "published": 58.27
+              }
+            }
+          },
+          {
+            "name": "Badin Lake, North Carolina",
+            "gridIndex": 116267,
+            "latitude": 35.41669881,
+            "longitude": -80.00000197,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 5.37364,
+                "published": 5.37
+              },
+              "min_temp_c": {
+                "fromRawWindows": -0.4666,
+                "published": -0.47
+              },
+              "max_temp_c": {
+                "fromRawWindows": 11.20826,
+                "published": 11.21
+              },
+              "precip_mm": {
+                "fromRawWindows": 92.17288,
+                "published": 92.17
+              }
+            }
+          },
+          {
+            "name": "Pacific Northwest",
+            "gridIndex": 31904,
+            "latitude": 45.50003189,
+            "longitude": -122.5000001,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 5.37662,
+                "published": 5.38
+              },
+              "min_temp_c": {
+                "fromRawWindows": 2.42125,
+                "published": 2.42
+              },
+              "max_temp_c": {
+                "fromRawWindows": 8.32674,
+                "published": 8.33
+              },
+              "precip_mm": {
+                "fromRawWindows": 161.3969,
+                "published": 161.4
+              }
+            }
+          },
+          {
+            "name": "Arizona",
+            "gridIndex": 133210,
+            "latitude": 33.33336553,
+            "longitude": -111.8333339,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 11.98524,
+                "published": 11.99
+              },
+              "min_temp_c": {
+                "fromRawWindows": 4.33311,
+                "published": 4.33
+              },
+              "max_temp_c": {
+                "fromRawWindows": 19.631,
+                "published": 19.63
+              },
+              "precip_mm": {
+                "fromRawWindows": 19.42407,
+                "published": 19.42
+              }
+            }
+          },
+          {
+            "name": "partial_block",
+            "gridIndex": 64410,
+            "latitude": 41.66669865,
+            "longitude": -70.16666907,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 0.394,
+                "published": 0.39
+              },
+              "min_temp_c": {
+                "fromRawWindows": -3.54475,
+                "published": -3.54
+              },
+              "max_temp_c": {
+                "fromRawWindows": 4.33325,
+                "published": 4.33
+              },
+              "precip_mm": {
+                "fromRawWindows": 102.652,
+                "published": 102.65
+              }
+            }
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "month": 2,
+      "name": "February",
+      "path": "data/climate_months/02.json.gz",
+      "sha256": "0dacbed3c65f9edd12b85d86b81846fd12e7f7b39521f0b14ee9c3ebadca2fdc",
+      "decodedSha256": "c003c19d528bcbe7c6b8a4f0d8bc8f173f12b64c6dcbe2efd9cf5de2c7319454",
+      "bytes": 1286901,
+      "decodedBytes": 9171741,
+      "inputs": [
+        {
+          "year": 2006,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2006/nclimgrid-monthly-200602.tif",
+          "retrievedAt": "2026-11-04T23:54:16.082147+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8021253,
+          "sha256": "05f2581c28d02a4b4a42bf81c914a5e08db90f65adf64566ada12a6904752870"
+        },
+        {
+          "year": 2007,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2007/nclimgrid-monthly-200702.tif",
+          "retrievedAt": "2026-11-04T23:54:16.097531+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8081607,
+          "sha256": "3a789f95d33d4a49c86916acdcc1b5abdd04b1a8a87214342ed8a325d221db3a"
+        },
+        {
+          "year": 2008,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2008/nclimgrid-monthly-200802.tif",
+          "retrievedAt": "2026-11-04T23:54:15.368544+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8190341,
+          "sha256": "cb104a5b4f32ccc8b280944eb4f2b6ebe02f2fedb606f35dc04b077eaebd33db"
+        },
+        {
+          "year": 2009,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2009/nclimgrid-monthly-200902.tif",
+          "retrievedAt": "2026-11-04T23:54:15.989292+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8096764,
+          "sha256": "73a17d10ee038644a0333b44dd0b5002a7edb42bdc24bb4822efbdf696ed31cf"
+        },
+        {
+          "year": 2010,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2010/nclimgrid-monthly-201002.tif",
+          "retrievedAt": "2026-11-04T23:54:18.817935+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8104235,
+          "sha256": "924c8f19f9ced8d62ea65979ec87329a283a76629049ba26eb878a7913fc4bae"
+        },
+        {
+          "year": 2011,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2011/nclimgrid-monthly-201102.tif",
+          "retrievedAt": "2026-11-04T23:54:19.952409+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8141943,
+          "sha256": "06567cf4c3b9847b065a3277644c603c29b612db963af12c40b308f171c17469"
+        },
+        {
+          "year": 2012,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2012/nclimgrid-monthly-201202.tif",
+          "retrievedAt": "2026-11-04T23:54:19.883572+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8057895,
+          "sha256": "2a4152eb51a034262965c818ca62f93a956e32ff1e75ba15d65caa92c1016884"
+        },
+        {
+          "year": 2013,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2013/nclimgrid-monthly-201302.tif",
+          "retrievedAt": "2026-11-04T23:54:19.724456+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8071534,
+          "sha256": "bdb08d84458a6d46499f651e73cf47039a376c9f64af65df04cc5fc5e217230c"
+        },
+        {
+          "year": 2014,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2014/nclimgrid-monthly-201402.tif",
+          "retrievedAt": "2026-11-04T23:54:19.539879+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8165862,
+          "sha256": "e0287e9f63404c3042de0ae635226977c2c9bbbe3d2ace90d7024c0959b3e132"
+        },
+        {
+          "year": 2015,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2015/nclimgrid-monthly-201502.tif",
+          "retrievedAt": "2026-11-04T23:54:19.932654+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8095274,
+          "sha256": "1cb2ea160cf28c9e253e01941dc3eef6cfe37b96ae8ccf4c06b4e6adcfb442e7"
+        },
+        {
+          "year": 2016,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2016/nclimgrid-monthly-201602.tif",
+          "retrievedAt": "2026-11-04T23:54:19.901170+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8067368,
+          "sha256": "a2d8983b1350f8c3de643ccf921d2780dc8fdb43ba8e40054393fd972ab6d2f6"
+        },
+        {
+          "year": 2017,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2017/nclimgrid-monthly-201702.tif",
+          "retrievedAt": "2026-11-04T23:54:19.778506+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8049193,
+          "sha256": "598dfca3e8792d1fe407e80d63fc90fea0986f6b8c4f8e02b8171cbc26d3ae8b"
+        },
+        {
+          "year": 2018,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2018/nclimgrid-monthly-201802.tif",
+          "retrievedAt": "2026-11-04T23:54:23.916767+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8203049,
+          "sha256": "abb1dfefb2bf3936380edc33ffa9f55537f93bfda77bff7a01da2603d12d85ca"
+        },
+        {
+          "year": 2019,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2019/nclimgrid-monthly-201902.tif",
+          "retrievedAt": "2026-11-04T23:54:23.537300+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8281230,
+          "sha256": "45251da88fc1e6b777123ccd577b8c8175d6c7f6862ac71792c8f725fb8b73f5"
+        },
+        {
+          "year": 2020,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2020/nclimgrid-monthly-202002.tif",
+          "retrievedAt": "2026-11-04T23:54:23.823203+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8143429,
+          "sha256": "2ff5d5ad7cfbfe1c4e5869e2b79fed0b1689291184f12137bafad4dde2317ef7"
+        },
+        {
+          "year": 2021,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2021/nclimgrid-monthly-202102.tif",
+          "retrievedAt": "2026-11-04T23:54:23.876626+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8159611,
+          "sha256": "ec51759dbb917e32fb5d5286a9ae13103a4845ec3a23e60c4d0e22ac2b90e975"
+        },
+        {
+          "year": 2022,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2022/nclimgrid-monthly-202202.tif",
+          "retrievedAt": "2026-11-04T23:54:23.886606+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8159573,
+          "sha256": "cce08cf774ef91652d27d653f00c7debd8140cbcd3c35f7b1890778f726c7476"
+        },
+        {
+          "year": 2023,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2023/nclimgrid-monthly-202302.tif",
+          "retrievedAt": "2026-11-04T23:54:23.180424+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8199697,
+          "sha256": "ed783b9477e96729b0943b945d9a8461cd9dc622846cb7bde7d2126100ecfeb2"
+        },
+        {
+          "year": 2024,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2024/nclimgrid-monthly-202402.tif",
+          "retrievedAt": "2026-11-04T23:54:23.808798+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8044908,
+          "sha256": "ad848601ad5315f844be1d143d0770dfe13a64f9bc7b88704cf7455cd3f0892d"
+        },
+        {
+          "year": 2025,
+          "month": 2,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2025/nclimgrid-monthly-202502.tif",
+          "retrievedAt": "2026-11-04T23:54:23.906224+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8137877,
+          "sha256": "54ff3351245323cef4eeb12ff648f799277a3946453a70bf20270fee2b131a9f"
+        }
+      ],
+      "validGridCells": 118839,
+      "nativeCompleteCells": 469758,
+      "validation": {
+        "sourceChecks": [
+          {
+            "year": 2006,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2007,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2008,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2009,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2010,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2011,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2012,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2013,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2014,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2015,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2016,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2017,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2018,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2019,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2020,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2021,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2022,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2023,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2024,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2025,
+            "validNativeCells": 469758
+          }
+        ],
+        "unitCrossCheck": {
+          "comparisons": 256,
+          "maxAbsoluteDifference": 3.3569335897709607e-06,
+          "tolerance": 0.0001,
+          "unitsDocumentationUrl": "https://www.ncei.noaa.gov/monitoring-content/data/us/climgrid/monthly/current/gridded-readme.txt",
+          "sourceSampleHashes": {
+            "precip": "73cd5e54c8f09863e6d4ada889cc8be650b3b6a153ff7391dffdd66945cb4354",
+            "tavg": "91f864cce50f078cb31e2b80e8999beb54bafc6173176176bf0e534b859df646",
+            "tmin": "4a77fec453f59ce1860fd74e257ec3eca9d73fe37f75334f2cf0f524c399ebbf",
+            "tmax": "1f7240bd1343e80fcb0220d9fa95e71edc789659cc575d3a7b7aee50894d8c69"
+          }
+        },
+        "rawWindowChecks": [
+          {
+            "name": "Indiana",
+            "gridIndex": 74604,
+            "latitude": 40.41669869,
+            "longitude": -86.91666833,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": -1.77111,
+                "published": -1.77
+              },
+              "min_temp_c": {
+                "fromRawWindows": -6.744,
+                "published": -6.74
+              },
+              "max_temp_c": {
+                "fromRawWindows": 3.20439,
+                "published": 3.2
+              },
+              "precip_mm": {
+                "fromRawWindows": 55.92173,
+                "published": 55.92
+              }
+            }
+          },
+          {
+            "name": "Badin Lake, North Carolina",
+            "gridIndex": 116267,
+            "latitude": 35.41669881,
+            "longitude": -80.00000197,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 7.69652,
+                "published": 7.7
+              },
+              "min_temp_c": {
+                "fromRawWindows": 1.58715,
+                "published": 1.59
+              },
+              "max_temp_c": {
+                "fromRawWindows": 13.80038,
+                "published": 13.8
+              },
+              "precip_mm": {
+                "fromRawWindows": 79.61656,
+                "published": 79.62
+              }
+            }
+          },
+          {
+            "name": "Pacific Northwest",
+            "gridIndex": 31904,
+            "latitude": 45.50003189,
+            "longitude": -122.5000001,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 6.03423,
+                "published": 6.03
+              },
+              "min_temp_c": {
+                "fromRawWindows": 2.29611,
+                "published": 2.3
+              },
+              "max_temp_c": {
+                "fromRawWindows": 9.76784,
+                "published": 9.77
+              },
+              "precip_mm": {
+                "fromRawWindows": 113.35479,
+                "published": 113.35
+              }
+            }
+          },
+          {
+            "name": "Arizona",
+            "gridIndex": 133210,
+            "latitude": 33.33336553,
+            "longitude": -111.8333339,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 13.99649,
+                "published": 14.0
+              },
+              "min_temp_c": {
+                "fromRawWindows": 5.81649,
+                "published": 5.82
+              },
+              "max_temp_c": {
+                "fromRawWindows": 22.172,
+                "published": 22.17
+              },
+              "precip_mm": {
+                "fromRawWindows": 17.96997,
+                "published": 17.97
+              }
+            }
+          },
+          {
+            "name": "partial_block",
+            "gridIndex": 64410,
+            "latitude": 41.66669865,
+            "longitude": -70.16666907,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 0.62,
+                "published": 0.62
+              },
+              "min_temp_c": {
+                "fromRawWindows": -3.48525,
+                "published": -3.49
+              },
+              "max_temp_c": {
+                "fromRawWindows": 4.7245,
+                "published": 4.72
+              },
+              "precip_mm": {
+                "fromRawWindows": 87.659,
+                "published": 87.66
+              }
+            }
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "month": 3,
+      "name": "March",
+      "path": "data/climate_months/03.json.gz",
+      "sha256": "a25536ee75f5e5b927c2fcdb2a10a927a91d19e51127f0e2ff5c319424b7cd95",
+      "decodedSha256": "5d764010cdf23e00ee671c6b6cda8eb69db6a4e65d06e934e8eeb72d2feca254",
+      "bytes": 1276213,
+      "decodedBytes": 9137111,
+      "inputs": [
+        {
+          "year": 2006,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2006/nclimgrid-monthly-200603.tif",
+          "retrievedAt": "2026-11-04T23:54:28.762305+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8068751,
+          "sha256": "efc8673ef914f526a5eaaef07c0b24ceac572c00b23e613c634e6bb8bbad96d7"
+        },
+        {
+          "year": 2007,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2007/nclimgrid-monthly-200703.tif",
+          "retrievedAt": "2026-11-04T23:54:28.468397+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8031633,
+          "sha256": "40f017eef99c96802459b98675011cb83fdc89e5b5c1f2a1040308972f3c8228"
+        },
+        {
+          "year": 2008,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2008/nclimgrid-monthly-200803.tif",
+          "retrievedAt": "2026-11-04T23:54:28.693179+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8070643,
+          "sha256": "4c6620609cb1069271287e2ba164d23092f10c299c23bef9f238687695c9be39"
+        },
+        {
+          "year": 2009,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2009/nclimgrid-monthly-200903.tif",
+          "retrievedAt": "2026-11-04T23:54:28.720912+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8060810,
+          "sha256": "c0c4575891622197005f9c0b9e29e3b20b00eaa9dfb9aa1cb1ec8369d54500bb"
+        },
+        {
+          "year": 2010,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2010/nclimgrid-monthly-201003.tif",
+          "retrievedAt": "2026-11-04T23:54:28.636782+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8012603,
+          "sha256": "f4829e350fd8c13be983772a0df03b4cd597d191e958dbd49072849f0cbfa075"
+        },
+        {
+          "year": 2011,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2011/nclimgrid-monthly-201103.tif",
+          "retrievedAt": "2026-11-04T23:54:28.104300+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8089557,
+          "sha256": "3e67d2aef1286c0ef737b790d2d13f8566684173b08be801c5a216d594030646"
+        },
+        {
+          "year": 2012,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2012/nclimgrid-monthly-201203.tif",
+          "retrievedAt": "2026-11-04T23:54:28.343703+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8055019,
+          "sha256": "7f1c3eda8cc9cba18cb3b504ff0bf1cdd65493f28c5e74303569d06afaf9b72f"
+        },
+        {
+          "year": 2013,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2013/nclimgrid-monthly-201303.tif",
+          "retrievedAt": "2026-11-04T23:54:28.758696+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8076260,
+          "sha256": "530448ed4041137300d981b761b9d8e8c56b08dda926cebf89721857c79c7f9b"
+        },
+        {
+          "year": 2014,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2014/nclimgrid-monthly-201403.tif",
+          "retrievedAt": "2026-11-04T23:54:32.952827+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8109730,
+          "sha256": "b610d436a5cddadeabc4728797f037394eb8f13fc3b26cb8e909b69253baa334"
+        },
+        {
+          "year": 2015,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2015/nclimgrid-monthly-201503.tif",
+          "retrievedAt": "2026-11-04T23:54:32.858054+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8040929,
+          "sha256": "9c41439cbe3a46c40192143005e24ef8bd5ee1b8274cdb8bcf9decad44c4623a"
+        },
+        {
+          "year": 2016,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2016/nclimgrid-monthly-201603.tif",
+          "retrievedAt": "2026-11-04T23:54:32.069113+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8073939,
+          "sha256": "b67df80081bbaa5b96d8c55a6aebbcc3677c82754e83e14b2249b1bfc9c3d90b"
+        },
+        {
+          "year": 2017,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2017/nclimgrid-monthly-201703.tif",
+          "retrievedAt": "2026-11-04T23:54:32.449039+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8088694,
+          "sha256": "b2d5d6f84c85abfce51fa5b00135e575731d93618116ad8a91c9d1a9bd5fd79d"
+        },
+        {
+          "year": 2018,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2018/nclimgrid-monthly-201803.tif",
+          "retrievedAt": "2026-11-04T23:54:32.986902+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8127988,
+          "sha256": "556aa3acfafe186899cc22ca9e066f6733b76e27d0196d746f7ca17983d77030"
+        },
+        {
+          "year": 2019,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2019/nclimgrid-monthly-201903.tif",
+          "retrievedAt": "2026-11-04T23:54:32.738985+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8044493,
+          "sha256": "5444f724fd94bfa1bb8f6548fb9c272db899da92f3b5a580f37067ddb38af12e"
+        },
+        {
+          "year": 2020,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2020/nclimgrid-monthly-202003.tif",
+          "retrievedAt": "2026-11-04T23:54:33.052460+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8038030,
+          "sha256": "52f8c6509fbda268d4674b9ebfbb9c93cd48a78a6858da316e9c0e54d0d8b3ef"
+        },
+        {
+          "year": 2021,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2021/nclimgrid-monthly-202103.tif",
+          "retrievedAt": "2026-11-04T23:54:32.348911+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8030884,
+          "sha256": "f8799d1501ed863cd7e41f70f6d929143ccaa778b5639571404b1fc60664ec5f"
+        },
+        {
+          "year": 2022,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2022/nclimgrid-monthly-202203.tif",
+          "retrievedAt": "2026-11-04T23:54:37.166809+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8068380,
+          "sha256": "43112a74ffe137a7b33b6232a1ec2db3d4af2ffc8d6ada2d6dd12e96bc03fd8e"
+        },
+        {
+          "year": 2023,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2023/nclimgrid-monthly-202303.tif",
+          "retrievedAt": "2026-11-04T23:54:37.434007+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8177913,
+          "sha256": "d670125eae8050617fea95ff5d1926cdbaf8a24f1050ae59cc3dc59abd8bc535"
+        },
+        {
+          "year": 2024,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2024/nclimgrid-monthly-202403.tif",
+          "retrievedAt": "2026-11-04T23:54:37.516408+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8099805,
+          "sha256": "bf8f074ea52d734b6380332aef72358fd19ac870b0128197561777fb12549dab"
+        },
+        {
+          "year": 2025,
+          "month": 3,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2025/nclimgrid-monthly-202503.tif",
+          "retrievedAt": "2026-11-04T23:54:37.384762+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8086927,
+          "sha256": "c34a8c703cf0b5f92e1e9d5e37784f0a5bc2fa59a063ed247da8e7b002c4fcc6"
+        }
+      ],
+      "validGridCells": 118839,
+      "nativeCompleteCells": 469758,
+      "validation": {
+        "sourceChecks": [
+          {
+            "year": 2006,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2007,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2008,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2009,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2010,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2011,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2012,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2013,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2014,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2015,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2016,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2017,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2018,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2019,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2020,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2021,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2022,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2023,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2024,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2025,
+            "validNativeCells": 469758
+          }
+        ],
+        "unitCrossCheck": {
+          "comparisons": 256,
+          "maxAbsoluteDifference": 3.662109378410605e-06,
+          "tolerance": 0.0001,
+          "unitsDocumentationUrl": "https://www.ncei.noaa.gov/monitoring-content/data/us/climgrid/monthly/current/gridded-readme.txt",
+          "sourceSampleHashes": {
+            "precip": "73cd5e54c8f09863e6d4ada889cc8be650b3b6a153ff7391dffdd66945cb4354",
+            "tavg": "91f864cce50f078cb31e2b80e8999beb54bafc6173176176bf0e534b859df646",
+            "tmin": "4a77fec453f59ce1860fd74e257ec3eca9d73fe37f75334f2cf0f524c399ebbf",
+            "tmax": "1f7240bd1343e80fcb0220d9fa95e71edc789659cc575d3a7b7aee50894d8c69"
+          }
+        },
+        "rawWindowChecks": [
+          {
+            "name": "Indiana",
+            "gridIndex": 74604,
+            "latitude": 40.41669869,
+            "longitude": -86.91666833,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 5.23301,
+                "published": 5.23
+              },
+              "min_temp_c": {
+                "fromRawWindows": -0.45425,
+                "published": -0.45
+              },
+              "max_temp_c": {
+                "fromRawWindows": 10.91552,
+                "published": 10.92
+              },
+              "precip_mm": {
+                "fromRawWindows": 75.77557,
+                "published": 75.78
+              }
+            }
+          },
+          {
+            "name": "Badin Lake, North Carolina",
+            "gridIndex": 116267,
+            "latitude": 35.41669881,
+            "longitude": -80.00000197,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 11.69564,
+                "published": 11.7
+              },
+              "min_temp_c": {
+                "fromRawWindows": 5.09641,
+                "published": 5.1
+              },
+              "max_temp_c": {
+                "fromRawWindows": 18.28925,
+                "published": 18.29
+              },
+              "precip_mm": {
+                "fromRawWindows": 86.03497,
+                "published": 86.03
+              }
+            }
+          },
+          {
+            "name": "Pacific Northwest",
+            "gridIndex": 31904,
+            "latitude": 45.50003189,
+            "longitude": -122.5000001,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 8.28497,
+                "published": 8.28
+              },
+              "min_temp_c": {
+                "fromRawWindows": 3.67524,
+                "published": 3.68
+              },
+              "max_temp_c": {
+                "fromRawWindows": 12.89057,
+                "published": 12.89
+              },
+              "precip_mm": {
+                "fromRawWindows": 132.36689,
+                "published": 132.37
+              }
+            }
+          },
+          {
+            "name": "Arizona",
+            "gridIndex": 133210,
+            "latitude": 33.33336553,
+            "longitude": -111.8333339,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 17.36287,
+                "published": 17.36
+              },
+              "min_temp_c": {
+                "fromRawWindows": 8.89725,
+                "published": 8.9
+              },
+              "max_temp_c": {
+                "fromRawWindows": 25.8245,
+                "published": 25.82
+              },
+              "precip_mm": {
+                "fromRawWindows": 18.38854,
+                "published": 18.39
+              }
+            }
+          },
+          {
+            "name": "partial_block",
+            "gridIndex": 64410,
+            "latitude": 41.66669865,
+            "longitude": -70.16666907,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 3.5855,
+                "published": 3.59
+              },
+              "min_temp_c": {
+                "fromRawWindows": -0.63525,
+                "published": -0.64
+              },
+              "max_temp_c": {
+                "fromRawWindows": 7.80175,
+                "published": 7.8
+              },
+              "precip_mm": {
+                "fromRawWindows": 100.33825,
+                "published": 100.34
+              }
+            }
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "month": 4,
+      "name": "April",
+      "path": "data/climate_months/04.json.gz",
+      "sha256": "004eeb2900a5e357d7545bd6687b37104940f25c3397d1fb70093f7f91e64175",
+      "decodedSha256": "f4a519dae64a7bea879e2df07c6691f347cc67cc521a6bf8e9a99fc9174ea629",
+      "bytes": 1266244,
+      "decodedBytes": 9160801,
+      "inputs": [
+        {
+          "year": 2006,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2006/nclimgrid-monthly-200604.tif",
+          "retrievedAt": "2026-11-04T23:54:36.753366+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7969733,
+          "sha256": "ea4f344af6b503aed79db0e93920f43c71f1c739baeeefb9c34c68f8fba59b46"
+        },
+        {
+          "year": 2007,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2007/nclimgrid-monthly-200704.tif",
+          "retrievedAt": "2026-11-04T23:54:37.352380+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7943349,
+          "sha256": "65219fdbbf1cc07c22d9300c577290bbc23ff31b2bfe953b381a1690e6b8518d"
+        },
+        {
+          "year": 2008,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2008/nclimgrid-monthly-200804.tif",
+          "retrievedAt": "2026-11-04T23:54:37.361944+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7945663,
+          "sha256": "7dbb3afd1a5a9c4aaf1dd5104914c5008612335b2289fbb52c6c0518b284459e"
+        },
+        {
+          "year": 2009,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2009/nclimgrid-monthly-200904.tif",
+          "retrievedAt": "2026-11-04T23:54:37.237574+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8005462,
+          "sha256": "1cc0cbb1387fe34eb6d36630e96ff956c9a3e2f74cb3caab4baa397ae8f8b4df"
+        },
+        {
+          "year": 2010,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2010/nclimgrid-monthly-201004.tif",
+          "retrievedAt": "2026-11-04T23:54:40.865068+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7999593,
+          "sha256": "9be100af15382015c4fa757aecc8d21b2457dece2ad2fdeaacc38e7cca5fb698"
+        },
+        {
+          "year": 2011,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2011/nclimgrid-monthly-201104.tif",
+          "retrievedAt": "2026-11-04T23:54:40.521401+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8021131,
+          "sha256": "877dc307d80cf1900c68839fcd5a629f1a943e9c2ba80338731422d0504f26a1"
+        },
+        {
+          "year": 2012,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2012/nclimgrid-monthly-201204.tif",
+          "retrievedAt": "2026-11-04T23:54:41.440259+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8001395,
+          "sha256": "d2344d4b26b634430e4f778f21b21c12d1fd040c327b392e700740187fcb2bb6"
+        },
+        {
+          "year": 2013,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2013/nclimgrid-monthly-201304.tif",
+          "retrievedAt": "2026-11-04T23:54:41.632299+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8063069,
+          "sha256": "bb36032b326819ac6b252901b62dab927a4d94e32667b3c1d7a2ede03eee48c4"
+        },
+        {
+          "year": 2014,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2014/nclimgrid-monthly-201404.tif",
+          "retrievedAt": "2026-11-04T23:54:41.646670+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8005446,
+          "sha256": "e969bc9fff66b64d3d10a81fb109370119f0ed67581935aacde92e7fbae8e975"
+        },
+        {
+          "year": 2015,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2015/nclimgrid-monthly-201504.tif",
+          "retrievedAt": "2026-11-04T23:54:41.690925+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7971951,
+          "sha256": "87337899b0d4548b55e0e86ff3b44dcedb4716c8a0c9c52453481c818467389c"
+        },
+        {
+          "year": 2016,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2016/nclimgrid-monthly-201604.tif",
+          "retrievedAt": "2026-11-04T23:54:41.642900+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8014450,
+          "sha256": "5c3416749d851a2904dca7a74ac768a288eb3d2425bee59a43ae2bd1089c3d4e"
+        },
+        {
+          "year": 2017,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2017/nclimgrid-monthly-201704.tif",
+          "retrievedAt": "2026-11-04T23:54:41.679180+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8040545,
+          "sha256": "73daf8c385dd27e2dae9811d217a98038b408e24e3a9427e989a08b84945c4b0"
+        },
+        {
+          "year": 2018,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2018/nclimgrid-monthly-201804.tif",
+          "retrievedAt": "2026-11-04T23:54:45.786358+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7987823,
+          "sha256": "254fd4df48739b10093fc41e229addee8c09e62af3a8b877a60d7bdbfad1512d"
+        },
+        {
+          "year": 2019,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2019/nclimgrid-monthly-201904.tif",
+          "retrievedAt": "2026-11-04T23:54:45.474762+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8017757,
+          "sha256": "71e96bac2b8a462eafdea5304519e33ee4fde806854aa5602ea555d10f29bbe5"
+        },
+        {
+          "year": 2020,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2020/nclimgrid-monthly-202004.tif",
+          "retrievedAt": "2026-11-04T23:54:45.792317+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7980754,
+          "sha256": "2b09e30351b40378e0452135b86b71e0ef8a03b7ad481c84dec7351409f53258"
+        },
+        {
+          "year": 2021,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2021/nclimgrid-monthly-202104.tif",
+          "retrievedAt": "2026-11-04T23:54:45.465596+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7900986,
+          "sha256": "0a4153c7dab16fd6ba85591b7dca373488446fac6d4df6069e5948fd91ade1b1"
+        },
+        {
+          "year": 2022,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2022/nclimgrid-monthly-202204.tif",
+          "retrievedAt": "2026-11-04T23:54:45.892926+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7992042,
+          "sha256": "11b57573d73f47e100937731d653b22deda0641fc8df271240b9cb833fa4947a"
+        },
+        {
+          "year": 2023,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2023/nclimgrid-monthly-202304.tif",
+          "retrievedAt": "2026-11-04T23:54:45.908525+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7966996,
+          "sha256": "54ea47b1b8a12e0dd2ee997ad393b655a20dab8d8b65d92bf71d2d7f049890ba"
+        },
+        {
+          "year": 2024,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2024/nclimgrid-monthly-202404.tif",
+          "retrievedAt": "2026-11-04T23:54:45.821814+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7986207,
+          "sha256": "8cc9fba37456db9b0f97fedf7b4a48c316819868d93487bd0ad712d5b4ca78a6"
+        },
+        {
+          "year": 2025,
+          "month": 4,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2025/nclimgrid-monthly-202504.tif",
+          "retrievedAt": "2026-11-04T23:54:45.892814+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7982073,
+          "sha256": "902e617502575d7533f2e85f862f4e37574275a089fb5c8879f4b3e2ec4acdc4"
+        }
+      ],
+      "validGridCells": 118839,
+      "nativeCompleteCells": 469758,
+      "validation": {
+        "sourceChecks": [
+          {
+            "year": 2006,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2007,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2008,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2009,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2010,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2011,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2012,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2013,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2014,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2015,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2016,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2017,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2018,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2019,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2020,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2021,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2022,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2023,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2024,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2025,
+            "validNativeCells": 469758
+          }
+        ],
+        "unitCrossCheck": {
+          "comparisons": 256,
+          "maxAbsoluteDifference": 9.155273446026513e-07,
+          "tolerance": 0.0001,
+          "unitsDocumentationUrl": "https://www.ncei.noaa.gov/monitoring-content/data/us/climgrid/monthly/current/gridded-readme.txt",
+          "sourceSampleHashes": {
+            "precip": "73cd5e54c8f09863e6d4ada889cc8be650b3b6a153ff7391dffdd66945cb4354",
+            "tavg": "91f864cce50f078cb31e2b80e8999beb54bafc6173176176bf0e534b859df646",
+            "tmin": "4a77fec453f59ce1860fd74e257ec3eca9d73fe37f75334f2cf0f524c399ebbf",
+            "tmax": "1f7240bd1343e80fcb0220d9fa95e71edc789659cc575d3a7b7aee50894d8c69"
+          }
+        },
+        "rawWindowChecks": [
+          {
+            "name": "Indiana",
+            "gridIndex": 74604,
+            "latitude": 40.41669869,
+            "longitude": -86.91666833,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 10.65751,
+                "published": 10.66
+              },
+              "min_temp_c": {
+                "fromRawWindows": 4.19425,
+                "published": 4.19
+              },
+              "max_temp_c": {
+                "fromRawWindows": 17.11451,
+                "published": 17.11
+              },
+              "precip_mm": {
+                "fromRawWindows": 104.68406,
+                "published": 104.68
+              }
+            }
+          },
+          {
+            "name": "Badin Lake, North Carolina",
+            "gridIndex": 116267,
+            "latitude": 35.41669881,
+            "longitude": -80.00000197,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 16.38751,
+                "published": 16.39
+              },
+              "min_temp_c": {
+                "fromRawWindows": 9.44114,
+                "published": 9.44
+              },
+              "max_temp_c": {
+                "fromRawWindows": 23.32826,
+                "published": 23.33
+              },
+              "precip_mm": {
+                "fromRawWindows": 87.95546,
+                "published": 87.96
+              }
+            }
+          },
+          {
+            "name": "Pacific Northwest",
+            "gridIndex": 31904,
+            "latitude": 45.50003189,
+            "longitude": -122.5000001,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 10.76584,
+                "published": 10.77
+              },
+              "min_temp_c": {
+                "fromRawWindows": 5.43449,
+                "published": 5.43
+              },
+              "max_temp_c": {
+                "fromRawWindows": 16.09195,
+                "published": 16.09
+              },
+              "precip_mm": {
+                "fromRawWindows": 95.6266,
+                "published": 95.63
+              }
+            }
+          },
+          {
+            "name": "Arizona",
+            "gridIndex": 133210,
+            "latitude": 33.33336553,
+            "longitude": -111.8333339,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 21.3735,
+                "published": 21.37
+              },
+              "min_temp_c": {
+                "fromRawWindows": 12.35962,
+                "published": 12.36
+              },
+              "max_temp_c": {
+                "fromRawWindows": 30.3815,
+                "published": 30.38
+              },
+              "precip_mm": {
+                "fromRawWindows": 3.1256,
+                "published": 3.13
+              }
+            }
+          },
+          {
+            "name": "partial_block",
+            "gridIndex": 64410,
+            "latitude": 41.66669865,
+            "longitude": -70.16666907,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 8.2385,
+                "published": 8.24
+              },
+              "min_temp_c": {
+                "fromRawWindows": 3.79425,
+                "published": 3.79
+              },
+              "max_temp_c": {
+                "fromRawWindows": 12.67675,
+                "published": 12.68
+              },
+              "precip_mm": {
+                "fromRawWindows": 96.87625,
+                "published": 96.88
+              }
+            }
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "month": 5,
+      "name": "May",
+      "path": "data/climate_months/05.json.gz",
+      "sha256": "ba23ca617c28cfb027cb6b63beb5c019a25fa81eb691545065db6bb5d7214f2e",
+      "decodedSha256": "a42cd309133638741a8e2abbbeb97c247117d658073a35b5e4fa6cef1e953eef",
+      "bytes": 1273490,
+      "decodedBytes": 9233676,
+      "inputs": [
+        {
+          "year": 2006,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2006/nclimgrid-monthly-200605.tif",
+          "retrievedAt": "2026-11-04T23:54:50.743456+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7875335,
+          "sha256": "0d2cd03bbe8d918da158477d9d6dad13d89a3a0d0bb34122b4b61ff19e947e68"
+        },
+        {
+          "year": 2007,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2007/nclimgrid-monthly-200705.tif",
+          "retrievedAt": "2026-11-04T23:54:50.552495+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7913342,
+          "sha256": "85d9401c737089ad8fa31dfd0e330063aa4d92b42382555b9aa1d14b1e2e7447"
+        },
+        {
+          "year": 2008,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2008/nclimgrid-monthly-200805.tif",
+          "retrievedAt": "2026-11-04T23:54:50.668904+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7934461,
+          "sha256": "0ff9a6805a6320fb3fa375b6057c8ace0d019c7029caedcc11736b414c72c7cb"
+        },
+        {
+          "year": 2009,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2009/nclimgrid-monthly-200905.tif",
+          "retrievedAt": "2026-11-04T23:54:50.717242+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7855089,
+          "sha256": "dfc2c12f527eb282649c45235cc8c07b0298fe73ba3f383261a7df7314429ddb"
+        },
+        {
+          "year": 2010,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2010/nclimgrid-monthly-201005.tif",
+          "retrievedAt": "2026-11-04T23:54:50.757765+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7958799,
+          "sha256": "db6955b0687a52c0f9407c0e5eb46eaa603a8cb79044f9322a1559759e67ddbf"
+        },
+        {
+          "year": 2011,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2011/nclimgrid-monthly-201105.tif",
+          "retrievedAt": "2026-11-04T23:54:50.703607+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7944663,
+          "sha256": "d82f2ab5e7a133cffbc0b4a43bab0863f6a5f8d6caec489bddfebfedae2a1dd0"
+        },
+        {
+          "year": 2012,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2012/nclimgrid-monthly-201205.tif",
+          "retrievedAt": "2026-11-04T23:54:50.737253+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7831862,
+          "sha256": "af76db304512cec906f7bcad1e29f8fb57c2608748d15ee5370a92d388204e3a"
+        },
+        {
+          "year": 2013,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2013/nclimgrid-monthly-201305.tif",
+          "retrievedAt": "2026-11-04T23:54:49.808452+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7932035,
+          "sha256": "8df1008e0e46e147a2f2457a985c9cb25439c45011fa51bb30d203c5e10ffe20"
+        },
+        {
+          "year": 2014,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2014/nclimgrid-monthly-201405.tif",
+          "retrievedAt": "2026-11-04T23:54:54.621349+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7866881,
+          "sha256": "ed923036d31d216ea983d182b9ae8dccabd15753614cedd4225d39fcd8e69310"
+        },
+        {
+          "year": 2015,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2015/nclimgrid-monthly-201505.tif",
+          "retrievedAt": "2026-11-04T23:54:54.667792+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8016160,
+          "sha256": "baebd6ffc40ec6e2c0cb1b748dac605713f1008741e404992574d0bc36aa4b92"
+        },
+        {
+          "year": 2016,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2016/nclimgrid-monthly-201605.tif",
+          "retrievedAt": "2026-11-04T23:54:54.604546+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7877755,
+          "sha256": "686193d973be260003f26bdf3587101b6762f513b94b4a3af5002188daa8fb10"
+        },
+        {
+          "year": 2017,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2017/nclimgrid-monthly-201705.tif",
+          "retrievedAt": "2026-11-04T23:54:54.457120+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7906098,
+          "sha256": "d84e6fe45bfaa2e67d22841151ea5a96e8452ad0fa922c8e46538ae8b03575eb"
+        },
+        {
+          "year": 2018,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2018/nclimgrid-monthly-201805.tif",
+          "retrievedAt": "2026-11-04T23:54:53.740508+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7878809,
+          "sha256": "4547474aae6a7ecd99cee2756c5524f8a649185987d96e0069fc45da4dab8ee9"
+        },
+        {
+          "year": 2019,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2019/nclimgrid-monthly-201905.tif",
+          "retrievedAt": "2026-11-04T23:54:53.713722+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8032903,
+          "sha256": "5073c27fbb61871e69e2116ee2c426e3052dd2bda9c80a78b021aff7c3aed594"
+        },
+        {
+          "year": 2020,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2020/nclimgrid-monthly-202005.tif",
+          "retrievedAt": "2026-11-04T23:54:54.545073+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7892500,
+          "sha256": "886a7a4b8ff5b13c4f12f5d37e9a3c8216fb09e3e76d5f8f4ac7c608a6c0bd3a"
+        },
+        {
+          "year": 2021,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2021/nclimgrid-monthly-202105.tif",
+          "retrievedAt": "2026-11-04T23:54:54.710202+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7850232,
+          "sha256": "b74b115b8a03bad988dcd25fd217c599975e5ac6da9befbab05be09ebb73d453"
+        },
+        {
+          "year": 2022,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2022/nclimgrid-monthly-202205.tif",
+          "retrievedAt": "2026-11-04T23:54:58.809198+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7844330,
+          "sha256": "2490c2ebbf91bdacac18de65406a7eb4ac74982d726ecc17ea58c8d82fa7b4e4"
+        },
+        {
+          "year": 2023,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2023/nclimgrid-monthly-202305.tif",
+          "retrievedAt": "2026-11-04T23:54:59.166048+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7881638,
+          "sha256": "8bb003038abe2b0a1d246289682495736eb2156afd7e0665c72a8ead751851be"
+        },
+        {
+          "year": 2024,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2024/nclimgrid-monthly-202405.tif",
+          "retrievedAt": "2026-11-04T23:54:59.131952+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7953332,
+          "sha256": "c706ee0a7c198896a175e9ca32d57753b9708a40bb71331873b099e58639a137"
+        },
+        {
+          "year": 2025,
+          "month": 5,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2025/nclimgrid-monthly-202505.tif",
+          "retrievedAt": "2026-11-04T23:54:58.921074+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7906977,
+          "sha256": "3af5bf6141755a85aa6ce33a5fbd23cdfc3253dc5f732be9189a4b114965bc2d"
+        }
+      ],
+      "validGridCells": 118839,
+      "nativeCompleteCells": 469758,
+      "validation": {
+        "sourceChecks": [
+          {
+            "year": 2006,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2007,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2008,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2009,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2010,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2011,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2012,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2013,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2014,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2015,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2016,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2017,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2018,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2019,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2020,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2021,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2022,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2023,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2024,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2025,
+            "validNativeCells": 469758
+          }
+        ],
+        "unitCrossCheck": {
+          "comparisons": 256,
+          "maxAbsoluteDifference": 3.662109378410605e-06,
+          "tolerance": 0.0001,
+          "unitsDocumentationUrl": "https://www.ncei.noaa.gov/monitoring-content/data/us/climgrid/monthly/current/gridded-readme.txt",
+          "sourceSampleHashes": {
+            "precip": "73cd5e54c8f09863e6d4ada889cc8be650b3b6a153ff7391dffdd66945cb4354",
+            "tavg": "91f864cce50f078cb31e2b80e8999beb54bafc6173176176bf0e534b859df646",
+            "tmin": "4a77fec453f59ce1860fd74e257ec3eca9d73fe37f75334f2cf0f524c399ebbf",
+            "tmax": "1f7240bd1343e80fcb0220d9fa95e71edc789659cc575d3a7b7aee50894d8c69"
+          }
+        },
+        "rawWindowChecks": [
+          {
+            "name": "Indiana",
+            "gridIndex": 74604,
+            "latitude": 40.41669869,
+            "longitude": -86.91666833,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 17.17776,
+                "published": 17.18
+              },
+              "min_temp_c": {
+                "fromRawWindows": 10.89176,
+                "published": 10.89
+              },
+              "max_temp_c": {
+                "fromRawWindows": 23.45927,
+                "published": 23.46
+              },
+              "precip_mm": {
+                "fromRawWindows": 106.46523,
+                "published": 106.47
+              }
+            }
+          },
+          {
+            "name": "Badin Lake, North Carolina",
+            "gridIndex": 116267,
+            "latitude": 35.41669881,
+            "longitude": -80.00000197,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 20.48488,
+                "published": 20.48
+              },
+              "min_temp_c": {
+                "fromRawWindows": 14.14177,
+                "published": 14.14
+              },
+              "max_temp_c": {
+                "fromRawWindows": 26.82375,
+                "published": 26.82
+              },
+              "precip_mm": {
+                "fromRawWindows": 105.80918,
+                "published": 105.81
+              }
+            }
+          },
+          {
+            "name": "Pacific Northwest",
+            "gridIndex": 31904,
+            "latitude": 45.50003189,
+            "longitude": -122.5000001,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 14.48984,
+                "published": 14.49
+              },
+              "min_temp_c": {
+                "fromRawWindows": 8.60073,
+                "published": 8.6
+              },
+              "max_temp_c": {
+                "fromRawWindows": 20.37346,
+                "published": 20.37
+              },
+              "precip_mm": {
+                "fromRawWindows": 69.39546,
+                "published": 69.4
+              }
+            }
+          },
+          {
+            "name": "Arizona",
+            "gridIndex": 133210,
+            "latitude": 33.33336553,
+            "longitude": -111.8333339,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 25.48413,
+                "published": 25.48
+              },
+              "min_temp_c": {
+                "fromRawWindows": 16.29138,
+                "published": 16.29
+              },
+              "max_temp_c": {
+                "fromRawWindows": 34.67188,
+                "published": 34.67
+              },
+              "precip_mm": {
+                "fromRawWindows": 2.78185,
+                "published": 2.78
+              }
+            }
+          },
+          {
+            "name": "partial_block",
+            "gridIndex": 64410,
+            "latitude": 41.66669865,
+            "longitude": -70.16666907,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 13.3385,
+                "published": 13.34
+              },
+              "min_temp_c": {
+                "fromRawWindows": 8.87425,
+                "published": 8.87
+              },
+              "max_temp_c": {
+                "fromRawWindows": 17.798,
+                "published": 17.8
+              },
+              "precip_mm": {
+                "fromRawWindows": 85.0205,
+                "published": 85.02
+              }
+            }
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "month": 6,
+      "name": "June",
+      "path": "data/climate_months/06.json.gz",
+      "sha256": "b33588407067e8069e7a12a1f0f24168ae343d2424b59130505cd6e18ad864a5",
+      "decodedSha256": "d32ff50ebce8040d34e1b54a74398c0dbdecef9cb17566cbb00f255226a5a398",
+      "bytes": 1286878,
+      "decodedBytes": 9272128,
+      "inputs": [
+        {
+          "year": 2006,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2006/nclimgrid-monthly-200606.tif",
+          "retrievedAt": "2026-11-04T23:54:58.915013+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7799374,
+          "sha256": "fee398bd5c9a480514222309c2e6608039f4fd8cfbc11953bd0af10c7a77d855"
+        },
+        {
+          "year": 2007,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2007/nclimgrid-monthly-200706.tif",
+          "retrievedAt": "2026-11-04T23:54:58.826823+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7756149,
+          "sha256": "73e7d4e62a65745c915c674446d4536466d9429bcbd1fe05a215968f55f91bc9"
+        },
+        {
+          "year": 2008,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2008/nclimgrid-monthly-200806.tif",
+          "retrievedAt": "2026-11-04T23:54:58.939127+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7799956,
+          "sha256": "9fbd25d73ac23360dbd58cb0d55a0c58352ce40dcacfbe09d209eb7864011e8d"
+        },
+        {
+          "year": 2009,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2009/nclimgrid-monthly-200906.tif",
+          "retrievedAt": "2026-11-04T23:54:59.113390+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7832607,
+          "sha256": "e03fcca97b59d6641df6a5b72e17b185b08085d2b05a23cf8adfd32e76f721bf"
+        },
+        {
+          "year": 2010,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2010/nclimgrid-monthly-201006.tif",
+          "retrievedAt": "2026-11-04T23:55:04.901734+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7845410,
+          "sha256": "215bae2dba8a76fb688a7a65228bfa0bcefd2c49b9338f8681701f67585fdd86"
+        },
+        {
+          "year": 2011,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2011/nclimgrid-monthly-201106.tif",
+          "retrievedAt": "2026-11-04T23:55:04.713835+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7831873,
+          "sha256": "77a3be64b76766b60b3878358d17ce0876617f00242383dbcb22c6c7a8298468"
+        },
+        {
+          "year": 2012,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2012/nclimgrid-monthly-201206.tif",
+          "retrievedAt": "2026-11-04T23:55:04.992411+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7814437,
+          "sha256": "a59b0c5e853e622bd261fe7aed6affacb3f82744220d66ed2e3609ab6bad5a3b"
+        },
+        {
+          "year": 2013,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2013/nclimgrid-monthly-201306.tif",
+          "retrievedAt": "2026-11-04T23:55:05.025636+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7818971,
+          "sha256": "47701210424296ea6375ef9193c3ef866b6cc899dd47156b4c68f9c900601ffb"
+        },
+        {
+          "year": 2014,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2014/nclimgrid-monthly-201406.tif",
+          "retrievedAt": "2026-11-04T23:55:04.945438+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7781834,
+          "sha256": "915840e97c38c64f91021e1d729404506bef93782628ba80e3333c00b02b1aa0"
+        },
+        {
+          "year": 2015,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2015/nclimgrid-monthly-201506.tif",
+          "retrievedAt": "2026-11-04T23:55:04.592806+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7833228,
+          "sha256": "0ace4b40f50db0fd58c8ea276f847bd42d1289261a3d28587d6f79057760218a"
+        },
+        {
+          "year": 2016,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2016/nclimgrid-monthly-201606.tif",
+          "retrievedAt": "2026-11-04T23:55:04.885732+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7805816,
+          "sha256": "1252f0c73e16cb6bac6ce24441199f7d8a07684bd6c6bc7cc3962bfb0b73a847"
+        },
+        {
+          "year": 2017,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2017/nclimgrid-monthly-201706.tif",
+          "retrievedAt": "2026-11-04T23:55:04.005786+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7837128,
+          "sha256": "647ad9c04aee0f2e3b3d3061d044680c19ad847d69b4357b9ae803cfaef07e77"
+        },
+        {
+          "year": 2018,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2018/nclimgrid-monthly-201806.tif",
+          "retrievedAt": "2026-11-04T23:55:08.718059+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7848103,
+          "sha256": "1d0960298b2d647e3f9cf5569522b8e77725f6c871c62fa002df687fd7245341"
+        },
+        {
+          "year": 2019,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2019/nclimgrid-monthly-201906.tif",
+          "retrievedAt": "2026-11-04T23:55:08.828216+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7855421,
+          "sha256": "00c10bb25fa6298d1997eaba6c4f6a630567f63ca3e7afc39622897185ace656"
+        },
+        {
+          "year": 2020,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2020/nclimgrid-monthly-202006.tif",
+          "retrievedAt": "2026-11-04T23:55:08.892915+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7875386,
+          "sha256": "44891b0c0d6948c9100745a67e232a5099fc7e1812be3fc84576d8d8ec1f4f67"
+        },
+        {
+          "year": 2021,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2021/nclimgrid-monthly-202106.tif",
+          "retrievedAt": "2026-11-04T23:55:08.840672+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7845214,
+          "sha256": "f266f2fbd563e84dd8600d91e0ad1e7ed20458086318eb5af42d40d525ab53f5"
+        },
+        {
+          "year": 2022,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2022/nclimgrid-monthly-202206.tif",
+          "retrievedAt": "2026-11-04T23:55:08.772085+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7833548,
+          "sha256": "9f250a7ae3ce3b5db7e594f9dfd6d2151b0681cd47f53fc5ffcab4fbd71885fb"
+        },
+        {
+          "year": 2023,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2023/nclimgrid-monthly-202306.tif",
+          "retrievedAt": "2026-11-04T23:55:08.867148+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7918629,
+          "sha256": "c9bf922420031a5b8bc9e6decb7f51f3c944cfe54ff734de3fdf0b600e01326e"
+        },
+        {
+          "year": 2024,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2024/nclimgrid-monthly-202406.tif",
+          "retrievedAt": "2026-11-04T23:55:07.990324+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7797925,
+          "sha256": "3d312f2f8d202693c9527f06b56b020c328af842970d180e394a1ffc811a27ba"
+        },
+        {
+          "year": 2025,
+          "month": 6,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2025/nclimgrid-monthly-202506.tif",
+          "retrievedAt": "2026-11-04T23:55:08.669984+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7836151,
+          "sha256": "891e4a0905ce35ab1e9e8056461cb67f7bd1c2154e2804dc932a0f9f70de0e18"
+        }
+      ],
+      "validGridCells": 118839,
+      "nativeCompleteCells": 469758,
+      "validation": {
+        "sourceChecks": [
+          {
+            "year": 2006,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2007,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2008,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2009,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2010,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2011,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2012,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2013,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2014,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2015,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2016,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2017,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2018,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2019,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2020,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2021,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2022,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2023,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2024,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2025,
+            "validNativeCells": 469758
+          }
+        ],
+        "unitCrossCheck": {
+          "comparisons": 256,
+          "maxAbsoluteDifference": 7.32421875682121e-06,
+          "tolerance": 0.0001,
+          "unitsDocumentationUrl": "https://www.ncei.noaa.gov/monitoring-content/data/us/climgrid/monthly/current/gridded-readme.txt",
+          "sourceSampleHashes": {
+            "precip": "73cd5e54c8f09863e6d4ada889cc8be650b3b6a153ff7391dffdd66945cb4354",
+            "tavg": "91f864cce50f078cb31e2b80e8999beb54bafc6173176176bf0e534b859df646",
+            "tmin": "4a77fec453f59ce1860fd74e257ec3eca9d73fe37f75334f2cf0f524c399ebbf",
+            "tmax": "1f7240bd1343e80fcb0220d9fa95e71edc789659cc575d3a7b7aee50894d8c69"
+          }
+        },
+        "rawWindowChecks": [
+          {
+            "name": "Indiana",
+            "gridIndex": 74604,
+            "latitude": 40.41669869,
+            "longitude": -86.91666833,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 22.15113,
+                "published": 22.15
+              },
+              "min_temp_c": {
+                "fromRawWindows": 16.0475,
+                "published": 16.05
+              },
+              "max_temp_c": {
+                "fromRawWindows": 28.24951,
+                "published": 28.25
+              },
+              "precip_mm": {
+                "fromRawWindows": 119.29821,
+                "published": 119.3
+              }
+            }
+          },
+          {
+            "name": "Badin Lake, North Carolina",
+            "gridIndex": 116267,
+            "latitude": 35.41669881,
+            "longitude": -80.00000197,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 24.6745,
+                "published": 24.67
+              },
+              "min_temp_c": {
+                "fromRawWindows": 18.47776,
+                "published": 18.48
+              },
+              "max_temp_c": {
+                "fromRawWindows": 30.86637,
+                "published": 30.87
+              },
+              "precip_mm": {
+                "fromRawWindows": 110.90598,
+                "published": 110.91
+              }
+            }
+          },
+          {
+            "name": "Pacific Northwest",
+            "gridIndex": 31904,
+            "latitude": 45.50003189,
+            "longitude": -122.5000001,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 17.42709,
+                "published": 17.43
+              },
+              "min_temp_c": {
+                "fromRawWindows": 11.41297,
+                "published": 11.41
+              },
+              "max_temp_c": {
+                "fromRawWindows": 23.43608,
+                "published": 23.44
+              },
+              "precip_mm": {
+                "fromRawWindows": 51.96053,
+                "published": 51.96
+              }
+            }
+          },
+          {
+            "name": "Arizona",
+            "gridIndex": 133210,
+            "latitude": 33.33336553,
+            "longitude": -111.8333339,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 31.17976,
+                "published": 31.18
+              },
+              "min_temp_c": {
+                "fromRawWindows": 21.87527,
+                "published": 21.88
+              },
+              "max_temp_c": {
+                "fromRawWindows": 40.47913,
+                "published": 40.48
+              },
+              "precip_mm": {
+                "fromRawWindows": 1.48952,
+                "published": 1.49
+              }
+            }
+          },
+          {
+            "name": "partial_block",
+            "gridIndex": 64410,
+            "latitude": 41.66669865,
+            "longitude": -70.16666907,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 18.17175,
+                "published": 18.17
+              },
+              "min_temp_c": {
+                "fromRawWindows": 13.83525,
+                "published": 13.84
+              },
+              "max_temp_c": {
+                "fromRawWindows": 22.504,
+                "published": 22.5
+              },
+              "precip_mm": {
+                "fromRawWindows": 89.79925,
+                "published": 89.8
+              }
+            }
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "month": 7,
+      "name": "July",
+      "path": "data/climate_months/07.json.gz",
+      "sha256": "b6a2f868c13c51b83e2847fe160a10cfc3d9140556ecad2a49fbb818f63a131c",
+      "decodedSha256": "ec1e8304f0f0a7e993bde9f3209a9b5e1a5d3ac5b876cc1990c3c8a452900760",
+      "bytes": 1282686,
+      "decodedBytes": 9282751,
+      "inputs": [
+        {
+          "year": 2006,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2006/nclimgrid-monthly-200607.tif",
+          "retrievedAt": "2026-11-04T23:55:13.600387+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7825096,
+          "sha256": "0aef5891f5ffaa54c2ae690b7a0e243c4e0cb86ad9de9d3feb4eac69ddf0f183"
+        },
+        {
+          "year": 2007,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2007/nclimgrid-monthly-200707.tif",
+          "retrievedAt": "2026-11-04T23:55:13.083559+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7847883,
+          "sha256": "bdde8aed866c3087e62453544ee7850afc967ecedeb2ef9b08eea64e4992ecb7"
+        },
+        {
+          "year": 2008,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2008/nclimgrid-monthly-200807.tif",
+          "retrievedAt": "2026-11-04T23:55:13.796629+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7836597,
+          "sha256": "1b2f7918a83b93b72757110f7547aef382634dd81b3178b920c4112bdc66abf5"
+        },
+        {
+          "year": 2009,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2009/nclimgrid-monthly-200907.tif",
+          "retrievedAt": "2026-11-04T23:55:13.640436+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7864719,
+          "sha256": "1e296978d9090b15f2c4667f6c414df95b5b282f11e9adcc0d54392b1e2ab0e0"
+        },
+        {
+          "year": 2010,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2010/nclimgrid-monthly-201007.tif",
+          "retrievedAt": "2026-11-04T23:55:13.704700+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7811078,
+          "sha256": "63e8cd8aa359c66f26efb7831b324b31e44c743bfe346d38ffe6477e1437c3c9"
+        },
+        {
+          "year": 2011,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2011/nclimgrid-monthly-201107.tif",
+          "retrievedAt": "2026-11-04T23:55:13.733506+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7857498,
+          "sha256": "b23ccf2b19107b85a5e5f4b84e13195a4719a9bbe829fe9e499384cb3f66bc00"
+        },
+        {
+          "year": 2012,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2012/nclimgrid-monthly-201207.tif",
+          "retrievedAt": "2026-11-04T23:55:13.785171+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7823928,
+          "sha256": "deb06ac153236dda89e249b2579a5d8b790248cdc740dd7c6882815b96c6c80c"
+        },
+        {
+          "year": 2013,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2013/nclimgrid-monthly-201307.tif",
+          "retrievedAt": "2026-11-04T23:55:13.860148+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7857839,
+          "sha256": "ac8d1b1bd836801dfe8a0d62947ab4281b5c3aeb907a08926ba57d5accb34f09"
+        },
+        {
+          "year": 2014,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2014/nclimgrid-monthly-201407.tif",
+          "retrievedAt": "2026-11-04T23:55:18.154845+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7792748,
+          "sha256": "a064b70cc6e3c633e93d18f8c06eb4e7e15d839d107799105c76a3aa526bf90e"
+        },
+        {
+          "year": 2015,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2015/nclimgrid-monthly-201507.tif",
+          "retrievedAt": "2026-11-04T23:55:18.133615+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7856366,
+          "sha256": "c72127b807426ad5849f8fa753b93aa2e659516c0d74d8c949497f340ee9d1a7"
+        },
+        {
+          "year": 2016,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2016/nclimgrid-monthly-201607.tif",
+          "retrievedAt": "2026-11-04T23:55:18.324179+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7829851,
+          "sha256": "9f9b1d628d7c030d666ad3c23db1711323fb462a12395be8e7316cd1b35c5fd9"
+        },
+        {
+          "year": 2017,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2017/nclimgrid-monthly-201707.tif",
+          "retrievedAt": "2026-11-04T23:55:18.312721+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7871412,
+          "sha256": "9514ed3456b3197cf386a48f3f9e16f668af6438c1c9373c6979a9e26dbf9da9"
+        },
+        {
+          "year": 2018,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2018/nclimgrid-monthly-201807.tif",
+          "retrievedAt": "2026-11-04T23:55:18.158464+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7832826,
+          "sha256": "79989d5f92c680acf53e796764cf40c422fa2d6875bcd3e197ffb32ded121087"
+        },
+        {
+          "year": 2019,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2019/nclimgrid-monthly-201907.tif",
+          "retrievedAt": "2026-11-04T23:55:18.284560+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7800897,
+          "sha256": "95b0f71366d1b18a51b2fee13bd05a6b8af637d625acc8f20de3c839fcf27ff8"
+        },
+        {
+          "year": 2020,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2020/nclimgrid-monthly-202007.tif",
+          "retrievedAt": "2026-11-04T23:55:18.247625+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7808690,
+          "sha256": "7b10cf0eb78b3a2ac661bd35ec7679ff7a556440cc2ece788756c2a021e2001f"
+        },
+        {
+          "year": 2021,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2021/nclimgrid-monthly-202107.tif",
+          "retrievedAt": "2026-11-04T23:55:18.339372+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7844635,
+          "sha256": "778340365c68d62cf35369717dedf10393657f0b3b4b3072c60f980e4ea3ea77"
+        },
+        {
+          "year": 2022,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2022/nclimgrid-monthly-202207.tif",
+          "retrievedAt": "2026-11-04T23:55:22.868637+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7881893,
+          "sha256": "cdb56f8294b9a52ac38e536cf248f32b12c8d7765ebb2a3190a6f31641c48afd"
+        },
+        {
+          "year": 2023,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2023/nclimgrid-monthly-202307.tif",
+          "retrievedAt": "2026-11-04T23:55:22.907065+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7832910,
+          "sha256": "d76df73463d615db3a4d6974584c306d365207cc14ddc00e475ff8d64c91b20f"
+        },
+        {
+          "year": 2024,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2024/nclimgrid-monthly-202407.tif",
+          "retrievedAt": "2026-11-04T23:55:22.878064+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7832435,
+          "sha256": "7cf454b6dd054519dc55c6a30ddddfdd92a4ae280700229915ab45d4a98e52e5"
+        },
+        {
+          "year": 2025,
+          "month": 7,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2025/nclimgrid-monthly-202507.tif",
+          "retrievedAt": "2026-11-04T23:55:22.013552+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7804316,
+          "sha256": "8f7402af7d90f855496c5db0f013002606d823e259d294c01531710f972eb8ca"
+        }
+      ],
+      "validGridCells": 118839,
+      "nativeCompleteCells": 469758,
+      "validation": {
+        "sourceChecks": [
+          {
+            "year": 2006,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2007,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2008,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2009,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2010,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2011,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2012,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2013,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2014,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2015,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2016,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2017,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2018,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2019,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2020,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2021,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2022,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2023,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2024,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2025,
+            "validNativeCells": 469758
+          }
+        ],
+        "unitCrossCheck": {
+          "comparisons": 256,
+          "maxAbsoluteDifference": 3.662109378410605e-06,
+          "tolerance": 0.0001,
+          "unitsDocumentationUrl": "https://www.ncei.noaa.gov/monitoring-content/data/us/climgrid/monthly/current/gridded-readme.txt",
+          "sourceSampleHashes": {
+            "precip": "73cd5e54c8f09863e6d4ada889cc8be650b3b6a153ff7391dffdd66945cb4354",
+            "tavg": "91f864cce50f078cb31e2b80e8999beb54bafc6173176176bf0e534b859df646",
+            "tmin": "4a77fec453f59ce1860fd74e257ec3eca9d73fe37f75334f2cf0f524c399ebbf",
+            "tmax": "1f7240bd1343e80fcb0220d9fa95e71edc789659cc575d3a7b7aee50894d8c69"
+          }
+        },
+        "rawWindowChecks": [
+          {
+            "name": "Indiana",
+            "gridIndex": 74604,
+            "latitude": 40.41669869,
+            "longitude": -86.91666833,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 23.28875,
+                "published": 23.29
+              },
+              "min_temp_c": {
+                "fromRawWindows": 17.51887,
+                "published": 17.52
+              },
+              "max_temp_c": {
+                "fromRawWindows": 29.05288,
+                "published": 29.05
+              },
+              "precip_mm": {
+                "fromRawWindows": 110.90195,
+                "published": 110.9
+              }
+            }
+          },
+          {
+            "name": "Badin Lake, North Carolina",
+            "gridIndex": 116267,
+            "latitude": 35.41669881,
+            "longitude": -80.00000197,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 26.49675,
+                "published": 26.5
+              },
+              "min_temp_c": {
+                "fromRawWindows": 20.56813,
+                "published": 20.57
+              },
+              "max_temp_c": {
+                "fromRawWindows": 32.41999,
+                "published": 32.42
+              },
+              "precip_mm": {
+                "fromRawWindows": 118.04154,
+                "published": 118.04
+              }
+            }
+          },
+          {
+            "name": "Pacific Northwest",
+            "gridIndex": 31904,
+            "latitude": 45.50003189,
+            "longitude": -122.5000001,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 20.79522,
+                "published": 20.8
+              },
+              "min_temp_c": {
+                "fromRawWindows": 13.77423,
+                "published": 13.77
+              },
+              "max_temp_c": {
+                "fromRawWindows": 27.81134,
+                "published": 27.81
+              },
+              "precip_mm": {
+                "fromRawWindows": 8.69717,
+                "published": 8.7
+              }
+            }
+          },
+          {
+            "name": "Arizona",
+            "gridIndex": 133210,
+            "latitude": 33.33336553,
+            "longitude": -111.8333339,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 33.87626,
+                "published": 33.88
+              },
+              "min_temp_c": {
+                "fromRawWindows": 26.45838,
+                "published": 26.46
+              },
+              "max_temp_c": {
+                "fromRawWindows": 41.28926,
+                "published": 41.29
+              },
+              "precip_mm": {
+                "fromRawWindows": 23.72156,
+                "published": 23.72
+              }
+            }
+          },
+          {
+            "name": "partial_block",
+            "gridIndex": 64410,
+            "latitude": 41.66669865,
+            "longitude": -70.16666907,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 22.29025,
+                "published": 22.29
+              },
+              "min_temp_c": {
+                "fromRawWindows": 18.14025,
+                "published": 18.14
+              },
+              "max_temp_c": {
+                "fromRawWindows": 26.4355,
+                "published": 26.44
+              },
+              "precip_mm": {
+                "fromRawWindows": 65.92325,
+                "published": 65.92
+              }
+            }
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "month": 8,
+      "name": "August",
+      "path": "data/climate_months/08.json.gz",
+      "sha256": "3c5652a3a3c9d6eee24c1682e607e8213ae6bd1cd19bae3392064e96b0533b7e",
+      "decodedSha256": "c880a0a0f84916ec7d7967ac60460690d0cb54137b1d250ed57cb298235cb1bc",
+      "bytes": 1273839,
+      "decodedBytes": 9280080,
+      "inputs": [
+        {
+          "year": 2006,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2006/nclimgrid-monthly-200608.tif",
+          "retrievedAt": "2026-11-04T23:55:22.848764+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7810958,
+          "sha256": "dba971ff90db161bc75aa04f17d56e905a7b4d1db642574337aee3521e7eb62d"
+        },
+        {
+          "year": 2007,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2007/nclimgrid-monthly-200708.tif",
+          "retrievedAt": "2026-11-04T23:55:22.777172+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7761731,
+          "sha256": "97fbb789e014225ae7d0e803fd97cfa3d81af2b14c7f2ced02740b724e0b2544"
+        },
+        {
+          "year": 2008,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2008/nclimgrid-monthly-200808.tif",
+          "retrievedAt": "2026-11-04T23:55:22.247556+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7807047,
+          "sha256": "25f5e10d17b362439672151691742d3581a4892da4bde8b846193fd54bb44446"
+        },
+        {
+          "year": 2009,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2009/nclimgrid-monthly-200908.tif",
+          "retrievedAt": "2026-11-04T23:55:22.769134+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7795048,
+          "sha256": "eef03351df434da1142c6066ec8c63de08f5a03b0087dd969008d4a0c38dcc6e"
+        },
+        {
+          "year": 2010,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2010/nclimgrid-monthly-201008.tif",
+          "retrievedAt": "2026-11-04T23:55:26.738902+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7816088,
+          "sha256": "dfb96fb61bc8f054305cc1c64c2f743a0f6daac344deee5c91a6125fd822b246"
+        },
+        {
+          "year": 2011,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2011/nclimgrid-monthly-201108.tif",
+          "retrievedAt": "2026-11-04T23:55:26.807769+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7829534,
+          "sha256": "41e8c52e3ce0eb1efaef9151fe68e4098c650b96b90d220dcd45c41c8c87ab6f"
+        },
+        {
+          "year": 2012,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2012/nclimgrid-monthly-201208.tif",
+          "retrievedAt": "2026-11-04T23:55:26.827072+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7797824,
+          "sha256": "30cdac0fe9553f898116f7ba20b6d2b7f3f1f587d4e284b24552ef823dde8f1e"
+        },
+        {
+          "year": 2013,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2013/nclimgrid-monthly-201308.tif",
+          "retrievedAt": "2026-11-04T23:55:26.302918+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7821435,
+          "sha256": "bbf9270aeb4d0b6b44f0556cc8f248abb19376e0b7125a43f0bb69bf683b0c24"
+        },
+        {
+          "year": 2014,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2014/nclimgrid-monthly-201408.tif",
+          "retrievedAt": "2026-11-04T23:55:26.270546+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7865065,
+          "sha256": "0b33e0484f29cd5a1cc0761582dce6dfb60325374f7779ebc574dc5882c1a554"
+        },
+        {
+          "year": 2015,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2015/nclimgrid-monthly-201508.tif",
+          "retrievedAt": "2026-11-04T23:55:26.561528+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7799760,
+          "sha256": "d6c31b945ceded4caddbf066c6df14f4c8ce13a2e00b223b8d2e920c475d871d"
+        },
+        {
+          "year": 2016,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2016/nclimgrid-monthly-201608.tif",
+          "retrievedAt": "2026-11-04T23:55:26.830572+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7824976,
+          "sha256": "713a85f1e72941046f972719b67c0f32d4b5bfd295daa9b877f3d25273dbe299"
+        },
+        {
+          "year": 2017,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2017/nclimgrid-monthly-201708.tif",
+          "retrievedAt": "2026-11-04T23:55:26.888828+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7821113,
+          "sha256": "bdf39cf6eb74ff5db34eb99ae2cbabf5aa0977116bf78a62c6a19d2e21612de0"
+        },
+        {
+          "year": 2018,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2018/nclimgrid-monthly-201808.tif",
+          "retrievedAt": "2026-11-04T23:55:31.749165+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7807103,
+          "sha256": "60944e13db6b7cefa69779cc996fddf188fde938b02da2c28990c01d48c9062e"
+        },
+        {
+          "year": 2019,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2019/nclimgrid-monthly-201908.tif",
+          "retrievedAt": "2026-11-04T23:55:31.808545+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7797027,
+          "sha256": "8c6d1200af3831118fae81b4c4baab3eae145feb44a700d6ff176c50d8442769"
+        },
+        {
+          "year": 2020,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2020/nclimgrid-monthly-202008.tif",
+          "retrievedAt": "2026-11-04T23:55:31.791688+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7809866,
+          "sha256": "5c8bad40b4034973d8906c508c02472298ded3e234fede2d0d58923b8fb0c393"
+        },
+        {
+          "year": 2021,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2021/nclimgrid-monthly-202108.tif",
+          "retrievedAt": "2026-11-04T23:55:31.634776+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7834359,
+          "sha256": "a2b1e863be5cba74784202cdc08cce9d435312fcc6f2e0f36ab29faf01070d8d"
+        },
+        {
+          "year": 2022,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2022/nclimgrid-monthly-202208.tif",
+          "retrievedAt": "2026-11-04T23:55:31.057498+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7868819,
+          "sha256": "fa2404801b33ee743219afd7af84ea1cf0d59091e1c4ee759bee0bc5e987effa"
+        },
+        {
+          "year": 2023,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2023/nclimgrid-monthly-202308.tif",
+          "retrievedAt": "2026-11-04T23:55:31.313958+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7876658,
+          "sha256": "f73e78f62240731ed45cc0108e1e34c9fd264efd8cd27f6f80cce45810e54a4f"
+        },
+        {
+          "year": 2024,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2024/nclimgrid-monthly-202408.tif",
+          "retrievedAt": "2026-11-04T23:55:31.756928+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7799432,
+          "sha256": "28d375761191cd70ebf07f7b646e09c26af9610493e5b57754b55305152c9c4d"
+        },
+        {
+          "year": 2025,
+          "month": 8,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2025/nclimgrid-monthly-202508.tif",
+          "retrievedAt": "2026-11-04T23:55:31.365471+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7761366,
+          "sha256": "7fba6b5481718bb8a006bbdce1d5e42ac294abf652a9a7bf3f6a52ba69f3b30d"
+        }
+      ],
+      "validGridCells": 118839,
+      "nativeCompleteCells": 469758,
+      "validation": {
+        "sourceChecks": [
+          {
+            "year": 2006,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2007,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2008,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2009,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2010,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2011,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2012,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2013,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2014,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2015,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2016,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2017,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2018,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2019,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2020,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2021,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2022,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2023,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2024,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2025,
+            "validNativeCells": 469758
+          }
+        ],
+        "unitCrossCheck": {
+          "comparisons": 256,
+          "maxAbsoluteDifference": 7.32421875682121e-06,
+          "tolerance": 0.0001,
+          "unitsDocumentationUrl": "https://www.ncei.noaa.gov/monitoring-content/data/us/climgrid/monthly/current/gridded-readme.txt",
+          "sourceSampleHashes": {
+            "precip": "73cd5e54c8f09863e6d4ada889cc8be650b3b6a153ff7391dffdd66945cb4354",
+            "tavg": "91f864cce50f078cb31e2b80e8999beb54bafc6173176176bf0e534b859df646",
+            "tmin": "4a77fec453f59ce1860fd74e257ec3eca9d73fe37f75334f2cf0f524c399ebbf",
+            "tmax": "1f7240bd1343e80fcb0220d9fa95e71edc789659cc575d3a7b7aee50894d8c69"
+          }
+        },
+        "rawWindowChecks": [
+          {
+            "name": "Indiana",
+            "gridIndex": 74604,
+            "latitude": 40.41669869,
+            "longitude": -86.91666833,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 22.32363,
+                "published": 22.32
+              },
+              "min_temp_c": {
+                "fromRawWindows": 16.228,
+                "published": 16.23
+              },
+              "max_temp_c": {
+                "fromRawWindows": 28.41426,
+                "published": 28.41
+              },
+              "precip_mm": {
+                "fromRawWindows": 92.47128,
+                "published": 92.47
+              }
+            }
+          },
+          {
+            "name": "Badin Lake, North Carolina",
+            "gridIndex": 116267,
+            "latitude": 35.41669881,
+            "longitude": -80.00000197,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 25.75249,
+                "published": 25.75
+              },
+              "min_temp_c": {
+                "fromRawWindows": 20.04113,
+                "published": 20.04
+              },
+              "max_temp_c": {
+                "fromRawWindows": 31.45924,
+                "published": 31.46
+              },
+              "precip_mm": {
+                "fromRawWindows": 121.41051,
+                "published": 121.41
+              }
+            }
+          },
+          {
+            "name": "Pacific Northwest",
+            "gridIndex": 31904,
+            "latitude": 45.50003189,
+            "longitude": -122.5000001,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 20.93673,
+                "published": 20.94
+              },
+              "min_temp_c": {
+                "fromRawWindows": 13.91723,
+                "published": 13.92
+              },
+              "max_temp_c": {
+                "fromRawWindows": 27.95209,
+                "published": 27.95
+              },
+              "precip_mm": {
+                "fromRawWindows": 11.80167,
+                "published": 11.8
+              }
+            }
+          },
+          {
+            "name": "Arizona",
+            "gridIndex": 133210,
+            "latitude": 33.33336553,
+            "longitude": -111.8333339,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 33.02,
+                "published": 33.02
+              },
+              "min_temp_c": {
+                "fromRawWindows": 25.6465,
+                "published": 25.65
+              },
+              "max_temp_c": {
+                "fromRawWindows": 40.3885,
+                "published": 40.39
+              },
+              "precip_mm": {
+                "fromRawWindows": 25.83854,
+                "published": 25.84
+              }
+            }
+          },
+          {
+            "name": "partial_block",
+            "gridIndex": 64410,
+            "latitude": 41.66669865,
+            "longitude": -70.16666907,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 21.57275,
+                "published": 21.57
+              },
+              "min_temp_c": {
+                "fromRawWindows": 17.16075,
+                "published": 17.16
+              },
+              "max_temp_c": {
+                "fromRawWindows": 25.98075,
+                "published": 25.98
+              },
+              "precip_mm": {
+                "fromRawWindows": 74.766,
+                "published": 74.77
+              }
+            }
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "month": 9,
+      "name": "September",
+      "path": "data/climate_months/09.json.gz",
+      "sha256": "1d768dba0b5032eabab4e65e997adc74f08d787d8740728e97397e762e897925",
+      "decodedSha256": "476c1d6d3a8fb778aef8f19768b2ec2c4b9ba2adaad1bf058222cea4bb735105",
+      "bytes": 1272136,
+      "decodedBytes": 9236493,
+      "inputs": [
+        {
+          "year": 2006,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2006/nclimgrid-monthly-200609.tif",
+          "retrievedAt": "2026-11-04T23:55:36.668846+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7820303,
+          "sha256": "122fe1648a1699c4a740b6ebbe27738b6a541736020e6cad15ad283a6dde87f7"
+        },
+        {
+          "year": 2007,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2007/nclimgrid-monthly-200709.tif",
+          "retrievedAt": "2026-11-04T23:55:36.313712+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7725281,
+          "sha256": "2fbf8fac74b20eaf85d7f8d2ff00d6742e365ff9813a9cb3512a29e7d4e0001c"
+        },
+        {
+          "year": 2008,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2008/nclimgrid-monthly-200809.tif",
+          "retrievedAt": "2026-11-04T23:55:35.948880+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7837829,
+          "sha256": "23d1edc4d36c4255842ad75d0f65a57135985b46b684333dfe537491d8471152"
+        },
+        {
+          "year": 2009,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2009/nclimgrid-monthly-200909.tif",
+          "retrievedAt": "2026-11-04T23:55:36.594267+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7754167,
+          "sha256": "e11ec0dcce4c30d24243badfdfffeec80be3eaf10ddc326bc7d76d4efb952741"
+        },
+        {
+          "year": 2010,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2010/nclimgrid-monthly-201009.tif",
+          "retrievedAt": "2026-11-04T23:55:36.557449+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7830667,
+          "sha256": "84164cf813048a5549745cc6df883df08a38d58054d284d4e2c619e3414af042"
+        },
+        {
+          "year": 2011,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2011/nclimgrid-monthly-201109.tif",
+          "retrievedAt": "2026-11-04T23:55:36.561490+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7806379,
+          "sha256": "0792fcffda8b9e919ab34e4e83e5201e9d759b99d95d4e1939c654baada76a8c"
+        },
+        {
+          "year": 2012,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2012/nclimgrid-monthly-201209.tif",
+          "retrievedAt": "2026-11-04T23:55:36.648538+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7781704,
+          "sha256": "afef96c683ff898e203a26a17396e0b3c01ebdbda8045ba2d3995ec0308b1a28"
+        },
+        {
+          "year": 2013,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2013/nclimgrid-monthly-201309.tif",
+          "retrievedAt": "2026-11-04T23:55:36.589378+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7879952,
+          "sha256": "032eb167fb15845ad5431f7c7957cabacfc500ae2dfe5bb9b235011f6100bad7"
+        },
+        {
+          "year": 2014,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2014/nclimgrid-monthly-201409.tif",
+          "retrievedAt": "2026-11-04T23:55:41.008835+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7785445,
+          "sha256": "7f20d4aa98efb8237589e250a0fe3f43c89a948a74e8919497740ff790ff74c5"
+        },
+        {
+          "year": 2015,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2015/nclimgrid-monthly-201509.tif",
+          "retrievedAt": "2026-11-04T23:55:41.116127+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7786562,
+          "sha256": "65bf268616e908659bacdc1edc567d15250862a5f489a0a08b0a325c4be9aff4"
+        },
+        {
+          "year": 2016,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2016/nclimgrid-monthly-201609.tif",
+          "retrievedAt": "2026-11-04T23:55:41.119478+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7802761,
+          "sha256": "71e2bed52fe51aeacdaa75bc583556f621c0d4b468d3ef571ead12c2cd794f8d"
+        },
+        {
+          "year": 2017,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2017/nclimgrid-monthly-201709.tif",
+          "retrievedAt": "2026-11-04T23:55:41.112043+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7800934,
+          "sha256": "134b744962a4f825f5b6c1c19a8c0a9bdba7a3453668e6b3f43b056af2acc61b"
+        },
+        {
+          "year": 2018,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2018/nclimgrid-monthly-201809.tif",
+          "retrievedAt": "2026-11-04T23:55:41.056742+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7809591,
+          "sha256": "bdd75992ea2159c57a9584b3fd20b8118ce1b4f9bfbe92f217943772889ec3a1"
+        },
+        {
+          "year": 2019,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2019/nclimgrid-monthly-201909.tif",
+          "retrievedAt": "2026-11-04T23:55:40.878916+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7834987,
+          "sha256": "05b82edc644e2f0249cb08089d6770b2996a9c2b0f60614e850f6661ee42fb44"
+        },
+        {
+          "year": 2020,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2020/nclimgrid-monthly-202009.tif",
+          "retrievedAt": "2026-11-04T23:55:40.156962+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7745049,
+          "sha256": "57dada507257d2600a4eb3539c0cae5f796a56b08c3acc0096ee8d7ff26cbb03"
+        },
+        {
+          "year": 2021,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2021/nclimgrid-monthly-202109.tif",
+          "retrievedAt": "2026-11-04T23:55:40.800851+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7846860,
+          "sha256": "a463ca779f9a283feba25433362ae6838d995ca43e969f347001267e6ac2219a"
+        },
+        {
+          "year": 2022,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2022/nclimgrid-monthly-202209.tif",
+          "retrievedAt": "2026-11-04T23:55:44.617367+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7746180,
+          "sha256": "f6fa0a64ed096695bfe78747ede171400f8c3d46af61d4879da23e9d0126a00f"
+        },
+        {
+          "year": 2023,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2023/nclimgrid-monthly-202309.tif",
+          "retrievedAt": "2026-11-04T23:55:44.808739+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7813472,
+          "sha256": "751f7ab864fa2933663b78dcb2e881a27b1a64e064c476ead63631016ae4db2e"
+        },
+        {
+          "year": 2024,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2024/nclimgrid-monthly-202409.tif",
+          "retrievedAt": "2026-11-04T23:55:44.794134+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7775934,
+          "sha256": "30f01d5aba1375abf850b272bed82d0b8d221019a19745d1846740f556732af3"
+        },
+        {
+          "year": 2025,
+          "month": 9,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2025/nclimgrid-monthly-202509.tif",
+          "retrievedAt": "2026-11-04T23:55:43.986972+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7721351,
+          "sha256": "8c4608de0e158bd7b7765a57e9f7a6f322275a9cee5c1fc41718cb52c1a5abe7"
+        }
+      ],
+      "validGridCells": 118839,
+      "nativeCompleteCells": 469758,
+      "validation": {
+        "sourceChecks": [
+          {
+            "year": 2006,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2007,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2008,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2009,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2010,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2011,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2012,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2013,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2014,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2015,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2016,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2017,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2018,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2019,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2020,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2021,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2022,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2023,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2024,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2025,
+            "validNativeCells": 469758
+          }
+        ],
+        "unitCrossCheck": {
+          "comparisons": 256,
+          "maxAbsoluteDifference": 7.32421875682121e-06,
+          "tolerance": 0.0001,
+          "unitsDocumentationUrl": "https://www.ncei.noaa.gov/monitoring-content/data/us/climgrid/monthly/current/gridded-readme.txt",
+          "sourceSampleHashes": {
+            "precip": "73cd5e54c8f09863e6d4ada889cc8be650b3b6a153ff7391dffdd66945cb4354",
+            "tavg": "91f864cce50f078cb31e2b80e8999beb54bafc6173176176bf0e534b859df646",
+            "tmin": "4a77fec453f59ce1860fd74e257ec3eca9d73fe37f75334f2cf0f524c399ebbf",
+            "tmax": "1f7240bd1343e80fcb0220d9fa95e71edc789659cc575d3a7b7aee50894d8c69"
+          }
+        },
+        "rawWindowChecks": [
+          {
+            "name": "Indiana",
+            "gridIndex": 74604,
+            "latitude": 40.41669869,
+            "longitude": -86.91666833,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 19.12814,
+                "published": 19.13
+              },
+              "min_temp_c": {
+                "fromRawWindows": 12.35439,
+                "published": 12.35
+              },
+              "max_temp_c": {
+                "fromRawWindows": 25.89676,
+                "published": 25.9
+              },
+              "precip_mm": {
+                "fromRawWindows": 69.02918,
+                "published": 69.03
+              }
+            }
+          },
+          {
+            "name": "Badin Lake, North Carolina",
+            "gridIndex": 116267,
+            "latitude": 35.41669881,
+            "longitude": -80.00000197,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 22.46263,
+                "published": 22.46
+              },
+              "min_temp_c": {
+                "fromRawWindows": 16.55364,
+                "published": 16.55
+              },
+              "max_temp_c": {
+                "fromRawWindows": 28.36599,
+                "published": 28.37
+              },
+              "precip_mm": {
+                "fromRawWindows": 106.02675,
+                "published": 106.03
+              }
+            }
+          },
+          {
+            "name": "Pacific Northwest",
+            "gridIndex": 31904,
+            "latitude": 45.50003189,
+            "longitude": -122.5000001,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 17.81423,
+                "published": 17.81
+              },
+              "min_temp_c": {
+                "fromRawWindows": 11.41074,
+                "published": 11.41
+              },
+              "max_temp_c": {
+                "fromRawWindows": 24.21309,
+                "published": 24.21
+              },
+              "precip_mm": {
+                "fromRawWindows": 50.471,
+                "published": 50.47
+              }
+            }
+          },
+          {
+            "name": "Arizona",
+            "gridIndex": 133210,
+            "latitude": 33.33336553,
+            "longitude": -111.8333339,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 29.9465,
+                "published": 29.95
+              },
+              "min_temp_c": {
+                "fromRawWindows": 22.134,
+                "published": 22.13
+              },
+              "max_temp_c": {
+                "fromRawWindows": 37.75263,
+                "published": 37.75
+              },
+              "precip_mm": {
+                "fromRawWindows": 19.1806,
+                "published": 19.18
+              }
+            }
+          },
+          {
+            "name": "partial_block",
+            "gridIndex": 64410,
+            "latitude": 41.66669865,
+            "longitude": -70.16666907,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 18.1035,
+                "published": 18.1
+              },
+              "min_temp_c": {
+                "fromRawWindows": 13.75625,
+                "published": 13.76
+              },
+              "max_temp_c": {
+                "fromRawWindows": 22.4465,
+                "published": 22.45
+              },
+              "precip_mm": {
+                "fromRawWindows": 100.89075,
+                "published": 100.89
+              }
+            }
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "month": 10,
+      "name": "October",
+      "path": "data/climate_months/10.json.gz",
+      "sha256": "fb4477c273af1f2a3c845240954996f3835b7f024ed1b2ed3f62a40859420d1c",
+      "decodedSha256": "0338e5e238fd5bf9f2dce69cb391f05b22f715dfb2c1caba4df5b3c091b2fa45",
+      "bytes": 1263455,
+      "decodedBytes": 9171257,
+      "inputs": [
+        {
+          "year": 2006,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2006/nclimgrid-monthly-200610.tif",
+          "retrievedAt": "2026-11-04T23:55:44.836536+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7970913,
+          "sha256": "b760a1080a6e2c18332485ebd6fb9e331e41f1ce603a721e2668da8d56a6bde8"
+        },
+        {
+          "year": 2007,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2007/nclimgrid-monthly-200710.tif",
+          "retrievedAt": "2026-11-04T23:55:44.830558+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7957036,
+          "sha256": "a39b7aecc753d44cebfc689ac236a41a2960ed7bcc556fabf3c39c1eb5a683f0"
+        },
+        {
+          "year": 2008,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2008/nclimgrid-monthly-200810.tif",
+          "retrievedAt": "2026-11-04T23:55:43.949034+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7872548,
+          "sha256": "27cfc8002e488ae5d462685b02fcc358db80023c0d17c73e735b9f0dcc325822"
+        },
+        {
+          "year": 2009,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2009/nclimgrid-monthly-200910.tif",
+          "retrievedAt": "2026-11-04T23:55:44.668577+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8093640,
+          "sha256": "b834168637ea22000add1495053ebae419ce0963685dd7097143375c3eb5005a"
+        },
+        {
+          "year": 2010,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2010/nclimgrid-monthly-201010.tif",
+          "retrievedAt": "2026-11-04T23:55:49.164781+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7841022,
+          "sha256": "69ff7929226ecc8c720ff91bece27c2018c02a1a725691090ae7fcdf9dd866ec"
+        },
+        {
+          "year": 2011,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2011/nclimgrid-monthly-201110.tif",
+          "retrievedAt": "2026-11-04T23:55:49.208752+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7904334,
+          "sha256": "4dabeeaff99b41a7d6469211314355f7d23f1ad88e9767f2a7d0a888dfb934cd"
+        },
+        {
+          "year": 2012,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2012/nclimgrid-monthly-201210.tif",
+          "retrievedAt": "2026-11-04T23:55:48.913077+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7926594,
+          "sha256": "21fe81f2ca808faa5c396b5d3974bf7cf5c50978bad63cb8370fcd663ea4309f"
+        },
+        {
+          "year": 2013,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2013/nclimgrid-monthly-201310.tif",
+          "retrievedAt": "2026-11-04T23:55:48.420607+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7895295,
+          "sha256": "a2306607911549b42ffefaae043b4bbb336ae45109bf3dc76d34b924779740ed"
+        },
+        {
+          "year": 2014,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2014/nclimgrid-monthly-201410.tif",
+          "retrievedAt": "2026-11-04T23:55:49.228140+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7878514,
+          "sha256": "77ff6adf886c2f48ff89ec86d00f2422324cc8c8b42d70c5eb71bc1f47eb03c9"
+        },
+        {
+          "year": 2015,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2015/nclimgrid-monthly-201510.tif",
+          "retrievedAt": "2026-11-04T23:55:49.117020+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7878952,
+          "sha256": "5e21361ade94ee1dac7413189098ca62902542ff13df79c1c09c1b9fcb53f984"
+        },
+        {
+          "year": 2016,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2016/nclimgrid-monthly-201610.tif",
+          "retrievedAt": "2026-11-04T23:55:49.052665+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7895396,
+          "sha256": "538bdc414bc493b9ee3a7b584d49482aeece1dae276b5fc97fe5ca186462094e"
+        },
+        {
+          "year": 2017,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2017/nclimgrid-monthly-201710.tif",
+          "retrievedAt": "2026-11-04T23:55:49.188438+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7935970,
+          "sha256": "9e25bc58bfd14606cb05806b9e41bb97c1632113c0cc1958e9e764353f6409e5"
+        },
+        {
+          "year": 2018,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2018/nclimgrid-monthly-201810.tif",
+          "retrievedAt": "2026-11-04T23:55:53.040533+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8058074,
+          "sha256": "a1ed546323fd2acf203dcf30afc903f1fe984fe6e0988370a9db4a540225e62b"
+        },
+        {
+          "year": 2019,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2019/nclimgrid-monthly-201910.tif",
+          "retrievedAt": "2026-11-04T23:55:52.723260+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8041783,
+          "sha256": "d4b7d7fc2cce22d84de233bee815471de3b22b6b10f921ea1f3555da3e90785d"
+        },
+        {
+          "year": 2020,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2020/nclimgrid-monthly-202010.tif",
+          "retrievedAt": "2026-11-04T23:55:53.168797+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7926906,
+          "sha256": "6c6d68cea701f06d36197c691b7d2217a88e6461b35b3fc3f73a0506845be3b4"
+        },
+        {
+          "year": 2021,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2021/nclimgrid-monthly-202110.tif",
+          "retrievedAt": "2026-11-04T23:55:53.001076+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7971366,
+          "sha256": "b8031db8c7c1a52bd2c7bff212afd6d85ae496f131a2f9173af2d69a82ee6d72"
+        },
+        {
+          "year": 2022,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2022/nclimgrid-monthly-202210.tif",
+          "retrievedAt": "2026-11-04T23:55:53.120586+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7878204,
+          "sha256": "78cca8785aeb49f33c40dc77b29d6d2765d60a54da64a5aaa63e45cd8cf0c5ff"
+        },
+        {
+          "year": 2023,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2023/nclimgrid-monthly-202310.tif",
+          "retrievedAt": "2026-11-04T23:55:52.904591+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7874456,
+          "sha256": "1de3ca33034e78a3b1f868b29135dcc72e9e43ca611d2d602221e44bcd4a90a2"
+        },
+        {
+          "year": 2024,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2024/nclimgrid-monthly-202410.tif",
+          "retrievedAt": "2026-11-04T23:55:52.511076+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7793731,
+          "sha256": "4f37f3c45318329ceddae86bd58834da052f7e74308e2450998f80bc85164b97"
+        },
+        {
+          "year": 2025,
+          "month": 10,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2025/nclimgrid-monthly-202510.tif",
+          "retrievedAt": "2026-11-04T23:55:52.242309+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7923145,
+          "sha256": "6bd565b14e177801f25ea8dc792b80050941826d9d65f17cc783b854d8c95c2c"
+        }
+      ],
+      "validGridCells": 118839,
+      "nativeCompleteCells": 469758,
+      "validation": {
+        "sourceChecks": [
+          {
+            "year": 2006,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2007,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2008,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2009,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2010,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2011,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2012,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2013,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2014,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2015,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2016,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2017,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2018,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2019,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2020,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2021,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2022,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2023,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2024,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2025,
+            "validNativeCells": 469758
+          }
+        ],
+        "unitCrossCheck": {
+          "comparisons": 256,
+          "maxAbsoluteDifference": 6.713867179541921e-06,
+          "tolerance": 0.0001,
+          "unitsDocumentationUrl": "https://www.ncei.noaa.gov/monitoring-content/data/us/climgrid/monthly/current/gridded-readme.txt",
+          "sourceSampleHashes": {
+            "precip": "73cd5e54c8f09863e6d4ada889cc8be650b3b6a153ff7391dffdd66945cb4354",
+            "tavg": "91f864cce50f078cb31e2b80e8999beb54bafc6173176176bf0e534b859df646",
+            "tmin": "4a77fec453f59ce1860fd74e257ec3eca9d73fe37f75334f2cf0f524c399ebbf",
+            "tmax": "1f7240bd1343e80fcb0220d9fa95e71edc789659cc575d3a7b7aee50894d8c69"
+          }
+        },
+        "rawWindowChecks": [
+          {
+            "name": "Indiana",
+            "gridIndex": 74604,
+            "latitude": 40.41669869,
+            "longitude": -86.91666833,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 12.61414,
+                "published": 12.61
+              },
+              "min_temp_c": {
+                "fromRawWindows": 6.18276,
+                "published": 6.18
+              },
+              "max_temp_c": {
+                "fromRawWindows": 19.03989,
+                "published": 19.04
+              },
+              "precip_mm": {
+                "fromRawWindows": 90.27108,
+                "published": 90.27
+              }
+            }
+          },
+          {
+            "name": "Badin Lake, North Carolina",
+            "gridIndex": 116267,
+            "latitude": 35.41669881,
+            "longitude": -80.00000197,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 16.46064,
+                "published": 16.46
+              },
+              "min_temp_c": {
+                "fromRawWindows": 9.94353,
+                "published": 9.94
+              },
+              "max_temp_c": {
+                "fromRawWindows": 22.97274,
+                "published": 22.97
+              },
+              "precip_mm": {
+                "fromRawWindows": 82.1017,
+                "published": 82.1
+              }
+            }
+          },
+          {
+            "name": "Pacific Northwest",
+            "gridIndex": 31904,
+            "latitude": 45.50003189,
+            "longitude": -122.5000001,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 12.5331,
+                "published": 12.53
+              },
+              "min_temp_c": {
+                "fromRawWindows": 7.54274,
+                "published": 7.54
+              },
+              "max_temp_c": {
+                "fromRawWindows": 17.51759,
+                "published": 17.52
+              },
+              "precip_mm": {
+                "fromRawWindows": 113.04177,
+                "published": 113.04
+              }
+            }
+          },
+          {
+            "name": "Arizona",
+            "gridIndex": 133210,
+            "latitude": 33.33336553,
+            "longitude": -111.8333339,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 23.5205,
+                "published": 23.52
+              },
+              "min_temp_c": {
+                "fromRawWindows": 15.14012,
+                "published": 15.14
+              },
+              "max_temp_c": {
+                "fromRawWindows": 31.89676,
+                "published": 31.9
+              },
+              "precip_mm": {
+                "fromRawWindows": 12.61059,
+                "published": 12.61
+              }
+            }
+          },
+          {
+            "name": "partial_block",
+            "gridIndex": 64410,
+            "latitude": 41.66669865,
+            "longitude": -70.16666907,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 13.047,
+                "published": 13.05
+              },
+              "min_temp_c": {
+                "fromRawWindows": 8.7805,
+                "published": 8.78
+              },
+              "max_temp_c": {
+                "fromRawWindows": 17.307,
+                "published": 17.31
+              },
+              "precip_mm": {
+                "fromRawWindows": 124.28075,
+                "published": 124.28
+              }
+            }
+          }
+        ],
+        "passed": true
+      }
+    },
+    {
+      "month": 11,
+      "name": "November",
+      "path": "data/climate.json",
+      "sha256": "b0cffb0dae68d8c5e0e77bf15edb4c524b5594bbb5ea9331d7f5cd1dba8d5269",
+      "bytes": 9099395,
+      "inputs": [
+        {
+          "year": 2006,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2006/nclimgrid-monthly-200611.tif",
+          "retrievedAt": "2026-11-04T20:56:40.022384+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7998303,
+          "sha256": "fda1df924f05e8a03fa9342f92786b8d16d33dcd2addd9896a40edb4f25f4b5d"
+        },
+        {
+          "year": 2007,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2007/nclimgrid-monthly-200711.tif",
+          "retrievedAt": "2026-11-04T20:56:39.701264+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7897269,
+          "sha256": "487ad58cba692ac691ac32e0d6c2a6ebd7b874961ff31a0f8c4356e2ff38ffa1"
+        },
+        {
+          "year": 2008,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2008/nclimgrid-monthly-200811.tif",
+          "retrievedAt": "2026-11-04T20:56:40.031044+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8035627,
+          "sha256": "55877e8495b3e5ed6bc4f673ffa985435c0b645367fe9cd34c54ef09886816f2"
+        },
+        {
+          "year": 2009,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2009/nclimgrid-monthly-200911.tif",
+          "retrievedAt": "2026-11-04T20:56:39.963395+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7916775,
+          "sha256": "e968546f825421cfd39b5efb5ab9a730329f211fa97c663e82072cdd7c89c1d8"
+        },
+        {
+          "year": 2010,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2010/nclimgrid-monthly-201011.tif",
+          "retrievedAt": "2026-11-04T20:56:39.968698+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8056334,
+          "sha256": "dcbb6b91e4f1c121b70377f32cb3919882dd1e98d5799c38be841d12c435d4ab"
+        },
+        {
+          "year": 2011,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2011/nclimgrid-monthly-201111.tif",
+          "retrievedAt": "2026-11-04T20:56:44.378586+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8043359,
+          "sha256": "1bbc8b0ae260b8c362f1042c159db828a3961cd4cc5fb48beb8299e55e60f9e1"
+        },
+        {
+          "year": 2012,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2012/nclimgrid-monthly-201211.tif",
+          "retrievedAt": "2026-11-04T20:56:44.311324+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7958727,
+          "sha256": "663ae90b27d81da9aeb6dc1d872b2aa71694bb20c6e08fd08a4c310cc087a623"
+        },
+        {
+          "year": 2013,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2013/nclimgrid-monthly-201311.tif",
+          "retrievedAt": "2026-11-04T20:56:44.267569+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8002247,
+          "sha256": "2c01f04896ff452a736837fbbea5f9b51e9576f8b742d79c0e2476d69b763beb"
+        },
+        {
+          "year": 2014,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2014/nclimgrid-monthly-201411.tif",
+          "retrievedAt": "2026-11-04T20:56:43.868780+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8051208,
+          "sha256": "c527630b62cfa17b2e33ffab8c209ad27bbbea292f14653bab2a340f2eeb1c6a"
+        },
+        {
+          "year": 2015,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2015/nclimgrid-monthly-201511.tif",
+          "retrievedAt": "2026-11-04T20:56:44.289277+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8117605,
+          "sha256": "f04497a3372e2c8793313e9551ce81d86fdd67d273a3c7a7528dc170edbf88fc"
+        },
+        {
+          "year": 2016,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2016/nclimgrid-monthly-201611.tif",
+          "retrievedAt": "2026-11-04T20:56:48.115371+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7966429,
+          "sha256": "508ecb468468d0d4dfd1fae1960e31c6389925d20ede175a490075407c760fb9"
+        },
+        {
+          "year": 2017,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2017/nclimgrid-monthly-201711.tif",
+          "retrievedAt": "2026-11-04T20:56:47.718718+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7941200,
+          "sha256": "b3d1c3dae18aec2a7e2644f53d574350a67fe141cceb11c5785228fea592fc50"
+        },
+        {
+          "year": 2018,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2018/nclimgrid-monthly-201811.tif",
+          "retrievedAt": "2026-11-04T20:56:48.029361+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8137259,
+          "sha256": "d2b30767b83faca0e6c29b228dd6d1602f13657d915442f080cff816f70e43a1"
+        },
+        {
+          "year": 2019,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2019/nclimgrid-monthly-201911.tif",
+          "retrievedAt": "2026-11-04T20:56:48.096653+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8012509,
+          "sha256": "8e2a1776a0af6f6f6c1712793fe46471990b104c1b909194f0082fd4234e1947"
+        },
+        {
+          "year": 2020,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2020/nclimgrid-monthly-202011.tif",
+          "retrievedAt": "2026-11-04T20:56:48.025048+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7963552,
+          "sha256": "cdf718f274ccdd7e61a04207910f7cf66d5ab166d582d4ffbc80619c09ee705d"
+        },
+        {
+          "year": 2021,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2021/nclimgrid-monthly-202111.tif",
+          "retrievedAt": "2026-11-04T20:56:52.450969+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7905613,
+          "sha256": "bfd4cc833e30ae2f01e15312e937d85ef806a0b972f5eb99e9ed3a8d6bcc6286"
+        },
+        {
+          "year": 2022,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2022/nclimgrid-monthly-202211.tif",
+          "retrievedAt": "2026-11-04T20:56:52.459906+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8162769,
+          "sha256": "d370e2cf80f3976a3205546a66cbd3183a582d065f780039c0973f37ca2c8a25"
+        },
+        {
+          "year": 2023,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2023/nclimgrid-monthly-202311.tif",
+          "retrievedAt": "2026-11-04T20:56:52.152038+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7872066,
+          "sha256": "12d8c39b969fb43dc9af03faa0c2ceebbff4b54eeaa0b83f6cae147c33c8c0fd"
+        },
+        {
+          "year": 2024,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2024/nclimgrid-monthly-202411.tif",
+          "retrievedAt": "2026-11-04T20:56:52.351148+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8110615,
+          "sha256": "c569c35d2273dba6cd755ca31ddc4a5bf2e0af12bdcbb63295706eb5bee802ac"
+        },
+        {
+          "year": 2025,
+          "month": 11,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2025/nclimgrid-monthly-202511.tif",
+          "retrievedAt": "2026-11-04T20:56:52.467649+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7970232,
+          "sha256": "69aa518db47ffcc941d6c9e68aaa1fa4e43b69db1845d5557d956774adcb6a7a"
+        }
+      ],
+      "validGridCells": 118839,
+      "nativeCompleteCells": 469758,
+      "validation": {
+        "passed": true,
+        "previouslyVerified": true,
+        "report": "data/validation.json",
+        "originalManifest": "data/climate_manifest.json"
+      }
+    },
+    {
+      "month": 12,
+      "name": "December",
+      "path": "data/climate_months/12.json.gz",
+      "sha256": "ce1a64242af4f886ac00c3ac0ce0540a96feb6b366896272cbae1966102fd624",
+      "decodedSha256": "8136054d553afe4d1c8768a52d13e14778c254cd01483221df15c326299ccb42",
+      "bytes": 1284999,
+      "decodedBytes": 9182508,
+      "inputs": [
+        {
+          "year": 2006,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2006/nclimgrid-monthly-200612.tif",
+          "retrievedAt": "2026-11-04T23:55:57.544890+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8169937,
+          "sha256": "e59817bdbef4e9b114d16785317391eded96fde5d2472fcaf3971cf7e32b9a53"
+        },
+        {
+          "year": 2007,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2007/nclimgrid-monthly-200712.tif",
+          "retrievedAt": "2026-11-04T23:55:57.784581+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8255675,
+          "sha256": "d0e5794e6187a5d12f161a35cbafaba624fea1938bacee285cac22a30edd5dee"
+        },
+        {
+          "year": 2008,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2008/nclimgrid-monthly-200812.tif",
+          "retrievedAt": "2026-11-04T23:55:57.743856+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8217019,
+          "sha256": "984c4e3c196fdd74c210f4fc7af3d466755932241b1010337a44315ae6f01a4b"
+        },
+        {
+          "year": 2009,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2009/nclimgrid-monthly-200912.tif",
+          "retrievedAt": "2026-11-04T23:55:57.725132+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8229616,
+          "sha256": "d09463585bcbad16dbf071443e9c2397c9d02b36d02d9909952ea45d353b9cf8"
+        },
+        {
+          "year": 2010,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2010/nclimgrid-monthly-201012.tif",
+          "retrievedAt": "2026-11-04T23:55:57.793527+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8205001,
+          "sha256": "2f20578bc8962f56f86cd2dc84c366c9a710a69ed75712c652e91201f8d3687f"
+        },
+        {
+          "year": 2011,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2011/nclimgrid-monthly-201112.tif",
+          "retrievedAt": "2026-11-04T23:55:57.852041+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8158555,
+          "sha256": "db0615364b4de45d7fa719869d2c69c1225cad9a45869db2f9062ea07feee4e2"
+        },
+        {
+          "year": 2012,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2012/nclimgrid-monthly-201212.tif",
+          "retrievedAt": "2026-11-04T23:55:57.793695+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8210876,
+          "sha256": "edfa2dde738e4fc7e9e18a170279f818e895e3fc8cee29198243418845f722e0"
+        },
+        {
+          "year": 2013,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2013/nclimgrid-monthly-201312.tif",
+          "retrievedAt": "2026-11-04T23:55:56.960223+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8152951,
+          "sha256": "6eefc8e9a1e69457e12408982bbc787c5eeb47224945b1df5c7805aea3eb6c9d"
+        },
+        {
+          "year": 2014,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2014/nclimgrid-monthly-201412.tif",
+          "retrievedAt": "2026-11-04T23:56:01.652712+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8137024,
+          "sha256": "937bf5dcdea1166a66040e25261a8a4b911379340be374ea9990342f60d23871"
+        },
+        {
+          "year": 2015,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2015/nclimgrid-monthly-201512.tif",
+          "retrievedAt": "2026-11-04T23:56:01.824539+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8314619,
+          "sha256": "35c1a82a30755a432feb1a9843031bf0efab7a18481b3c3852043f496fa8678e"
+        },
+        {
+          "year": 2016,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2016/nclimgrid-monthly-201612.tif",
+          "retrievedAt": "2026-11-04T23:56:00.929481+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8190593,
+          "sha256": "479defb57f5c6d7f39327f365f0d49d00f8e8d833bd0b4c89200e4fececc3a9b"
+        },
+        {
+          "year": 2017,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2017/nclimgrid-monthly-201712.tif",
+          "retrievedAt": "2026-11-04T23:56:01.363886+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 7984954,
+          "sha256": "84c72d67bdb314c44ee01e018a73678a1d3ec77e53440be5d2ff874468df89a0"
+        },
+        {
+          "year": 2018,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2018/nclimgrid-monthly-201812.tif",
+          "retrievedAt": "2026-11-04T23:56:01.799569+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8180604,
+          "sha256": "0c0c4980f6e9263f4ad0ee979947207e156f070e2ae25cd4e603982bfb63b8f8"
+        },
+        {
+          "year": 2019,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2019/nclimgrid-monthly-201912.tif",
+          "retrievedAt": "2026-11-04T23:56:01.852521+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8175616,
+          "sha256": "7a786c9b4acd9e2447859ef5d991122b75886e63bc044ccb04538054a9150077"
+        },
+        {
+          "year": 2020,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2020/nclimgrid-monthly-202012.tif",
+          "retrievedAt": "2026-11-04T23:56:01.413017+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8122950,
+          "sha256": "eb549cfc6fc1faa11e8ee8086db04edf030d1f6e6730b74d4d1eee4605f3c08e"
+        },
+        {
+          "year": 2021,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2021/nclimgrid-monthly-202112.tif",
+          "retrievedAt": "2026-11-04T23:56:01.404813+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8133145,
+          "sha256": "4e06ff0aa61d2059029895e6d00426dad56333d1647b0f433196a5f1bee0a187"
+        },
+        {
+          "year": 2022,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2022/nclimgrid-monthly-202212.tif",
+          "retrievedAt": "2026-11-04T23:56:05.245863+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8204798,
+          "sha256": "cc5d53cd7335cdb9a944a0617471206fbf265ad4a54a0dead7617ce369303516"
+        },
+        {
+          "year": 2023,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2023/nclimgrid-monthly-202312.tif",
+          "retrievedAt": "2026-11-04T23:56:04.861363+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8078079,
+          "sha256": "615ccd0ea97c7c0f1abd09b1d73b9472ccda191e6bf75eb9f0befdd763ea9e19"
+        },
+        {
+          "year": 2024,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2024/nclimgrid-monthly-202412.tif",
+          "retrievedAt": "2026-11-04T23:56:05.048855+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8071923,
+          "sha256": "4ffd0f9ec2c9d52b23c4f2388649a1ca8fb00adff6b2a1056950e5e0268cdac8"
+        },
+        {
+          "year": 2025,
+          "month": 12,
+          "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2025/nclimgrid-monthly-202512.tif",
+          "retrievedAt": "2026-11-04T23:56:05.113654+00:00",
+          "lastModified": null,
+          "etag": null,
+          "bytes": 8078352,
+          "sha256": "4c3cbd02ebc10eca09d227eca2308317bcf7d831b8ea5f8661fa246019fe4719"
+        }
+      ],
+      "validGridCells": 118839,
+      "nativeCompleteCells": 469758,
+      "validation": {
+        "sourceChecks": [
+          {
+            "year": 2006,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2007,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2008,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2009,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2010,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2011,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2012,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2013,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2014,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2015,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2016,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2017,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2018,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2019,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2020,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2021,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2022,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2023,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2024,
+            "validNativeCells": 469758
+          },
+          {
+            "year": 2025,
+            "validNativeCells": 469758
+          }
+        ],
+        "unitCrossCheck": {
+          "comparisons": 256,
+          "maxAbsoluteDifference": 9.155273446026513e-07,
+          "tolerance": 0.0001,
+          "unitsDocumentationUrl": "https://www.ncei.noaa.gov/monitoring-content/data/us/climgrid/monthly/current/gridded-readme.txt",
+          "sourceSampleHashes": {
+            "precip": "73cd5e54c8f09863e6d4ada889cc8be650b3b6a153ff7391dffdd66945cb4354",
+            "tavg": "91f864cce50f078cb31e2b80e8999beb54bafc6173176176bf0e534b859df646",
+            "tmin": "4a77fec453f59ce1860fd74e257ec3eca9d73fe37f75334f2cf0f524c399ebbf",
+            "tmax": "1f7240bd1343e80fcb0220d9fa95e71edc789659cc575d3a7b7aee50894d8c69"
+          }
+        },
+        "rawWindowChecks": [
+          {
+            "name": "Indiana",
+            "gridIndex": 74604,
+            "latitude": 40.41669869,
+            "longitude": -86.91666833,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 0.19214,
+                "published": 0.19
+              },
+              "min_temp_c": {
+                "fromRawWindows": -4.066,
+                "published": -4.07
+              },
+              "max_temp_c": {
+                "fromRawWindows": 4.44965,
+                "published": 4.45
+              },
+              "precip_mm": {
+                "fromRawWindows": 72.36299,
+                "published": 72.36
+              }
+            }
+          },
+          {
+            "name": "Badin Lake, North Carolina",
+            "gridIndex": 116267,
+            "latitude": 35.41669881,
+            "longitude": -80.00000197,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 7.55077,
+                "published": 7.55
+              },
+              "min_temp_c": {
+                "fromRawWindows": 1.77203,
+                "published": 1.77
+              },
+              "max_temp_c": {
+                "fromRawWindows": 13.32475,
+                "published": 13.32
+              },
+              "precip_mm": {
+                "fromRawWindows": 104.2634,
+                "published": 104.26
+              }
+            }
+          },
+          {
+            "name": "Pacific Northwest",
+            "gridIndex": 31904,
+            "latitude": 45.50003189,
+            "longitude": -122.5000001,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 4.97535,
+                "published": 4.98
+              },
+              "min_temp_c": {
+                "fromRawWindows": 2.15473,
+                "published": 2.15
+              },
+              "max_temp_c": {
+                "fromRawWindows": 7.79048,
+                "published": 7.79
+              },
+              "precip_mm": {
+                "fromRawWindows": 191.58563,
+                "published": 191.59
+              }
+            }
+          },
+          {
+            "name": "Arizona",
+            "gridIndex": 133210,
+            "latitude": 33.33336553,
+            "longitude": -111.8333339,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 12.19886,
+                "published": 12.2
+              },
+              "min_temp_c": {
+                "fromRawWindows": 4.76223,
+                "published": 4.76
+              },
+              "max_temp_c": {
+                "fromRawWindows": 19.63037,
+                "published": 19.63
+              },
+              "precip_mm": {
+                "fromRawWindows": 23.07333,
+                "published": 23.07
+              }
+            }
+          },
+          {
+            "name": "partial_block",
+            "gridIndex": 64410,
+            "latitude": 41.66669865,
+            "longitude": -70.16666907,
+            "values": {
+              "mean_temp_c": {
+                "fromRawWindows": 3.14375,
+                "published": 3.14
+              },
+              "min_temp_c": {
+                "fromRawWindows": -0.81875,
+                "published": -0.82
+              },
+              "max_temp_c": {
+                "fromRawWindows": 7.10225,
+                "published": 7.1
+              },
+              "precip_mm": {
+                "fromRawWindows": 114.92675,
+                "published": 114.93
+              }
+            }
+          }
+        ],
+        "passed": true
+      }
+    }
+  ],
+  "inputCount": 240,
+  "uniqueSourceHashes": 240,
+  "support": "2006–2025; 20 instances of each calendar month.",
+  "method": "Same four source variables, 2×2 spherical-area-weighted overview grid and strict full-baseline contributor rule as the November release. November file preserved byte-for-byte.",
+  "validation": {
+    "passed": true,
+    "distinctCalendarMonthValueSetsAtIndianaPoint": 12,
+    "monthSamplePoint": [
+      -86.9,
+      40.42
+    ],
+    "monthSampleValues": {
+      "January": {
+        "mean_temp_c": -3.08,
+        "min_temp_c": -7.41,
+        "max_temp_c": 1.25,
+        "precip_mm": 58.27
+      },
+      "February": {
+        "mean_temp_c": -1.77,
+        "min_temp_c": -6.74,
+        "max_temp_c": 3.2,
+        "precip_mm": 55.92
+      },
+      "March": {
+        "mean_temp_c": 5.23,
+        "min_temp_c": -0.45,
+        "max_temp_c": 10.92,
+        "precip_mm": 75.78
+      },
+      "April": {
+        "mean_temp_c": 10.66,
+        "min_temp_c": 4.19,
+        "max_temp_c": 17.11,
+        "precip_mm": 104.68
+      },
+      "May": {
+        "mean_temp_c": 17.18,
+        "min_temp_c": 10.89,
+        "max_temp_c": 23.46,
+        "precip_mm": 106.47
+      },
+      "June": {
+        "mean_temp_c": 22.15,
+        "min_temp_c": 16.05,
+        "max_temp_c": 28.25,
+        "precip_mm": 119.3
+      },
+      "July": {
+        "mean_temp_c": 23.29,
+        "min_temp_c": 17.52,
+        "max_temp_c": 29.05,
+        "precip_mm": 110.9
+      },
+      "August": {
+        "mean_temp_c": 22.32,
+        "min_temp_c": 16.23,
+        "max_temp_c": 28.41,
+        "precip_mm": 92.47
+      },
+      "September": {
+        "mean_temp_c": 19.13,
+        "min_temp_c": 12.35,
+        "max_temp_c": 25.9,
+        "precip_mm": 69.03
+      },
+      "October": {
+        "mean_temp_c": 12.61,
+        "min_temp_c": 6.18,
+        "max_temp_c": 19.04,
+        "precip_mm": 90.27
+      },
+      "November": {
+        "mean_temp_c": 5.43,
+        "min_temp_c": 0.23,
+        "max_temp_c": 10.63,
+        "precip_mm": 66.89
+      },
+      "December": {
+        "mean_temp_c": 0.19,
+        "min_temp_c": -4.07,
+        "max_temp_c": 4.45,
+        "precip_mm": 72.36
+      }
+    },
+    "note": "Checks verify acquisition and numerical processing, not independent scientific accuracy."
+  }
+}
