@@ -1,0 +1,1008 @@
+{
+  "version": 1,
+  "generatedAt": "2026-11-04T22:27:44.436104+00:00",
+  "title": "2025 FHWA highway bridge locations, contiguous United States and DC",
+  "source": {
+    "name": "FHWA National Bridge Inventory — 2025 highway bridge locations",
+    "url": "https://www.fhwa.dot.gov/bridge/nbi/2025hwybronefiledel.zip",
+    "downloadUrl": "https://www.fhwa.dot.gov/bridge/nbi/2025hwybronefiledel.zip",
+    "snapshotDate": "2025-06-15",
+    "cachedFileCheckedAt": "2026-11-04T22:25:09.071463+00:00",
+    "lastModified": "Mon, 16 Jun 2025 16:57:04 GMT",
+    "etag": "\"03070afdfdedb1:0\"",
+    "bytes": 53277475,
+    "sha256": "bee3b363a1f51095d0f9fb731f01a83bc30fb35243e1176955057c016e5f656e",
+    "pageUrl": "https://www.fhwa.dot.gov/bridge/nbi/ascii2025.cfm",
+    "archiveMember": "2025HwyBridgesDelimitedAllStates.txt",
+    "uncompressedBytes": 256436264,
+    "formatDocumentation": "https://www.fhwa.dot.gov/bridge/nbi/format.cfm",
+    "coordinateDocumentation": "https://www.fhwa.dot.gov/bridge/mtguide.pdf"
+  },
+  "snapshotNote": "2025 annual inventory, separate from the 2006–2025 November climatology; not current bridge status.",
+  "coverage": {
+    "sourceRecordsAllStatesAndTerritories": 624193,
+    "sourceConusRecords": 618895,
+    "mappedRecords": 617431,
+    "excludedCoordinates": 1464,
+    "outsideScopeCountsByFips": {
+      "02": 1660,
+      "15": 1180,
+      "72": 2434,
+      "78": 24
+    },
+    "statesAndDistrict": 49
+  },
+  "states": {
+    "AL": {
+      "name": "Alabama",
+      "stateFips": "01",
+      "sourceRecords": 16181,
+      "mappedRecords": 16156,
+      "excludedCoordinates": 25,
+      "bbox": [
+        -88.463572,
+        30.235833,
+        -84.977106,
+        35.004575
+      ]
+    },
+    "AR": {
+      "name": "Arkansas",
+      "stateFips": "05",
+      "sourceRecords": 12978,
+      "mappedRecords": 12974,
+      "excludedCoordinates": 4,
+      "bbox": [
+        -94.601228,
+        33.015,
+        -89.775817,
+        36.499194
+      ]
+    },
+    "AZ": {
+      "name": "Arizona",
+      "stateFips": "04",
+      "sourceRecords": 8587,
+      "mappedRecords": 8444,
+      "excludedCoordinates": 143,
+      "bbox": [
+        -114.7867,
+        31.3331,
+        -109.0457,
+        36.9883
+      ]
+    },
+    "CA": {
+      "name": "California",
+      "stateFips": "06",
+      "sourceRecords": 25975,
+      "mappedRecords": 25974,
+      "excludedCoordinates": 1,
+      "bbox": [
+        -124.400364,
+        32.544086,
+        -114.139575,
+        42.002172
+      ]
+    },
+    "CO": {
+      "name": "Colorado",
+      "stateFips": "08",
+      "sourceRecords": 8990,
+      "mappedRecords": 8989,
+      "excludedCoordinates": 1,
+      "bbox": [
+        -109.042831,
+        36.996492,
+        -102.044503,
+        41.0022
+      ]
+    },
+    "CT": {
+      "name": "Connecticut",
+      "stateFips": "09",
+      "sourceRecords": 4363,
+      "mappedRecords": 4361,
+      "excludedCoordinates": 2,
+      "bbox": [
+        -73.717403,
+        40.992892,
+        -71.797661,
+        42.050133
+      ]
+    },
+    "DC": {
+      "name": "District of Columbia",
+      "stateFips": "11",
+      "sourceRecords": 261,
+      "mappedRecords": 251,
+      "excludedCoordinates": 10,
+      "bbox": [
+        -77.116972,
+        38.806917,
+        -76.921678,
+        38.986392
+      ]
+    },
+    "DE": {
+      "name": "Delaware",
+      "stateFips": "10",
+      "sourceRecords": 874,
+      "mappedRecords": 873,
+      "excludedCoordinates": 1,
+      "bbox": [
+        -75.787272,
+        38.452622,
+        -75.063656,
+        39.839356
+      ]
+    },
+    "FL": {
+      "name": "Florida",
+      "stateFips": "12",
+      "sourceRecords": 13070,
+      "mappedRecords": 13061,
+      "excludedCoordinates": 9,
+      "bbox": [
+        -87.57125,
+        24.560972,
+        -80.039867,
+        30.997472
+      ]
+    },
+    "GA": {
+      "name": "Georgia",
+      "stateFips": "13",
+      "sourceRecords": 15090,
+      "mappedRecords": 15090,
+      "excludedCoordinates": 0,
+      "bbox": [
+        -85.574464,
+        30.362169,
+        -80.850953,
+        34.9961
+      ]
+    },
+    "IA": {
+      "name": "Iowa",
+      "stateFips": "19",
+      "sourceRecords": 23716,
+      "mappedRecords": 23715,
+      "excludedCoordinates": 1,
+      "bbox": [
+        -96.632628,
+        40.385347,
+        -90.160917,
+        43.501008
+      ]
+    },
+    "ID": {
+      "name": "Idaho",
+      "stateFips": "16",
+      "sourceRecords": 4646,
+      "mappedRecords": 4642,
+      "excludedCoordinates": 4,
+      "bbox": [
+        -117.146167,
+        42.01195,
+        -111.044056,
+        48.999297
+      ]
+    },
+    "IL": {
+      "name": "Illinois",
+      "stateFips": "17",
+      "sourceRecords": 26927,
+      "mappedRecords": 26922,
+      "excludedCoordinates": 5,
+      "bbox": [
+        -91.482383,
+        36.986214,
+        -87.520353,
+        42.507789
+      ]
+    },
+    "IN": {
+      "name": "Indiana",
+      "stateFips": "18",
+      "sourceRecords": 19542,
+      "mappedRecords": 19537,
+      "excludedCoordinates": 5,
+      "bbox": [
+        -88.036181,
+        37.7788,
+        -84.802219,
+        41.7567
+      ]
+    },
+    "KS": {
+      "name": "Kansas",
+      "stateFips": "20",
+      "sourceRecords": 24891,
+      "mappedRecords": 24854,
+      "excludedCoordinates": 37,
+      "bbox": [
+        -102.048611,
+        36.998333,
+        -94.606944,
+        40.002711
+      ]
+    },
+    "KY": {
+      "name": "Kentucky",
+      "stateFips": "21",
+      "sourceRecords": 14590,
+      "mappedRecords": 14345,
+      "excludedCoordinates": 245,
+      "bbox": [
+        -89.3475,
+        36.500278,
+        -82.048056,
+        39.123333
+      ]
+    },
+    "LA": {
+      "name": "Louisiana",
+      "stateFips": "22",
+      "sourceRecords": 12684,
+      "mappedRecords": 12682,
+      "excludedCoordinates": 2,
+      "bbox": [
+        -94.043122,
+        29.158119,
+        -89.388039,
+        33.019261
+      ]
+    },
+    "MA": {
+      "name": "Massachusetts",
+      "stateFips": "25",
+      "sourceRecords": 5311,
+      "mappedRecords": 5311,
+      "excludedCoordinates": 0,
+      "bbox": [
+        -73.465356,
+        41.272194,
+        -69.947972,
+        42.873847
+      ]
+    },
+    "MD": {
+      "name": "Maryland",
+      "stateFips": "24",
+      "sourceRecords": 5500,
+      "mappedRecords": 4912,
+      "excludedCoordinates": 588,
+      "bbox": [
+        -79.48125,
+        37.964333,
+        -75.096808,
+        39.865
+      ]
+    },
+    "ME": {
+      "name": "Maine",
+      "stateFips": "23",
+      "sourceRecords": 2542,
+      "mappedRecords": 2541,
+      "excludedCoordinates": 1,
+      "bbox": [
+        -71.04185,
+        43.07955,
+        -66.98005,
+        47.359989
+      ]
+    },
+    "MI": {
+      "name": "Michigan",
+      "stateFips": "26",
+      "sourceRecords": 11397,
+      "mappedRecords": 11395,
+      "excludedCoordinates": 2,
+      "bbox": [
+        -90.414183,
+        41.706842,
+        -82.424289,
+        47.466956
+      ]
+    },
+    "MN": {
+      "name": "Minnesota",
+      "stateFips": "27",
+      "sourceRecords": 13551,
+      "mappedRecords": 13547,
+      "excludedCoordinates": 4,
+      "bbox": [
+        -97.237503,
+        43.499467,
+        -89.58545,
+        49.351986
+      ]
+    },
+    "MO": {
+      "name": "Missouri",
+      "stateFips": "29",
+      "sourceRecords": 24647,
+      "mappedRecords": 24640,
+      "excludedCoordinates": 7,
+      "bbox": [
+        -95.673492,
+        36.003072,
+        -89.132603,
+        40.600436
+      ]
+    },
+    "MS": {
+      "name": "Mississippi",
+      "stateFips": "28",
+      "sourceRecords": 16711,
+      "mappedRecords": 16709,
+      "excludedCoordinates": 2,
+      "bbox": [
+        -91.585656,
+        30.210883,
+        -88.128222,
+        34.994528
+      ]
+    },
+    "MT": {
+      "name": "Montana",
+      "stateFips": "30",
+      "sourceRecords": 5235,
+      "mappedRecords": 5232,
+      "excludedCoordinates": 3,
+      "bbox": [
+        -116.045464,
+        44.543481,
+        -104.048928,
+        48.994381
+      ]
+    },
+    "NC": {
+      "name": "North Carolina",
+      "stateFips": "37",
+      "sourceRecords": 19343,
+      "mappedRecords": 19187,
+      "excludedCoordinates": 156,
+      "bbox": [
+        -84.30325,
+        33.883364,
+        -75.470072,
+        36.664378
+      ]
+    },
+    "ND": {
+      "name": "North Dakota",
+      "stateFips": "38",
+      "sourceRecords": 4250,
+      "mappedRecords": 4249,
+      "excludedCoordinates": 1,
+      "bbox": [
+        -104.040808,
+        45.9355,
+        -96.556603,
+        48.994772
+      ]
+    },
+    "NE": {
+      "name": "Nebraska",
+      "stateFips": "31",
+      "sourceRecords": 15412,
+      "mappedRecords": 15412,
+      "excludedCoordinates": 0,
+      "bbox": [
+        -104.0528,
+        39.999961,
+        -95.335444,
+        43.0
+      ]
+    },
+    "NH": {
+      "name": "New Hampshire",
+      "stateFips": "33",
+      "sourceRecords": 2549,
+      "mappedRecords": 2548,
+      "excludedCoordinates": 1,
+      "bbox": [
+        -72.555353,
+        42.705239,
+        -70.727606,
+        45.189725
+      ]
+    },
+    "NJ": {
+      "name": "New Jersey",
+      "stateFips": "34",
+      "sourceRecords": 6825,
+      "mappedRecords": 6809,
+      "excludedCoordinates": 16,
+      "bbox": [
+        -75.530219,
+        38.937889,
+        -73.913861,
+        41.351789
+      ]
+    },
+    "NM": {
+      "name": "New Mexico",
+      "stateFips": "35",
+      "sourceRecords": 4033,
+      "mappedRecords": 4022,
+      "excludedCoordinates": 11,
+      "bbox": [
+        -109.047506,
+        31.287214,
+        -103.018217,
+        36.997347
+      ]
+    },
+    "NV": {
+      "name": "Nevada",
+      "stateFips": "32",
+      "sourceRecords": 2123,
+      "mappedRecords": 2123,
+      "excludedCoordinates": 0,
+      "bbox": [
+        -119.998767,
+        35.052953,
+        -114.055869,
+        41.998303
+      ]
+    },
+    "NY": {
+      "name": "New York",
+      "stateFips": "36",
+      "sourceRecords": 17666,
+      "mappedRecords": 17664,
+      "excludedCoordinates": 2,
+      "bbox": [
+        -79.761933,
+        40.517167,
+        -72.111669,
+        45.000753
+      ]
+    },
+    "OH": {
+      "name": "Ohio",
+      "stateFips": "39",
+      "sourceRecords": 26713,
+      "mappedRecords": 26685,
+      "excludedCoordinates": 28,
+      "bbox": [
+        -84.819431,
+        38.417869,
+        -80.519019,
+        41.9436
+      ]
+    },
+    "OK": {
+      "name": "Oklahoma",
+      "stateFips": "40",
+      "sourceRecords": 22926,
+      "mappedRecords": 22884,
+      "excludedCoordinates": 42,
+      "bbox": [
+        -103.002439,
+        33.6772,
+        -94.437306,
+        37.000139
+      ]
+    },
+    "OR": {
+      "name": "Oregon",
+      "stateFips": "41",
+      "sourceRecords": 8329,
+      "mappedRecords": 8314,
+      "excludedCoordinates": 15,
+      "bbox": [
+        -124.497381,
+        41.994925,
+        -116.743444,
+        46.3185
+      ]
+    },
+    "PA": {
+      "name": "Pennsylvania",
+      "stateFips": "42",
+      "sourceRecords": 23314,
+      "mappedRecords": 23314,
+      "excludedCoordinates": 0,
+      "bbox": [
+        -80.519428,
+        39.720794,
+        -74.693478,
+        42.260536
+      ]
+    },
+    "RI": {
+      "name": "Rhode Island",
+      "stateFips": "44",
+      "sourceRecords": 787,
+      "mappedRecords": 787,
+      "excludedCoordinates": 0,
+      "bbox": [
+        -71.841939,
+        41.178456,
+        -71.171561,
+        42.015536
+      ]
+    },
+    "SC": {
+      "name": "South Carolina",
+      "stateFips": "45",
+      "sourceRecords": 9504,
+      "mappedRecords": 9487,
+      "excludedCoordinates": 17,
+      "bbox": [
+        -83.306625,
+        32.101569,
+        -78.593333,
+        35.196858
+      ]
+    },
+    "SD": {
+      "name": "South Dakota",
+      "stateFips": "46",
+      "sourceRecords": 5883,
+      "mappedRecords": 5881,
+      "excludedCoordinates": 2,
+      "bbox": [
+        -104.039161,
+        42.495428,
+        -96.442808,
+        45.945208
+      ]
+    },
+    "TN": {
+      "name": "Tennessee",
+      "stateFips": "47",
+      "sourceRecords": 20374,
+      "mappedRecords": 20355,
+      "excludedCoordinates": 19,
+      "bbox": [
+        -90.154617,
+        34.985172,
+        -81.717147,
+        36.6685
+      ]
+    },
+    "TX": {
+      "name": "Texas",
+      "stateFips": "48",
+      "sourceRecords": 56951,
+      "mappedRecords": 56942,
+      "excludedCoordinates": 9,
+      "bbox": [
+        -106.6186,
+        25.873453,
+        -93.519131,
+        36.482583
+      ]
+    },
+    "UT": {
+      "name": "Utah",
+      "stateFips": "49",
+      "sourceRecords": 3144,
+      "mappedRecords": 3132,
+      "excludedCoordinates": 12,
+      "bbox": [
+        -114.043222,
+        37.000492,
+        -109.048989,
+        41.986111
+      ]
+    },
+    "VA": {
+      "name": "Virginia",
+      "stateFips": "51",
+      "sourceRecords": 14143,
+      "mappedRecords": 14138,
+      "excludedCoordinates": 5,
+      "bbox": [
+        -83.583733,
+        36.541367,
+        -75.350528,
+        39.439275
+      ]
+    },
+    "VT": {
+      "name": "Vermont",
+      "stateFips": "50",
+      "sourceRecords": 2866,
+      "mappedRecords": 2866,
+      "excludedCoordinates": 0,
+      "bbox": [
+        -73.423225,
+        42.744847,
+        -71.504547,
+        45.012464
+      ]
+    },
+    "WA": {
+      "name": "Washington",
+      "stateFips": "53",
+      "sourceRecords": 8520,
+      "mappedRecords": 8514,
+      "excludedCoordinates": 6,
+      "bbox": [
+        -124.66875,
+        45.561556,
+        -116.967833,
+        49.000544
+      ]
+    },
+    "WI": {
+      "name": "Wisconsin",
+      "stateFips": "55",
+      "sourceRecords": 14498,
+      "mappedRecords": 14481,
+      "excludedCoordinates": 17,
+      "bbox": [
+        -92.803314,
+        42.495106,
+        -87.132514,
+        46.917417
+      ]
+    },
+    "WV": {
+      "name": "West Virginia",
+      "stateFips": "54",
+      "sourceRecords": 7345,
+      "mappedRecords": 7343,
+      "excludedCoordinates": 2,
+      "bbox": [
+        -82.605169,
+        37.206239,
+        -77.74155,
+        40.6215
+      ]
+    },
+    "WY": {
+      "name": "Wyoming",
+      "stateFips": "56",
+      "sourceRecords": 3138,
+      "mappedRecords": 3137,
+      "excludedCoordinates": 1,
+      "bbox": [
+        -111.046628,
+        41.002986,
+        -104.0528,
+        45.000097
+      ]
+    }
+  },
+  "recordSchema": {
+    "fields": [
+      "id",
+      "lon",
+      "lat",
+      "carried",
+      "below",
+      "location"
+    ],
+    "identity": "Preserve source structure IDs as strings; use state plus detail row index as the display key because two source IDs are repeated.",
+    "carried": "FACILITY_CARRIED_007: facility carried by structure, as supplied.",
+    "below": "FEATURES_DESC_006A: feature(s) intersected, as supplied; display as 'Feature crossed (reported)'.",
+    "location": "LOCATION_009: source location description, as supplied.",
+    "pointIndex": "Each state coordinate pair at offset 2*i matches row i in its detail file."
+  },
+  "processing": [
+    "Read the official comma-delimited highway-only file with its documented single-quote text qualifier.",
+    "Filter to the 48 contiguous state FIPS codes plus Washington, DC; preserve exact source IDs and descriptions.",
+    "Parse latitude DDMMSSss and longitude DDDMMSSss; reject missing/non-numeric inputs, minutes >=60 and seconds >=60.",
+    "Use west-negative longitude and reject locations outside longitude [-125,-66], latitude [24,50].",
+    "Exclude positions outside their named state's Census bounding box with a conservative 0.25-degree buffer; this only screens gross position errors, not exact boundary membership.",
+    "Round valid geographic coordinates to six decimal places; this is output precision, not a positional accuracy claim.",
+    "Do not snap to rivers or roads, infer crossing water, deduplicate colocated structures, or assess crossing suitability.",
+    "Sort by source structure ID within each state for stable point/detail row correspondence."
+  ],
+  "validation": {
+    "publishedNationalCountMatched": true,
+    "all49PublishedStateCountsMatched": true,
+    "stateCoordinateEnvelope": {
+      "file": "states.geojson",
+      "sha256": "db4395f7a49b4ec69325884194475776f847b0581e97b3036c481b5c00f03751",
+      "bufferDegrees": 0.25,
+      "exactPolygonMembershipChecked": false
+    },
+    "uniqueConusStateAndStructureIds": 618893,
+    "repeatedSourceIds": [
+      {
+        "state": "MA",
+        "id": "N100108PDDOTNBI",
+        "additionalRecords": 1
+      },
+      {
+        "state": "VA",
+        "id": "000000000001826",
+        "additionalRecords": 1
+      }
+    ],
+    "dcGeojson": {
+      "source": {
+        "url": "https://www.fhwa.dot.gov/bridge/nbi/2025/GeoJSON/DC25.geojson",
+        "cachedFileCheckedAt": "2026-11-04T22:25:13.204148+00:00",
+        "lastModified": "Thu, 27 Aug 2026 18:20:50 GMT",
+        "etag": "\"0adafc95036dd1:0\"",
+        "bytes": 677422,
+        "sha256": "50233168cac2ee3c999a69b68538d86ba5d56def214c762231728c1ae876037d"
+      },
+      "validRecordsCompared": 251,
+      "maxAbsoluteCoordinateDifferenceDegrees": 4.4444445279623324e-07
+    },
+    "exclusionsByReason": {
+      "invalid_dms_component": 961,
+      "outside_conus_coordinate_envelope": 94,
+      "outside_state_coordinate_envelope": 22,
+      "missing_coordinate": 23,
+      "invalid_coordinate_format": 364
+    },
+    "allOutputsHaveFiniteJsonNumbers": true
+  },
+  "limitations": [
+    "Point inventory locations, not surveyed bridge footprints or approaches; source positions may be inaccurate even after syntax/range checks.",
+    "Two source identifiers repeat at different locations; those rows are preserved and listed in validation rather than silently merged.",
+    "The highway-bridge inventory is not a complete inventory of every private, railway or pedestrian structure.",
+    "A bridge may span a road, railway, waterway or other feature. The supplied crossed-feature description is not a hydrological measurement.",
+    "Presence in this annual inventory does not establish present condition, availability or access.",
+    "FHWA states that NBI data should not be used for route-clearance purposes.",
+    "This extracted layer contains no ratings, loads, clearance, vehicle suitability, crossing recommendation or routing analysis."
+  ],
+  "files": [
+    {
+      "file": "bridge_AL.json",
+      "bytes": 1342748,
+      "sha256": "c99925e26362db1661ff5af2b63bc06c8dd975298bb7d843b28867da314743cb"
+    },
+    {
+      "file": "bridge_AR.json",
+      "bytes": 1276808,
+      "sha256": "d9485dce4a2d2b178ce6bb222e7e5ec8fe78ede8b69ecbeaa7886e5c8348ae0e"
+    },
+    {
+      "file": "bridge_AZ.json",
+      "bytes": 671041,
+      "sha256": "eb1fe9b01b9cd10d7069576086ebb10fbd40b938dad4629557d64088a92a76f5"
+    },
+    {
+      "file": "bridge_CA.json",
+      "bytes": 2370736,
+      "sha256": "81d4c85040415d5e2b0cac1a6d6b6bbd0af6186a33e028985f331f935704f0d7"
+    },
+    {
+      "file": "bridge_CO.json",
+      "bytes": 841487,
+      "sha256": "af05526207d2e26d712e0ac5930617f625c01a04983f035a88e0ad456cca2cf3"
+    },
+    {
+      "file": "bridge_CT.json",
+      "bytes": 391964,
+      "sha256": "27b9640e72a32cfcb6299cecd61ec4227d0f3e42f722682beb0512f07513f966"
+    },
+    {
+      "file": "bridge_DC.json",
+      "bytes": 23711,
+      "sha256": "9af69fd7ef3d09d627aca1b62ba366673bb0b62050bf101c634c9c62b00847cc"
+    },
+    {
+      "file": "bridge_DE.json",
+      "bytes": 74467,
+      "sha256": "eb7edf270027642dd71f943ca4f966b707b242310f8cb6b1084bfdab0691817c"
+    },
+    {
+      "file": "bridge_FL.json",
+      "bytes": 1159231,
+      "sha256": "d28284a802b27225a4fc28e35eed64e31e61005f9e29e58b207059ac3b0f2774"
+    },
+    {
+      "file": "bridge_GA.json",
+      "bytes": 1457461,
+      "sha256": "9de856f9038d45c125c11d8226d2665fce570a5fdcb4d452a36b556e351228d7"
+    },
+    {
+      "file": "bridge_IA.json",
+      "bytes": 1917931,
+      "sha256": "77e7bf580bb2799df3a9772cd50e9ad2b12f24e36fd32d981606b5aac9c5c26d"
+    },
+    {
+      "file": "bridge_ID.json",
+      "bytes": 447963,
+      "sha256": "5213a335ec1ab7e652c55861fc8348daab883b2aea85606aa4b2a2b2fccb0e98"
+    },
+    {
+      "file": "bridge_IL.json",
+      "bytes": 2404562,
+      "sha256": "77637024a4b89a7a4345fb32a38b2b95648834c7ae96ce60d6be4175544aaf38"
+    },
+    {
+      "file": "bridge_IN.json",
+      "bytes": 1605073,
+      "sha256": "763e2d009210dcc49032c685f4e612b72a93c8bc76480e03d7055eee3ffcfa39"
+    },
+    {
+      "file": "bridge_KS.json",
+      "bytes": 2414978,
+      "sha256": "3c639b4871ed2d485cef4ee639710e8e538288774ee24598b82cd4ec333bde86"
+    },
+    {
+      "file": "bridge_KY.json",
+      "bytes": 1289244,
+      "sha256": "2ed45e94aeb5666581dc4922f713733ab583514e2cbcd29e86251005bcda11d6"
+    },
+    {
+      "file": "bridge_LA.json",
+      "bytes": 1140528,
+      "sha256": "65d87d4e3e28e2f8f12d6e04b46cc4fa01a5c5622db9a172c29a70febcaeba30"
+    },
+    {
+      "file": "bridge_MA.json",
+      "bytes": 534010,
+      "sha256": "aa1badddbe1b4174f1150c9a28247d50c5e6c739db473e22bca02f729c2985b6"
+    },
+    {
+      "file": "bridge_MD.json",
+      "bytes": 479983,
+      "sha256": "41e59438cd96eb13890a42dccb6da3528b6187a97a08953e106508265e9ecb0e"
+    },
+    {
+      "file": "bridge_ME.json",
+      "bytes": 212686,
+      "sha256": "f55b12fcf66d8a078619fd5e85c82c19d90170f09def6639d50804da44183309"
+    },
+    {
+      "file": "bridge_MI.json",
+      "bytes": 1063083,
+      "sha256": "56e2501dd4ebb2cc208334c6757f53c8ed3af2cc82e8f2e111a6539b980539dc"
+    },
+    {
+      "file": "bridge_MN.json",
+      "bytes": 1079371,
+      "sha256": "6d182acffcf8026cc406bdfcb2d01a1f56eb2ea78e44de64bebf09ab2b8d53a2"
+    },
+    {
+      "file": "bridge_MO.json",
+      "bytes": 1922360,
+      "sha256": "6a6699858a7ccb85bcebd96a5fba933bca37944d8323d9ca120d64552dc35c32"
+    },
+    {
+      "file": "bridge_MS.json",
+      "bytes": 1545350,
+      "sha256": "8b5e10b19ef4fe2225d3d9bf81a998e40006e564c41bab3f441368f05f080f6b"
+    },
+    {
+      "file": "bridge_MT.json",
+      "bytes": 484402,
+      "sha256": "b5d11ccaafbb95f12b9cab360a7bb332ff951e010f915e30208f4ba4bb0656ff"
+    },
+    {
+      "file": "bridge_NC.json",
+      "bytes": 1735511,
+      "sha256": "96abd6c1cfd583698c656cc6f498b06e45500277edc4f5194540395dafb24208"
+    },
+    {
+      "file": "bridge_ND.json",
+      "bytes": 404192,
+      "sha256": "a450a574e64195790613dacbd3f47a156b026fcb757a73500b028238e4a8fd43"
+    },
+    {
+      "file": "bridge_NE.json",
+      "bytes": 1229494,
+      "sha256": "9787d9ea771dcfbe884028947bef283220ee2aa93b99f805454d7fb06cb1943f"
+    },
+    {
+      "file": "bridge_NH.json",
+      "bytes": 237110,
+      "sha256": "20dc6f414fa6ad7c435c0e09c190321ee8e0387e1d4c5380453ecc481823a337"
+    },
+    {
+      "file": "bridge_NJ.json",
+      "bytes": 623620,
+      "sha256": "79b895c330cea5f103fc0b6764d78e4d7ee6d2699d29363914ce403f2a2d769a"
+    },
+    {
+      "file": "bridge_NM.json",
+      "bytes": 385282,
+      "sha256": "91351dfd203be6d6f25a86df6a3b1c96598b7b3ed303a4f0c7cf85830c53a340"
+    },
+    {
+      "file": "bridge_NV.json",
+      "bytes": 166227,
+      "sha256": "36de7a745abc4a07e80c0fde9ea192191ba4cfa8564d18c83747f057eda240c4"
+    },
+    {
+      "file": "bridge_NY.json",
+      "bytes": 1719087,
+      "sha256": "ded93bb5a5fe7e6605a0e63c97ac29e281fc1b41df11eacc62a09cfbd2a5ccd7"
+    },
+    {
+      "file": "bridge_OH.json",
+      "bytes": 2340701,
+      "sha256": "84f790901842bfcf4c9318d5b6177a25548c819d654b43e4c780c5fc125a29d3"
+    },
+    {
+      "file": "bridge_OK.json",
+      "bytes": 1988549,
+      "sha256": "02d7dd19efeb5909155837afb8d6c710dcac00e34092686027a0a9db9c26d6c7"
+    },
+    {
+      "file": "bridge_OR.json",
+      "bytes": 809081,
+      "sha256": "9b8f6e7d157d0fc71e156a9a027c9768117f78ac07bf6f38e735f6ce5833fb67"
+    },
+    {
+      "file": "bridge_PA.json",
+      "bytes": 2272844,
+      "sha256": "4273b1dc4c91edf7d2dd9642ee5323e01d2cc37cbae1e4787a61968fbecba09d"
+    },
+    {
+      "file": "bridge_RI.json",
+      "bytes": 77486,
+      "sha256": "0a31549c7d2b8df368140e64f9b0c31daa56c16a62efaf838fd4670b839fab44"
+    },
+    {
+      "file": "bridge_SC.json",
+      "bytes": 845442,
+      "sha256": "3f3a928c940700c9b83fd0b79bf8e2950c06f4d74f8eacfe1db29c0ba06c4b10"
+    },
+    {
+      "file": "bridge_SD.json",
+      "bytes": 526294,
+      "sha256": "6361a4cccbceddc0f5aaeced29782093419c21e9191928e160388fb54245d83f"
+    },
+    {
+      "file": "bridge_TN.json",
+      "bytes": 1781393,
+      "sha256": "ad466183863b89150ba7a7ba048c56e306c5b5e34a7443178ad68902c4b0fa48"
+    },
+    {
+      "file": "bridge_TX.json",
+      "bytes": 5241139,
+      "sha256": "af73330984a62a58dbda17c2b6b41c00d3c62fccdb030f825b9ffceca94c1c62"
+    },
+    {
+      "file": "bridge_UT.json",
+      "bytes": 295780,
+      "sha256": "28e24970ba4ffca7b3b1526199c7976aca155af0f0823990ed457809d83de59c"
+    },
+    {
+      "file": "bridge_VA.json",
+      "bytes": 1441571,
+      "sha256": "6ce222ed41263dc27d7fdd1179c9a387dbcd345726058ea5170241c74d09b1ed"
+    },
+    {
+      "file": "bridge_VT.json",
+      "bytes": 265086,
+      "sha256": "f5df44f092627344914fa7d584e80b1d354ce44656969e979216af7115fe4e43"
+    },
+    {
+      "file": "bridge_WA.json",
+      "bytes": 775944,
+      "sha256": "915ddedf3fa898879b9fbdbe0523187b76124075f83bc640059d5b8b875155a4"
+    },
+    {
+      "file": "bridge_WI.json",
+      "bytes": 1342847,
+      "sha256": "f0cf9edbd07e171b83ed692b1177a6aaed9b56adafff8545b7d7fc39370ae536"
+    },
+    {
+      "file": "bridge_WV.json",
+      "bytes": 706163,
+      "sha256": "804a82d11b20b466d5d3c2fe5db47eb9bc04bae6aacca28469cf42b3437596e4"
+    },
+    {
+      "file": "bridge_WY.json",
+      "bytes": 261328,
+      "sha256": "ed38762ba30f3b87c69e06b71993ef3249f9789b13f603d2da9360576a50de5e"
+    },
+    {
+      "file": "bridge_points.json",
+      "bytes": 12777474,
+      "sha256": "9b75a8f114242c8aec211199f43f691289948fd7bfc749ac77f64fb64991e30f"
+    },
+    {
+      "file": "bridge_exclusions.json",
+      "bytes": 178935,
+      "sha256": "8e5f747019c97aad65aa23fc00963cadfbf1711deefb5ac535c660aa02787383"
+    }
+  ]
+}
