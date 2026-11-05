@@ -1,0 +1,844 @@
+{
+  "passed": true,
+  "uniqueChartDates": 3320,
+  "firstChartDate": "2006-01-01",
+  "lastChartDate": "2025-12-31",
+  "sourceHeaderNoDataCounts": {
+    "-99": 2258,
+    "-9999": 1062
+  },
+  "coverageByMonth": [
+    {
+      "month": 1,
+      "chartDays": 620,
+      "chartYears": 20,
+      "qualifiedYears": 20,
+      "valueCells": 10955,
+      "chartDaysByYear": [
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31
+      ]
+    },
+    {
+      "month": 2,
+      "chartDays": 565,
+      "chartYears": 20,
+      "qualifiedYears": 20,
+      "valueCells": 10955,
+      "chartDaysByYear": [
+        28,
+        28,
+        29,
+        28,
+        28,
+        28,
+        29,
+        28,
+        28,
+        28,
+        29,
+        28,
+        28,
+        28,
+        29,
+        28,
+        28,
+        28,
+        29,
+        28
+      ]
+    },
+    {
+      "month": 3,
+      "chartDays": 620,
+      "chartYears": 20,
+      "qualifiedYears": 20,
+      "valueCells": 10955,
+      "chartDaysByYear": [
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31
+      ]
+    },
+    {
+      "month": 4,
+      "chartDays": 558,
+      "chartYears": 20,
+      "qualifiedYears": 18,
+      "valueCells": 10955,
+      "chartDaysByYear": [
+        30,
+        30,
+        30,
+        30,
+        15,
+        30,
+        13,
+        30,
+        30,
+        30,
+        30,
+        26,
+        30,
+        30,
+        30,
+        29,
+        30,
+        30,
+        25,
+        30
+      ]
+    },
+    {
+      "month": 5,
+      "chartDays": 249,
+      "chartYears": 15,
+      "qualifiedYears": 3,
+      "valueCells": 0,
+      "chartDaysByYear": [
+        4,
+        7,
+        15,
+        7,
+        0,
+        13,
+        0,
+        28,
+        31,
+        29,
+        5,
+        0,
+        21,
+        16,
+        15,
+        0,
+        22,
+        21,
+        0,
+        15
+      ]
+    },
+    {
+      "month": 6,
+      "chartDays": 5,
+      "chartYears": 1,
+      "qualifiedYears": 0,
+      "valueCells": 0,
+      "chartDaysByYear": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "month": 7,
+      "chartDays": 0,
+      "chartYears": 0,
+      "qualifiedYears": 0,
+      "valueCells": 0,
+      "chartDaysByYear": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "month": 8,
+      "chartDays": 0,
+      "chartYears": 0,
+      "qualifiedYears": 0,
+      "valueCells": 0,
+      "chartDaysByYear": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "month": 9,
+      "chartDays": 0,
+      "chartYears": 0,
+      "qualifiedYears": 0,
+      "valueCells": 0,
+      "chartDaysByYear": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "month": 10,
+      "chartDays": 0,
+      "chartYears": 0,
+      "qualifiedYears": 0,
+      "valueCells": 0,
+      "chartDaysByYear": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "month": 11,
+      "chartDays": 110,
+      "chartYears": 14,
+      "qualifiedYears": 0,
+      "valueCells": 0,
+      "chartDaysByYear": [
+        0,
+        5,
+        0,
+        0,
+        0,
+        2,
+        2,
+        7,
+        17,
+        4,
+        0,
+        2,
+        16,
+        21,
+        9,
+        5,
+        12,
+        6,
+        0,
+        2
+      ]
+    },
+    {
+      "month": 12,
+      "chartDays": 593,
+      "chartYears": 20,
+      "qualifiedYears": 18,
+      "valueCells": 10955,
+      "chartDaysByYear": [
+        28,
+        31,
+        24,
+        25,
+        30,
+        31,
+        31,
+        31,
+        31,
+        31,
+        21,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31,
+        31
+      ]
+    }
+  ],
+  "lakewideCheck": "Same 80%-days/minimum-10-year rule. Compare area-weighted displayed grid with NOAA separately published daily lakewide averages; five lakes only. Both come from the same underlying chart system, so this is a processing cross-check, not an independent accuracy estimate.",
+  "lakewideChecks": [
+    {
+      "month": 1,
+      "lake": "Lake Superior",
+      "sourceLakewide": 8.496,
+      "areaWeightedOverview": 8.669,
+      "differencePoints": 0.173
+    },
+    {
+      "month": 1,
+      "lake": "Lake Michigan",
+      "sourceLakewide": 11.687,
+      "areaWeightedOverview": 11.593,
+      "differencePoints": -0.094
+    },
+    {
+      "month": 1,
+      "lake": "Lake Huron",
+      "sourceLakewide": 18.623,
+      "areaWeightedOverview": 18.745,
+      "differencePoints": 0.123
+    },
+    {
+      "month": 1,
+      "lake": "Lake Erie",
+      "sourceLakewide": 26.105,
+      "areaWeightedOverview": 26.611,
+      "differencePoints": 0.505
+    },
+    {
+      "month": 1,
+      "lake": "Lake Ontario",
+      "sourceLakewide": 5.088,
+      "areaWeightedOverview": 5.025,
+      "differencePoints": -0.063
+    },
+    {
+      "month": 2,
+      "lake": "Lake Superior",
+      "sourceLakewide": 28.09,
+      "areaWeightedOverview": 28.573,
+      "differencePoints": 0.484
+    },
+    {
+      "month": 2,
+      "lake": "Lake Michigan",
+      "sourceLakewide": 21.316,
+      "areaWeightedOverview": 21.105,
+      "differencePoints": -0.212
+    },
+    {
+      "month": 2,
+      "lake": "Lake Huron",
+      "sourceLakewide": 37.777,
+      "areaWeightedOverview": 37.912,
+      "differencePoints": 0.135
+    },
+    {
+      "month": 2,
+      "lake": "Lake Erie",
+      "sourceLakewide": 53.875,
+      "areaWeightedOverview": 54.007,
+      "differencePoints": 0.131
+    },
+    {
+      "month": 2,
+      "lake": "Lake Ontario",
+      "sourceLakewide": 11.276,
+      "areaWeightedOverview": 11.355,
+      "differencePoints": 0.079
+    },
+    {
+      "month": 3,
+      "lake": "Lake Superior",
+      "sourceLakewide": 26.487,
+      "areaWeightedOverview": 27.207,
+      "differencePoints": 0.719
+    },
+    {
+      "month": 3,
+      "lake": "Lake Michigan",
+      "sourceLakewide": 14.227,
+      "areaWeightedOverview": 14.174,
+      "differencePoints": -0.053
+    },
+    {
+      "month": 3,
+      "lake": "Lake Huron",
+      "sourceLakewide": 29.543,
+      "areaWeightedOverview": 29.54,
+      "differencePoints": -0.002
+    },
+    {
+      "month": 3,
+      "lake": "Lake Erie",
+      "sourceLakewide": 29.175,
+      "areaWeightedOverview": 29.377,
+      "differencePoints": 0.202
+    },
+    {
+      "month": 3,
+      "lake": "Lake Ontario",
+      "sourceLakewide": 6.553,
+      "areaWeightedOverview": 6.555,
+      "differencePoints": 0.002
+    },
+    {
+      "month": 4,
+      "lake": "Lake Superior",
+      "sourceLakewide": 9.346,
+      "areaWeightedOverview": 9.86,
+      "differencePoints": 0.515
+    },
+    {
+      "month": 4,
+      "lake": "Lake Michigan",
+      "sourceLakewide": 2.835,
+      "areaWeightedOverview": 2.932,
+      "differencePoints": 0.097
+    },
+    {
+      "month": 4,
+      "lake": "Lake Huron",
+      "sourceLakewide": 8.267,
+      "areaWeightedOverview": 8.439,
+      "differencePoints": 0.172
+    },
+    {
+      "month": 4,
+      "lake": "Lake Erie",
+      "sourceLakewide": 3.912,
+      "areaWeightedOverview": 4.104,
+      "differencePoints": 0.192
+    },
+    {
+      "month": 4,
+      "lake": "Lake Ontario",
+      "sourceLakewide": 0.704,
+      "areaWeightedOverview": 0.803,
+      "differencePoints": 0.098
+    },
+    {
+      "month": 12,
+      "lake": "Lake Superior",
+      "sourceLakewide": 1.456,
+      "areaWeightedOverview": 1.446,
+      "differencePoints": -0.01
+    },
+    {
+      "month": 12,
+      "lake": "Lake Michigan",
+      "sourceLakewide": 1.811,
+      "areaWeightedOverview": 1.807,
+      "differencePoints": -0.004
+    },
+    {
+      "month": 12,
+      "lake": "Lake Huron",
+      "sourceLakewide": 3.176,
+      "areaWeightedOverview": 3.329,
+      "differencePoints": 0.153
+    },
+    {
+      "month": 12,
+      "lake": "Lake Erie",
+      "sourceLakewide": 2.266,
+      "areaWeightedOverview": 2.42,
+      "differencePoints": 0.154
+    },
+    {
+      "month": 12,
+      "lake": "Lake Ontario",
+      "sourceLakewide": 0.599,
+      "areaWeightedOverview": 0.501,
+      "differencePoints": -0.098
+    }
+  ],
+  "lakewideReferenceCoverage": [
+    {
+      "month": 1,
+      "lakewide": {
+        "Lake Superior": {
+          "referenceMeanPercent": 8.496,
+          "qualifyingYears": 20
+        },
+        "Lake Michigan": {
+          "referenceMeanPercent": 11.687,
+          "qualifyingYears": 20
+        },
+        "Lake Huron": {
+          "referenceMeanPercent": 18.623,
+          "qualifyingYears": 20
+        },
+        "Lake Erie": {
+          "referenceMeanPercent": 26.105,
+          "qualifyingYears": 20
+        },
+        "Lake Ontario": {
+          "referenceMeanPercent": 5.088,
+          "qualifyingYears": 20
+        }
+      }
+    },
+    {
+      "month": 2,
+      "lakewide": {
+        "Lake Superior": {
+          "referenceMeanPercent": 28.09,
+          "qualifyingYears": 20
+        },
+        "Lake Michigan": {
+          "referenceMeanPercent": 21.316,
+          "qualifyingYears": 20
+        },
+        "Lake Huron": {
+          "referenceMeanPercent": 37.777,
+          "qualifyingYears": 20
+        },
+        "Lake Erie": {
+          "referenceMeanPercent": 53.875,
+          "qualifyingYears": 20
+        },
+        "Lake Ontario": {
+          "referenceMeanPercent": 11.276,
+          "qualifyingYears": 20
+        }
+      }
+    },
+    {
+      "month": 3,
+      "lakewide": {
+        "Lake Superior": {
+          "referenceMeanPercent": 26.487,
+          "qualifyingYears": 20
+        },
+        "Lake Michigan": {
+          "referenceMeanPercent": 14.227,
+          "qualifyingYears": 20
+        },
+        "Lake Huron": {
+          "referenceMeanPercent": 29.543,
+          "qualifyingYears": 20
+        },
+        "Lake Erie": {
+          "referenceMeanPercent": 29.175,
+          "qualifyingYears": 20
+        },
+        "Lake Ontario": {
+          "referenceMeanPercent": 6.553,
+          "qualifyingYears": 20
+        }
+      }
+    },
+    {
+      "month": 4,
+      "lakewide": {
+        "Lake Superior": {
+          "referenceMeanPercent": 9.346,
+          "qualifyingYears": 18
+        },
+        "Lake Michigan": {
+          "referenceMeanPercent": 2.835,
+          "qualifyingYears": 18
+        },
+        "Lake Huron": {
+          "referenceMeanPercent": 8.267,
+          "qualifyingYears": 18
+        },
+        "Lake Erie": {
+          "referenceMeanPercent": 3.912,
+          "qualifyingYears": 18
+        },
+        "Lake Ontario": {
+          "referenceMeanPercent": 0.704,
+          "qualifyingYears": 18
+        }
+      }
+    },
+    {
+      "month": 5,
+      "lakewide": {
+        "Lake Superior": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 3
+        },
+        "Lake Michigan": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 3
+        },
+        "Lake Huron": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 3
+        },
+        "Lake Erie": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 3
+        },
+        "Lake Ontario": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 3
+        }
+      }
+    },
+    {
+      "month": 6,
+      "lakewide": {
+        "Lake Superior": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Michigan": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Huron": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Erie": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Ontario": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        }
+      }
+    },
+    {
+      "month": 7,
+      "lakewide": {
+        "Lake Superior": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Michigan": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Huron": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Erie": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Ontario": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        }
+      }
+    },
+    {
+      "month": 8,
+      "lakewide": {
+        "Lake Superior": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Michigan": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Huron": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Erie": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Ontario": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        }
+      }
+    },
+    {
+      "month": 9,
+      "lakewide": {
+        "Lake Superior": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Michigan": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Huron": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Erie": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Ontario": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        }
+      }
+    },
+    {
+      "month": 10,
+      "lakewide": {
+        "Lake Superior": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Michigan": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Huron": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Erie": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Ontario": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        }
+      }
+    },
+    {
+      "month": 11,
+      "lakewide": {
+        "Lake Superior": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Michigan": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Huron": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Erie": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        },
+        "Lake Ontario": {
+          "referenceMeanPercent": null,
+          "qualifyingYears": 0
+        }
+      }
+    },
+    {
+      "month": 12,
+      "lakewide": {
+        "Lake Superior": {
+          "referenceMeanPercent": 1.456,
+          "qualifyingYears": 18
+        },
+        "Lake Michigan": {
+          "referenceMeanPercent": 1.811,
+          "qualifyingYears": 18
+        },
+        "Lake Huron": {
+          "referenceMeanPercent": 3.176,
+          "qualifyingYears": 18
+        },
+        "Lake Erie": {
+          "referenceMeanPercent": 2.266,
+          "qualifyingYears": 18
+        },
+        "Lake Ontario": {
+          "referenceMeanPercent": 0.599,
+          "qualifyingYears": 18
+        }
+      }
+    }
+  ],
+  "maximumAbsoluteDifferencePercentagePoints": 0.719,
+  "JulyThroughOctoberNoChartDatesConfirmed": true,
+  "juneNote": "A few June chart dates exist in the gridded archive. They are insufficient to form a supported monthly climatology.",
+  "missingNeverZero": true
+}

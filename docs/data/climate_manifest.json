@@ -1,0 +1,432 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-04T20:56:59.736876+00:00",
+  "source": {
+    "id": "noaa_nclimgrid_monthly_nidis_cog",
+    "title": "NOAA nClimGrid-Monthly, distributed as COGs by NOAA/NIDIS",
+    "url": "https://www.drought.gov/data-maps-tools/gridded-climate-datasets-noaas-nclimgrid-monthly",
+    "bucketUrl": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly",
+    "urlTemplate": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/{year}/nclimgrid-monthly-{year}11.tif",
+    "accessedAt": "2026-11-04T20:56:59.736876+00:00",
+    "documentationUrls": [
+      "https://www.drought.gov/data-maps-tools/gridded-climate-datasets-noaas-nclimgrid-monthly",
+      "https://www.drought.gov/data-download",
+      "https://www.ncei.noaa.gov/access/metadata/landing-page/bin/iso?id=gov.noaa.ncdc:C00332"
+    ],
+    "unitsDocumentationUrl": "https://www.ncei.noaa.gov/monitoring-content/data/us/climgrid/monthly/current/gridded-readme.txt",
+    "license": "NOAA public data; this derived overview is not an unaltered NOAA product or a NOAA-endorsed product.",
+    "processingStatus": "Retrieved current archive; final/preliminary status is not encoded in these COGs. Future source revisions may change values.",
+    "unitsVerification": "All four COG bands match 64 original NOAA November 2025 point values each (256 comparisons), within float32 rounding. NOAA’s monthly point-file README documents temperatures in °C and precipitation in mm.",
+    "datasetCitation": "Vose et al. (2014), NOAA Monthly U.S. Climate Gridded Dataset (NClimGrid), Version 1. Subset: November 2006–2025. NOAA NCEI. doi:10.7289/V5SX6B56. Accessed 2026-11-04."
+  },
+  "inputs": [
+    {
+      "year": 2006,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2006/nclimgrid-monthly-200611.tif",
+      "retrievedAt": "2026-11-04T20:56:40.022384+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 7998303,
+      "sha256": "fda1df924f05e8a03fa9342f92786b8d16d33dcd2addd9896a40edb4f25f4b5d"
+    },
+    {
+      "year": 2007,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2007/nclimgrid-monthly-200711.tif",
+      "retrievedAt": "2026-11-04T20:56:39.701264+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 7897269,
+      "sha256": "487ad58cba692ac691ac32e0d6c2a6ebd7b874961ff31a0f8c4356e2ff38ffa1"
+    },
+    {
+      "year": 2008,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2008/nclimgrid-monthly-200811.tif",
+      "retrievedAt": "2026-11-04T20:56:40.031044+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 8035627,
+      "sha256": "55877e8495b3e5ed6bc4f673ffa985435c0b645367fe9cd34c54ef09886816f2"
+    },
+    {
+      "year": 2009,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2009/nclimgrid-monthly-200911.tif",
+      "retrievedAt": "2026-11-04T20:56:39.963395+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 7916775,
+      "sha256": "e968546f825421cfd39b5efb5ab9a730329f211fa97c663e82072cdd7c89c1d8"
+    },
+    {
+      "year": 2010,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2010/nclimgrid-monthly-201011.tif",
+      "retrievedAt": "2026-11-04T20:56:39.968698+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 8056334,
+      "sha256": "dcbb6b91e4f1c121b70377f32cb3919882dd1e98d5799c38be841d12c435d4ab"
+    },
+    {
+      "year": 2011,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2011/nclimgrid-monthly-201111.tif",
+      "retrievedAt": "2026-11-04T20:56:44.378586+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 8043359,
+      "sha256": "1bbc8b0ae260b8c362f1042c159db828a3961cd4cc5fb48beb8299e55e60f9e1"
+    },
+    {
+      "year": 2012,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2012/nclimgrid-monthly-201211.tif",
+      "retrievedAt": "2026-11-04T20:56:44.311324+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 7958727,
+      "sha256": "663ae90b27d81da9aeb6dc1d872b2aa71694bb20c6e08fd08a4c310cc087a623"
+    },
+    {
+      "year": 2013,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2013/nclimgrid-monthly-201311.tif",
+      "retrievedAt": "2026-11-04T20:56:44.267569+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 8002247,
+      "sha256": "2c01f04896ff452a736837fbbea5f9b51e9576f8b742d79c0e2476d69b763beb"
+    },
+    {
+      "year": 2014,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2014/nclimgrid-monthly-201411.tif",
+      "retrievedAt": "2026-11-04T20:56:43.868780+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 8051208,
+      "sha256": "c527630b62cfa17b2e33ffab8c209ad27bbbea292f14653bab2a340f2eeb1c6a"
+    },
+    {
+      "year": 2015,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2015/nclimgrid-monthly-201511.tif",
+      "retrievedAt": "2026-11-04T20:56:44.289277+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 8117605,
+      "sha256": "f04497a3372e2c8793313e9551ce81d86fdd67d273a3c7a7528dc170edbf88fc"
+    },
+    {
+      "year": 2016,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2016/nclimgrid-monthly-201611.tif",
+      "retrievedAt": "2026-11-04T20:56:48.115371+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 7966429,
+      "sha256": "508ecb468468d0d4dfd1fae1960e31c6389925d20ede175a490075407c760fb9"
+    },
+    {
+      "year": 2017,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2017/nclimgrid-monthly-201711.tif",
+      "retrievedAt": "2026-11-04T20:56:47.718718+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 7941200,
+      "sha256": "b3d1c3dae18aec2a7e2644f53d574350a67fe141cceb11c5785228fea592fc50"
+    },
+    {
+      "year": 2018,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2018/nclimgrid-monthly-201811.tif",
+      "retrievedAt": "2026-11-04T20:56:48.029361+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 8137259,
+      "sha256": "d2b30767b83faca0e6c29b228dd6d1602f13657d915442f080cff816f70e43a1"
+    },
+    {
+      "year": 2019,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2019/nclimgrid-monthly-201911.tif",
+      "retrievedAt": "2026-11-04T20:56:48.096653+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 8012509,
+      "sha256": "8e2a1776a0af6f6f6c1712793fe46471990b104c1b909194f0082fd4234e1947"
+    },
+    {
+      "year": 2020,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2020/nclimgrid-monthly-202011.tif",
+      "retrievedAt": "2026-11-04T20:56:48.025048+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 7963552,
+      "sha256": "cdf718f274ccdd7e61a04207910f7cf66d5ab166d582d4ffbc80619c09ee705d"
+    },
+    {
+      "year": 2021,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2021/nclimgrid-monthly-202111.tif",
+      "retrievedAt": "2026-11-04T20:56:52.450969+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 7905613,
+      "sha256": "bfd4cc833e30ae2f01e15312e937d85ef806a0b972f5eb99e9ed3a8d6bcc6286"
+    },
+    {
+      "year": 2022,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2022/nclimgrid-monthly-202211.tif",
+      "retrievedAt": "2026-11-04T20:56:52.459906+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 8162769,
+      "sha256": "d370e2cf80f3976a3205546a66cbd3183a582d065f780039c0973f37ca2c8a25"
+    },
+    {
+      "year": 2023,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2023/nclimgrid-monthly-202311.tif",
+      "retrievedAt": "2026-11-04T20:56:52.152038+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 7872066,
+      "sha256": "12d8c39b969fb43dc9af03faa0c2ceebbff4b54eeaa0b83f6cae147c33c8c0fd"
+    },
+    {
+      "year": 2024,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2024/nclimgrid-monthly-202411.tif",
+      "retrievedAt": "2026-11-04T20:56:52.351148+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 8110615,
+      "sha256": "c569c35d2273dba6cd755ca31ddc4a5bf2e0af12bdcbb63295706eb5bee802ac"
+    },
+    {
+      "year": 2025,
+      "month": 11,
+      "url": "https://storage.googleapis.com/noaa-ncei-nclimgrid-monthly/cog/2025/nclimgrid-monthly-202511.tif",
+      "retrievedAt": "2026-11-04T20:56:52.467649+00:00",
+      "lastModified": null,
+      "etag": null,
+      "bytes": 7970232,
+      "sha256": "69aa518db47ffcc941d6c9e68aaa1fa4e43b69db1845d5557d956774adcb6a7a"
+    }
+  ],
+  "output": {
+    "path": "climate.json",
+    "sha256": "b0cffb0dae68d8c5e0e77bf15edb4c524b5594bbb5ea9331d7f5cd1dba8d5269",
+    "bytes": 9099395
+  },
+  "sourceRasterMetadata": {
+    "tags": {
+      "BAND_1": "precip",
+      "BAND_2": "tmin",
+      "BAND_3": "tmax",
+      "BAND_4": "tavg",
+      "AREA_OR_POINT": "Area"
+    },
+    "descriptions": [
+      "precip",
+      "tmin",
+      "tmax",
+      "tavg"
+    ],
+    "scales": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offsets": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "crs": "EPSG:4326"
+  },
+  "validation": {
+    "fileChecks": [
+      {
+        "year": 2006,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2007,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2008,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2009,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2010,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2011,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2012,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2013,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2014,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2015,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2016,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2017,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2018,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2019,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2020,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2021,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2022,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2023,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2024,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      },
+      {
+        "year": 2025,
+        "nativeValidCells": 469758,
+        "gridAligned": true,
+        "temperatureOrderValid": true
+      }
+    ],
+    "years": 20,
+    "allGridAlignmentsMatch": true,
+    "allTemperatureOrdersValid": true,
+    "precipitationNonnegative": true,
+    "allSerializedValuesFiniteOrNull": true,
+    "sourceNativeCellCount": 469758,
+    "incompleteNativeCellCounts": {
+      "mean_temp_c": 0,
+      "min_temp_c": 0,
+      "max_temp_c": 0,
+      "precip_mm": 0
+    },
+    "unitsReference": {
+      "passed": true,
+      "pointComparisons": 256,
+      "tolerance": 1e-05,
+      "maximumAbsoluteDifference": 1.8310546892053026e-06,
+      "documentationUrl": "https://www.ncei.noaa.gov/monitoring-content/data/us/climgrid/monthly/current/gridded-readme.txt",
+      "referenceFileSha256": "8b7ca262430442498e307e61e64b272710ac27844e294ae739f73859124e9ab7",
+      "purpose": "Unit and band-order cross-check against original NOAA monthly point records, not independent scientific validation.",
+      "results": [
+        {
+          "band": "precip",
+          "unit": "mm",
+          "sourceUrl": "https://www.ncei.noaa.gov/monitoring-content/data/us/climgrid/monthly/current/2025.prcp.us.pnt",
+          "matchedPointCount": 64,
+          "sampleSha256": "73cd5e54c8f09863e6d4ada889cc8be650b3b6a153ff7391dffdd66945cb4354"
+        },
+        {
+          "band": "tavg",
+          "unit": "degC",
+          "sourceUrl": "https://www.ncei.noaa.gov/monitoring-content/data/us/climgrid/monthly/current/2025.tave.us.pnt",
+          "matchedPointCount": 64,
+          "sampleSha256": "91f864cce50f078cb31e2b80e8999beb54bafc6173176176bf0e534b859df646"
+        },
+        {
+          "band": "tmin",
+          "unit": "degC",
+          "sourceUrl": "https://www.ncei.noaa.gov/monitoring-content/data/us/climgrid/monthly/current/2025.tmin.us.pnt",
+          "matchedPointCount": 64,
+          "sampleSha256": "4a77fec453f59ce1860fd74e257ec3eca9d73fe37f75334f2cf0f524c399ebbf"
+        },
+        {
+          "band": "tmax",
+          "unit": "degC",
+          "sourceUrl": "https://www.ncei.noaa.gov/monitoring-content/data/us/climgrid/monthly/current/2025.tmax.us.pnt",
+          "matchedPointCount": 64,
+          "sampleSha256": "1f7240bd1343e80fcb0220d9fa95e71edc789659cc575d3a7b7aee50894d8c69"
+        }
+      ]
+    }
+  }
+}

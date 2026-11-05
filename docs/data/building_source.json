@@ -1,0 +1,2019 @@
+{
+  "id": "overture-buildings-inspection",
+  "title": "Individual buildings \u00b7 experimental inspection",
+  "status": "external_inspection",
+  "checked_at": "2026-11-04T21:34:16.522Z",
+  "description": "Individual building footprints or roofprints, including residential buildings when present in the source. All building features remain visible; use classifications are shown only where supplied.",
+  "discovery": {
+    "catalog_url": "https://stac.overturemaps.org/catalog.json",
+    "release_field": "latest",
+    "release_pattern": "^\\d{4}-\\d{2}-\\d{2}\\.\\d+$",
+    "theme_catalog_template": "https://stac.overturemaps.org/{release}/buildings/catalog.json",
+    "public_pmtiles_template": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/{release}/buildings.pmtiles",
+    "cors_verified": true,
+    "strategy": "Read the STAC latest release, validate the release identifier, use the documented public S3 PMTiles URL, and validate PMTiles header/metadata source-layer building before rendering. Keep all themes on one release. Fall back only to the dated verified release while it remains available; otherwise show a service error, never a no-buildings claim.",
+    "canonical_stac_tile_host": "https://tiles.overturemaps.org",
+    "canonical_stac_tile_http_status_at_check": 403,
+    "official_public_s3_http_status_at_check": 206,
+    "public_pmtiles_theme_template": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/{release}/{theme}.pmtiles"
+  },
+  "pinned": {
+    "release": "2026-10-21.0",
+    "release_date": "2026-10-21",
+    "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/buildings.pmtiles",
+    "pmtiles_url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/buildings.pmtiles",
+    "source_layer": "building",
+    "minzoom": 5,
+    "maxzoom": 14,
+    "archive_size_bytes": 180679746134,
+    "etag": "\"21c7d93cafdd2160035ba2b268e25452-674\"",
+    "observed_expiration": "2026-12-21T00:00:00Z",
+    "expiration_source": "S3 x-amz-expiration response header: release data 60 day retention"
+  },
+  "source_layer": "building",
+  "optional_part_layer": "building_part",
+  "native_minzoom": 5,
+  "native_maxzoom": 14,
+  "recommended_min_display_zoom": 14,
+  "maximum_display_zoom": 19,
+  "classification": {
+    "residential_subtype": "residential",
+    "residential_classes": [
+      "apartments",
+      "house",
+      "dwelling_house",
+      "residential",
+      "detached",
+      "semidetached_house",
+      "semi",
+      "terrace",
+      "bungalow",
+      "dormitory",
+      "stilt_house"
+    ],
+    "label": "Residential tag supplied",
+    "rule": "Use subtype == residential, or an explicitly residential class from residential_classes if subtype is absent. Display source class and subtype verbatim. A residential subtype may include ancillary buildings such as garages; it is not a claim of occupancy.",
+    "unknown_label": "Use not supplied",
+    "unknown_rule": "Do not infer use from shape, neighborhood, size, or neighboring buildings."
+  },
+  "properties": {
+    "class": "Optional source classification",
+    "subtype": "Optional broader source use classification",
+    "@geometry_source": "Source of footprint geometry, when supplied",
+    "@height_source": "Source of height, when supplied",
+    "id": "Overture feature identifier",
+    "sources": "Source lineage encoded as a JSON string in these vector tiles",
+    "height": "Optional supplied height in metres",
+    "num_floors": "Optional supplied floor count",
+    "@name": "Optional source name"
+  },
+  "metadata": {
+    "vector_layers": [
+      {
+        "id": "building",
+        "fields": {
+          "@geometry_source": "String",
+          "@height_source": "String",
+          "@name": "String",
+          "class": "String",
+          "facade_color": "String",
+          "facade_material": "String",
+          "has_parts": "Boolean",
+          "height": "Number",
+          "id": "String",
+          "is_underground": "Boolean",
+          "level": "Number",
+          "min_floor": "Number",
+          "min_height": "Number",
+          "names": "String",
+          "num_floors": "Number",
+          "num_floors_underground": "Number",
+          "roof_color": "String",
+          "roof_direction": "Number",
+          "roof_height": "Number",
+          "roof_material": "String",
+          "roof_orientation": "String",
+          "roof_shape": "String",
+          "sources": "String",
+          "subtype": "String",
+          "version": "Number"
+        },
+        "minzoom": 5,
+        "maxzoom": 14
+      },
+      {
+        "id": "building_part",
+        "fields": {
+          "@geometry_source": "String",
+          "@height_source": "String",
+          "@name": "String",
+          "building_id": "String",
+          "facade_color": "String",
+          "facade_material": "String",
+          "height": "Number",
+          "id": "String",
+          "is_underground": "Boolean",
+          "level": "Number",
+          "min_floor": "Number",
+          "min_height": "Number",
+          "names": "String",
+          "num_floors": "Number",
+          "num_floors_underground": "Number",
+          "roof_color": "String",
+          "roof_direction": "Number",
+          "roof_height": "Number",
+          "roof_material": "String",
+          "roof_orientation": "String",
+          "roof_shape": "String",
+          "sources": "String",
+          "version": "Number"
+        },
+        "minzoom": 8,
+        "maxzoom": 14
+      }
+    ],
+    "attribution": "<a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap</a> <a href=\"https://docs.overturemaps.org/attribution\" target=\"_blank\">&copy; Overture Maps Foundation</a>",
+    "description": "tiles.version=1.1.4",
+    "name": "Overture buildings",
+    "planetiler:buildtime": "2026-03-28T14:35:36.815Z",
+    "planetiler:githash": "0e5588c4a6e8c29a270a33afe8df62027d889604",
+    "planetiler:version": "0.10.2",
+    "type": "overlay"
+  },
+  "examples": [
+    {
+      "label": "Fort Collins, Colorado",
+      "lon": -105.078,
+      "lat": 40.58,
+      "zoom": 16,
+      "tile": {
+        "z": 14,
+        "x": 3409,
+        "y": 6168
+      },
+      "verified_building_features": 2119,
+      "verified_residential_subtype_features": 304,
+      "verified_house_class_features": 218,
+      "verified_apartments_class_features": 55,
+      "decoded_tile_bytes": 938848,
+      "counts_scope": "Features in a single z14 tile, not a city-wide inventory or count of inhabited properties."
+    },
+    {
+      "label": "Iowa City, Iowa",
+      "lon": -91.53,
+      "lat": 41.66,
+      "zoom": 16,
+      "tile": {
+        "z": 14,
+        "x": 4026,
+        "y": 6102
+      },
+      "verified_building_features": 2872,
+      "verified_residential_subtype_features": 187,
+      "verified_house_class_features": 60,
+      "verified_apartments_class_features": 61,
+      "decoded_tile_bytes": 1495667,
+      "counts_scope": "Features in a single z14 tile, not a city-wide inventory or count of inhabited properties."
+    },
+    {
+      "label": "Denver, Colorado",
+      "lon": -104.99,
+      "lat": 39.74,
+      "zoom": 16,
+      "tile": {
+        "z": 14,
+        "x": 3413,
+        "y": 6218
+      },
+      "verified_building_features": 2845,
+      "verified_residential_subtype_features": 1854,
+      "verified_house_class_features": 1128,
+      "verified_apartments_class_features": 151,
+      "decoded_tile_bytes": 1357955,
+      "counts_scope": "Features in a single z14 tile, not a city-wide inventory or count of inhabited properties."
+    }
+  ],
+  "limitations": [
+    "External inspection tiles are not a production basemap. Overture does not guarantee availability, performance, or stable layers/properties/zoom levels.",
+    "Hosted tile releases have a finite retention period; this view discovers and validates a current release.",
+    "Missing features, missing tags, and load failures are distinct. An empty or unavailable tile does not establish that an area has no buildings.",
+    "Footprints may instead be roof outlines traced from imagery; geometry and completeness vary by source.",
+    "Buildings are contemporary source observations, not a reconstruction of November 2006\u20132025.",
+    "Native tiles stop at zoom 14. Higher display zoom enlarges the available geometry without increasing its source accuracy.",
+    "These are public environmental/context data, not a movement clearance, route, bridge load rating, occupancy assessment, water safety claim, or calibrated vehicle suitability score."
+  ],
+  "license": "ODbL-1.0",
+  "license_url": "https://opendatacommons.org/licenses/odbl/1-0/",
+  "attribution_html": "<a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap</a> <a href=\"https://docs.overturemaps.org/attribution\" target=\"_blank\">&copy; Overture Maps Foundation</a>",
+  "attribution_text": "\u00a9 OpenStreetMap contributors, Overture Maps Foundation",
+  "attribution_url": "https://docs.overturemaps.org/attribution/",
+  "docs": {
+    "distribution": "https://docs.overturemaps.org/getting-data/cloud-sources/",
+    "buildings": "https://docs.overturemaps.org/guides/buildings/",
+    "schema": "https://docs.overturemaps.org/schema/reference/buildings/building/",
+    "classes": "https://docs.overturemaps.org/schema/reference/buildings/types/building_class/",
+    "pmtiles_maplibre": "https://docs.protomaps.com/pmtiles/maplibre",
+    "maplibre": "https://maplibre.org/maplibre-gl-js/docs/"
+  },
+  "validation": {
+    "http_range_status": 206,
+    "accept_ranges": "bytes",
+    "cors_allow_origin": "*",
+    "stac_cors_allow_origin": "*",
+    "metadata_read": true,
+    "sample_tile_decoded": true,
+    "sample_tile_layers": [
+      {
+        "source_layer": "building",
+        "feature_count": 2845,
+        "geometry_types": {
+          "3": 2845
+        },
+        "fields": [
+          "is_underground",
+          "@geometry_source",
+          "sources",
+          "subtype",
+          "has_parts",
+          "id",
+          "class",
+          "version",
+          "@height_source",
+          "height",
+          "@name",
+          "names",
+          "num_floors",
+          "facade_color",
+          "level",
+          "roof_shape",
+          "roof_color",
+          "num_floors_underground",
+          "facade_material"
+        ],
+        "subtypes": {
+          "commercial": 493,
+          "residential": 1854,
+          "unknown": 123,
+          "industrial": 42,
+          "outbuilding": 242,
+          "civic": 41,
+          "medical": 16,
+          "education": 17,
+          "agricultural": 1,
+          "transportation": 9,
+          "religious": 7
+        },
+        "classes": {
+          "commercial": 276,
+          "garage": 486,
+          "house": 1128,
+          "unknown": 124,
+          "terrace": 20,
+          "industrial": 42,
+          "retail": 212,
+          "roof": 81,
+          "public": 12,
+          "residential": 68,
+          "shed": 155,
+          "apartments": 151,
+          "shelter": 12,
+          "hospital": 15,
+          "civic": 20,
+          "school": 8,
+          "greenhouse": 1,
+          "parking": 9,
+          "church": 6,
+          "university": 9,
+          "chapel": 1,
+          "library": 2,
+          "office": 1,
+          "hotel": 3,
+          "fire_station": 1,
+          "transportation": 1,
+          "warehouse": 1
+        },
+        "geometry_sources": {
+          "OpenStreetMap": 2807,
+          "Microsoft ML Buildings": 38
+        },
+        "example_features": [
+          {
+            "class": "commercial",
+            "subtype": "commercial",
+            "@geometry_source": "OpenStreetMap",
+            "has_parts": false
+          },
+          {
+            "class": "garage",
+            "subtype": "residential",
+            "@geometry_source": "OpenStreetMap",
+            "has_parts": false
+          },
+          {
+            "class": "house",
+            "subtype": "residential",
+            "@geometry_source": "OpenStreetMap",
+            "has_parts": false
+          },
+          {
+            "class": "house",
+            "subtype": "residential",
+            "@geometry_source": "OpenStreetMap",
+            "has_parts": false,
+            "height": 6.7
+          },
+          {
+            "@geometry_source": "OpenStreetMap",
+            "has_parts": false,
+            "height": 9.2
+          }
+        ]
+      },
+      {
+        "source_layer": "building_part",
+        "feature_count": 745,
+        "geometry_types": {
+          "3": 745
+        },
+        "fields": [
+          "is_underground",
+          "@height_source",
+          "building_id",
+          "@geometry_source",
+          "sources",
+          "id",
+          "version",
+          "height",
+          "min_height",
+          "roof_color",
+          "facade_color",
+          "roof_shape",
+          "roof_height",
+          "roof_material",
+          "num_floors",
+          "roof_direction",
+          "min_floor",
+          "facade_material",
+          "@name",
+          "names",
+          "roof_orientation",
+          "level"
+        ],
+        "subtypes": {
+          "unknown": 745
+        },
+        "classes": {
+          "unknown": 745
+        },
+        "geometry_sources": {
+          "OpenStreetMap": 745
+        },
+        "example_features": [
+          {
+            "@geometry_source": "OpenStreetMap",
+            "height": 0.5
+          },
+          {
+            "@geometry_source": "OpenStreetMap",
+            "height": 7.2
+          },
+          {
+            "@geometry_source": "OpenStreetMap",
+            "height": 23.5
+          },
+          {
+            "@geometry_source": "OpenStreetMap",
+            "height": 8.0
+          },
+          {
+            "@geometry_source": "OpenStreetMap",
+            "height": 6.0
+          }
+        ]
+      }
+    ],
+    "full_archive_downloaded": false,
+    "source_probe": "scripts/building_source_probe.mjs",
+    "responses": [
+      {
+        "url": "https://stac.overturemaps.org/catalog.json",
+        "status": 200,
+        "range": null,
+        "cors": "*",
+        "contentRange": null,
+        "acceptRanges": null,
+        "expiration": null
+      },
+      {
+        "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/transportation.pmtiles",
+        "status": 206,
+        "range": "bytes=0-16383",
+        "cors": "*",
+        "contentRange": "bytes 0-16383/134164852457",
+        "acceptRanges": "bytes",
+        "expiration": "expiry-date=\"Mon, 21 Dec 2026 00:00:00 GMT\", rule-id=\"release data 60 day retention\""
+      },
+      {
+        "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/base.pmtiles",
+        "status": 206,
+        "range": "bytes=0-16383",
+        "cors": "*",
+        "contentRange": "bytes 0-16383/191739583566",
+        "acceptRanges": "bytes",
+        "expiration": "expiry-date=\"Mon, 21 Dec 2026 00:00:00 GMT\", rule-id=\"release data 60 day retention\""
+      },
+      {
+        "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/buildings.pmtiles",
+        "status": 206,
+        "range": "bytes=0-16383",
+        "cors": "*",
+        "contentRange": "bytes 0-16383/180679746134",
+        "acceptRanges": "bytes",
+        "expiration": "expiry-date=\"Mon, 21 Dec 2026 00:00:00 GMT\", rule-id=\"release data 60 day retention\""
+      },
+      {
+        "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/base.pmtiles",
+        "status": 206,
+        "range": "bytes=191671853141-191671853686",
+        "cors": "*",
+        "contentRange": "bytes 191671853141-191671853686/191739583566",
+        "acceptRanges": "bytes",
+        "expiration": "expiry-date=\"Mon, 21 Dec 2026 00:00:00 GMT\", rule-id=\"release data 60 day retention\""
+      },
+      {
+        "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/buildings.pmtiles",
+        "status": 206,
+        "range": "bytes=180645693026-180645693559",
+        "cors": "*",
+        "contentRange": "bytes 180645693026-180645693559/180679746134",
+        "acceptRanges": "bytes",
+        "expiration": "expiry-date=\"Mon, 21 Dec 2026 00:00:00 GMT\", rule-id=\"release data 60 day retention\""
+      },
+      {
+        "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/transportation.pmtiles",
+        "status": 206,
+        "range": "bytes=134120872967-134120873455",
+        "cors": "*",
+        "contentRange": "bytes 134120872967-134120873455/134164852457",
+        "acceptRanges": "bytes",
+        "expiration": "expiry-date=\"Mon, 21 Dec 2026 00:00:00 GMT\", rule-id=\"release data 60 day retention\""
+      },
+      {
+        "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/buildings.pmtiles",
+        "status": 206,
+        "range": "bytes=180657184702-180657193640",
+        "cors": "*",
+        "contentRange": "bytes 180657184702-180657193640/180679746134",
+        "acceptRanges": "bytes",
+        "expiration": "expiry-date=\"Mon, 21 Dec 2026 00:00:00 GMT\", rule-id=\"release data 60 day retention\""
+      },
+      {
+        "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/buildings.pmtiles",
+        "status": 206,
+        "range": "bytes=180656138981-180656149336",
+        "cors": "*",
+        "contentRange": "bytes 180656138981-180656149336/180679746134",
+        "acceptRanges": "bytes",
+        "expiration": "expiry-date=\"Mon, 21 Dec 2026 00:00:00 GMT\", rule-id=\"release data 60 day retention\""
+      },
+      {
+        "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/buildings.pmtiles",
+        "status": 206,
+        "range": "bytes=180656149337-180656159097",
+        "cors": "*",
+        "contentRange": "bytes 180656149337-180656159097/180679746134",
+        "acceptRanges": "bytes",
+        "expiration": "expiry-date=\"Mon, 21 Dec 2026 00:00:00 GMT\", rule-id=\"release data 60 day retention\""
+      },
+      {
+        "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/buildings.pmtiles",
+        "status": 206,
+        "range": "bytes=34435805450-34436095659",
+        "cors": "*",
+        "contentRange": "bytes 34435805450-34436095659/180679746134",
+        "acceptRanges": "bytes",
+        "expiration": "expiry-date=\"Mon, 21 Dec 2026 00:00:00 GMT\", rule-id=\"release data 60 day retention\""
+      },
+      {
+        "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/buildings.pmtiles",
+        "status": 206,
+        "range": "bytes=38132558699-38132836911",
+        "cors": "*",
+        "contentRange": "bytes 38132558699-38132836911/180679746134",
+        "acceptRanges": "bytes",
+        "expiration": "expiry-date=\"Mon, 21 Dec 2026 00:00:00 GMT\", rule-id=\"release data 60 day retention\""
+      },
+      {
+        "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/buildings.pmtiles",
+        "status": 206,
+        "range": "bytes=34539562536-34539754042",
+        "cors": "*",
+        "contentRange": "bytes 34539562536-34539754042/180679746134",
+        "acceptRanges": "bytes",
+        "expiration": "expiry-date=\"Mon, 21 Dec 2026 00:00:00 GMT\", rule-id=\"release data 60 day retention\""
+      },
+      {
+        "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/base.pmtiles",
+        "status": 206,
+        "range": "bytes=191706087840-191706106632",
+        "cors": "*",
+        "contentRange": "bytes 191706087840-191706106632/191739583566",
+        "acceptRanges": "bytes",
+        "expiration": "expiry-date=\"Mon, 21 Dec 2026 00:00:00 GMT\", rule-id=\"release data 60 day retention\""
+      },
+      {
+        "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/base.pmtiles",
+        "status": 206,
+        "range": "bytes=129600659735-129601968312",
+        "cors": "*",
+        "contentRange": "bytes 129600659735-129601968312/191739583566",
+        "acceptRanges": "bytes",
+        "expiration": "expiry-date=\"Mon, 21 Dec 2026 00:00:00 GMT\", rule-id=\"release data 60 day retention\""
+      },
+      {
+        "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/transportation.pmtiles",
+        "status": 206,
+        "range": "bytes=134137528744-134137542096",
+        "cors": "*",
+        "contentRange": "bytes 134137528744-134137542096/134164852457",
+        "acceptRanges": "bytes",
+        "expiration": "expiry-date=\"Mon, 21 Dec 2026 00:00:00 GMT\", rule-id=\"release data 60 day retention\""
+      },
+      {
+        "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/transportation.pmtiles",
+        "status": 206,
+        "range": "bytes=58624411299-58625413105",
+        "cors": "*",
+        "contentRange": "bytes 58624411299-58625413105/134164852457",
+        "acceptRanges": "bytes",
+        "expiration": "expiry-date=\"Mon, 21 Dec 2026 00:00:00 GMT\", rule-id=\"release data 60 day retention\""
+      }
+    ],
+    "sample_tiles": [
+      {
+        "label": "Fort Collins, Colorado",
+        "lon": -105.078,
+        "lat": 40.58,
+        "zoom": 16,
+        "tile": {
+          "z": 14,
+          "x": 3409,
+          "y": 6168
+        },
+        "decoded_bytes": 938848,
+        "layers": [
+          {
+            "source_layer": "building",
+            "feature_count": 2119,
+            "geometry_types": {
+              "3": 2119
+            },
+            "fields": [
+              "is_underground",
+              "@height_source",
+              "@geometry_source",
+              "sources",
+              "subtype",
+              "num_floors",
+              "has_parts",
+              "id",
+              "class",
+              "version",
+              "height",
+              "@name",
+              "names",
+              "level",
+              "roof_color",
+              "facade_material",
+              "facade_color",
+              "min_height",
+              "roof_orientation",
+              "roof_shape",
+              "roof_height",
+              "roof_direction"
+            ],
+            "subtypes": {
+              "residential": 304,
+              "commercial": 71,
+              "unknown": 1629,
+              "civic": 20,
+              "outbuilding": 25,
+              "education": 45,
+              "transportation": 2,
+              "religious": 15,
+              "agricultural": 4,
+              "medical": 2,
+              "entertainment": 1,
+              "service": 1
+            },
+            "classes": {
+              "house": 218,
+              "commercial": 48,
+              "unknown": 1648,
+              "government": 15,
+              "apartments": 55,
+              "roof": 13,
+              "university": 42,
+              "detached": 17,
+              "retail": 5,
+              "school": 2,
+              "parking": 3,
+              "dormitory": 4,
+              "church": 4,
+              "greenhouse": 4,
+              "shelter": 11,
+              "religious": 8,
+              "hotel": 2,
+              "garage": 5,
+              "residential": 2,
+              "shed": 1,
+              "static_caravan": 2,
+              "hospital": 1,
+              "office": 1,
+              "public": 1,
+              "library": 2,
+              "stadium": 1,
+              "chapel": 1,
+              "toilets": 1,
+              "kiosk": 2
+            },
+            "geometry_sources": {
+              "OpenStreetMap": 1833,
+              "Esri Community Maps": 265,
+              "Microsoft ML Buildings": 21
+            }
+          },
+          {
+            "source_layer": "building_part",
+            "feature_count": 165,
+            "geometry_types": {
+              "3": 165
+            },
+            "fields": [
+              "is_underground",
+              "@height_source",
+              "building_id",
+              "@geometry_source",
+              "sources",
+              "roof_color",
+              "id",
+              "version",
+              "height",
+              "roof_direction",
+              "roof_height",
+              "facade_material",
+              "roof_material",
+              "roof_shape",
+              "facade_color",
+              "roof_orientation",
+              "min_height",
+              "num_floors",
+              "@name",
+              "names"
+            ],
+            "subtypes": {
+              "unknown": 165
+            },
+            "classes": {
+              "unknown": 165
+            },
+            "geometry_sources": {
+              "OpenStreetMap": 165
+            }
+          }
+        ]
+      },
+      {
+        "label": "Iowa City, Iowa",
+        "lon": -91.53,
+        "lat": 41.66,
+        "zoom": 16,
+        "tile": {
+          "z": 14,
+          "x": 4026,
+          "y": 6102
+        },
+        "decoded_bytes": 1495667,
+        "layers": [
+          {
+            "source_layer": "building",
+            "feature_count": 2872,
+            "geometry_types": {
+              "3": 2872
+            },
+            "fields": [
+              "is_underground",
+              "has_parts",
+              "id",
+              "@geometry_source",
+              "sources",
+              "version",
+              "@height_source",
+              "height",
+              "@name",
+              "names",
+              "subtype",
+              "class",
+              "num_floors",
+              "level",
+              "roof_shape"
+            ],
+            "subtypes": {
+              "unknown": 2477,
+              "residential": 187,
+              "commercial": 112,
+              "education": 53,
+              "civic": 6,
+              "religious": 18,
+              "entertainment": 4,
+              "transportation": 9,
+              "medical": 4,
+              "industrial": 1,
+              "outbuilding": 1
+            },
+            "classes": {
+              "unknown": 2506,
+              "apartments": 61,
+              "commercial": 95,
+              "garage": 18,
+              "university": 48,
+              "residential": 39,
+              "office": 1,
+              "shelter": 2,
+              "church": 6,
+              "library": 3,
+              "dormitory": 6,
+              "house": 60,
+              "parking": 10,
+              "hospital": 2,
+              "retail": 4,
+              "cabin": 2,
+              "public": 1,
+              "religious": 2,
+              "industrial": 1,
+              "roof": 1,
+              "kindergarten": 1,
+              "detached": 1,
+              "school": 1,
+              "government": 1
+            },
+            "geometry_sources": {
+              "Esri Community Maps": 2346,
+              "OpenStreetMap": 506,
+              "Microsoft ML Buildings": 20
+            }
+          },
+          {
+            "source_layer": "building_part",
+            "feature_count": 12,
+            "geometry_types": {
+              "3": 12
+            },
+            "fields": [
+              "is_underground",
+              "building_id",
+              "@geometry_source",
+              "sources",
+              "num_floors",
+              "id",
+              "version",
+              "@name",
+              "names"
+            ],
+            "subtypes": {
+              "unknown": 12
+            },
+            "classes": {
+              "unknown": 12
+            },
+            "geometry_sources": {
+              "OpenStreetMap": 12
+            }
+          }
+        ]
+      },
+      {
+        "label": "Denver, Colorado",
+        "lon": -104.99,
+        "lat": 39.74,
+        "zoom": 16,
+        "tile": {
+          "z": 14,
+          "x": 3413,
+          "y": 6218
+        },
+        "decoded_bytes": 1357955,
+        "layers": [
+          {
+            "source_layer": "building",
+            "feature_count": 2845,
+            "geometry_types": {
+              "3": 2845
+            },
+            "fields": [
+              "is_underground",
+              "@geometry_source",
+              "sources",
+              "subtype",
+              "has_parts",
+              "id",
+              "class",
+              "version",
+              "@height_source",
+              "height",
+              "@name",
+              "names",
+              "num_floors",
+              "facade_color",
+              "level",
+              "roof_shape",
+              "roof_color",
+              "num_floors_underground",
+              "facade_material"
+            ],
+            "subtypes": {
+              "commercial": 493,
+              "residential": 1854,
+              "unknown": 123,
+              "industrial": 42,
+              "outbuilding": 242,
+              "civic": 41,
+              "medical": 16,
+              "education": 17,
+              "agricultural": 1,
+              "transportation": 9,
+              "religious": 7
+            },
+            "classes": {
+              "commercial": 276,
+              "garage": 486,
+              "house": 1128,
+              "unknown": 124,
+              "terrace": 20,
+              "industrial": 42,
+              "retail": 212,
+              "roof": 81,
+              "public": 12,
+              "residential": 68,
+              "shed": 155,
+              "apartments": 151,
+              "shelter": 12,
+              "hospital": 15,
+              "civic": 20,
+              "school": 8,
+              "greenhouse": 1,
+              "parking": 9,
+              "church": 6,
+              "university": 9,
+              "chapel": 1,
+              "library": 2,
+              "office": 1,
+              "hotel": 3,
+              "fire_station": 1,
+              "transportation": 1,
+              "warehouse": 1
+            },
+            "geometry_sources": {
+              "OpenStreetMap": 2807,
+              "Microsoft ML Buildings": 38
+            }
+          },
+          {
+            "source_layer": "building_part",
+            "feature_count": 745,
+            "geometry_types": {
+              "3": 745
+            },
+            "fields": [
+              "is_underground",
+              "@height_source",
+              "building_id",
+              "@geometry_source",
+              "sources",
+              "id",
+              "version",
+              "height",
+              "min_height",
+              "roof_color",
+              "facade_color",
+              "roof_shape",
+              "roof_height",
+              "roof_material",
+              "num_floors",
+              "roof_direction",
+              "min_floor",
+              "facade_material",
+              "@name",
+              "names",
+              "roof_orientation",
+              "level"
+            ],
+            "subtypes": {
+              "unknown": 745
+            },
+            "classes": {
+              "unknown": 745
+            },
+            "geometry_sources": {
+              "OpenStreetMap": 745
+            }
+          }
+        ]
+      }
+    ],
+    "context_samples": {
+      "base": {
+        "tile": {
+          "z": 13,
+          "x": 1706,
+          "y": 3109
+        },
+        "decoded_bytes": 6108536,
+        "layers": [
+          {
+            "source_layer": "infrastructure",
+            "feature_count": 7798,
+            "geometry_types": {
+              "1": 6395,
+              "2": 708,
+              "3": 695
+            },
+            "fields": [
+              "source_tags",
+              "id",
+              "sources",
+              "class",
+              "subtype",
+              "version",
+              "@name",
+              "names",
+              "surface",
+              "level",
+              "height",
+              "wikidata"
+            ],
+            "subtypes": {
+              "barrier": 1148,
+              "transportation": 4504,
+              "emergency": 320,
+              "pedestrian": 170,
+              "transit": 1049,
+              "manhole": 26,
+              "power": 272,
+              "communication": 3,
+              "bridge": 252,
+              "waste_management": 40,
+              "water": 11,
+              "airport": 2,
+              "utility": 1
+            },
+            "classes": {
+              "wall": 78,
+              "retaining_wall": 71,
+              "bollard": 159,
+              "crossing": 2930,
+              "street_lamp": 965,
+              "fire_hydrant": 320,
+              "kerb": 312,
+              "stop": 336,
+              "artwork": 71,
+              "fence": 281,
+              "bicycle_parking": 234,
+              "traffic_signals": 229,
+              "parking": 560,
+              "drain": 26,
+              "generator": 55,
+              "gate": 220,
+              "bus_stop": 153,
+              "parking_entrance": 64,
+              "catenary_mast": 64,
+              "mobile_phone_tower": 3,
+              "vending_machine": 15,
+              "bridge": 236,
+              "power_tower": 58,
+              "switch": 17,
+              "motorway_junction": 31,
+              "platform": 13,
+              "bench": 54,
+              "power_line": 33,
+              "waste_basket": 22,
+              "chain": 2,
+              "power_pole": 14,
+              "cable": 4,
+              "railway_station": 4,
+              "post_box": 6,
+              "viaduct": 14,
+              "portal": 12,
+              "waste_disposal": 16,
+              "substation": 6,
+              "barrier": 4,
+              "lift_gate": 14,
+              "give_way": 12,
+              "weir": 7,
+              "information": 11,
+              "stop_position": 10,
+              "helipad": 2,
+              "parking_space": 10,
+              "hedge": 3,
+              "transformer": 7,
+              "toilets": 6,
+              "atm": 7,
+              "minor_line": 2,
+              "drinking_water": 1,
+              "swing_gate": 2,
+              "guard_rail": 2,
+              "charging_station": 1,
+              "aqueduct": 2,
+              "bus_station": 1,
+              "fountain": 3,
+              "recycling": 2,
+              "pipeline": 1
+            },
+            "geometry_sources": {
+              "unknown": 7798
+            }
+          },
+          {
+            "source_layer": "land",
+            "feature_count": 11305,
+            "geometry_types": {
+              "1": 11115,
+              "3": 190
+            },
+            "fields": [
+              "source_tags",
+              "id",
+              "sources",
+              "class",
+              "subtype",
+              "version"
+            ],
+            "subtypes": {
+              "tree": 11105,
+              "shrub": 163,
+              "sand": 5,
+              "rock": 24,
+              "forest": 3,
+              "land": 3,
+              "grass": 1,
+              "wetland": 1
+            },
+            "classes": {
+              "tree": 11105,
+              "scrub": 163,
+              "sand": 5,
+              "bare_rock": 14,
+              "stone": 10,
+              "forest": 1,
+              "island": 1,
+              "land": 2,
+              "wood": 2,
+              "grass": 1,
+              "wetland": 1
+            },
+            "geometry_sources": {
+              "unknown": 11305
+            }
+          },
+          {
+            "source_layer": "land_cover",
+            "feature_count": 5,
+            "geometry_types": {
+              "3": 5
+            },
+            "fields": [
+              "cartography",
+              "id",
+              "sources",
+              "subtype",
+              "version"
+            ],
+            "subtypes": {
+              "urban": 2,
+              "barren": 2,
+              "shrub": 1
+            },
+            "classes": {
+              "unknown": 5
+            },
+            "geometry_sources": {
+              "unknown": 5
+            }
+          },
+          {
+            "source_layer": "land_use",
+            "feature_count": 970,
+            "geometry_types": {
+              "3": 970
+            },
+            "fields": [
+              "source_tags",
+              "id",
+              "sources",
+              "class",
+              "subtype",
+              "version",
+              "@name",
+              "names",
+              "surface",
+              "level",
+              "wikidata",
+              "elevation"
+            ],
+            "subtypes": {
+              "managed": 559,
+              "recreation": 85,
+              "park": 32,
+              "residential": 97,
+              "construction": 27,
+              "developed": 118,
+              "education": 14,
+              "religious": 9,
+              "pedestrian": 16,
+              "horticulture": 10,
+              "medical": 1,
+              "transportation": 2
+            },
+            "classes": {
+              "grass": 559,
+              "pitch": 59,
+              "park": 30,
+              "residential": 97,
+              "construction": 27,
+              "retail": 46,
+              "industrial": 13,
+              "commercial": 53,
+              "school": 13,
+              "religious": 9,
+              "playground": 22,
+              "pedestrian": 14,
+              "plaza": 2,
+              "dog_park": 2,
+              "track": 1,
+              "brownfield": 6,
+              "garden": 7,
+              "recreation_ground": 3,
+              "allotments": 3,
+              "hospital": 1,
+              "railway": 2,
+              "university": 1
+            },
+            "geometry_sources": {
+              "unknown": 970
+            }
+          },
+          {
+            "source_layer": "water",
+            "feature_count": 71,
+            "geometry_types": {
+              "2": 23,
+              "3": 48
+            },
+            "fields": [
+              "@name",
+              "is_intermittent",
+              "names",
+              "sources",
+              "subtype",
+              "source_tags",
+              "id",
+              "class",
+              "version",
+              "wikidata",
+              "level"
+            ],
+            "subtypes": {
+              "river": 6,
+              "reservoir": 19,
+              "stream": 12,
+              "canal": 9,
+              "pond": 5,
+              "human_made": 18,
+              "water": 2
+            },
+            "classes": {
+              "river": 6,
+              "basin": 19,
+              "stream": 12,
+              "drain": 9,
+              "pond": 5,
+              "swimming_pool": 18,
+              "water": 2
+            },
+            "geometry_sources": {
+              "unknown": 71
+            }
+          }
+        ]
+      },
+      "transportation": {
+        "tile": {
+          "z": 14,
+          "x": 3413,
+          "y": 6218
+        },
+        "decoded_bytes": 3825648,
+        "layers": [
+          {
+            "source_layer": "connector",
+            "feature_count": 5766,
+            "geometry_types": {
+              "1": 5766
+            },
+            "fields": [
+              "sources",
+              "version",
+              "id"
+            ],
+            "subtypes": {
+              "unknown": 5766
+            },
+            "classes": {
+              "unknown": 5766
+            },
+            "geometry_sources": {
+              "unknown": 5766
+            }
+          },
+          {
+            "source_layer": "segment",
+            "feature_count": 3028,
+            "geometry_types": {
+              "2": 3028
+            },
+            "fields": [
+              "@name",
+              "connectors",
+              "names",
+              "sources",
+              "subtype",
+              "id",
+              "class",
+              "version",
+              "subclass",
+              "subclass_rules",
+              "speed_limits",
+              "road_surface",
+              "road_flags",
+              "access_restrictions",
+              "prohibited_transitions",
+              "destinations",
+              "rail_flags",
+              "level_rules",
+              "routes",
+              "width_rules"
+            ],
+            "subtypes": {
+              "road": 2993,
+              "rail": 35
+            },
+            "classes": {
+              "tertiary": 114,
+              "footway": 1478,
+              "unclassified": 51,
+              "service": 827,
+              "unknown": 71,
+              "steps": 39,
+              "motorway": 14,
+              "cycleway": 45,
+              "light_rail": 21,
+              "primary": 149,
+              "residential": 105,
+              "path": 20,
+              "secondary": 75,
+              "standard_gauge": 12,
+              "pedestrian": 6,
+              "living_street": 1
+            },
+            "geometry_sources": {
+              "unknown": 3028
+            }
+          }
+        ]
+      }
+    },
+    "range_bytes_requested": 3182238,
+    "request_count": 17
+  },
+  "vendor": {
+    "maplibre-gl": {
+      "version": "6.16.0",
+      "license": "BSD-3-Clause",
+      "tarball": "https://registry.npmjs.org/maplibre-gl/-/maplibre-gl-6.16.0.tgz",
+      "npm_integrity": "sha512-gApO66EMtoDZuio680RUBvskR7ahFd/NNhLN4tBAs+Y7FeT4gQV8zVFgYVMRmFxQznOEzecW19w6xOd9XjZjiA=="
+    },
+    "pmtiles": {
+      "version": "4.5.0",
+      "license": "BSD-3-Clause",
+      "tarball": "https://registry.npmjs.org/pmtiles/-/pmtiles-4.5.0.tgz",
+      "npm_integrity": "sha512-CBeD4SoUluFziGdy/8k7FOjQxQy486n+929W/tWophauvMICpkZ26vGBWhDt/6b1FZQWNaf4jFdT/5+q0Wii5w==",
+      "esm_adapter": "pmtiles.mjs is the official self-contained browser bundle with named ESM exports appended; its npm ESM entry required an otherwise missing bare fflate dependency."
+    },
+    "file_sha256": {
+      "maplibre-gl-LICENSE.txt": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2",
+      "maplibre-gl-worker.mjs": "0bf06492bdb7ba3d4132b78e435621bfba60d5250967991c02b1a73affea8cd5",
+      "maplibre-gl.css": "a90798a1953017790e590f7e1bd35ff103a8a4263972cb47290b78adf86f8c20",
+      "maplibre-gl.mjs": "fbbdf8ddd9a48e49059a4be6795a4f214a711314bb5809f72d3730b48e7897e3",
+      "pmtiles-LICENSE.txt": "0371c38f338835f7fc13ed71176f3d92144e22c8b736a31cced57adbbeb647b3",
+      "pmtiles-fflate-LICENSE.txt": "805f6cb28bb8b6d3a0badd83c93bccd9671fa01a3b4b92b7042b0743325ac243",
+      "pmtiles.js": "caf981bc46f6327ee7e65d5dc964d89d38a69f60edca2bd4c5c890c21b554c6c",
+      "pmtiles.mjs": "9f7a27d03d06cb941f7dbd2789968689205d5550ace71cf967562c3fa5a485f9"
+    }
+  },
+  "themes": {
+    "base": {
+      "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/base.pmtiles",
+      "header": {
+        "specVersion": 3,
+        "rootDirectoryOffset": 127,
+        "rootDirectoryLength": 15387,
+        "jsonMetadataOffset": 191671853141,
+        "jsonMetadataLength": 546,
+        "leafDirectoryOffset": 191671853687,
+        "leafDirectoryLength": 67729879,
+        "tileDataOffset": 16384,
+        "tileDataLength": 191671836757,
+        "numAddressedTiles": 89478485,
+        "numTileEntries": 30128036,
+        "numTileContents": 22638735,
+        "clustered": true,
+        "internalCompression": 2,
+        "tileCompression": 2,
+        "tileType": 1,
+        "minZoom": 0,
+        "maxZoom": 13,
+        "minLon": -180,
+        "minLat": -85.0511287,
+        "maxLon": 180,
+        "maxLat": 85.0511287,
+        "centerZoom": 0,
+        "centerLon": 0,
+        "centerLat": 0,
+        "etag": "\"2b3d618ce504cffdcb44d669b5fa1e2a-715\""
+      },
+      "metadata": {
+        "vector_layers": [
+          {
+            "id": "bathymetry",
+            "fields": {
+              "cartography": "String",
+              "depth": "Number",
+              "id": "String",
+              "sources": "String",
+              "version": "Number"
+            },
+            "minzoom": 0,
+            "maxzoom": 13
+          },
+          {
+            "id": "infrastructure",
+            "fields": {
+              "@name": "String",
+              "class": "String",
+              "height": "Number",
+              "id": "String",
+              "level": "Number",
+              "names": "String",
+              "source_tags": "String",
+              "sources": "String",
+              "subtype": "String",
+              "surface": "String",
+              "version": "Number",
+              "wikidata": "String"
+            },
+            "minzoom": 13,
+            "maxzoom": 13
+          },
+          {
+            "id": "land",
+            "fields": {
+              "@name": "String",
+              "class": "String",
+              "elevation": "Number",
+              "id": "String",
+              "level": "Number",
+              "names": "String",
+              "source_tags": "String",
+              "sources": "String",
+              "subtype": "String",
+              "surface": "String",
+              "version": "Number",
+              "wikidata": "String"
+            },
+            "minzoom": 0,
+            "maxzoom": 13
+          },
+          {
+            "id": "land_cover",
+            "fields": {
+              "cartography": "String",
+              "id": "String",
+              "sources": "String",
+              "subtype": "String",
+              "version": "Number"
+            },
+            "minzoom": 0,
+            "maxzoom": 13
+          },
+          {
+            "id": "land_use",
+            "fields": {
+              "@name": "String",
+              "class": "String",
+              "elevation": "Number",
+              "id": "String",
+              "level": "Number",
+              "names": "String",
+              "source_tags": "String",
+              "sources": "String",
+              "subtype": "String",
+              "surface": "String",
+              "version": "Number",
+              "wikidata": "String"
+            },
+            "minzoom": 6,
+            "maxzoom": 13
+          },
+          {
+            "id": "water",
+            "fields": {
+              "@name": "String",
+              "class": "String",
+              "id": "String",
+              "is_intermittent": "Boolean",
+              "is_salt": "Boolean",
+              "level": "Number",
+              "names": "String",
+              "source_tags": "String",
+              "sources": "String",
+              "subtype": "String",
+              "version": "Number",
+              "wikidata": "String"
+            },
+            "minzoom": 0,
+            "maxzoom": 13
+          }
+        ],
+        "attribution": "<a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap</a> <a href=\"https://docs.overturemaps.org/attribution\" target=\"_blank\">&copy; Overture Maps Foundation</a>",
+        "description": "tiles.version=1.1.4",
+        "name": "Overture base",
+        "planetiler:buildtime": "2026-03-28T14:35:36.815Z",
+        "planetiler:githash": "0e5588c4a6e8c29a270a33afe8df62027d889604",
+        "planetiler:version": "0.10.2",
+        "type": "overlay"
+      },
+      "sample": {
+        "tile": {
+          "z": 13,
+          "x": 1706,
+          "y": 3109
+        },
+        "decoded_bytes": 6108536,
+        "layers": [
+          {
+            "source_layer": "infrastructure",
+            "feature_count": 7798,
+            "geometry_types": {
+              "1": 6395,
+              "2": 708,
+              "3": 695
+            },
+            "fields": [
+              "source_tags",
+              "id",
+              "sources",
+              "class",
+              "subtype",
+              "version",
+              "@name",
+              "names",
+              "surface",
+              "level",
+              "height",
+              "wikidata"
+            ],
+            "subtypes": {
+              "barrier": 1148,
+              "transportation": 4504,
+              "emergency": 320,
+              "pedestrian": 170,
+              "transit": 1049,
+              "manhole": 26,
+              "power": 272,
+              "communication": 3,
+              "bridge": 252,
+              "waste_management": 40,
+              "water": 11,
+              "airport": 2,
+              "utility": 1
+            },
+            "classes": {
+              "wall": 78,
+              "retaining_wall": 71,
+              "bollard": 159,
+              "crossing": 2930,
+              "street_lamp": 965,
+              "fire_hydrant": 320,
+              "kerb": 312,
+              "stop": 336,
+              "artwork": 71,
+              "fence": 281,
+              "bicycle_parking": 234,
+              "traffic_signals": 229,
+              "parking": 560,
+              "drain": 26,
+              "generator": 55,
+              "gate": 220,
+              "bus_stop": 153,
+              "parking_entrance": 64,
+              "catenary_mast": 64,
+              "mobile_phone_tower": 3,
+              "vending_machine": 15,
+              "bridge": 236,
+              "power_tower": 58,
+              "switch": 17,
+              "motorway_junction": 31,
+              "platform": 13,
+              "bench": 54,
+              "power_line": 33,
+              "waste_basket": 22,
+              "chain": 2,
+              "power_pole": 14,
+              "cable": 4,
+              "railway_station": 4,
+              "post_box": 6,
+              "viaduct": 14,
+              "portal": 12,
+              "waste_disposal": 16,
+              "substation": 6,
+              "barrier": 4,
+              "lift_gate": 14,
+              "give_way": 12,
+              "weir": 7,
+              "information": 11,
+              "stop_position": 10,
+              "helipad": 2,
+              "parking_space": 10,
+              "hedge": 3,
+              "transformer": 7,
+              "toilets": 6,
+              "atm": 7,
+              "minor_line": 2,
+              "drinking_water": 1,
+              "swing_gate": 2,
+              "guard_rail": 2,
+              "charging_station": 1,
+              "aqueduct": 2,
+              "bus_station": 1,
+              "fountain": 3,
+              "recycling": 2,
+              "pipeline": 1
+            },
+            "geometry_sources": {
+              "unknown": 7798
+            }
+          },
+          {
+            "source_layer": "land",
+            "feature_count": 11305,
+            "geometry_types": {
+              "1": 11115,
+              "3": 190
+            },
+            "fields": [
+              "source_tags",
+              "id",
+              "sources",
+              "class",
+              "subtype",
+              "version"
+            ],
+            "subtypes": {
+              "tree": 11105,
+              "shrub": 163,
+              "sand": 5,
+              "rock": 24,
+              "forest": 3,
+              "land": 3,
+              "grass": 1,
+              "wetland": 1
+            },
+            "classes": {
+              "tree": 11105,
+              "scrub": 163,
+              "sand": 5,
+              "bare_rock": 14,
+              "stone": 10,
+              "forest": 1,
+              "island": 1,
+              "land": 2,
+              "wood": 2,
+              "grass": 1,
+              "wetland": 1
+            },
+            "geometry_sources": {
+              "unknown": 11305
+            }
+          },
+          {
+            "source_layer": "land_cover",
+            "feature_count": 5,
+            "geometry_types": {
+              "3": 5
+            },
+            "fields": [
+              "cartography",
+              "id",
+              "sources",
+              "subtype",
+              "version"
+            ],
+            "subtypes": {
+              "urban": 2,
+              "barren": 2,
+              "shrub": 1
+            },
+            "classes": {
+              "unknown": 5
+            },
+            "geometry_sources": {
+              "unknown": 5
+            }
+          },
+          {
+            "source_layer": "land_use",
+            "feature_count": 970,
+            "geometry_types": {
+              "3": 970
+            },
+            "fields": [
+              "source_tags",
+              "id",
+              "sources",
+              "class",
+              "subtype",
+              "version",
+              "@name",
+              "names",
+              "surface",
+              "level",
+              "wikidata",
+              "elevation"
+            ],
+            "subtypes": {
+              "managed": 559,
+              "recreation": 85,
+              "park": 32,
+              "residential": 97,
+              "construction": 27,
+              "developed": 118,
+              "education": 14,
+              "religious": 9,
+              "pedestrian": 16,
+              "horticulture": 10,
+              "medical": 1,
+              "transportation": 2
+            },
+            "classes": {
+              "grass": 559,
+              "pitch": 59,
+              "park": 30,
+              "residential": 97,
+              "construction": 27,
+              "retail": 46,
+              "industrial": 13,
+              "commercial": 53,
+              "school": 13,
+              "religious": 9,
+              "playground": 22,
+              "pedestrian": 14,
+              "plaza": 2,
+              "dog_park": 2,
+              "track": 1,
+              "brownfield": 6,
+              "garden": 7,
+              "recreation_ground": 3,
+              "allotments": 3,
+              "hospital": 1,
+              "railway": 2,
+              "university": 1
+            },
+            "geometry_sources": {
+              "unknown": 970
+            }
+          },
+          {
+            "source_layer": "water",
+            "feature_count": 71,
+            "geometry_types": {
+              "2": 23,
+              "3": 48
+            },
+            "fields": [
+              "@name",
+              "is_intermittent",
+              "names",
+              "sources",
+              "subtype",
+              "source_tags",
+              "id",
+              "class",
+              "version",
+              "wikidata",
+              "level"
+            ],
+            "subtypes": {
+              "river": 6,
+              "reservoir": 19,
+              "stream": 12,
+              "canal": 9,
+              "pond": 5,
+              "human_made": 18,
+              "water": 2
+            },
+            "classes": {
+              "river": 6,
+              "basin": 19,
+              "stream": 12,
+              "drain": 9,
+              "pond": 5,
+              "swimming_pool": 18,
+              "water": 2
+            },
+            "geometry_sources": {
+              "unknown": 71
+            }
+          }
+        ]
+      }
+    },
+    "buildings": {
+      "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/buildings.pmtiles",
+      "header": {
+        "specVersion": 3,
+        "rootDirectoryOffset": 127,
+        "rootDirectoryLength": 14124,
+        "jsonMetadataOffset": 180645693026,
+        "jsonMetadataLength": 534,
+        "leafDirectoryOffset": 180645693560,
+        "leafDirectoryLength": 34052574,
+        "tileDataOffset": 16384,
+        "tileDataLength": 180645676642,
+        "numAddressedTiles": 16068537,
+        "numTileEntries": 16068537,
+        "numTileContents": 16068537,
+        "clustered": true,
+        "internalCompression": 2,
+        "tileCompression": 2,
+        "tileType": 1,
+        "minZoom": 0,
+        "maxZoom": 14,
+        "minLon": -180,
+        "minLat": -85.0511287,
+        "maxLon": 180,
+        "maxLat": 85.0511287,
+        "centerZoom": 0,
+        "centerLon": 0,
+        "centerLat": 0,
+        "etag": "\"21c7d93cafdd2160035ba2b268e25452-674\""
+      },
+      "metadata": {
+        "vector_layers": [
+          {
+            "id": "building",
+            "fields": {
+              "@geometry_source": "String",
+              "@height_source": "String",
+              "@name": "String",
+              "class": "String",
+              "facade_color": "String",
+              "facade_material": "String",
+              "has_parts": "Boolean",
+              "height": "Number",
+              "id": "String",
+              "is_underground": "Boolean",
+              "level": "Number",
+              "min_floor": "Number",
+              "min_height": "Number",
+              "names": "String",
+              "num_floors": "Number",
+              "num_floors_underground": "Number",
+              "roof_color": "String",
+              "roof_direction": "Number",
+              "roof_height": "Number",
+              "roof_material": "String",
+              "roof_orientation": "String",
+              "roof_shape": "String",
+              "sources": "String",
+              "subtype": "String",
+              "version": "Number"
+            },
+            "minzoom": 5,
+            "maxzoom": 14
+          },
+          {
+            "id": "building_part",
+            "fields": {
+              "@geometry_source": "String",
+              "@height_source": "String",
+              "@name": "String",
+              "building_id": "String",
+              "facade_color": "String",
+              "facade_material": "String",
+              "height": "Number",
+              "id": "String",
+              "is_underground": "Boolean",
+              "level": "Number",
+              "min_floor": "Number",
+              "min_height": "Number",
+              "names": "String",
+              "num_floors": "Number",
+              "num_floors_underground": "Number",
+              "roof_color": "String",
+              "roof_direction": "Number",
+              "roof_height": "Number",
+              "roof_material": "String",
+              "roof_orientation": "String",
+              "roof_shape": "String",
+              "sources": "String",
+              "version": "Number"
+            },
+            "minzoom": 8,
+            "maxzoom": 14
+          }
+        ],
+        "attribution": "<a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap</a> <a href=\"https://docs.overturemaps.org/attribution\" target=\"_blank\">&copy; Overture Maps Foundation</a>",
+        "description": "tiles.version=1.1.4",
+        "name": "Overture buildings",
+        "planetiler:buildtime": "2026-03-28T14:35:36.815Z",
+        "planetiler:githash": "0e5588c4a6e8c29a270a33afe8df62027d889604",
+        "planetiler:version": "0.10.2",
+        "type": "overlay"
+      }
+    },
+    "transportation": {
+      "url": "https://overturemaps-extras-us-west-2.s3.us-west-2.amazonaws.com/tiles/2026-10-21.0/transportation.pmtiles",
+      "header": {
+        "specVersion": 3,
+        "rootDirectoryOffset": 127,
+        "rootDirectoryLength": 14275,
+        "jsonMetadataOffset": 134120872967,
+        "jsonMetadataLength": 489,
+        "leafDirectoryOffset": 134120873456,
+        "leafDirectoryLength": 43979001,
+        "tileDataOffset": 16384,
+        "tileDataLength": 134120856583,
+        "numAddressedTiles": 21354272,
+        "numTileEntries": 21353989,
+        "numTileContents": 21353214,
+        "clustered": true,
+        "internalCompression": 2,
+        "tileCompression": 2,
+        "tileType": 1,
+        "minZoom": 0,
+        "maxZoom": 14,
+        "minLon": -180,
+        "minLat": -85.0511287,
+        "maxLon": 180,
+        "maxLat": 85.0511287,
+        "centerZoom": 0,
+        "centerLon": 0,
+        "centerLat": 0,
+        "etag": "\"ab670020481ec724d7b0cf34269dda0d-500\""
+      },
+      "metadata": {
+        "vector_layers": [
+          {
+            "id": "connector",
+            "fields": {
+              "id": "String",
+              "sources": "String",
+              "version": "Number"
+            },
+            "minzoom": 13,
+            "maxzoom": 14
+          },
+          {
+            "id": "segment",
+            "fields": {
+              "@name": "String",
+              "access_restrictions": "String",
+              "class": "String",
+              "connectors": "String",
+              "destinations": "String",
+              "id": "String",
+              "level_rules": "String",
+              "names": "String",
+              "prohibited_transitions": "String",
+              "rail_flags": "String",
+              "road_flags": "String",
+              "road_surface": "String",
+              "routes": "String",
+              "sources": "String",
+              "speed_limits": "String",
+              "subclass": "String",
+              "subclass_rules": "String",
+              "subtype": "String",
+              "version": "Number",
+              "width_rules": "String"
+            },
+            "minzoom": 4,
+            "maxzoom": 14
+          }
+        ],
+        "attribution": "<a href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\">&copy; OpenStreetMap</a> <a href=\"https://docs.overturemaps.org/attribution\" target=\"_blank\">&copy; Overture Maps Foundation</a>",
+        "description": "tiles.version=1.1.4",
+        "name": "Overture transportation",
+        "planetiler:buildtime": "2026-03-28T14:35:36.815Z",
+        "planetiler:githash": "0e5588c4a6e8c29a270a33afe8df62027d889604",
+        "planetiler:version": "0.10.2",
+        "type": "overlay"
+      },
+      "sample": {
+        "tile": {
+          "z": 14,
+          "x": 3413,
+          "y": 6218
+        },
+        "decoded_bytes": 3825648,
+        "layers": [
+          {
+            "source_layer": "connector",
+            "feature_count": 5766,
+            "geometry_types": {
+              "1": 5766
+            },
+            "fields": [
+              "sources",
+              "version",
+              "id"
+            ],
+            "subtypes": {
+              "unknown": 5766
+            },
+            "classes": {
+              "unknown": 5766
+            },
+            "geometry_sources": {
+              "unknown": 5766
+            }
+          },
+          {
+            "source_layer": "segment",
+            "feature_count": 3028,
+            "geometry_types": {
+              "2": 3028
+            },
+            "fields": [
+              "@name",
+              "connectors",
+              "names",
+              "sources",
+              "subtype",
+              "id",
+              "class",
+              "version",
+              "subclass",
+              "subclass_rules",
+              "speed_limits",
+              "road_surface",
+              "road_flags",
+              "access_restrictions",
+              "prohibited_transitions",
+              "destinations",
+              "rail_flags",
+              "level_rules",
+              "routes",
+              "width_rules"
+            ],
+            "subtypes": {
+              "road": 2993,
+              "rail": 35
+            },
+            "classes": {
+              "tertiary": 114,
+              "footway": 1478,
+              "unclassified": 51,
+              "service": 827,
+              "unknown": 71,
+              "steps": 39,
+              "motorway": 14,
+              "cycleway": 45,
+              "light_rail": 21,
+              "primary": 149,
+              "residential": 105,
+              "path": 20,
+              "secondary": 75,
+              "standard_gauge": 12,
+              "pedestrian": 6,
+              "living_street": 1
+            },
+            "geometry_sources": {
+              "unknown": 3028
+            }
+          }
+        ]
+      }
+    }
+  }
+}

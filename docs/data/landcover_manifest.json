@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-04T22:28:18.870219+00:00",
+  "sourceYear": 2025,
+  "dataRelease": "https://www.usgs.gov/data/annual-national-land-cover-database-nlcd-collection-1-products-ver-12-june-2026",
+  "classDocumentation": "https://www.mrlc.gov/data/type/land-cover",
+  "servicesDocumentation": "https://www.mrlc.gov/data-services-page",
+  "requestParameters": {
+    "service": "WCS",
+    "version": "1.0.0",
+    "request": "GetCoverage",
+    "coverage": "Land-Cover-Native_conus_year_data",
+    "crs": "EPSG:4326",
+    "response_crs": "EPSG:4326",
+    "bbox": "-125,24,-66,50",
+    "width": 1180,
+    "height": 520,
+    "format": "GeoTIFF",
+    "time": "2025-01-01T00:00:00.000Z",
+    "interpolation": "nearest neighbor"
+  },
+  "inputs": [
+    {
+      "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wcs?service=WCS&version=2.0.1&request=GetCapabilities",
+      "cacheFile": "usgs_wcs_cap.xml",
+      "bytes": 637766,
+      "sha256": "94eca806e6bea623e42ef17483ff77745230a5dae44e742070e5360a1e4f89b6",
+      "cachedAt": "2026-11-04T22:18:50.638690+00:00"
+    },
+    {
+      "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wcs?service=WCS&version=2.0.1&request=DescribeCoverage&coverageId=mrlc_Land-Cover-Native_conus_year_data__Land-Cover-Native_conus_year_data",
+      "cacheFile": "usgs_describe.xml",
+      "bytes": 13096,
+      "sha256": "1a3cba52dca82969d46c0f08aa02f5f2047b5c94edb87bc476c8d172bbad0ff9",
+      "cachedAt": "2026-11-04T22:19:19.190731+00:00"
+    },
+    {
+      "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wcs?service=WCS&version=1.0.0&request=GetCoverage&coverage=Land-Cover-Native_conus_year_data&crs=EPSG%3A4326&response_crs=EPSG%3A4326&bbox=-125%2C24%2C-66%2C50&width=1180&height=520&format=GeoTIFF&time=2025-01-01T00%3A00%3A00.000Z&interpolation=nearest+neighbor",
+      "cacheFile": "usgs_national_2025.tif",
+      "bytes": 627106,
+      "sha256": "e107aeb2e8ffdaf22a2a2dbe8f3e1a5898afb3890f3a3206a5a2376e4f9aa0df",
+      "cachedAt": "2026-11-04T22:20:21.602343+00:00"
+    }
+  ],
+  "outlineReference": {
+    "file": "states.geojson",
+    "sha256": "db4395f7a49b4ec69325884194475776f847b0581e97b3036c481b5c00f03751",
+    "appliedAsMask": false,
+    "metadata": {
+      "source": "US Census Bureau, 2025 Cartographic Boundary Files",
+      "url": "https://www2.census.gov/geo/tiger/GENZ2025/shp/cb_2025_us_state_20m.zip",
+      "vintage": 2025,
+      "scale": "1:20,000,000",
+      "sourceCRS": "EPSG:4269 (NAD83)",
+      "outputCRS": "EPSG:4326 (WGS 84 longitude/latitude)",
+      "coordinateProcessing": "Transformed with pyproj/PROJ, then rounded to 6 decimal places. No additional simplification.",
+      "retrievedAt": "2026-11-04T20:55:27.187035+00:00",
+      "archiveSHA256": "9340b6d995e971b2b4230518f4fa85e6cd9e7fe6811afabc90a6a8b1191530f6",
+      "scope": "48 contiguous states plus District of Columbia",
+      "limitations": "Generalized map outlines only; unsuitable as detailed shoreline, waterbody, or parcel boundaries."
+    }
+  },
+  "output": {
+    "file": "landcover.json",
+    "bytes": 2593760,
+    "sha256": "ae805598d98d69386caa4a21d4317218f1cc9ea3944031fda617f20710f508e5"
+  },
+  "method": "Request 2025 raw class-valued GeoTIFF from the official USGS MRLC WCS at 1180 × 520 pixels with nearest-neighbor interpolation. Use the returned affine coordinates, not the requested bounding box, because server reprojection expands the extent. Read integer band values directly, retain provider palette labels, and convert NoData 250 to null. Preserve the valid USGS CONUS footprint including inland and coastal water; use 2025 Census outlines as reference only. No color decoding, class averaging, gap filling, area-majority inference, or mobility scoring.",
+  "limitations": [
+    "Calendar-year 2025 land cover is separate from the November 2006–2025 climate baseline; it is not a November vegetation or harvest observation.",
+    "The underlying NLCD source has 30 m cells. This downloadable display layer is a much coarser categorical service overview, with approximately 4–7 km spacing across CONUS.",
+    "Nearest-neighbor interpolation was requested. The provider may use internal raster overviews whose generation method was not independently verified; output classes are neither validated native-pixel point samples nor area-majority classes.",
+    "A class shown at an overview cell does not establish the class at every location within that cell. Narrow wetlands, wooded strips, small water bodies, and mixed landscapes can be omitted or generalized.",
+    "Land-cover classes do not measure tree spacing, understory density, vegetation height at a specific date, soil strength, surface-water depth, or current wetness.",
+    "Wetland classes indicate vegetation associated with periodic saturation or inundation, not observed water level. Open water carries no depth, crossing, bridge, or drinking-water-quality conclusion.",
+    "Developed classes are retained as source land-cover categories; individual road and building layers are excluded.",
+    "The valid USGS CONUS source footprint is preserved, including mapped inland and coastal water beyond generalized Census land outlines. Neither outline is an exact administrative or shoreline boundary. Null cells remain source NoData; they are not favorable conditions.",
+    "Sample counts are overview grid counts, not estimates of national land-cover area. The geographic grid is not equal-area."
+  ]
+}

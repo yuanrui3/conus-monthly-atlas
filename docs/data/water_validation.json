@@ -1,0 +1,285 @@
+{
+  "generatedAt": "2026-11-04T21:44:54+00:00",
+  "passed": true,
+  "checks": {
+    "uniqueStationIds": true,
+    "explicitUSCountryForEveryPublishedStation": true,
+    "atLeastOneObservationPerStation": true,
+    "yearArraysMatchBaseline": true,
+    "yearCountsMatchNonNullValues": true,
+    "completeBaselineFlagsCorrect": true,
+    "conversionMatchesSource": true,
+    "meansReproduceFromSource": true,
+    "mediansWithinObservedMonthlyMeanRange": true,
+    "noRequestFailures": true,
+    "all49JurisdictionsInventoried": true,
+    "allRequestedStationBatchesCompleted": true
+  },
+  "inputResponseCount": 1134,
+  "cacheOnlyBuild": true,
+  "coverage": {
+    "candidateStations": 10842,
+    "eligibleUSStations": 10834,
+    "nonUSCountryCandidates": 8,
+    "requestedStations": 10842,
+    "publishedStations": 10225,
+    "completeBaselineStations": 4494,
+    "partialBaselineStations": 5731,
+    "statesWithPublishedStations": 49,
+    "countsByState": {
+      "AL": {
+        "published": 174,
+        "complete": 75
+      },
+      "AR": {
+        "published": 168,
+        "complete": 60
+      },
+      "AZ": {
+        "published": 203,
+        "complete": 100
+      },
+      "CA": {
+        "published": 999,
+        "complete": 295
+      },
+      "CO": {
+        "published": 347,
+        "complete": 139
+      },
+      "CT": {
+        "published": 77,
+        "complete": 50
+      },
+      "DC": {
+        "published": 5,
+        "complete": 1
+      },
+      "DE": {
+        "published": 24,
+        "complete": 8
+      },
+      "FL": {
+        "published": 441,
+        "complete": 192
+      },
+      "GA": {
+        "published": 321,
+        "complete": 147
+      },
+      "IA": {
+        "published": 159,
+        "complete": 109
+      },
+      "ID": {
+        "published": 254,
+        "complete": 105
+      },
+      "IL": {
+        "published": 222,
+        "complete": 147
+      },
+      "IN": {
+        "published": 208,
+        "complete": 97
+      },
+      "KS": {
+        "published": 207,
+        "complete": 127
+      },
+      "KY": {
+        "published": 178,
+        "complete": 57
+      },
+      "LA": {
+        "published": 98,
+        "complete": 11
+      },
+      "MA": {
+        "published": 134,
+        "complete": 68
+      },
+      "MD": {
+        "published": 173,
+        "complete": 76
+      },
+      "ME": {
+        "published": 74,
+        "complete": 43
+      },
+      "MI": {
+        "published": 257,
+        "complete": 106
+      },
+      "MN": {
+        "published": 130,
+        "complete": 46
+      },
+      "MO": {
+        "published": 255,
+        "complete": 160
+      },
+      "MS": {
+        "published": 109,
+        "complete": 31
+      },
+      "MT": {
+        "published": 217,
+        "complete": 70
+      },
+      "NC": {
+        "published": 277,
+        "complete": 162
+      },
+      "ND": {
+        "published": 102,
+        "complete": 59
+      },
+      "NE": {
+        "published": 120,
+        "complete": 81
+      },
+      "NH": {
+        "published": 65,
+        "complete": 32
+      },
+      "NJ": {
+        "published": 141,
+        "complete": 53
+      },
+      "NM": {
+        "published": 174,
+        "complete": 61
+      },
+      "NV": {
+        "published": 181,
+        "complete": 82
+      },
+      "NY": {
+        "published": 377,
+        "complete": 168
+      },
+      "OH": {
+        "published": 271,
+        "complete": 74
+      },
+      "OK": {
+        "published": 168,
+        "complete": 81
+      },
+      "OR": {
+        "published": 266,
+        "complete": 107
+      },
+      "PA": {
+        "published": 342,
+        "complete": 172
+      },
+      "RI": {
+        "published": 41,
+        "complete": 19
+      },
+      "SC": {
+        "published": 148,
+        "complete": 62
+      },
+      "SD": {
+        "published": 123,
+        "complete": 16
+      },
+      "TN": {
+        "published": 144,
+        "complete": 54
+      },
+      "TX": {
+        "published": 557,
+        "complete": 315
+      },
+      "UT": {
+        "published": 172,
+        "complete": 106
+      },
+      "VA": {
+        "published": 209,
+        "complete": 81
+      },
+      "VT": {
+        "published": 70,
+        "complete": 37
+      },
+      "WA": {
+        "published": 309,
+        "complete": 184
+      },
+      "WI": {
+        "published": 281,
+        "complete": 59
+      },
+      "WV": {
+        "published": 118,
+        "complete": 61
+      },
+      "WY": {
+        "published": 135,
+        "complete": 48
+      }
+    },
+    "countsByAvailableYears": {
+      "1": 335,
+      "2": 387,
+      "3": 390,
+      "4": 264,
+      "5": 265,
+      "6": 218,
+      "7": 217,
+      "8": 202,
+      "9": 221,
+      "10": 180,
+      "11": 188,
+      "12": 200,
+      "13": 151,
+      "14": 190,
+      "15": 175,
+      "16": 211,
+      "17": 248,
+      "18": 341,
+      "19": 1348,
+      "20": 4494
+    },
+    "annualStationCounts": {
+      "2006": 7173,
+      "2007": 7298,
+      "2008": 7400,
+      "2009": 7446,
+      "2010": 7556,
+      "2011": 7577,
+      "2012": 7647,
+      "2013": 7670,
+      "2014": 7754,
+      "2015": 7815,
+      "2016": 7766,
+      "2017": 7858,
+      "2018": 7932,
+      "2019": 8026,
+      "2020": 8056,
+      "2021": 8117,
+      "2022": 8124,
+      "2023": 8112,
+      "2024": 7985,
+      "2025": 6518
+    },
+    "failedRequestCount": 0,
+    "emptyBatchCount": 0,
+    "exclusions": {
+      "inventoryNotUSGSStreamST": 394,
+      "coordinatesOutsideCONUSBounds": 1,
+      "outsideUSCountry": 8,
+      "noApprovedCompleteNovember": 583,
+      "ambiguousMultipleDischargeSeries": 26
+    },
+    "exactDuplicateMonthlyRows": 0
+  },
+  "negativeMeanStations": 12,
+  "zeroMeanStations": 98,
+  "note": "Signed discharge can occur in reversing flows; negative or zero observations are preserved, not assigned a suitability class."
+}

@@ -1,0 +1,471 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-11-04T22:28:19.529794+00:00",
+  "status": "passed geometry and broad regional consistency checks",
+  "geometry": {
+    "responseCRS": "EPSG:4326",
+    "sourceNativeCRS": "EPSG:5070",
+    "pixelRegistration": "PixelIsArea",
+    "jsonRegistration": "cell centers",
+    "affine": [
+      0.05606685625142385,
+      0.0,
+      -129.27731989810937,
+      0.0,
+      -0.05983966251598777,
+      52.92171973385811
+    ],
+    "returnedBounds": [
+      -129.27731989810937,
+      21.805095225544473,
+      -63.11842952142922,
+      52.92171973385811
+    ],
+    "requestedBounds": [
+      -125,
+      24,
+      -66,
+      50
+    ],
+    "longitudeCenterFormula": "affine.c + (column + 0.5) * affine.a",
+    "latitudeCenterFormula": "affine.f + (row + 0.5) * affine.e",
+    "jsonCoordinatesMatchReturnedGeoTiff": true,
+    "rowColumnRoundtripChecks": 9,
+    "rowColumnOrderVerified": true,
+    "note": "GeoServer reprojection expands the returned bounds. Returned GeoTIFF bounds and affine, not the request bounds, position the raster."
+  },
+  "regionalChecks": [
+    {
+      "index": 0,
+      "name": "Olympic Peninsula forest",
+      "anchorLonLat": [
+        -123.75,
+        47.75
+      ],
+      "row": 84,
+      "col": 96,
+      "lon": -123.86686826984696,
+      "lat": 47.86526825125715,
+      "x": -2071217.8373224656,
+      "y": 3069170.466734826,
+      "overviewClass": 42,
+      "expectedBroadClasses": [
+        41,
+        42,
+        43
+      ],
+      "overview5x5BroadFraction": 1.0,
+      "reprojectionRoundtripErrorDegrees": [
+        1.4210854715202004e-14,
+        3.552713678800501e-14
+      ],
+      "source": {
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wcs?service=WCS&version=1.0.0&request=GetCoverage&coverage=Land-Cover-Native_conus_year_data&crs=EPSG%3A5070&response_crs=EPSG%3A5070&bbox=-2074217.8373224656%2C3066170.466734826%2C-2068217.8373224656%2C3072170.466734826&width=200&height=200&format=GeoTIFF&time=2025-01-01T00%3A00%3A00.000Z&interpolation=nearest+neighbor",
+        "cacheFile": "semantic_patch_0.tif",
+        "bytes": 45202,
+        "sha256": "ebb0454b60db04b979fc6acd53a03ffa2fcfdd2d9c3478607bcf3b651b1624b2",
+        "cachedAt": "2026-11-04T22:27:17.297695+00:00"
+      },
+      "nativeCenterClass": 42,
+      "nativePatchModalClass": 42,
+      "nativePatchCounts": {
+        "11": 546,
+        "22": 26,
+        "23": 18,
+        "31": 42,
+        "41": 5,
+        "42": 37420,
+        "43": 130,
+        "52": 136,
+        "90": 1301,
+        "95": 376
+      },
+      "nativePatchBroadFraction": 0.938875,
+      "nativeResolutionMeters": [
+        29.999999963105655,
+        29.999999965953176
+      ],
+      "nativeCRS": "EPSG:5070",
+      "nativeAffine": [
+        29.999999963105655,
+        0.0,
+        -2074217.834686341,
+        0.0,
+        -29.999999965953176,
+        3072170.47544991
+      ],
+      "centerMatchesOverview": true,
+      "modalClassMatchesOverview": true,
+      "broadRegionalPatternConfirmed": true
+    },
+    {
+      "index": 1,
+      "name": "Adirondack forest",
+      "anchorLonLat": [
+        -74.25,
+        44.0
+      ],
+      "row": 152,
+      "col": 978,
+      "lon": -74.41590105609113,
+      "lat": 43.79617120016998,
+      "x": 1715230.0061513137,
+      "y": 2507209.5141385053,
+      "overviewClass": 41,
+      "expectedBroadClasses": [
+        41,
+        42,
+        43
+      ],
+      "overview5x5BroadFraction": 1.0,
+      "reprojectionRoundtripErrorDegrees": [
+        1.4210854715202004e-14,
+        1.4210854715202004e-14
+      ],
+      "source": {
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wcs?service=WCS&version=1.0.0&request=GetCoverage&coverage=Land-Cover-Native_conus_year_data&crs=EPSG%3A5070&response_crs=EPSG%3A5070&bbox=1712230.0061513137%2C2504209.5141385053%2C1718230.0061513137%2C2510209.5141385053&width=200&height=200&format=GeoTIFF&time=2025-01-01T00%3A00%3A00.000Z&interpolation=nearest+neighbor",
+        "cacheFile": "semantic_patch_1.tif",
+        "bytes": 45202,
+        "sha256": "6c9ae2a43e4a9592f8b5b2662717364711f9ea003602288e97c672ba960ecd44",
+        "cachedAt": "2026-11-04T22:27:17.153797+00:00"
+      },
+      "nativeCenterClass": 41,
+      "nativePatchModalClass": 41,
+      "nativePatchCounts": {
+        "11": 375,
+        "21": 315,
+        "22": 53,
+        "23": 1,
+        "31": 14,
+        "41": 26023,
+        "42": 3700,
+        "43": 4812,
+        "52": 133,
+        "71": 318,
+        "81": 92,
+        "90": 3997,
+        "95": 167
+      },
+      "nativePatchBroadFraction": 0.863375,
+      "nativeResolutionMeters": [
+        29.999999975060344,
+        30.000000014156104
+      ],
+      "nativeCRS": "EPSG:5070",
+      "nativeAffine": [
+        29.999999975060344,
+        0.0,
+        1712230.0040557785,
+        0.0,
+        -30.000000014156104,
+        2510209.5232180133
+      ],
+      "centerMatchesOverview": true,
+      "modalClassMatchesOverview": true,
+      "broadRegionalPatternConfirmed": true
+    },
+    {
+      "index": 2,
+      "name": "Central Iowa agriculture",
+      "anchorLonLat": [
+        -93.5,
+        42.3
+      ],
+      "row": 175,
+      "col": 639,
+      "lon": -93.42256532532382,
+      "lat": 42.41985896230226,
+      "x": 210736.56802404518,
+      "y": 2160724.6882155812,
+      "overviewClass": 82,
+      "expectedBroadClasses": [
+        81,
+        82
+      ],
+      "overview5x5BroadFraction": 1.0,
+      "reprojectionRoundtripErrorDegrees": [
+        0.0,
+        1.4210854715202004e-14
+      ],
+      "source": {
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wcs?service=WCS&version=1.0.0&request=GetCoverage&coverage=Land-Cover-Native_conus_year_data&crs=EPSG%3A5070&response_crs=EPSG%3A5070&bbox=207736.56802404518%2C2157724.6882155812%2C213736.56802404518%2C2163724.6882155812&width=200&height=200&format=GeoTIFF&time=2025-01-01T00%3A00%3A00.000Z&interpolation=nearest+neighbor",
+        "cacheFile": "semantic_patch_2.tif",
+        "bytes": 45202,
+        "sha256": "19b5ae78375cad230b72240ca4c44ff5e21042399df93d19735c2a82a6b4991c",
+        "cachedAt": "2026-11-04T22:27:17.178026+00:00"
+      },
+      "nativeCenterClass": 82,
+      "nativePatchModalClass": 82,
+      "nativePatchCounts": {
+        "11": 28,
+        "21": 731,
+        "22": 1050,
+        "23": 240,
+        "24": 12,
+        "31": 18,
+        "41": 33,
+        "71": 2,
+        "81": 330,
+        "82": 37508,
+        "90": 11,
+        "95": 37
+      },
+      "nativePatchBroadFraction": 0.94595,
+      "nativeResolutionMeters": [
+        29.99999996586208,
+        30.00000002206536
+      ],
+      "nativeCRS": "EPSG:5070",
+      "nativeAffine": [
+        29.99999996586208,
+        0.0,
+        207736.56777669673,
+        0.0,
+        -30.00000002206536,
+        2163724.697461502
+      ],
+      "centerMatchesOverview": true,
+      "modalClassMatchesOverview": true,
+      "broadRegionalPatternConfirmed": true
+    },
+    {
+      "index": 3,
+      "name": "Central Illinois agriculture",
+      "anchorLonLat": [
+        -89.5,
+        40.5
+      ],
+      "row": 210,
+      "col": 709,
+      "lon": -89.49788538772415,
+      "lat": 40.32547077424269,
+      "x": 547303.9045758416,
+      "y": 1942172.7876199207,
+      "overviewClass": 82,
+      "expectedBroadClasses": [
+        81,
+        82
+      ],
+      "overview5x5BroadFraction": 0.96,
+      "reprojectionRoundtripErrorDegrees": [
+        0.0,
+        7.105427357601002e-15
+      ],
+      "source": {
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wcs?service=WCS&version=1.0.0&request=GetCoverage&coverage=Land-Cover-Native_conus_year_data&crs=EPSG%3A5070&response_crs=EPSG%3A5070&bbox=544303.9045758416%2C1939172.7876199207%2C550303.9045758416%2C1945172.7876199207&width=200&height=200&format=GeoTIFF&time=2025-01-01T00%3A00%3A00.000Z&interpolation=nearest+neighbor",
+        "cacheFile": "semantic_patch_3.tif",
+        "bytes": 45202,
+        "sha256": "81a4ec81cb443c65d038b9fe58bf33f7ef5ba4c4b2cb47447df1c6d2eb232b1e",
+        "cachedAt": "2026-11-04T22:27:21.061340+00:00"
+      },
+      "nativeCenterClass": 82,
+      "nativePatchModalClass": 82,
+      "nativePatchCounts": {
+        "21": 1489,
+        "22": 913,
+        "23": 171,
+        "24": 42,
+        "81": 39,
+        "82": 37346
+      },
+      "nativePatchBroadFraction": 0.934625,
+      "nativeResolutionMeters": [
+        29.999999971656944,
+        30.00000004526344
+      ],
+      "nativeCRS": "EPSG:5070",
+      "nativeAffine": [
+        29.999999971656944,
+        0.0,
+        544303.9039628834,
+        0.0,
+        -30.00000004526344,
+        1945172.7966107018
+      ],
+      "centerMatchesOverview": true,
+      "modalClassMatchesOverview": true,
+      "broadRegionalPatternConfirmed": true
+    },
+    {
+      "index": 4,
+      "name": "Great Basin shrubland",
+      "anchorLonLat": [
+        -116.5,
+        40.0
+      ],
+      "row": 217,
+      "col": 226,
+      "lon": -116.57817695716187,
+      "lat": 39.906593136630775,
+      "x": -1730051.638904623,
+      "y": 2064556.5974848035,
+      "overviewClass": 52,
+      "expectedBroadClasses": [
+        31,
+        52,
+        71
+      ],
+      "overview5x5BroadFraction": 1.0,
+      "reprojectionRoundtripErrorDegrees": [
+        1.4210854715202004e-14,
+        0.0
+      ],
+      "source": {
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wcs?service=WCS&version=1.0.0&request=GetCoverage&coverage=Land-Cover-Native_conus_year_data&crs=EPSG%3A5070&response_crs=EPSG%3A5070&bbox=-1733051.638904623%2C2061556.5974848035%2C-1727051.638904623%2C2067556.5974848035&width=200&height=200&format=GeoTIFF&time=2025-01-01T00%3A00%3A00.000Z&interpolation=nearest+neighbor",
+        "cacheFile": "semantic_patch_4.tif",
+        "bytes": 45202,
+        "sha256": "b7f5cd3b375668bfa3ffa303f0519e0c4e571978923924cacac0644416ca2032",
+        "cachedAt": "2026-11-04T22:27:21.071283+00:00"
+      },
+      "nativeCenterClass": 52,
+      "nativePatchModalClass": 52,
+      "nativePatchCounts": {
+        "21": 8,
+        "22": 244,
+        "23": 1,
+        "31": 3823,
+        "41": 393,
+        "42": 6455,
+        "52": 24441,
+        "71": 2603,
+        "81": 718,
+        "90": 209,
+        "95": 1105
+      },
+      "nativePatchBroadFraction": 0.771675,
+      "nativeResolutionMeters": [
+        29.999999986556357,
+        30.000000057073777
+      ],
+      "nativeCRS": "EPSG:5070",
+      "nativeAffine": [
+        29.999999986556357,
+        0.0,
+        -1733051.6369823394,
+        0.0,
+        -30.000000057073777,
+        2067556.6062226347
+      ],
+      "centerMatchesOverview": true,
+      "modalClassMatchesOverview": true,
+      "broadRegionalPatternConfirmed": true
+    },
+    {
+      "index": 5,
+      "name": "Mojave desert",
+      "anchorLonLat": [
+        -115.5,
+        35.0
+      ],
+      "row": 299,
+      "col": 245,
+      "lon": -115.51290668838482,
+      "lat": 34.99974081031978,
+      "x": -1753874.4532395825,
+      "y": 1507466.1909983126,
+      "overviewClass": 52,
+      "expectedBroadClasses": [
+        31,
+        52
+      ],
+      "overview5x5BroadFraction": 1.0,
+      "reprojectionRoundtripErrorDegrees": [
+        1.4210854715202004e-14,
+        7.105427357601002e-15
+      ],
+      "source": {
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wcs?service=WCS&version=1.0.0&request=GetCoverage&coverage=Land-Cover-Native_conus_year_data&crs=EPSG%3A5070&response_crs=EPSG%3A5070&bbox=-1756874.4532395825%2C1504466.1909983126%2C-1750874.4532395825%2C1510466.1909983126&width=200&height=200&format=GeoTIFF&time=2025-01-01T00%3A00%3A00.000Z&interpolation=nearest+neighbor",
+        "cacheFile": "semantic_patch_5.tif",
+        "bytes": 45202,
+        "sha256": "4f011cc9229eb69a81dd65b9b4960c998da8f11956bf708644cfd53fe1c2f3af",
+        "cachedAt": "2026-11-04T22:27:21.054521+00:00"
+      },
+      "nativeCenterClass": 52,
+      "nativePatchModalClass": 52,
+      "nativePatchCounts": {
+        "22": 7,
+        "31": 51,
+        "42": 230,
+        "52": 39439,
+        "71": 269,
+        "90": 4
+      },
+      "nativePatchBroadFraction": 0.98725,
+      "nativeResolutionMeters": [
+        29.999999999171123,
+        30.00000009893789
+      ],
+      "nativeCRS": "EPSG:5070",
+      "nativeAffine": [
+        29.999999999171123,
+        0.0,
+        -1756874.4516566074,
+        0.0,
+        -30.00000009893789,
+        1510466.198608699
+      ],
+      "centerMatchesOverview": true,
+      "modalClassMatchesOverview": true,
+      "broadRegionalPatternConfirmed": true
+    },
+    {
+      "index": 6,
+      "name": "Lake Michigan open water",
+      "anchorLonLat": [
+        -87.0,
+        44.0
+      ],
+      "row": 149,
+      "col": 754,
+      "lon": -86.97487685641008,
+      "lat": 43.975690187717944,
+      "x": 720419.8535707247,
+      "y": 2365842.7950865775,
+      "overviewClass": 11,
+      "expectedBroadClasses": [
+        11
+      ],
+      "overview5x5BroadFraction": 1.0,
+      "reprojectionRoundtripErrorDegrees": [
+        0.0,
+        2.1316282072803006e-14
+      ],
+      "source": {
+        "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wcs?service=WCS&version=1.0.0&request=GetCoverage&coverage=Land-Cover-Native_conus_year_data&crs=EPSG%3A5070&response_crs=EPSG%3A5070&bbox=717419.8535707247%2C2362842.7950865775%2C723419.8535707247%2C2368842.7950865775&width=200&height=200&format=GeoTIFF&time=2025-01-01T00%3A00%3A00.000Z&interpolation=nearest+neighbor",
+        "cacheFile": "semantic_patch_6.tif",
+        "bytes": 45202,
+        "sha256": "974ff9b5e4706dfe4d1565572ef0e6411208de82edc3800348325e16ae37c330",
+        "cachedAt": "2026-11-04T22:27:24.966851+00:00"
+      },
+      "nativeCenterClass": 11,
+      "nativePatchModalClass": 11,
+      "nativePatchCounts": {
+        "11": 40000
+      },
+      "nativePatchBroadFraction": 1.0,
+      "nativeResolutionMeters": [
+        29.999999967518377,
+        30.0000000085542
+      ],
+      "nativeCRS": "EPSG:5070",
+      "nativeAffine": [
+        29.999999967518377,
+        0.0,
+        717419.8526900783,
+        0.0,
+        -30.0000000085542,
+        2368842.8043667316
+      ],
+      "centerMatchesOverview": true,
+      "modalClassMatchesOverview": true,
+      "broadRegionalPatternConfirmed": true
+    }
+  ],
+  "selectionMethod": "For each named regional anchor, search within six overview cells in each direction. Select the cell whose surrounding 5 × 5 overview window has the highest fraction of expected broad classes, breaking ties by distance to the anchor. Retrieve a separate 6 km square native-resolution (200 × 200 at 30 m) patch centered there. This deliberately tests homogeneous regional patterns, not unbiased source accuracy.",
+  "successfulRegionalChecks": 7,
+  "overviewAndNativeCenterMatches": 7,
+  "overviewAndNativePatchModalMatches": 7,
+  "interpretation": "The seven homogeneous regional checks agree in their overview, native center, and native patch modal classes. These checks plus GeoTIFF coordinate verification support regional positioning. Mixed-landscape discrepancies remain documented in landcover_validation.json; the overview is not an exact native-pixel lookup, area-majority product, or independent field validation.",
+  "localLandCoverValidated": false,
+  "providerOverviewGenerationMethodIndependentlyVerified": false
+}

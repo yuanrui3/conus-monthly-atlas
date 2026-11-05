@@ -1,0 +1,319 @@
+{
+  "checkedAt": "2026-11-04T21:00:14.467642+00:00",
+  "status": "passed",
+  "datasetSHA256": "b0cffb0dae68d8c5e0e77bf15edb4c524b5594bbb5ea9331d7f5cd1dba8d5269",
+  "checks": [
+    "49 correct geographic units",
+    "20 distinct Novembers 2006\u20132025",
+    "Source manifest hash matches dataset",
+    "Grid shape and coordinate ordering",
+    "Finite numbers or null only",
+    "Complete-year counts match valid data",
+    "Temperature ordering",
+    "Nonnegative precipitation and interannual standard deviations"
+  ],
+  "validOverviewCells": 118839,
+  "independentSourceSampleCount": 13,
+  "sourceVerification": "20 source files independently re-read; sampled area-weighted means and standard deviations agree to published rounding",
+  "samples": [
+    {
+      "index": 34387,
+      "lat": 45.25003189,
+      "lon": -88.83333491,
+      "checks": {
+        "mean_temp_c": {
+          "recalculated": 0.039367,
+          "published": 0.04
+        },
+        "min_temp_c": {
+          "recalculated": -4.493882,
+          "published": -4.49
+        },
+        "max_temp_c": {
+          "recalculated": 4.57249,
+          "published": 4.57
+        },
+        "precip_mm": {
+          "recalculated": 46.480347,
+          "published": 46.48
+        }
+      }
+    },
+    {
+      "index": 67075,
+      "lat": 41.33336533,
+      "lon": -79.08333534,
+      "checks": {
+        "mean_temp_c": {
+          "recalculated": 4.023609,
+          "published": 4.02
+        },
+        "min_temp_c": {
+          "recalculated": -1.203125,
+          "published": -1.2
+        },
+        "max_temp_c": {
+          "recalculated": 9.245843,
+          "published": 9.25
+        },
+        "precip_mm": {
+          "recalculated": 83.396227,
+          "published": 83.4
+        }
+      }
+    },
+    {
+      "index": 164525,
+      "lat": 29.58336563,
+      "lon": -101.00000104,
+      "checks": {
+        "mean_temp_c": {
+          "recalculated": 16.092132,
+          "published": 16.09
+        },
+        "min_temp_c": {
+          "recalculated": 9.243253,
+          "published": 9.24
+        },
+        "max_temp_c": {
+          "recalculated": 22.936635,
+          "published": 22.94
+        },
+        "precip_mm": {
+          "recalculated": 18.732094,
+          "published": 18.73
+        }
+      }
+    },
+    {
+      "index": 132504,
+      "lat": 33.41669886,
+      "lon": -112.91666719,
+      "checks": {
+        "mean_temp_c": {
+          "recalculated": 16.824381,
+          "published": 16.82
+        },
+        "min_temp_c": {
+          "recalculated": 8.502237,
+          "published": 8.5
+        },
+        "max_temp_c": {
+          "recalculated": 25.142399,
+          "published": 25.14
+        },
+        "precip_mm": {
+          "recalculated": 11.709458,
+          "published": 11.71
+        }
+      }
+    },
+    {
+      "index": 82839,
+      "lat": 39.41669871,
+      "lon": -93.66666803,
+      "checks": {
+        "mean_temp_c": {
+          "recalculated": 6.702888,
+          "published": 6.7
+        },
+        "min_temp_c": {
+          "recalculated": 0.741633,
+          "published": 0.74
+        },
+        "max_temp_c": {
+          "recalculated": 12.659267,
+          "published": 12.66
+        },
+        "precip_mm": {
+          "recalculated": 54.064004,
+          "published": 54.06
+        }
+      }
+    },
+    {
+      "index": 48516,
+      "lat": 43.50003194,
+      "lon": -124.16666669,
+      "checks": {
+        "mean_temp_c": {
+          "recalculated": 9.651024,
+          "published": 9.65
+        },
+        "min_temp_c": {
+          "recalculated": 5.433453,
+          "published": 5.43
+        },
+        "max_temp_c": {
+          "recalculated": 13.863721,
+          "published": 13.86
+        },
+        "precip_mm": {
+          "recalculated": 212.812767,
+          "published": 212.81
+        }
+      }
+    },
+    {
+      "index": 153396,
+      "lat": 30.91669893,
+      "lon": -104.41666756,
+      "checks": {
+        "mean_temp_c": {
+          "recalculated": 11.649755,
+          "published": 11.65
+        },
+        "min_temp_c": {
+          "recalculated": 3.074771,
+          "published": 3.07
+        },
+        "max_temp_c": {
+          "recalculated": 20.219989,
+          "published": 20.22
+        },
+        "precip_mm": {
+          "recalculated": 10.356016,
+          "published": 10.36
+        }
+      }
+    },
+    {
+      "index": 81229,
+      "lat": 39.58336537,
+      "lon": -112.33333388,
+      "checks": {
+        "mean_temp_c": {
+          "recalculated": 3.981752,
+          "published": 3.98
+        },
+        "min_temp_c": {
+          "recalculated": -3.492511,
+          "published": -3.49
+        },
+        "max_temp_c": {
+          "recalculated": 11.451641,
+          "published": 11.45
+        },
+        "precip_mm": {
+          "recalculated": 18.226466,
+          "published": 18.23
+        }
+      }
+    },
+    {
+      "index": 40858,
+      "lat": 44.50003191,
+      "lon": -69.33333577,
+      "checks": {
+        "mean_temp_c": {
+          "recalculated": 2.831119,
+          "published": 2.83
+        },
+        "min_temp_c": {
+          "recalculated": -1.622365,
+          "published": -1.62
+        },
+        "max_temp_c": {
+          "recalculated": 7.279477,
+          "published": 7.28
+        },
+        "precip_mm": {
+          "recalculated": 111.645408,
+          "published": 111.65
+        }
+      }
+    },
+    {
+      "index": 128411,
+      "lat": 33.91669885,
+      "lon": -107.50000076,
+      "checks": {
+        "mean_temp_c": {
+          "recalculated": 3.647519,
+          "published": 3.65
+        },
+        "min_temp_c": {
+          "recalculated": -3.212648,
+          "published": -3.21
+        },
+        "max_temp_c": {
+          "recalculated": 10.50356,
+          "published": 10.5
+        },
+        "precip_mm": {
+          "recalculated": 20.545657,
+          "published": 20.55
+        }
+      }
+    },
+    {
+      "index": 21634,
+      "lat": 46.75003186,
+      "lon": -112.08333389,
+      "checks": {
+        "mean_temp_c": {
+          "recalculated": 0.781655,
+          "published": 0.78
+        },
+        "min_temp_c": {
+          "recalculated": -4.388859,
+          "published": -4.39
+        },
+        "max_temp_c": {
+          "recalculated": 5.950168,
+          "published": 5.95
+        },
+        "precip_mm": {
+          "recalculated": 15.720157,
+          "published": 15.72
+        }
+      }
+    },
+    {
+      "index": 117313,
+      "lat": 35.25003215,
+      "lon": -108.33333405,
+      "checks": {
+        "mean_temp_c": {
+          "recalculated": 2.666218,
+          "published": 2.67
+        },
+        "min_temp_c": {
+          "recalculated": -5.481785,
+          "published": -5.48
+        },
+        "max_temp_c": {
+          "recalculated": 10.810597,
+          "published": 10.81
+        },
+        "precip_mm": {
+          "recalculated": 30.628434,
+          "published": 30.63
+        }
+      }
+    },
+    {
+      "index": 64410,
+      "lat": 41.66669865,
+      "lon": -70.16666907,
+      "checks": {
+        "mean_temp_c": {
+          "recalculated": 7.50225,
+          "published": 7.5
+        },
+        "min_temp_c": {
+          "recalculated": 3.156,
+          "published": 3.16
+        },
+        "max_temp_c": {
+          "recalculated": 11.8445,
+          "published": 11.84
+        },
+        "precip_mm": {
+          "recalculated": 97.140499,
+          "published": 97.14
+        }
+      }
+    }
+  ]
+}
