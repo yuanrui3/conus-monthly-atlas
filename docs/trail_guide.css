@@ -1,0 +1,62 @@
+#trail-guide{--tg-ink:#203d38;--tg-faded:#516756;--tg-line:#d6ded0;--tg-paper:#fffef9;color:var(--tg-ink);padding-bottom:18px}
+#trail-guide h2,#trail-guide h3{font-family:var(--serif,Georgia,serif);font-weight:400;line-height:1.16;letter-spacing:-.035em;margin:0;color:var(--tg-ink)}
+#trail-guide h3{font-size:clamp(22px,2vw,28px)}
+#trail-guide .tg-kicker{font:700 10px/1.45 var(--sans,system-ui,sans-serif);text-transform:uppercase;letter-spacing:.14em;color:#536b55;margin:0 0 6px}
+.tg-head{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:3px 0 22px}
+#trail-guide .tg-head h2{font-size:clamp(30px,3.5vw,47px)}
+.tg-intro{margin:8px 0 0;max-width:76ch;font-size:14px;color:var(--tg-faded)}
+.tg-count{display:flex;align-items:center;gap:9px;border:1px solid var(--tg-line);background:#edf1e6;padding:8px 14px;border-radius:20px;font-size:12px;white-space:nowrap}
+.tg-count b{font-size:17px;color:#375f47}
+.tg-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(280px,1fr);gap:16px;align-items:start}
+.tg-box{background:var(--tg-paper);border:1px solid var(--tg-line);border-radius:8px;overflow:hidden}
+.tg-maphead,.tg-listbox header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;padding:18px 20px}
+.tg-listbox header{display:block}
+.tg-official,.tg-mapfoot a,.tg-mapcaption a,.tg-profile-details a{font-size:13px;color:#335f49;font-weight:650}
+.tg-mapstage{background:#ebf0e4;border-block:1px solid var(--tg-line)}
+.tg-svg{display:block;width:100%;max-height:365px;color:#3e5849;background-color:#edf1e6;background-image:linear-gradient(90deg,#dce4d64d 1px,transparent 1px),linear-gradient(#dce4d64d 1px,transparent 1px);background-size:32px 32px}
+#trail-guide .tg-g1{--tg-grade:#396739;--tg-tint:#e4efdc}
+#trail-guide .tg-g2{--tg-grade:#356485;--tg-tint:#e3eef5}
+#trail-guide .tg-g3{--tg-grade:#96512a;--tg-tint:#f6e8d9}
+#trail-guide .tg-g4{--tg-grade:#6f405f;--tg-tint:#f1e4ed}
+.tg-route,.tg-halo,.tg-chosen{fill:none;stroke-linecap:round;stroke-linejoin:round}
+.tg-route{stroke:var(--tg-grade);stroke-width:3.4;cursor:pointer}
+.tg-route:hover{stroke-width:6}
+.tg-halo{stroke:#fffef7;stroke-width:10}
+.tg-chosen{stroke:var(--tg-grade);stroke-width:5.3}
+.tg-mapimage{display:block;text-align:center;line-height:0}
+.tg-mapimage img{max-height:430px;max-width:100%;height:auto;width:auto}
+.tg-original{padding:clamp(20px,4vw,48px);background:#e9efdf}
+.tg-original p:not(.tg-kicker){max-width:55ch;margin:9px 0 19px;color:var(--tg-faded)}
+#trail-guide .tg-cta{display:inline-block;background:#234b3d;color:white;text-decoration:none;font-weight:650;border-radius:5px;padding:9px 14px;font-size:13px}
+.tg-mapcaption{margin:0;padding:7px 18px;background:#f4f6ec;font-size:12px;color:var(--tg-faded)}
+.tg-mapcaption a{font-size:inherit}
+.tg-legend{display:flex;gap:7px 17px;flex-wrap:wrap;border-bottom:1px solid var(--tg-line);padding:11px 18px}
+.tg-legend>span{display:inline-flex;align-items:center;gap:5px;font-size:12px;font-weight:550}
+.tg-badge{display:inline-flex;flex:0 0 auto;align-items:center;justify-content:center;border-radius:5px;min-width:27px;height:27px;background:var(--tg-tint);color:var(--tg-grade);font:750 14px/1 var(--sans,system-ui,sans-serif);font-variant-numeric:tabular-nums}
+.tg-legend .tg-badge{min-width:21px;height:21px;font-size:12px}
+.tg-selection{display:grid;grid-template-columns:1fr auto;align-items:end;gap:10px 15px;padding:15px 20px 17px}
+.tg-readout{display:flex;align-items:center;flex-wrap:wrap;gap:6px;margin:0;font-size:14px}
+.tg-readout>span:not(.tg-badge){color:#718171}
+.tg-mapfoot,.tg-climate{grid-column:1/-1;margin:0;font-size:13px;color:var(--tg-faded)}
+.tg-climate{padding-top:10px;border-top:1px solid var(--tg-line)}
+.tg-climate button{background:transparent;padding:2px 0;border:0;color:#335f49;text-decoration:underline;text-underline-offset:3px;font-weight:650;font-size:13px}
+.tg-colhead,.tg-row{display:flex;align-items:center;gap:10px;padding:0 18px}
+.tg-colhead{justify-content:space-between;background:#f2f4ec;border-block:1px solid var(--tg-line);font-size:11px;font-weight:650;color:var(--tg-faded);padding-block:6px}
+#trail-guide .tg-row{width:100%;padding-block:7px;border:0;border-bottom:1px solid #e4e9de;border-left:4px solid transparent;background:transparent;text-align:left;color:var(--tg-ink);font-size:14px}
+#trail-guide .tg-row:last-child{border-bottom:0}
+#trail-guide .tg-row:hover{background:#f0f4e8}
+#trail-guide .tg-row[aria-pressed=true]{background:#e8efe0;border-left-color:#395e47}
+#trail-guide .tg-row:focus-visible{outline-offset:-3px}
+.tg-row small,.tg-row strong{display:block}
+.tg-row strong{font-size:14px;font-weight:650}
+.tg-row small{font-size:12px;color:var(--tg-faded)}
+.tg-mi{margin-left:auto;white-space:nowrap;font-size:13px;color:var(--tg-faded);font-variant-numeric:tabular-nums}
+.tg-profiles{display:grid;grid-template-columns:minmax(270px,1fr) 1.3fr;gap:20px;margin-top:16px;padding:20px}
+.tg-toggle{display:flex;flex-wrap:wrap;gap:5px;margin-top:12px}
+.tg-toggle button{font:600 13px/1.35 var(--sans,system-ui,sans-serif);padding:9px 12px;border:1px solid #cad6c4;background:#f6f7f0;border-radius:5px;color:#49604b}
+.tg-toggle button[aria-pressed=true]{background:#254c3e;border-color:#254c3e;color:white}
+.tg-profile-details{align-self:center;border-left:1px solid var(--tg-line);padding-left:22px;font-size:14px}
+.tg-profile-details p{margin:3px 0 5px;color:var(--tg-faded);max-width:70ch}
+.tg-notes{padding:13px 0 0;color:var(--tg-faded);font-size:13px;max-width:110ch}
+@media(max-width:780px){.tg-grid{grid-template-columns:minmax(0,1fr)}.tg-profiles{grid-template-columns:1fr}.tg-profile-details{padding:12px 0 0;border-left:0;border-top:1px solid var(--tg-line)}.tg-listbox header,.tg-maphead{padding:15px 16px}.tg-selection{padding:14px 16px}.tg-mapstage .tg-svg{max-height:295px}}
+@media(max-width:560px){.tg-head{flex-direction:column;align-items:start;gap:9px}.tg-count{padding:4px 10px}.tg-selection{grid-template-columns:1fr}.tg-profiles{padding:15px}.tg-legend{gap:8px 12px}.tg-readout{align-self:start}.tg-mapimage img{max-height:360px}}

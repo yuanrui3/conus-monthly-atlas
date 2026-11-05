@@ -1,0 +1,13 @@
+#vehicle-test-register{background:var(--card,#fffef9);border:1px solid var(--line,#dce0d3);border-radius:8px;margin:16px 0 28px;padding:20px;color:var(--ink,#203d38)}
+.vt-head,.vt-toolbar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
+.vt-head h2{font:400 27px/1.2 var(--serif,Georgia,serif);margin:0}
+.vt-head p:not(.eyebrow){margin:6px 0;font-size:13px;color:#516756}
+.vt-downloads{display:flex;flex-wrap:wrap;gap:12px;font-weight:650;font-size:12px}
+.vt-toolbar{padding:12px 0;font-size:12px}.vt-toolbar label{font-weight:650}.vt-toolbar select{background:#fbfcf5;border:1px solid #cfdbca;border-radius:5px;padding:5px 9px;margin-left:6px}.vt-count{color:#546856}
+.vt-scroll{overflow-x:auto}#vehicle-test-register table{width:100%;border-collapse:collapse;font:13px/1.45 var(--sans,system-ui,sans-serif);text-align:left}
+#vehicle-test-register th{background:#f0f3e9;color:#425b48;font-size:11px}#vehicle-test-register th,#vehicle-test-register td{vertical-align:top;border-bottom:1px solid #e0e6da;padding:9px 10px}
+#vehicle-test-register td:nth-child(1){width:23%}#vehicle-test-register td:nth-child(2){width:39%}#vehicle-test-register td:nth-child(3){width:20%}
+#vehicle-test-register td small{display:block;font-size:11px;line-height:1.5;color:#536957}
+#vehicle-test-register summary{cursor:pointer;font-weight:650;color:#315f4b}#vehicle-test-register summary:focus-visible{outline:2px solid #9b742d}
+.vt-details{max-width:65ch}.vt-details p{margin:7px 0;line-height:1.45}.vt-interpretation{margin-top:12px;max-width:100ch;color:#526553;font-size:12px}.vt-interpretation p{margin:5px 0}
+@media(max-width:700px){#vehicle-test-register{padding:13px}#vehicle-test-register table{min-width:620px}.vt-scroll{overscroll-behavior-x:contain}}
