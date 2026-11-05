@@ -1,0 +1,680 @@
+{
+  "schema_version": "0.9.0",
+  "title": "CONUS Monthly Atlas",
+  "created_date": "2026-11-04",
+  "status": "monthly_environmental_atlas_with_separate_snow_ice_and_regional_slope",
+  "initial_product": {
+    "stage": "Environmental evidence atlas",
+    "intended_interface": "Interactive map with component layers and evidence quality",
+    "downloadable_outputs": [
+      "Layer data",
+      "Source and processing metadata"
+    ],
+    "combined_vehicle_difficulty_score": null,
+    "vehicle_performance_model": "Not implemented or validated in this package",
+    "overview_grid": {
+      "native_resolution_degrees": 0.041666666666666664,
+      "display_resolution_degrees": 0.08333333333333333,
+      "native_nominal_km": 5,
+      "display_nominal_km": 9,
+      "data_crs": "EPSG:4326",
+      "display_projection": "Albers equal area",
+      "aggregation": "2\u00d72 native cells weighted by spherical area; contributors with a complete 20-year record only",
+      "status": "Implemented first overview grid; future inputs retain separate native support",
+      "change_from_starter": "The proposed 4 km EPSG:5070 engineering default was replaced for this first release by a documented NOAA geographic source grid and an approximately 9 km display. No artificial 4 km precision is claimed."
+    },
+    "primary_weather_source": "noaa_nclimgrid_monthly",
+    "primary_land_state_source": "Not acquired; NLDAS and soil survey products remain documented candidates",
+    "elevation_context": {
+      "source": "NOAA ETOPO1",
+      "vintage": 2009,
+      "native_arc_minutes": 1,
+      "display_degrees": 0.1,
+      "method": "Systematic sampling; static context, not a monthly mean",
+      "calibrated_traversal_interpretation": false
+    },
+    "spatial_support_policy": {
+      "overview": "Retain the documented climate and relief grids without adding artificial local precision.",
+      "local_features": "Inspect mapped water geometry and bridge inventory points separately at local zoom. Inventory coordinates are not precise bridge outlines or verified shoreline connections.",
+      "hydrology": "Selected calendar month historical discharge estimates apply only at gauges. No spatial interpolation.",
+      "display_zoom": "Magnification does not increase the information or positional accuracy of source data.",
+      "land_cover": "The national overview preserves coarse provider classes at about 4\u20137 km spacing. Local detail separately retrieves imagery resampled from native 30 m USGS cells and queries raw classes at nominal 30 m support. Neither display zoom nor resampling adds source detail.",
+      "hydrography": "National river/lake context is generalized at 1:10,000,000 cartographic scale. Local Overture water geometry is separate. Symbol width, geometry and imagery do not establish water conditions.",
+      "seasonal_overlays": "Seasonal land snow and Great Lakes surface ice are separate selectable overlays, independent of the mapped land-cover type and static 2025 NLCD perennial ice/snow. Overlay cells retain source support, not per-pixel certainty.",
+      "regional_slope": "500 m input samples (nominally 1.5 km 3\u00d73 footprint); 0.05\u00b0 display cells, roughly 5.6 km north\u2013south, narrower east\u2013west. Albers grid distances have small projection scale variation. No local grade or current condition inferred."
+    },
+    "environmental_water": {
+      "source": "USGS approved monthly streamflow statistics",
+      "support": "Station points only",
+      "baseline_target": "Each calendar month, 2006\u20132025 inclusive",
+      "missing_year_policy": "Retain nulls and explicitly identify partial baselines; no imputation.",
+      "spatial_interpolation": false,
+      "drinking_water_inference": false,
+      "archived_november": {
+        "published_stations": 10225,
+        "complete_baseline_stations": 4494,
+        "partial_baseline_stations": 5731,
+        "data_file": "water_streamflow.json"
+      },
+      "monthly_data": "water_months/MM.json.gz",
+      "monthly_source_manifest": "water_months_manifest.json",
+      "monthly_validation": "water_months_validation.json",
+      "counts_by_month": {
+        "1": {
+          "published": 10238,
+          "complete20": 5360,
+          "partial": 4878
+        },
+        "2": {
+          "published": 10253,
+          "complete20": 5375,
+          "partial": 4878
+        },
+        "3": {
+          "published": 10322,
+          "complete20": 5420,
+          "partial": 4902
+        },
+        "4": {
+          "published": 10505,
+          "complete20": 5434,
+          "partial": 5071
+        },
+        "5": {
+          "published": 10517,
+          "complete20": 5440,
+          "partial": 5077
+        },
+        "6": {
+          "published": 10542,
+          "complete20": 5444,
+          "partial": 5098
+        },
+        "7": {
+          "published": 10549,
+          "complete20": 5433,
+          "partial": 5116
+        },
+        "8": {
+          "published": 10547,
+          "complete20": 5416,
+          "partial": 5131
+        },
+        "9": {
+          "published": 10489,
+          "complete20": 5337,
+          "partial": 5152
+        },
+        "10": {
+          "published": 10414,
+          "complete20": 4995,
+          "partial": 5419
+        },
+        "11": {
+          "published": 10225,
+          "complete20": 4494,
+          "partial": 5731
+        },
+        "12": {
+          "published": 10187,
+          "complete20": 4179,
+          "partial": 6008
+        }
+      },
+      "tab_label": "River flow"
+    },
+    "local_detail": {
+      "source": "USGS Annual NLCD 2025 imagery, Overture experimental base-water vectors, FHWA 2025 bridge locations and USGS historical gauges",
+      "verified_water_release": "2026-10-21.0",
+      "release_discovery": "Current STAC release on load, validated water layer, explicit dated fallback or service failure",
+      "source_layer": "water",
+      "native_water_maxzoom": 13,
+      "context": [
+        "2025 land cover from 30 m source with independent opacity and visibility controls",
+        "Water outlines and lines",
+        "Bridge inventory locations",
+        "Historical streamflow station points"
+      ],
+      "excluded": [
+        "Individual buildings",
+        "Road and rail geometry"
+      ],
+      "geometry_meaning": "Source water geometry and dated bridge points; no current water condition, water-crossing assertion or suitability inference.",
+      "retained_prior_provenance_file": "building_source.json"
+    },
+    "land_cover": {
+      "source": "USGS Annual NLCD Collection 1.2 \u00b7 MRLC raw WCS",
+      "snapshot": "2025 calendar-year land cover (Collection 1.2, June 2026)",
+      "native_resolution_m": 30,
+      "display_support": "Coarse categorical service overview; approximately 4\u20137 km spacing; local composition unknown",
+      "grid_spacing_degrees": {
+        "longitude": 0.05606685625142385,
+        "latitude": 0.05983966251598777
+      },
+      "mapped_overview_cells": 252965,
+      "class_count": 16,
+      "data_file": "landcover.json",
+      "method": "Request 2025 raw class-valued GeoTIFF from the official USGS MRLC WCS at 1180 \u00d7 520 pixels with nearest-neighbor interpolation. Use the returned affine coordinates, not the requested bounding box, because server reprojection expands the extent. Read integer band values directly, retain provider palette labels, and convert NoData 250 to null. Preserve the valid USGS CONUS footprint including inland and coastal water; use 2025 Census outlines as reference only. No color decoding, class averaging, gap filling, area-majority inference, or mobility scoring.",
+      "interpretation": "Categorical landscape context; no difficulty weights, local vegetation-structure estimate or monthly state inference",
+      "spatial_footprint": "All valid USGS CONUS source cells including mapped inland/coastal water; Census land outlines are reference-only",
+      "source_cells_outside_generalized_land_outlines": 7995,
+      "missing_inside_generalized_land_outline_cells": 246,
+      "local_detail": {
+        "source_file": "landcover_detail_source.json",
+        "source_year": 2025,
+        "native_resolution_m": 30,
+        "service": "Official USGS MRLC WMS GetMap and raw GetFeatureInfo",
+        "view": "Land & water detail",
+        "display": "Provider WMS imagery resampled from 30 m source cells. Zooming or smaller rendered pixels do not add information below the source support.",
+        "external_service": true,
+        "no_color_decoding": true,
+        "failed_local_query_policy": "Show unavailable or unknown; never substitute the coarse overview"
+      }
+    },
+    "bridges": {
+      "source": "FHWA National Bridge Inventory \u2014 2025 highway bridge locations",
+      "snapshot_date": "2025-06-15",
+      "data_file": "bridge_points.json",
+      "metadata_file": "bridge_metadata.json",
+      "exclusion_audit_file": "bridge_exclusions.json",
+      "source_conus_records": 618895,
+      "mapped_records": 617431,
+      "excluded_coordinates": 1464,
+      "jurisdictions": 49,
+      "display": "Individual inventory points and lazy per-state descriptions in local detail only. No bridge symbols or counts in the national overview.",
+      "interpretation": "Not every record crosses water. Locations and descriptions do not establish current availability, suitability or an exact bridge outline."
+    },
+    "national_water_context": {
+      "source": "Natural Earth 5.0.0",
+      "scale": "1:10,000,000",
+      "data_file": "hydro_overview.geojson",
+      "metadata_file": "hydro_overview_metadata.json",
+      "counts": {
+        "lake": 533,
+        "river": 1583
+      },
+      "intermittent_river_features": 83,
+      "scope": "Contiguous-US map extent including adjacent Canada and Mexico for geographic context; all five Great Lakes are retained.",
+      "source_observation_date": null,
+      "symbol_policy": "River lines are cartographic symbols with unmeasured widths; supplied intermittent class is dashed"
+    },
+    "location_evidence_panel": {
+      "view": "Overview",
+      "scope": "Selected overview cell, not statewide aggregation",
+      "measurements": [
+        "2025 coarse land-cover class",
+        "2006\u20132025 selected calendar month mean outdoor temperature",
+        "2006\u20132025 average precipitation total for that month",
+        "2009 relief sample",
+        "USGS 3DEP regional mean slope (degrees above horizontal)",
+        "Seasonal snow frequency when the land-snow overlay is enabled",
+        "Selected-month surface ice concentration when the Great Lakes overlay is enabled"
+      ],
+      "status_rules": [
+        "Inspect each selected cell independently.",
+        "Climate values are available only with a finite value and all 20 valid yearly records for the same month.",
+        "No point selection, unavailable source and missing cell are distinct states.",
+        "Zero and negative physical values remain valid when present.",
+        "Display dates and source support separately for each measurement.",
+        "No numeric completeness, confidence, difficulty or mobility score is produced."
+      ],
+      "unmeasured_conditions": [
+        "Soil condition",
+        "Fine-scale grade and surface roughness",
+        "Seasonal snow depth, snow-water equivalent and ice thickness",
+        "Vegetation structure and monthly crop state",
+        "Additional weather evidence",
+        "Crew measurements"
+      ],
+      "new_physical_datasets_acquired": true,
+      "validation": {
+        "checked_at": "2026-11-04T23:19:07.281175+00:00",
+        "browser_preview": "Passed",
+        "cases": [
+          "No selection remains distinct from missing data",
+          "Indiana selected point shows sourced land-cover, climate and relief values",
+          "US customary and metric display update the evidence values",
+          "A Lake Michigan point retains open-water land cover while climate and relief remain unavailable"
+        ],
+        "scope": "Historical v0.5 November-specific coverage UI checks"
+      }
+    },
+    "civilian_recreational_pilot": {
+      "area": "Badin Lake Recreation Area, Uwharrie National Forest, North Carolina",
+      "data_file": "badin_trails.json",
+      "source_map": "https://www.fs.usda.gov/media/241208",
+      "score_type": "Ordinal encoding of the Forest Service trail rating, not a vehicle suitability prediction.",
+      "grades": {
+        "1": "Easy",
+        "2": "Moderate",
+        "3": "Difficult",
+        "4": "Extremely Difficult"
+      },
+      "profiles": [
+        "2025 Ford Bronco Badlands, US four-door model",
+        "YANGWANG U8 Premium Edition, 2023 China launch specification"
+      ],
+      "vehicle_specific_rating": null,
+      "unrated_area_policy": "Absent records remain unrated; no extrapolation beyond named recreational routes.",
+      "published_trail_entries": 11,
+      "matched_trail_entries": 9,
+      "geometry_policy": "The conflicting Dickey Bell Alt and unmatched Dickey Bell Con records have no drawn line or sampled climate point.",
+      "source_geometry": "https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_TrailNFSPublishWithDataStatus_01/MapServer/0",
+      "checks": [
+        "National overview has no bridge cluster overlay or bridge inventory loading path.",
+        "Local bridge detail still reports individual records.",
+        "Browser verified grade, unchanged score on vehicle switch, sampled climate, U8 cabin reference, and no mapped line on access-source conflict."
+      ],
+      "monthly_rating_adjustment": null,
+      "monthly_context": "Complete 2006\u20132025 climatology sampled for a mapped trail point if the geometry and supporting climate grid cells exist. No whole-trail or present-condition inference.",
+      "seasonal_order_url": "https://www.fs.usda.gov/media/237560",
+      "seasonal_access": "Show the documented Dec 15\u2013Mar 31 recurring closure separately from the published grade. Other months do not imply an open trail.",
+      "vehicle_evidence": {
+        "files": [
+          "civilian_vehicle_tests.csv",
+          "civilian_vehicle_tests.json"
+        ],
+        "record_count": 11,
+        "scope": "Sourced test reports and observations. No cross-platform performance scaling or geographic prediction."
+      }
+    },
+    "calendar": {
+      "months": [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December"
+      ],
+      "years": [
+        2006,
+        2025
+      ],
+      "expected_years_per_month": 20,
+      "default": 11,
+      "climate_manifest": "climate_months/manifest.json",
+      "station_manifest": "water_months_manifest.json",
+      "static_sources": [
+        "2025 land cover",
+        "2009 relief",
+        "river and lake geometry",
+        "bridge inventory",
+        "published Badin Lake grades",
+        "USGS 3DEP-derived regional mean slope (source mosaic with varying vintages)"
+      ],
+      "vehicle_scores_vary_by_month": false,
+      "browser_verification": {
+        "climate": "All twelve month choices returned distinct source-backed values at the same Lakeview point. Same selected Indiana overview cell checked in January and July.",
+        "streamflow": "USGS-03335500 selected: about 289 m3/s in January, 164 in July and 295 in February. Monthly changes retained the station across national and local views.",
+        "trail_grade_and_season": "Published grades retained; December split closure is displayed independently."
+      },
+      "seasonal_overlay_manifests": [
+        "seasonal_snow_sources.json.gz",
+        "seasonal_ice_manifest.json"
+      ],
+      "snow_permanent_class_policy": "Retain 2025 NLCD perennial ice/snow as a base class. Seasonal overlay choices do not recode it."
+    },
+    "seasonal_snow": {
+      "title": "Seasonal snow on land",
+      "source": "US National Ice Center IMS daily snow and ice analyses; distributed via NSIDC (G02156)",
+      "source_url": "https://nsidc.org/data/g02156/versions/1",
+      "data_file": "seasonal_snow.json.gz",
+      "provenance_file": "seasonal_snow_sources.json.gz",
+      "quantity": "Frequency of snow-covered land days, as a percentage",
+      "temporal_support": "Each calendar month in 2006\u20132025; analysis dates, not the next-day filenames",
+      "spatial_support": "Nominal 24 km IMS grid; nearest source cell at 0.25-degree overview cell centers",
+      "calculation": "For each calendar month and year, divide snow days by valid snow-covered or snow-free land days. Require valid land observations on at least 80% of the calendar days and all 20 qualifying years. Average the 20 annual percentages equally. Water, ice and unknown flags do not count as snow-free land.",
+      "limitations": "Values are frequencies, not snow depth, snow-water equivalent, snowpack strength, snowfall totals or current conditions. Null and valid 0% remain distinct.",
+      "coverage": {
+        "availableAnalysisDays": 7289,
+        "expectedCalendarDays": 7305,
+        "missingCalendarDays": 16,
+        "overviewValidCellsByMonth": {
+          "1": 13013,
+          "2": 13013,
+          "3": 13013,
+          "4": 13013,
+          "5": 13013,
+          "6": 13013,
+          "7": 13013,
+          "8": 13013,
+          "9": 13013,
+          "10": 13013,
+          "11": 13013,
+          "12": 13013
+        }
+      }
+    },
+    "seasonal_surface_ice": {
+      "title": "Seasonal Great Lakes surface ice",
+      "source": "NOAA GLERL Great Lakes Ice Cover Database (USNIC/CIS charts)",
+      "source_url": "https://www.glerl.noaa.gov/data/ice/",
+      "data_file": "seasonal_ice.json.gz",
+      "provenance_file": "seasonal_ice_manifest.json",
+      "validation_file": "seasonal_ice_validation.json",
+      "quantity": "Mean charted surface ice concentration (%)",
+      "geographic_scope": "Lake Superior, Michigan, Huron, Erie, Ontario and Lake Saint Clair; no general inland-river or nationwide water-ice layer",
+      "temporal_support": "Each calendar month in 2006\u20132025; use years with enough charted days, retain count at each cell",
+      "spatial_support": "1024 \u00d7 1024 Mercator source grid; projection cell size 1,800 m. The source coordinate package supplies latitudes, longitudes, and lake IDs. 0.05\u00b0 geographic overview; nearest source grid cell to each displayed cell center, masked by the NOAA lake IDs.",
+      "calculation": "Average valid concentration (0\u2013100%) across available chart dates within each calendar month and year. Include a cell-year only with valid values on at least 80% of all calendar days. Equally average qualifying yearly means if at least 10 of 20 years qualify. Retain actual qualifying year counts.",
+      "observed_coverage": "Qualifying values occur in December\u2013April. May, June and November have some chart dates without sufficient qualifying years. July\u2013October have no archive chart dates in this baseline.",
+      "limitations": "Missing is never ice-free; 0% is a valid charted estimate. Surface concentration is not thickness, ice strength or current status."
+    },
+    "regional_mean_slope": {
+      "title": "Regional mean terrain slope (degrees)",
+      "source": "USGS 3DEP Elevation ImageServer",
+      "source_url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+      "data_file": "regional_slope.json.gz",
+      "provenance_file": "regional_slope_metadata.json",
+      "units": "degrees above horizontal (not percent grade)",
+      "temporal_support": "Static terrain; DEM vintage varies across source coverage.",
+      "spatial_support": "500 m input samples (nominally 1.5 km 3\u00d73 footprint); 0.05\u00b0 display cells, roughly 5.6 km north\u2013south, narrower east\u2013west. Albers grid distances have small projection scale variation. No local grade or current condition inferred.",
+      "calculation": "Request 500 m elevation samples in NAD83 / CONUS Albers, EPSG:5070 with bilinear interpolation and a one-sample halo around each tile. Calculate Horn 3\u00d73 horizontal gradient from metre-based vertical and horizontal units; require all nine samples valid. Angle is atan(hypot(dz/dx,dz/dy)) in degrees. GDAL average resampling across valid contributing slope values gives each 0.05\u00b0 overview cell. Clip centers to bundled contiguous-state boundaries and exclude generalized mapped lake centers. This is not slope computed from the 11 km ETOPO elevation overlay.",
+      "valid_overview_cells": 326757,
+      "limitations": "A regional mean angle; not within-cell peak slope, local or trail grade, roughness, aspect, or a vehicle traversal assessment."
+    }
+  },
+  "temporal_contract": {
+    "interpretation": "Twelve calendar-month climatologies, with separately dated landscape and infrastructure records.",
+    "landscape_date_policy": "Record release, acquisition/snapshot date and freshness limits separately; do not assume every layer is current",
+    "climate_period_policy": "Use the same calendar month in each of 2006\u20132025. Require 20 years at a contributing native climate cell.",
+    "precipitation": "Average the 20 respective monthly precipitation totals with equal year weights.",
+    "state_variables": "Form monthly summaries from quality-controlled samples; retain year counts and between-year variability",
+    "completeness_policy": "Strict complete-record target; incomplete values remain flagged and are not silently substituted",
+    "antecedent_conditions": "No daily event or antecedent soil-moisture conditions are derived from monthly totals.",
+    "extremes_policy": "Retain daily or subdaily source information where needed; a monthly mean is not an estimate of extreme exposure"
+  },
+  "layer_families": [
+    "Elevation and terrain shape",
+    "Soil properties",
+    "Soil moisture and temperature",
+    "Rivers, lakes and surface water",
+    "Wetlands and seasonal water",
+    "Vegetation and seasonal land cover",
+    "Bridges",
+    "Snow and ice",
+    "Precipitation history",
+    "Air temperature and humidity",
+    "Wind and solar radiation",
+    "Tropical cyclones and severe weather"
+  ],
+  "evidence_contract": {
+    "separate_status_dimensions": [
+      "Product documentation verified",
+      "Acquired data coverage",
+      "Interpretation validation"
+    ],
+    "map_status_categories": [
+      "Supported environmental estimate",
+      "Provisional environmental estimate",
+      "Insufficient evidence",
+      "Outside modeled domain"
+    ],
+    "rules": [
+      "Source availability is not the same as downloaded or validated data.",
+      "Missing values are not zero and are not easy terrain.",
+      "Water is a mapped surface class, not a missing-data category.",
+      "Absence of a mapped feature does not prove physical absence.",
+      "Resampling does not increase the independent information in a source.",
+      "Do not assign a numerical confidence probability without calibration evidence."
+    ]
+  },
+  "crew_environment": {
+    "exterior_exposure_layer": {
+      "status": "Monthly exterior air temperature and precipitation available; humidity, wind and solar pending",
+      "independent_of_cabin_predictions": true
+    },
+    "fitted_climate_control_configuration": null,
+    "cabin_thermal_model": {
+      "status": "not_parameterized",
+      "candidate_heat_inputs": [
+        "Vehicle systems",
+        "Crew and equipment",
+        "Solar gain"
+      ],
+      "thermal_storage_and_insulation": null,
+      "heating_capacity": null,
+      "cooling_capacity": null,
+      "ventilation_configuration": null,
+      "clothing_and_exposure_duration": null,
+      "cabin_measurements": null,
+      "fixed_outdoor_to_indoor_temperature_offset": null
+    },
+    "scenarios": [
+      {
+        "id": "operating",
+        "assumption": "Fitted climate controls operate; residual heat and thermal inadequacy remain possible.",
+        "status": "defined_not_evaluated",
+        "probability": null
+      },
+      {
+        "id": "degraded",
+        "assumption": "One or more climate-control functions perform below normal capability.",
+        "affected_functions": [],
+        "degradation_parameters": null,
+        "status": "requires_definition",
+        "probability": null
+      },
+      {
+        "id": "unavailable",
+        "assumption": "Active crew heating and cooling unavailable; ventilation state is unspecified.",
+        "status": "defined_not_evaluated",
+        "probability": null
+      }
+    ],
+    "scenario_rules": [
+      "Operating controls do not guarantee a comfortable cabin.",
+      "Cold-weather loss of heating must be considered as well as loss of cooling.",
+      "Control failure does not imply that the cabin instantly equals outdoor temperature.",
+      "Ventilation availability must not be inferred solely from heating or cooling failure.",
+      "Do not assume a failure rate, arbitrary cooling loss percentage, or universal temperature offset.",
+      "Keep scenarios separate unless evidence supports probability weights."
+    ],
+    "cabin_temperature_estimate": null,
+    "cabin_humidity_estimate": null,
+    "crew_comfort_estimate": null,
+    "probability_weighted_scenario_blend": null,
+    "drinking_water": {
+      "status": "requirements_and_scenarios_recorded_no_location_supply_data",
+      "user_requirement": "Do not assume planned logistical resupply remains available.",
+      "separate_evidence_fields": {
+        "onboard_safe_drinking_water": null,
+        "resupply_reliability": null,
+        "actual_access_to_alternative_water": null,
+        "source_water_quality": null,
+        "treatment_availability": null,
+        "supply_status_timestamp": null
+      },
+      "default_scenario": "unknown",
+      "scenarios": [
+        {
+          "id": "available",
+          "meaning": "Usable drinking-water supply is assumed available; quantity and duration are not inferred.",
+          "probability": null
+        },
+        {
+          "id": "interrupted",
+          "meaning": "Resupply is assumed interrupted; existing usable supply remains unknown.",
+          "probability": null
+        },
+        {
+          "id": "unknown",
+          "meaning": "Available usable water and resupply status have not been established.",
+          "probability": null
+        }
+      ],
+      "rules": [
+        "Mapped water, rainfall and soil wetness do not establish safe drinking-water availability.",
+        "An identified source does not establish its quality, treatment or actual accessibility.",
+        "Keep supplied water and environmental surface water separate.",
+        "Do not assign failure probabilities, consumption rates or endurance estimates without evidence.",
+        "Do not combine these uncalibrated scenarios into terrain or crew scores."
+      ],
+      "quantity_estimate": null,
+      "consumption_rate": null,
+      "endurance_estimate": null,
+      "reliability_probability": null,
+      "scope": "Crew drinking-water supply only; separate from mapped environmental water and physical landscape indicators."
+    }
+  },
+  "completed": [
+    "20 November NOAA climate files downloaded with source hashes",
+    "Four 2006\u20132025 climatology layers calculated with equal year weights",
+    "Between-year variability for mean temperature and precipitation calculated",
+    "49 Census state/DC reference boundaries acquired",
+    "Interactive map implementation",
+    "Separate operating, degraded and unavailable HVAC assumptions included",
+    "NOAA ETOPO1 relief overview acquired and mapped with source vintage and sampling limitations",
+    "Drinking-water availability and uncertain resupply added as separate qualitative crew-support assumptions",
+    "USGS station-point November flow summaries acquired: 10,225 stations, 4,494 complete 20-year baselines, 5,731 partial records",
+    "Per-year water values, source requests, hashes, completeness flags and independent daily-record checks retained",
+    "Crew-only drinking-water scope confirmed and kept separate from environmental water",
+    "USGS Annual NLCD 2025 raw categorical service overview acquired with source transform, class codes, dates and resolution limits",
+    "Sixteen source classes preserve forest types, shrubland, grassland, pasture/hay, crops, woody and herbaceous wetlands, open water and other categories",
+    "FHWA 2025 National Bridge Inventory locations acquired, with source coordinate validation and lazy state detail",
+    "Water-only local inspection independent of building and transportation archives",
+    "Buildings and roads excluded from the current release",
+    "Finer local USGS 2025 land-cover imagery from 30 m native source with mapped water overlaid",
+    "Raw provider class lookup independent of map zoom; unknown and failed queries retained",
+    "Generalized national river and lake overlay with source names, dates and cartographic scale",
+    "Location-specific environmental evidence panel with source support, dates, complete-baseline checks and explicit unmeasured conditions",
+    "Added published grades for named civilian recreational 4\u00d74 trails in the Badin Lake pilot, with separate Bronco and U8 profiles.",
+    "Removed numbered bridge circles and the overview bridge inventory fetch; local point inspection remains.",
+    "Added all 12 independently calculated NOAA outdoor monthly climatologies and site-wide calendar control; static sources retain their own dates.",
+    "Published all 12 monthly discharge station series with approved records, full/partial flags, independently checked boundary sources and original November equality.",
+    "Added independent monthly snow-on-land and Great Lakes surface-ice overlays, with separate missing-value bounds and ranges, while retaining the static Annual NLCD perennial ice/snow class.",
+    "Calculated regional mean slope from 500 m USGS 3DEP elevation samples, averaged onto a 0.05-degree overview.",
+    "Renamed the streamflow view River flow; monthly USGS station records and completeness policy are unchanged."
+  ],
+  "not_completed": [
+    "Soil survey properties and actual calendar-month soil-moisture/temperature acquisition",
+    "Comprehensive nationwide water depth, velocity, river-bank detail, lake/river ice thickness and ice outside the regional GLERL product",
+    "Vegetation structure, understory, height and calendar-month phenology or crop state",
+    "Fine-scale terrain grade and surface roughness",
+    "Snow depth, SWE, ice thickness, humidity, wind and solar layers",
+    "Historical hurricane/severe-weather event and exposure layers",
+    "Durable self-hosted water geometry and independent completeness/positional validation",
+    "Cabin thermal measurements and calibration",
+    "Evidence for actual crew drinking-water availability and resupply status"
+  ],
+  "source_catalog": "source_catalog.json",
+  "updated_date": "2026-11-04",
+  "composite_measure_policy": {
+    "status": "No combined score, numerical difficulty weights, usable-crossing assessment or routing",
+    "potential_role": "No composite or vehicle score is implemented in this environmental evidence atlas.",
+    "requirements": [
+      "Keep component measurements and dates inspectable.",
+      "Specify normalization and direction before weighting.",
+      "Evaluate correlated inputs and double-counting.",
+      "Expose missing data without silently assigning zero or renormalizing away absent inputs.",
+      "Evaluate sensitivity and uncertainty before interpreting a composite."
+    ],
+    "separate_evidence": [
+      "Environmental observations and estimates",
+      "Infrastructure geometry and supplied attributes",
+      "Crew thermal scenarios",
+      "Crew drinking-water assumptions",
+      "Coverage and data quality"
+    ],
+    "vehicle_performance_or_route_inference": null,
+    "method_reference": "https://knowledge-for-policy.ec.europa.eu/composite-indicators/toolkit_en/navigation-page/10-step-guide_en/step-6-weighting_en"
+  },
+  "release": "0.8",
+  "excluded_by_current_scope": [
+    "Individual building footprints, including residential buildings",
+    "Road and rail geometry"
+  ],
+  "outside_product_scope": [
+    "Tank-mobility or combat traversal score",
+    "Vehicle-specific crossing suitability and route planning",
+    "Operational bridge clearance or capacity assessment"
+  ],
+  "study_scope": {
+    "geography": "Contiguous 48 United States and Washington, DC",
+    "state_postal_codes": [
+      "AL",
+      "AZ",
+      "AR",
+      "CA",
+      "CO",
+      "CT",
+      "DE",
+      "DC",
+      "FL",
+      "GA",
+      "ID",
+      "IL",
+      "IN",
+      "IA",
+      "KS",
+      "KY",
+      "LA",
+      "ME",
+      "MD",
+      "MA",
+      "MI",
+      "MN",
+      "MS",
+      "MO",
+      "MT",
+      "NE",
+      "NV",
+      "NH",
+      "NJ",
+      "NM",
+      "NY",
+      "NC",
+      "ND",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VT",
+      "VA",
+      "WA",
+      "WV",
+      "WI",
+      "WY"
+    ],
+    "climate_year_start": 2006,
+    "climate_year_end": 2025,
+    "reference_vehicle": "Ford Bronco or YANGWANG U8 for civilian recreational driving",
+    "include_crew_environment": true,
+    "include_residual_heat_with_operating_climate_controls": true,
+    "include_failed_climate_control_scenarios": true,
+    "include_drinking_water_availability_and_uncertain_resupply": true,
+    "include_individual_buildings_including_residential": false,
+    "infer_environmental_water_conditions_where_supported": true,
+    "drinking_water_scope": "Vehicle occupants only",
+    "include_road_and_rail_geometry": false,
+    "calendar_months": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "initial_display_month": 11,
+    "expected_years_per_calendar_month": 20
+  }
+}
