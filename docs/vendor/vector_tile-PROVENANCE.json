@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-11-04T21:50:52.606874+00:00",
+  "purpose": "Exact Mapbox Vector Tile decoding and GeoJSON conversion for the Canvas2D fallback. No geometry simplification or building-use inference.",
+  "output_file": "vector_tile.mjs",
+  "output_bytes": 24491,
+  "output_sha256": "07a5d0a5d6cbdbc1cbbc49f1131a60b745e8a12df5a78026837120fbc9e08faf",
+  "exports": [
+    "decodeTile",
+    "VectorTile",
+    "Pbf",
+    "PbfReader"
+  ],
+  "api": {
+    "decodeTile": "decodeTile(arrayBufferOrUint8Array, x, y, z, options={}) returns a GeoJSON FeatureCollection; optional options.layers array selects source layers. Input bytes must already be decompressed (as returned by PMTiles.getZxy). Each feature has sourceLayer and properties.__sourceLayer, while all supplied properties are preserved.",
+    "geometry": "Uses the upstream VectorTileFeature.toGeoJSON(x,y,z), preserving tile coordinates through standard Web Mercator conversion, ring classification, holes, and multipolygons. Tile geometry may be clipped by the original tile producer; no extra clipping or simplification is performed here.",
+    "Pbf": "Alias for the official PbfReader class, compatible with new VectorTile(new Pbf(bytes))."
+  },
+  "packages": [
+    {
+      "name": "@mapbox/vector-tile",
+      "version": "3.0.0",
+      "license": "BSD-3-Clause",
+      "repository": {
+        "url": "git+https://github.com/mapbox/vector-tile-js.git"
+      },
+      "npm_registry_url": "https://registry.npmjs.org/@mapbox/vector-tile/3.0.0",
+      "license_file_in_package": "LICENSE.txt",
+      "license_sha256": "5b09a507df6f21d6c2112c46dcaf2927b9dbd8b580a08b542d8ec2f9191d783d",
+      "dist": {
+        "shasum": "71a75acb5ee20c20adca5c4e1ffb5ef95a56e351",
+        "tarball": "https://registry.npmjs.org/@mapbox/vector-tile/-/vector-tile-3.0.0.tgz",
+        "fileCount": 5,
+        "integrity": "sha512-Qf10S1uIHMk20ri/IVBnpS+esUEkVaR5Hftmz88jTInrpmWgPGJfPe3LVjjlE77trLx8tH6qjTG7uWH9hIq/0Q==",
+        "signatures": [
+          {
+            "sig": "MEUCIBoTW7QMI3qr633ojsDJa9dfDPZteNIbkWMl9Hb0MUp7AiEAwkgtkp8B7VYtVNgmdGAFndS929xl7rUkY92dCm3DiZc=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "unpackedSize": 17650
+      }
+    },
+    {
+      "name": "pbf",
+      "version": "5.1.2",
+      "license": "BSD-3-Clause",
+      "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/mapbox/pbf.git"
+      },
+      "npm_registry_url": "https://registry.npmjs.org/pbf/5.1.2",
+      "license_file_in_package": "LICENSE",
+      "license_sha256": "fdf1d5279107d760c7df8c6edab1faab2b72ba17528273a8b417b08f1e12ebbe",
+      "dist": {
+        "shasum": "07c427819eda32f02f1ec9741558f61444f2e1c0",
+        "tarball": "https://registry.npmjs.org/pbf/-/pbf-5.1.2.tgz",
+        "fileCount": 9,
+        "integrity": "sha512-mnvGdvOrIvJOBGUEdGkrVXjN8E/VkIJCkf2eS1DH2yv82ORUlLttmDt0rWY38yYZmVwciZwBUvHM20qxBZf40w==",
+        "signatures": [
+          {
+            "sig": "MEQCIFEZ+TY777nkerPtUQYX2vU/uOuIJgcuIrhvwx5vxYC/AiAMk05srEFr8mlvXcxelVfa3L5GV/nMcpvaFwLTOfApzQ==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/pbf@5.1.2",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 90141
+      }
+    },
+    {
+      "name": "@mapbox/point-geometry",
+      "version": "1.1.0",
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git@github.com:mapbox/point-geometry.git"
+      },
+      "npm_registry_url": "https://registry.npmjs.org/@mapbox/point-geometry/1.1.0",
+      "license_file_in_package": "LICENSE",
+      "license_sha256": "0c0ede0036a425ff8b2d49341ea9aa8eccbeeae1ac4eb59874c9dd8bcf5186d3"
+    }
+  ],
+  "bundler": {
+    "name": "esbuild",
+    "version": "0.28.2",
+    "options": [
+      "--bundle",
+      "--format=esm",
+      "--platform=browser",
+      "--target=es2022",
+      "--legal-comments=inline"
+    ],
+    "runtime_external_dependencies": []
+  },
+  "entry_source": "import {VectorTile} from '@mapbox/vector-tile';\nimport {PbfReader} from 'pbf';\n\n/** Decode already-decompressed MVT bytes; GeoJSON projection and ring handling\n * use @mapbox/vector-tile.toGeoJSON without geometry simplification.\n * Optional {layers: ['building']} limits conversion to named source layers.\n */\nexport function decodeTile(arrayBuffer, x, y, z, options = {}) {\n  if (![x, y, z].every(Number.isInteger) || z < 0 || z > 30 || x < 0 || y < 0 || x >= 2 ** z || y >= 2 ** z) {\n    throw new RangeError('Valid integer XYZ tile coordinates are required.');\n  }\n  const bytes = arrayBuffer instanceof Uint8Array ? arrayBuffer\n    : ArrayBuffer.isView(arrayBuffer) ? new Uint8Array(arrayBuffer.buffer, arrayBuffer.byteOffset, arrayBuffer.byteLength)\n    : new Uint8Array(arrayBuffer);\n  const tile = new VectorTile(new PbfReader(bytes));\n  const requested = options.layers ? new Set(options.layers) : null;\n  const features = [];\n  for (const [name, layer] of Object.entries(tile.layers)) {\n    if (requested && !requested.has(name)) continue;\n    for (let i = 0; i < layer.length; i++) {\n      const feature = layer.feature(i).toGeoJSON(x, y, z);\n      feature.sourceLayer = name;\n      feature.properties = {...feature.properties};\n      if (!Object.hasOwn(feature.properties, '__sourceLayer')) feature.properties.__sourceLayer = name;\n      features.push(feature);\n    }\n  }\n  return {type: 'FeatureCollection', features};\n}\nexport {VectorTile, PbfReader, PbfReader as Pbf};\n",
+  "validation": {
+    "sample_source": "Overture buildings release 2026-10-21.0",
+    "tile": {
+      "z": 14,
+      "x": 3413,
+      "y": 6218
+    },
+    "selected_layer": "building",
+    "features": 2845,
+    "polygon_features": 2844,
+    "multipolygon_features": 1,
+    "holes": 8,
+    "rings": 2854,
+    "positions": 22839,
+    "all_rings_closed": true,
+    "all_positions_finite": true,
+    "source_layer_tags_verified": true
+  },
+  "official_documentation": [
+    "https://github.com/mapbox/vector-tile-js",
+    "https://github.com/mapbox/pbf"
+  ]
+}
