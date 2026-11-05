@@ -436,8 +436,8 @@
     },
     {
       "path": "docs/data/landcover_detail_source.json",
-      "bytes": 15609,
-      "sha256": "9be5a47e86a4aa9e6ac459abe0588fbe64c468728b1da64b73d2faabb81087d6"
+      "bytes": 5115,
+      "sha256": "7b534c2f7e9488477a461ef391afcff8448e7f78d2bf587aab76175413f14d59"
     },
     {
       "path": "docs/data/landcover_geometry_validation.json",
