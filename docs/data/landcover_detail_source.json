@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "usgs-annual-nlcd-2025-local",
+  "title": "Land cover · 30 m source",
+  "source": "USGS Annual NLCD Collection 1.2, served by MRLC",
+  "sourceUrl": "https://www.usgs.gov/data/annual-national-land-cover-database-nlcd-collection-1-products-ver-12-june-2026",
+  "sourceYear": 2025,
+  "nativeResolutionMeters": 30,
+  "sourceNativeCRS": "EPSG:5070",
+  "license": "USGS data release: CC0 1.0 Universal",
+  "attribution": "USGS Annual NLCD 2025 · MRLC · 30 m source",
+  "wms": {
+    "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wms",
+    "version": "1.3.0",
+    "layer": "Land-Cover-Native_conus_year_data",
+    "style": "raster",
+    "time": "2025-01-01T00:00:00.000Z",
+    "crs": "EPSG:3857",
+    "format": "image/png",
+    "tileSize": 256,
+    "maxNativeZoom": 13
+  },
+  "featureInfo": {
+    "enabled": true,
+    "url": "https://dmsdata.cr.usgs.gov/geoserver/mrlc_Land-Cover-Native_conus_year_data/wms",
+    "request": "GetFeatureInfo",
+    "infoFormat": "application/json",
+    "valueProperty": "PALETTE_INDEX",
+    "queryWidth": 3,
+    "queryHeight": 3,
+    "queryI": 1,
+    "queryJ": 1,
+    "queryGroundResolutionMeters": 30,
+    "noDataValues": [
+      250
+    ]
+  },
+  "classes": [
+    {
+      "value": 11,
+      "label": "Open water",
+      "color": "#466b9f",
+      "group": "water",
+      "description": "Open-water land cover; no depth, current, seasonal stage, or drinking-water quality is inferred."
+    },
+    {
+      "value": 12,
+      "label": "Perennial ice/snow",
+      "color": "#d1def8",
+      "group": "snow_ice",
+      "description": "Persistent ice/snow land cover; this is not November snowfall or seasonal snow depth."
+    },
+    {
+      "value": 21,
+      "label": "Developed, open space",
+      "color": "#dec5c5",
+      "group": "developed",
+      "description": "Mostly vegetation within developed settings; no individual building or road geometry."
+    },
+    {
+      "value": 22,
+      "label": "Developed, low intensity",
+      "color": "#d99282",
+      "group": "developed",
+      "description": "A mixture of development and vegetation; no individual building or road geometry."
+    },
+    {
+      "value": 23,
+      "label": "Developed, medium intensity",
+      "color": "#eb0000",
+      "group": "developed",
+      "description": "A greater proportion of developed surface; no individual building or road geometry."
+    },
+    {
+      "value": 24,
+      "label": "Developed, high intensity",
+      "color": "#ab0000",
+      "group": "developed",
+      "description": "Predominantly developed surface; no individual building or road geometry."
+    },
+    {
+      "value": 31,
+      "label": "Barren land (rock/sand/clay)",
+      "color": "#b3ac9f",
+      "group": "barren",
+      "description": "Sparse vegetation over exposed rock or other earth materials; no soil-bearing strength is inferred."
+    },
+    {
+      "value": 41,
+      "label": "Deciduous forest",
+      "color": "#68ab5f",
+      "group": "forest",
+      "description": "Forest dominated by seasonally leaf-shedding trees; trunk spacing and understory are not measured here."
+    },
+    {
+      "value": 42,
+      "label": "Evergreen forest",
+      "color": "#1c5f2c",
+      "group": "forest",
+      "description": "Forest dominated by evergreen trees; trunk spacing and understory are not measured here."
+    },
+    {
+      "value": 43,
+      "label": "Mixed forest",
+      "color": "#b5c58f",
+      "group": "forest",
+      "description": "Forest containing both deciduous and evergreen trees; trunk spacing and understory are not measured here."
+    },
+    {
+      "value": 52,
+      "label": "Shrub/scrub",
+      "color": "#ccb879",
+      "group": "shrub",
+      "description": "Shrub vegetation, including some young or stunted trees; local stem density is unknown."
+    },
+    {
+      "value": 71,
+      "label": "Grassland/herbaceous",
+      "color": "#dfdfc2",
+      "group": "grassland",
+      "description": "Predominantly grasses and other non-woody vegetation; November height and ground condition are unknown."
+    },
+    {
+      "value": 81,
+      "label": "Pasture/hay",
+      "color": "#dcd939",
+      "group": "agriculture",
+      "description": "Managed forage vegetation; harvest, mowing, grazing, and November surface condition are unknown."
+    },
+    {
+      "value": 82,
+      "label": "Cultivated crops",
+      "color": "#ab6c28",
+      "group": "agriculture",
+      "description": "Cultivated land, including some orchards and vineyards; November harvest and tillage status are unknown."
+    },
+    {
+      "value": 90,
+      "label": "Woody wetlands",
+      "color": "#b8d9eb",
+      "group": "wetland",
+      "description": "Woody vegetation associated with periodic saturation or inundation; current wetness and depth are unknown."
+    },
+    {
+      "value": 95,
+      "label": "Emergent herbaceous wetlands",
+      "color": "#6c9fb8",
+      "group": "wetland",
+      "description": "Non-woody wetland vegetation associated with periodic saturation or inundation; current wetness and depth are unknown."
+    }
+  ]
+}
