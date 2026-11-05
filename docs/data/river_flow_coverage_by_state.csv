@@ -1,0 +1,589 @@
+calendar_month,month_name,state_code,state_name,gauges_with_record,gauges_with_all_20_years,gauges_with_partial_records
+1,January,AL,Alabama,175,80,95
+1,January,AR,Arkansas,167,70,97
+1,January,AZ,Arizona,203,113,90
+1,January,CA,California,992,534,458
+1,January,CO,Colorado,339,185,154
+1,January,CT,Connecticut,76,47,29
+1,January,DC,District of Columbia,5,2,3
+1,January,DE,Delaware,24,8,16
+1,January,FL,Florida,455,209,246
+1,January,GA,Georgia,324,157,167
+1,January,IA,Iowa,159,109,50
+1,January,ID,Idaho,260,133,127
+1,January,IL,Illinois,222,147,75
+1,January,IN,Indiana,207,107,100
+1,January,KS,Kansas,206,123,83
+1,January,KY,Kentucky,178,67,111
+1,January,LA,Louisiana,97,25,72
+1,January,MA,Massachusetts,135,70,65
+1,January,MD,Maryland,174,95,79
+1,January,ME,Maine,78,43,35
+1,January,MI,Michigan,251,116,135
+1,January,MN,Minnesota,128,81,47
+1,January,MO,Missouri,255,157,98
+1,January,MS,Mississippi,109,36,73
+1,January,MT,Montana,220,94,126
+1,January,NC,North Carolina,279,166,113
+1,January,ND,North Dakota,98,70,28
+1,January,NE,Nebraska,119,81,38
+1,January,NH,New Hampshire,65,34,31
+1,January,NJ,New Jersey,140,75,65
+1,January,NM,New Mexico,166,69,97
+1,January,NV,Nevada,179,84,95
+1,January,NY,New York,376,180,196
+1,January,OH,Ohio,270,110,160
+1,January,OK,Oklahoma,170,118,52
+1,January,OR,Oregon,268,146,122
+1,January,PA,Pennsylvania,341,194,147
+1,January,RI,Rhode Island,40,18,22
+1,January,SC,South Carolina,149,55,94
+1,January,SD,South Dakota,123,88,35
+1,January,TN,Tennessee,149,49,100
+1,January,TX,Texas,561,307,254
+1,January,UT,Utah,170,109,61
+1,January,VA,Virginia,210,153,57
+1,January,VT,Vermont,72,37,35
+1,January,WA,Washington,309,191,118
+1,January,WI,Wisconsin,292,104,188
+1,January,WV,West Virginia,118,57,61
+1,January,WY,Wyoming,135,57,78
+2,February,AL,Alabama,176,78,98
+2,February,AR,Arkansas,168,72,96
+2,February,AZ,Arizona,204,112,92
+2,February,CA,California,993,534,459
+2,February,CO,Colorado,337,189,148
+2,February,CT,Connecticut,76,47,29
+2,February,DC,District of Columbia,5,2,3
+2,February,DE,Delaware,24,8,16
+2,February,FL,Florida,453,220,233
+2,February,GA,Georgia,323,155,168
+2,February,IA,Iowa,159,113,46
+2,February,ID,Idaho,260,134,126
+2,February,IL,Illinois,223,140,83
+2,February,IN,Indiana,207,105,102
+2,February,KS,Kansas,206,127,79
+2,February,KY,Kentucky,178,68,110
+2,February,LA,Louisiana,98,23,75
+2,February,MA,Massachusetts,134,68,66
+2,February,MD,Maryland,174,95,79
+2,February,ME,Maine,78,41,37
+2,February,MI,Michigan,251,117,134
+2,February,MN,Minnesota,129,81,48
+2,February,MO,Missouri,255,160,95
+2,February,MS,Mississippi,108,42,66
+2,February,MT,Montana,220,94,126
+2,February,NC,North Carolina,279,174,105
+2,February,ND,North Dakota,108,70,38
+2,February,NE,Nebraska,121,80,41
+2,February,NH,New Hampshire,65,34,31
+2,February,NJ,New Jersey,140,76,64
+2,February,NM,New Mexico,166,66,100
+2,February,NV,Nevada,179,83,96
+2,February,NY,New York,376,181,195
+2,February,OH,Ohio,270,109,161
+2,February,OK,Oklahoma,170,118,52
+2,February,OR,Oregon,268,143,125
+2,February,PA,Pennsylvania,340,196,144
+2,February,RI,Rhode Island,40,18,22
+2,February,SC,South Carolina,149,60,89
+2,February,SD,South Dakota,123,87,36
+2,February,TN,Tennessee,150,50,100
+2,February,TX,Texas,563,299,264
+2,February,UT,Utah,170,108,62
+2,February,VA,Virginia,210,155,55
+2,February,VT,Vermont,72,37,35
+2,February,WA,Washington,309,190,119
+2,February,WI,Wisconsin,292,105,187
+2,February,WV,West Virginia,119,57,62
+2,February,WY,Wyoming,135,54,81
+3,March,AL,Alabama,176,80,96
+3,March,AR,Arkansas,167,76,91
+3,March,AZ,Arizona,204,115,89
+3,March,CA,California,996,537,459
+3,March,CO,Colorado,349,189,160
+3,March,CT,Connecticut,76,47,29
+3,March,DC,District of Columbia,5,2,3
+3,March,DE,Delaware,24,8,16
+3,March,FL,Florida,453,222,231
+3,March,GA,Georgia,323,152,171
+3,March,IA,Iowa,161,110,51
+3,March,ID,Idaho,259,139,120
+3,March,IL,Illinois,222,147,75
+3,March,IN,Indiana,207,107,100
+3,March,KS,Kansas,206,125,81
+3,March,KY,Kentucky,178,71,107
+3,March,LA,Louisiana,98,22,76
+3,March,MA,Massachusetts,134,70,64
+3,March,MD,Maryland,174,93,81
+3,March,ME,Maine,78,43,35
+3,March,MI,Michigan,251,116,135
+3,March,MN,Minnesota,140,79,61
+3,March,MO,Missouri,255,161,94
+3,March,MS,Mississippi,109,43,66
+3,March,MT,Montana,235,109,126
+3,March,NC,North Carolina,277,172,105
+3,March,ND,North Dakota,138,78,60
+3,March,NE,Nebraska,123,81,42
+3,March,NH,New Hampshire,65,34,31
+3,March,NJ,New Jersey,140,73,67
+3,March,NM,New Mexico,171,66,105
+3,March,NV,Nevada,179,84,95
+3,March,NY,New York,376,181,195
+3,March,OH,Ohio,271,107,164
+3,March,OK,Oklahoma,170,117,53
+3,March,OR,Oregon,268,145,123
+3,March,PA,Pennsylvania,337,193,144
+3,March,RI,Rhode Island,40,18,22
+3,March,SC,South Carolina,149,59,90
+3,March,SD,South Dakota,123,92,31
+3,March,TN,Tennessee,144,51,93
+3,March,TX,Texas,561,301,260
+3,March,UT,Utah,172,107,65
+3,March,VA,Virginia,210,154,56
+3,March,VT,Vermont,72,37,35
+3,March,WA,Washington,310,191,119
+3,March,WI,Wisconsin,291,102,189
+3,March,WV,West Virginia,119,58,61
+3,March,WY,Wyoming,136,56,80
+4,April,AL,Alabama,176,79,97
+4,April,AR,Arkansas,170,72,98
+4,April,AZ,Arizona,204,112,92
+4,April,CA,California,1002,540,462
+4,April,CO,Colorado,408,203,205
+4,April,CT,Connecticut,76,47,29
+4,April,DC,District of Columbia,5,2,3
+4,April,DE,Delaware,24,8,16
+4,April,FL,Florida,453,216,237
+4,April,GA,Georgia,323,150,173
+4,April,IA,Iowa,161,111,50
+4,April,ID,Idaho,266,142,124
+4,April,IL,Illinois,224,150,74
+4,April,IN,Indiana,207,106,101
+4,April,KS,Kansas,206,120,86
+4,April,KY,Kentucky,178,68,110
+4,April,LA,Louisiana,96,22,74
+4,April,MA,Massachusetts,134,69,65
+4,April,MD,Maryland,174,90,84
+4,April,ME,Maine,78,43,35
+4,April,MI,Michigan,251,116,135
+4,April,MN,Minnesota,146,83,63
+4,April,MO,Missouri,255,162,93
+4,April,MS,Mississippi,111,48,63
+4,April,MT,Montana,258,123,135
+4,April,NC,North Carolina,278,174,104
+4,April,ND,North Dakota,153,85,68
+4,April,NE,Nebraska,132,83,49
+4,April,NH,New Hampshire,65,34,31
+4,April,NJ,New Jersey,140,72,68
+4,April,NM,New Mexico,180,62,118
+4,April,NV,Nevada,180,84,96
+4,April,NY,New York,375,181,194
+4,April,OH,Ohio,271,108,163
+4,April,OK,Oklahoma,170,116,54
+4,April,OR,Oregon,268,146,122
+4,April,PA,Pennsylvania,341,188,153
+4,April,RI,Rhode Island,40,17,23
+4,April,SC,South Carolina,148,59,89
+4,April,SD,South Dakota,131,89,42
+4,April,TN,Tennessee,146,51,95
+4,April,TX,Texas,557,302,255
+4,April,UT,Utah,178,111,67
+4,April,VA,Virginia,210,154,56
+4,April,VT,Vermont,72,37,35
+4,April,WA,Washington,309,189,120
+4,April,WI,Wisconsin,293,102,191
+4,April,WV,West Virginia,120,51,69
+4,April,WY,Wyoming,162,57,105
+5,May,AL,Alabama,176,79,97
+5,May,AR,Arkansas,170,69,101
+5,May,AZ,Arizona,204,113,91
+5,May,CA,California,989,535,454
+5,May,CO,Colorado,424,210,214
+5,May,CT,Connecticut,76,47,29
+5,May,DC,District of Columbia,5,2,3
+5,May,DE,Delaware,24,8,16
+5,May,FL,Florida,453,219,234
+5,May,GA,Georgia,323,151,172
+5,May,IA,Iowa,161,111,50
+5,May,ID,Idaho,269,143,126
+5,May,IL,Illinois,225,150,75
+5,May,IN,Indiana,207,105,102
+5,May,KS,Kansas,206,120,86
+5,May,KY,Kentucky,178,63,115
+5,May,LA,Louisiana,97,22,75
+5,May,MA,Massachusetts,134,69,65
+5,May,MD,Maryland,175,84,91
+5,May,ME,Maine,78,44,34
+5,May,MI,Michigan,256,117,139
+5,May,MN,Minnesota,143,82,61
+5,May,MO,Missouri,255,161,94
+5,May,MS,Mississippi,107,42,65
+5,May,MT,Montana,262,125,137
+5,May,NC,North Carolina,274,173,101
+5,May,ND,North Dakota,146,89,57
+5,May,NE,Nebraska,132,82,50
+5,May,NH,New Hampshire,65,34,31
+5,May,NJ,New Jersey,140,70,70
+5,May,NM,New Mexico,183,65,118
+5,May,NV,Nevada,184,85,99
+5,May,NY,New York,378,181,197
+5,May,OH,Ohio,271,109,162
+5,May,OK,Oklahoma,170,118,52
+5,May,OR,Oregon,271,146,125
+5,May,PA,Pennsylvania,341,190,151
+5,May,RI,Rhode Island,40,17,23
+5,May,SC,South Carolina,146,62,84
+5,May,SD,South Dakota,130,88,42
+5,May,TN,Tennessee,147,53,94
+5,May,TX,Texas,558,306,252
+5,May,UT,Utah,181,111,70
+5,May,VA,Virginia,209,154,55
+5,May,VT,Vermont,72,37,35
+5,May,WA,Washington,302,185,117
+5,May,WI,Wisconsin,293,102,191
+5,May,WV,West Virginia,120,55,65
+5,May,WY,Wyoming,167,57,110
+6,June,AL,Alabama,176,77,99
+6,June,AR,Arkansas,170,69,101
+6,June,AZ,Arizona,204,114,90
+6,June,CA,California,992,539,453
+6,June,CO,Colorado,425,209,216
+6,June,CT,Connecticut,76,47,29
+6,June,DC,District of Columbia,5,2,3
+6,June,DE,Delaware,24,8,16
+6,June,FL,Florida,453,211,242
+6,June,GA,Georgia,324,150,174
+6,June,IA,Iowa,161,107,54
+6,June,ID,Idaho,270,145,125
+6,June,IL,Illinois,225,152,73
+6,June,IN,Indiana,208,106,102
+6,June,KS,Kansas,206,125,81
+6,June,KY,Kentucky,178,65,113
+6,June,LA,Louisiana,99,18,81
+6,June,MA,Massachusetts,133,69,64
+6,June,MD,Maryland,175,85,90
+6,June,ME,Maine,78,44,34
+6,June,MI,Michigan,258,117,141
+6,June,MN,Minnesota,143,82,61
+6,June,MO,Missouri,254,160,94
+6,June,MS,Mississippi,109,45,64
+6,June,MT,Montana,262,124,138
+6,June,NC,North Carolina,278,172,106
+6,June,ND,North Dakota,144,89,55
+6,June,NE,Nebraska,132,82,50
+6,June,NH,New Hampshire,65,33,32
+6,June,NJ,New Jersey,140,66,74
+6,June,NM,New Mexico,183,72,111
+6,June,NV,Nevada,184,86,98
+6,June,NY,New York,379,182,197
+6,June,OH,Ohio,271,110,161
+6,June,OK,Oklahoma,170,118,52
+6,June,OR,Oregon,279,145,134
+6,June,PA,Pennsylvania,339,184,155
+6,June,RI,Rhode Island,40,17,23
+6,June,SC,South Carolina,148,62,86
+6,June,SD,South Dakota,130,91,39
+6,June,TN,Tennessee,147,52,95
+6,June,TX,Texas,558,311,247
+6,June,UT,Utah,181,112,69
+6,June,VA,Virginia,210,156,54
+6,June,VT,Vermont,73,37,36
+6,June,WA,Washington,303,184,119
+6,June,WI,Wisconsin,292,102,190
+6,June,WV,West Virginia,118,53,65
+6,June,WY,Wyoming,170,58,112
+7,July,AL,Alabama,176,75,101
+7,July,AR,Arkansas,171,71,100
+7,July,AZ,Arizona,201,111,90
+7,July,CA,California,990,543,447
+7,July,CO,Colorado,425,211,214
+7,July,CT,Connecticut,76,47,29
+7,July,DC,District of Columbia,5,2,3
+7,July,DE,Delaware,24,8,16
+7,July,FL,Florida,453,202,251
+7,July,GA,Georgia,324,153,171
+7,July,IA,Iowa,161,107,54
+7,July,ID,Idaho,270,143,127
+7,July,IL,Illinois,225,152,73
+7,July,IN,Indiana,208,106,102
+7,July,KS,Kansas,207,127,80
+7,July,KY,Kentucky,178,59,119
+7,July,LA,Louisiana,100,16,84
+7,July,MA,Massachusetts,134,70,64
+7,July,MD,Maryland,174,86,88
+7,July,ME,Maine,78,44,34
+7,July,MI,Michigan,261,117,144
+7,July,MN,Minnesota,143,81,62
+7,July,MO,Missouri,256,158,98
+7,July,MS,Mississippi,111,43,68
+7,July,MT,Montana,261,117,144
+7,July,NC,North Carolina,278,174,104
+7,July,ND,North Dakota,145,90,55
+7,July,NE,Nebraska,132,83,49
+7,July,NH,New Hampshire,65,33,32
+7,July,NJ,New Jersey,140,64,76
+7,July,NM,New Mexico,183,71,112
+7,July,NV,Nevada,183,86,97
+7,July,NY,New York,379,182,197
+7,July,OH,Ohio,271,110,161
+7,July,OK,Oklahoma,170,117,53
+7,July,OR,Oregon,282,144,138
+7,July,PA,Pennsylvania,342,184,158
+7,July,RI,Rhode Island,40,17,23
+7,July,SC,South Carolina,148,64,84
+7,July,SD,South Dakota,130,90,40
+7,July,TN,Tennessee,144,53,91
+7,July,TX,Texas,558,312,246
+7,July,UT,Utah,183,111,72
+7,July,VA,Virginia,210,155,55
+7,July,VT,Vermont,74,37,37
+7,July,WA,Washington,302,186,116
+7,July,WI,Wisconsin,290,104,186
+7,July,WV,West Virginia,117,60,57
+7,July,WY,Wyoming,171,57,114
+8,August,AL,Alabama,176,79,97
+8,August,AR,Arkansas,170,73,97
+8,August,AZ,Arizona,202,108,94
+8,August,CA,California,990,552,438
+8,August,CO,Colorado,425,211,214
+8,August,CT,Connecticut,77,49,28
+8,August,DC,District of Columbia,5,2,3
+8,August,DE,Delaware,24,8,16
+8,August,FL,Florida,447,202,245
+8,August,GA,Georgia,323,149,174
+8,August,IA,Iowa,161,105,56
+8,August,ID,Idaho,273,144,129
+8,August,IL,Illinois,225,150,75
+8,August,IN,Indiana,208,102,106
+8,August,KS,Kansas,207,128,79
+8,August,KY,Kentucky,178,57,121
+8,August,LA,Louisiana,99,15,84
+8,August,MA,Massachusetts,135,70,65
+8,August,MD,Maryland,174,86,88
+8,August,ME,Maine,78,44,34
+8,August,MI,Michigan,261,117,144
+8,August,MN,Minnesota,143,82,61
+8,August,MO,Missouri,256,157,99
+8,August,MS,Mississippi,112,43,69
+8,August,MT,Montana,262,118,144
+8,August,NC,North Carolina,279,173,106
+8,August,ND,North Dakota,144,90,54
+8,August,NE,Nebraska,134,83,51
+8,August,NH,New Hampshire,65,32,33
+8,August,NJ,New Jersey,140,63,77
+8,August,NM,New Mexico,183,69,114
+8,August,NV,Nevada,183,87,96
+8,August,NY,New York,379,178,201
+8,August,OH,Ohio,271,109,162
+8,August,OK,Oklahoma,170,116,54
+8,August,OR,Oregon,282,145,137
+8,August,PA,Pennsylvania,341,179,162
+8,August,RI,Rhode Island,41,17,24
+8,August,SC,South Carolina,147,63,84
+8,August,SD,South Dakota,129,89,40
+8,August,TN,Tennessee,144,52,92
+8,August,TX,Texas,558,313,245
+8,August,UT,Utah,183,112,71
+8,August,VA,Virginia,210,155,55
+8,August,VT,Vermont,74,37,37
+8,August,WA,Washington,302,186,116
+8,August,WI,Wisconsin,290,103,187
+8,August,WV,West Virginia,117,58,59
+8,August,WY,Wyoming,170,56,114
+9,September,AL,Alabama,176,73,103
+9,September,AR,Arkansas,170,70,100
+9,September,AZ,Arizona,203,100,103
+9,September,CA,California,986,529,457
+9,September,CO,Colorado,422,210,212
+9,September,CT,Connecticut,77,49,28
+9,September,DC,District of Columbia,5,2,3
+9,September,DE,Delaware,24,8,16
+9,September,FL,Florida,442,199,243
+9,September,GA,Georgia,323,149,174
+9,September,IA,Iowa,161,108,53
+9,September,ID,Idaho,268,131,137
+9,September,IL,Illinois,224,151,73
+9,September,IN,Indiana,208,100,108
+9,September,KS,Kansas,207,130,77
+9,September,KY,Kentucky,178,58,120
+9,September,LA,Louisiana,100,13,87
+9,September,MA,Massachusetts,133,70,63
+9,September,MD,Maryland,171,83,88
+9,September,ME,Maine,78,44,34
+9,September,MI,Michigan,260,117,143
+9,September,MN,Minnesota,141,80,61
+9,September,MO,Missouri,256,158,98
+9,September,MS,Mississippi,108,43,65
+9,September,MT,Montana,260,116,144
+9,September,NC,North Carolina,279,171,108
+9,September,ND,North Dakota,144,88,56
+9,September,NE,Nebraska,135,83,52
+9,September,NH,New Hampshire,65,33,32
+9,September,NJ,New Jersey,140,61,79
+9,September,NM,New Mexico,183,69,114
+9,September,NV,Nevada,183,86,97
+9,September,NY,New York,376,179,197
+9,September,OH,Ohio,267,107,160
+9,September,OK,Oklahoma,168,117,51
+9,September,OR,Oregon,279,143,136
+9,September,PA,Pennsylvania,340,177,163
+9,September,RI,Rhode Island,41,16,25
+9,September,SC,South Carolina,148,64,84
+9,September,SD,South Dakota,129,89,40
+9,September,TN,Tennessee,144,52,92
+9,September,TX,Texas,557,310,247
+9,September,UT,Utah,178,113,65
+9,September,VA,Virginia,209,152,57
+9,September,VT,Vermont,74,37,37
+9,September,WA,Washington,301,185,116
+9,September,WI,Wisconsin,280,102,178
+9,September,WV,West Virginia,118,60,58
+9,September,WY,Wyoming,170,52,118
+10,October,AL,Alabama,174,75,99
+10,October,AR,Arkansas,169,65,104
+10,October,AZ,Arizona,203,101,102
+10,October,CA,California,1004,327,677
+10,October,CO,Colorado,386,196,190
+10,October,CT,Connecticut,78,51,27
+10,October,DC,District of Columbia,5,2,3
+10,October,DE,Delaware,24,8,16
+10,October,FL,Florida,441,205,236
+10,October,GA,Georgia,323,148,175
+10,October,IA,Iowa,161,111,50
+10,October,ID,Idaho,265,126,139
+10,October,IL,Illinois,221,149,72
+10,October,IN,Indiana,208,101,107
+10,October,KS,Kansas,207,129,78
+10,October,KY,Kentucky,178,55,123
+10,October,LA,Louisiana,98,13,85
+10,October,MA,Massachusetts,134,69,65
+10,October,MD,Maryland,173,88,85
+10,October,ME,Maine,74,43,31
+10,October,MI,Michigan,259,116,143
+10,October,MN,Minnesota,141,76,65
+10,October,MO,Missouri,255,159,96
+10,October,MS,Mississippi,108,37,71
+10,October,MT,Montana,257,100,157
+10,October,NC,North Carolina,279,165,114
+10,October,ND,North Dakota,135,71,64
+10,October,NE,Nebraska,130,82,48
+10,October,NH,New Hampshire,65,34,31
+10,October,NJ,New Jersey,139,59,80
+10,October,NM,New Mexico,178,64,114
+10,October,NV,Nevada,182,83,99
+10,October,NY,New York,378,180,198
+10,October,OH,Ohio,271,104,167
+10,October,OK,Oklahoma,168,118,50
+10,October,OR,Oregon,269,138,131
+10,October,PA,Pennsylvania,340,175,165
+10,October,RI,Rhode Island,41,18,23
+10,October,SC,South Carolina,149,56,93
+10,October,SD,South Dakota,129,89,40
+10,October,TN,Tennessee,145,54,91
+10,October,TX,Texas,558,317,241
+10,October,UT,Utah,173,105,68
+10,October,VA,Virginia,210,96,114
+10,October,VT,Vermont,71,37,34
+10,October,WA,Washington,310,191,119
+10,October,WI,Wisconsin,283,100,183
+10,October,WV,West Virginia,118,60,58
+10,October,WY,Wyoming,147,49,98
+11,November,AL,Alabama,174,75,99
+11,November,AR,Arkansas,168,60,108
+11,November,AZ,Arizona,203,100,103
+11,November,CA,California,999,295,704
+11,November,CO,Colorado,347,139,208
+11,November,CT,Connecticut,77,50,27
+11,November,DC,District of Columbia,5,1,4
+11,November,DE,Delaware,24,8,16
+11,November,FL,Florida,441,192,249
+11,November,GA,Georgia,321,147,174
+11,November,IA,Iowa,159,109,50
+11,November,ID,Idaho,254,105,149
+11,November,IL,Illinois,222,147,75
+11,November,IN,Indiana,208,97,111
+11,November,KS,Kansas,207,127,80
+11,November,KY,Kentucky,178,57,121
+11,November,LA,Louisiana,98,11,87
+11,November,MA,Massachusetts,134,68,66
+11,November,MD,Maryland,173,76,97
+11,November,ME,Maine,74,43,31
+11,November,MI,Michigan,257,106,151
+11,November,MN,Minnesota,130,46,84
+11,November,MO,Missouri,255,160,95
+11,November,MS,Mississippi,109,31,78
+11,November,MT,Montana,217,70,147
+11,November,NC,North Carolina,277,162,115
+11,November,ND,North Dakota,102,59,43
+11,November,NE,Nebraska,120,81,39
+11,November,NH,New Hampshire,65,32,33
+11,November,NJ,New Jersey,141,53,88
+11,November,NM,New Mexico,174,61,113
+11,November,NV,Nevada,181,82,99
+11,November,NY,New York,377,168,209
+11,November,OH,Ohio,271,74,197
+11,November,OK,Oklahoma,168,81,87
+11,November,OR,Oregon,266,107,159
+11,November,PA,Pennsylvania,342,172,170
+11,November,RI,Rhode Island,41,19,22
+11,November,SC,South Carolina,148,62,86
+11,November,SD,South Dakota,123,16,107
+11,November,TN,Tennessee,144,54,90
+11,November,TX,Texas,557,315,242
+11,November,UT,Utah,172,106,66
+11,November,VA,Virginia,209,81,128
+11,November,VT,Vermont,70,37,33
+11,November,WA,Washington,309,184,125
+11,November,WI,Wisconsin,281,59,222
+11,November,WV,West Virginia,118,61,57
+11,November,WY,Wyoming,135,48,87
+12,December,AL,Alabama,174,66,108
+12,December,AR,Arkansas,169,62,107
+12,December,AZ,Arizona,202,99,103
+12,December,CA,California,991,268,723
+12,December,CO,Colorado,339,126,213
+12,December,CT,Connecticut,77,49,28
+12,December,DC,District of Columbia,5,1,4
+12,December,DE,Delaware,24,7,17
+12,December,FL,Florida,441,135,306
+12,December,GA,Georgia,324,133,191
+12,December,IA,Iowa,159,111,48
+12,December,ID,Idaho,255,90,165
+12,December,IL,Illinois,222,144,78
+12,December,IN,Indiana,207,94,113
+12,December,KS,Kansas,207,127,80
+12,December,KY,Kentucky,178,52,126
+12,December,LA,Louisiana,97,10,87
+12,December,MA,Massachusetts,135,68,67
+12,December,MD,Maryland,173,75,98
+12,December,ME,Maine,74,42,32
+12,December,MI,Michigan,256,97,159
+12,December,MN,Minnesota,127,44,83
+12,December,MO,Missouri,255,154,101
+12,December,MS,Mississippi,108,37,71
+12,December,MT,Montana,214,51,163
+12,December,NC,North Carolina,279,164,115
+12,December,ND,North Dakota,98,54,44
+12,December,NE,Nebraska,117,82,35
+12,December,NH,New Hampshire,65,33,32
+12,December,NJ,New Jersey,139,52,87
+12,December,NM,New Mexico,166,60,106
+12,December,NV,Nevada,181,81,100
+12,December,NY,New York,377,161,216
+12,December,OH,Ohio,270,48,222
+12,December,OK,Oklahoma,168,73,95
+12,December,OR,Oregon,265,83,182
+12,December,PA,Pennsylvania,338,168,170
+12,December,RI,Rhode Island,41,19,22
+12,December,SC,South Carolina,149,57,92
+12,December,SD,South Dakota,123,9,114
+12,December,TN,Tennessee,148,52,96
+12,December,TX,Texas,558,301,257
+12,December,UT,Utah,172,105,67
+12,December,VA,Virginia,210,81,129
+12,December,VT,Vermont,70,37,33
+12,December,WA,Washington,308,164,144
+12,December,WI,Wisconsin,280,51,229
+12,December,WV,West Virginia,118,55,63
+12,December,WY,Wyoming,134,47,87
