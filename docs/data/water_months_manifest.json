@@ -1,0 +1,2150 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-05T00:10:34+00:00",
+  "baseline": {
+    "years": [
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "calendarMonths": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ]
+  },
+  "source": {
+    "organization": "U.S. Geological Survey",
+    "parameterCode": "00060",
+    "parameterName": "Discharge",
+    "sourceUnits": "ft^3/s",
+    "displayUnits": "m^3/s",
+    "cfsToM3s": 0.028316846592,
+    "statisticsUrl": "https://waterservices.usgs.gov/nwis/stat/",
+    "siteMetadataUrl": "https://waterservices.usgs.gov/nwis/site/",
+    "documentationUrl": "https://waterservices.usgs.gov/docs/statistics/statistics-details/",
+    "completenessDocumentationUrl": "https://waterservices.usgs.gov/docs/statistics/faqs/"
+  },
+  "dailySource": "https://waterservices.usgs.gov/nwis/dv/",
+  "selectionRule": "USGS stream sites (ST, discharge parameter 00060) with daily records overlapping January 2006–December 2025 in the 48 contiguous states and DC. Require US country code and valid NAD83 or WGS84 source coordinates. Each month is evaluated independently; conflicting discharge series are omitted for that month.",
+  "method": [
+    "Source monthly means for November 2006–November 2025 use approved daily data and require a complete calendar month (missingData=off). January–October 2006 and December 2025 use the arithmetic mean of approved USGS daily means only when every calendar day in the month is present for the same station and discharge series. Daily-derived boundary means may retain different source rounding.",
+    "Summaries give each available year equal weight. Full coverage requires all 20 years for the same calendar month. Gaps remain null. An incomplete record is explicitly partial.",
+    "The download stores source annual monthly means in ft³/s. The app converts to m³/s with 0.028316846592, and calculates the mean, median, and population standard deviation over the available values. A single observation has no displayed SD."
+  ],
+  "eligibleUSInventory": 10930,
+  "olderMonthlyProvenance": {
+    "file": "water_manifest.json",
+    "sha256": "177999dec611c39009820c1f0b4d0c72e36b51aa4e066e306407d22a30682242",
+    "monthlyFilesVerified": 1085,
+    "dateRange": [
+      "2006-11",
+      "2025-11"
+    ],
+    "rowsRetainedEligibleStations": 1804593
+  },
+  "additionalRequests": [
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=AL&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:40+00:00",
+      "bytes": 1376000,
+      "sha256": "22825239107829a7315d1281fa324b22eb7b1e845de9e708ae966b7fce3968df",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=AL&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:39+00:00",
+      "bytes": 354015,
+      "sha256": "6e84ecc61249fdb2b66b27fbf4eaba84047838f4eaf0840310dca36c21ea2f11",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=AR&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:45+00:00",
+      "bytes": 1163223,
+      "sha256": "40c4715261ee515790c9b079a79cfd9d95c35217da9f9a63d828882316e0612a",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=AR&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:45+00:00",
+      "bytes": 302673,
+      "sha256": "9cb5a211ab63ede325c86f44a32b7618015dc2c0070e5bececae64f6ac582d55",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=AZ&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:40+00:00",
+      "bytes": 2093220,
+      "sha256": "9743eeaa59fb2085b78c5c862e95ba4bd0f792c5c8592c183e8e0d38068bd3c2",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=AZ&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:39+00:00",
+      "bytes": 470591,
+      "sha256": "c1ab9ccb85f875cb2b4ab84e1575f939ab796ee8ee17f096ec7d92f81f17a7ef",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=CA&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:49+00:00",
+      "bytes": 9288765,
+      "sha256": "bee4066248aa3e47f9f565b2384c68dae6ff26546945eb2ef4a40186d77014e7",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=CA&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:46+00:00",
+      "bytes": 1187377,
+      "sha256": "559be5dc2d08a03953a988eda83b1a9fd7fb657c15624bca45f3f59d2b334173",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=CO&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:46+00:00",
+      "bytes": 3403178,
+      "sha256": "3688a2c9bcc85abe37da2babff7c8d54d6c50b8879dc4f9d07e391a983e0db8e",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=CO&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:49+00:00",
+      "bytes": 662189,
+      "sha256": "e18f118e405a6e00805b5616f8601d69bc152eccfb3dba114ecc7570ae9496b0",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=CT&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:48+00:00",
+      "bytes": 593744,
+      "sha256": "eed59c3a225a47a3328d5f7cb7d0bbb2b3b04ef8e1e6b9d7c2413990c1ddc1a3",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=CT&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:48+00:00",
+      "bytes": 170109,
+      "sha256": "87db185c85def7fe522c7a208f8ce727d2c48fd0eaf4a68b48f2e9fd90654833",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=DC&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:51+00:00",
+      "bytes": 35090,
+      "sha256": "737ed639f38863ec7953f35a3db7dc84498624947e3661aa8cc1406eedee2e4b",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=DC&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:51+00:00",
+      "bytes": 12107,
+      "sha256": "d3cfd445ce29de28144a5dbc8a8f68c74fd9eed0cb1a00840a12c6461203ee12",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=DE&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:48+00:00",
+      "bytes": 205206,
+      "sha256": "b087c220591e59f4e1a1d08dca3ac9dc1312918aaf7919b7ad6192bfbf98a281",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=DE&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:52+00:00",
+      "bytes": 49731,
+      "sha256": "ba727541d373cbe39b4de33e0624e4d2b8dcbd1a0df954a75dac02baab565c88",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=FL&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:55+00:00",
+      "bytes": 5001339,
+      "sha256": "dfc93ece0a42ad84582cefdaa61839572d099b858e30eb642bb3bd0f027b6c9c",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=FL&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:52+00:00",
+      "bytes": 1001471,
+      "sha256": "45ad3730bb63e13cb049dc180ec05d73738e6d1d395731d96731da753b7c9977",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=GA&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:57+00:00",
+      "bytes": 2130165,
+      "sha256": "745c9a273ff6864694a90f6eaca2140492b328426abcc13203a7d9ab654f0465",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=GA&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:57+00:00",
+      "bytes": 697424,
+      "sha256": "832d205f91256a9c7f2ea471a411adb7ec247a409da6800f5da304596d56e4bb",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=IA&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:04+00:00",
+      "bytes": 1365467,
+      "sha256": "c5ec442c1fd19e5bbada707920d71670c90a6042dc04f88ade4bc5cdc4860f47",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=IA&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:04+00:00",
+      "bytes": 338270,
+      "sha256": "eb6a270764d01a4ce1c2945784bf0a526a08ce02a6fdb75d47589e2354e0cf36",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=ID&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:57+00:00",
+      "bytes": 2111261,
+      "sha256": "88bdc0aa457220d93cbc834bb36a0c5a5ca7ef7593dc39fff48255c5adc31a6b",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=ID&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:56:56+00:00",
+      "bytes": 512444,
+      "sha256": "fc8de5c521eba307aec0bbac1eafb65aa582f46531d0967862315566281f61c6",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=IL&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:01+00:00",
+      "bytes": 1891284,
+      "sha256": "226402ca4b3ee3c705cff82f09c5cec1e9b22ce645d6e5ee63d37c711033b292",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=IL&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:00+00:00",
+      "bytes": 479239,
+      "sha256": "6aa34c436f3aa12d8ad6588afcc80ee82d31712af35ac80f4550de930c5fcbc3",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=IN&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:00+00:00",
+      "bytes": 1394318,
+      "sha256": "7a18b1727e8fad52e7984815064cf3b512d1aeadbcd233cf959b64b504159fa5",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=IN&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:00+00:00",
+      "bytes": 479217,
+      "sha256": "67d5a4ec8f911b6bfe6ca018ad48ba1c87ba93cd310dcdd90a8c0881f0387bbc",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=KS&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:04+00:00",
+      "bytes": 1721913,
+      "sha256": "3cb3b39b1a585fab91a85f9dae8e24166828d9cb1c76c5a0b5bb19d320f3586c",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=KS&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:04+00:00",
+      "bytes": 455265,
+      "sha256": "8d410633073624f0ebe0e86eeb8a14d8eba5371e19bf3147cf867466b428868e",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=KY&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:04+00:00",
+      "bytes": 1296107,
+      "sha256": "895660e8894e2c0312de307db6db48df60a2548de497abf64e51e5776cd9b330",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=KY&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:07+00:00",
+      "bytes": 369926,
+      "sha256": "fc53f52bea47983dd42f69c2cc2ceebb6ff79feb34e5f64b58087eb6655ff83b",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=LA&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:08+00:00",
+      "bytes": 665408,
+      "sha256": "35112b5a107179c3457c7e0197204040d9df5af49b544c56e886b6e96864643e",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=LA&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:07+00:00",
+      "bytes": 121007,
+      "sha256": "adf6bc7b34c58529e4dce6a9eb785fecf596134c5c01108063a59ada3ae77857",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=MA&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:12+00:00",
+      "bytes": 1066160,
+      "sha256": "c8961e279e628d43e8da9d4ed5558a6fcdab65234bcb5063df0b18120477b346",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=MA&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:12+00:00",
+      "bytes": 266658,
+      "sha256": "c39b350c3ebb19b7c74989255783eb6e39bf059237915dd9729e514a17952304",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=MD&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:12+00:00",
+      "bytes": 1293684,
+      "sha256": "fdcfeb2e4a3ac9cde5593ad393b95fa2a48b8780216fe035c84a277b705194ab",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=MD&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:12+00:00",
+      "bytes": 329620,
+      "sha256": "a280801d0f834a6fcbc87a311772018a8502ae27049b51899d6661728379143b",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=ME&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:07+00:00",
+      "bytes": 627567,
+      "sha256": "76e3030e6b1ee23a1c0d373640a7ca4ae43465bfeb0ac2fa5509aa985ab458a8",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=ME&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:07+00:00",
+      "bytes": 157707,
+      "sha256": "e968d407a70ca4d6267ff50a4f1fa6610bced6675993ce0d74b96e0f23915fa4",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=MI&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:19+00:00",
+      "bytes": 1794123,
+      "sha256": "f2562e9261a2006dd468ac1c22115940eedba61ecdad60ddad3105382ba88533",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=MI&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:19+00:00",
+      "bytes": 504178,
+      "sha256": "c36046ea8e6d35d1bc35497f99a4ca1115098de447447c2685d3a090c6220be0",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=MN&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:19+00:00",
+      "bytes": 1145797,
+      "sha256": "28c8196253936188eaa76329d67b16cd02031f303c71ac5ddbbd9ddb63a72289",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=MN&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:18+00:00",
+      "bytes": 274335,
+      "sha256": "a12c28c6673a4be2f1e880e01cbccd1a164025929e137790d1908e8a1eeac8e3",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=MO&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:23+00:00",
+      "bytes": 2011751,
+      "sha256": "d33d865ca9e68465dc9bcda95d5f3fbb4a7bfb318211b248a66cb7e377a0a205",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=MO&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:23+00:00",
+      "bytes": 559047,
+      "sha256": "2520afb2dbc21406fe3ee6a32e05c6bda8943d94fe2de8e3c89f2ddf1a7a8e91",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=MS&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:19+00:00",
+      "bytes": 906868,
+      "sha256": "f14104ceedf1f368b80afd172c6e606c8d05e37dff49bc538196e2dee4ef2104",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=MS&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:23+00:00",
+      "bytes": 181316,
+      "sha256": "f0d3905e9fbe12be1cf781c34900396c0c5aca5dbf78cac5696666e17a596b04",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=MT&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:23+00:00",
+      "bytes": 2073004,
+      "sha256": "df5e6db0c1dd5370a1e0a9362e040b2212d3242bf73fffca4081b1855cfc5407",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=MT&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:22+00:00",
+      "bytes": 447303,
+      "sha256": "b89444634178abe26b9901fa662dbb4a4651723742d2fe4f7a04c0e2eb59865f",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=NC&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:36+00:00",
+      "bytes": 2434951,
+      "sha256": "9bac9659d369efd5bc2b19337b259bd04a062b45215c5a2405e4c1d4a59e9eaf",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=NC&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:35+00:00",
+      "bytes": 589796,
+      "sha256": "9d64fbc9a8b9ccbb051ce34c5f429d228facd1b6eaaefe18f78c629e697249b8",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=ND&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:39+00:00",
+      "bytes": 1043211,
+      "sha256": "1067471848c26ba4c20d762fe7b5232df63190163cbc337cf566f18d65f8813f",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=ND&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:39+00:00",
+      "bytes": 257064,
+      "sha256": "721ff118da02116a9bbb9673d72cec03a38ffb2176ac6ff1cf5d2184e308c34b",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=NE&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:27+00:00",
+      "bytes": 1062776,
+      "sha256": "08928843bbeaa6024c9025c6b5632a5e66e7c31086b2fb3a27115adcc22b7503",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=NE&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:27+00:00",
+      "bytes": 274660,
+      "sha256": "9f7c9b0b4115a9190986e28e00cc6dd181fb13a07f3aeb24b3d991602f528519",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=NH&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:31+00:00",
+      "bytes": 464266,
+      "sha256": "5a2d1f174fdf6b122208fd966b254503b4d24294bc036f5405a730dbcfa6fa24",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=NH&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:30+00:00",
+      "bytes": 132784,
+      "sha256": "a31636da003148cc305eb4df9d16d16a969f6138055ebc91a3ff8ef66454d3ca",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=NJ&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:31+00:00",
+      "bytes": 1145581,
+      "sha256": "55a88d0df8cc601f8d16c216c275deb78a6680e91f869f351a1ee4320a5de1bc",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=NJ&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:31+00:00",
+      "bytes": 280288,
+      "sha256": "5d3fde7d2216d510a39c17206a9bec74c0f6a0ec01910cf6d06f041caf6ade82",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=NM&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:32+00:00",
+      "bytes": 1923390,
+      "sha256": "1fe3d9bf631d70a1a8187d89a0aebea8ade94fd6329c76848d7163b43fd4a0ed",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=NM&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:35+00:00",
+      "bytes": 369022,
+      "sha256": "11b8ed7229e923fe5a74c840e7529a384d63e0ecc8a489ad5c99a63de4a6e8cb",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=NV&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:27+00:00",
+      "bytes": 1543875,
+      "sha256": "c3b10cce0ebc4190ce4aa9794306b5fb6b8ead499a803fce01515a3040dcae45",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=NV&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:27+00:00",
+      "bytes": 356345,
+      "sha256": "50e3ec3ad3066063ec7f8d75ad552a6137f5ce9064b5b5b5df0da18c84f5b5cf",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=NY&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:37+00:00",
+      "bytes": 2686771,
+      "sha256": "c5651c7d1e1167f30d3cbbde6e99527a93d39149efee5600e29a0469c3f04b72",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=NY&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:36+00:00",
+      "bytes": 745708,
+      "sha256": "c50fc08c09726b2903c5f1fbd13d6bded939aee88856c18bb7c894bc8092b1ed",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=OH&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:40+00:00",
+      "bytes": 1552560,
+      "sha256": "cd62f15ce8d74732dea42f0b3281fb8d25e6d227675db6f4d90b58f2efc9bff2",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=OH&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:39+00:00",
+      "bytes": 539867,
+      "sha256": "911ce36c0a711aee05757449fdf8b84232165c3787d03b74a2cef399381360d5",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=OK&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:43+00:00",
+      "bytes": 1488814,
+      "sha256": "2e7f4615cb5673e53cd5fdce79ce48a68f4ee4fef6a0978b635ae4c892ac9b9d",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=OK&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:43+00:00",
+      "bytes": 365683,
+      "sha256": "07258796c221b468351f9ba3e9397f45c3ec2f3606515f78c7e6cf41846cd7e4",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=OR&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:44+00:00",
+      "bytes": 2303844,
+      "sha256": "17547cd593f640ff55507553c95864e5fd675120a2d69ef64a1cf31af9aa6d84",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=OR&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:43+00:00",
+      "bytes": 598438,
+      "sha256": "c8b8e5c070527fbf5acaec6185cebad83e50a7d75566acf3079929768a9f0fe2",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=PA&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:44+00:00",
+      "bytes": 2603951,
+      "sha256": "e8005e26c87216d98a238c8d1979c01259c7aa589037eeef50b51536f4c3293b",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=PA&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:47+00:00",
+      "bytes": 743482,
+      "sha256": "736923c1a94f8890a2353ae7ebedacca8a5b72d0ec2186676e516d6dd0630db4",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=RI&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:46+00:00",
+      "bytes": 230719,
+      "sha256": "bbf7cafdb483a5208731e14a528656bea9f2c7e5ba00eb7ea83b77723eca18fb",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=RI&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:46+00:00",
+      "bytes": 86675,
+      "sha256": "78b591cc111cff75c5b7fd0d2b0010531d32a700d0e085b49c9b359845f7a0ff",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=SC&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:47+00:00",
+      "bytes": 967836,
+      "sha256": "5421cf91fcee1eab366a450c72bd8d03f8edd9635a9073d60da23893c733b291",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=SC&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:46+00:00",
+      "bytes": 311025,
+      "sha256": "f00426042f756c282ff6d53a942216bbd5e96748e551a6def39e26e4f5d7c76a",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=SD&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:54+00:00",
+      "bytes": 1191913,
+      "sha256": "6248ba0524e51630ab5bbb6b6169f54ff02a53c7b7e3fe774485089b0c65f9a8",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=SD&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:54+00:00",
+      "bytes": 271040,
+      "sha256": "2c7c15a2d73702f3de5f1f15455976296493e2f8e8b6599a23cecb114e691b5b",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=TN&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:53+00:00",
+      "bytes": 950688,
+      "sha256": "d3d1abbb8893e3c19c19967074939646750d9508b521fc7d7ca374fef4f050e1",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=TN&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:53+00:00",
+      "bytes": 266189,
+      "sha256": "33ee2a8f8cb89e73331f2397f64d72c6105c7ac8778bd5135b540d945004e7c7",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=TX&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:59+00:00",
+      "bytes": 4301207,
+      "sha256": "dff8ec7c9a9ae8b7a79619fa0dbaf858e27a811a3afb5a7f270e7827ae54b840",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=TX&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:58+00:00",
+      "bytes": 1287012,
+      "sha256": "3e0efdf6f532a9c36a88745363f94617c53e765ebd9e8f3fb1bb0a706f7f5a7d",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=UT&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:58+00:00",
+      "bytes": 1579654,
+      "sha256": "e19b754eca5982333b5cadc64e2258534e152917fca2a949da9be40c44d5b30b",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=UT&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:57+00:00",
+      "bytes": 425407,
+      "sha256": "3c6bbdac38ac4a87664d57fe7bfcf4c0dd322605c24df05170e79a84317dd534",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=VA&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:58:03+00:00",
+      "bytes": 1883083,
+      "sha256": "9f3c4d840128abeae7ff1a91806f70267181688d0f8e00bd4e33cf010edfe6cf",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=VA&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:58:02+00:00",
+      "bytes": 481732,
+      "sha256": "8f16acb9606de8b565cc803a6482ca9d2294faf76f2b979511b117646448b9e5",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=VT&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:57:57+00:00",
+      "bytes": 518915,
+      "sha256": "5a82614d7e71852b40dd920a1e611457c612f2318b2690153ca51be6aa718d65",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=VT&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:58:02+00:00",
+      "bytes": 129437,
+      "sha256": "2f91b9bfd6da1a2980d51a86ef33d1f01208e981a1a968b1120a3b4924596922",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=WA&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:58:04+00:00",
+      "bytes": 2546796,
+      "sha256": "0953b8529b91caa9b8b115f275e0a8220b3f82410a1723ebe1d585bbf609ec9c",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=WA&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:58:03+00:00",
+      "bytes": 634326,
+      "sha256": "0f0fdee596622a4da3a593a4e7b5afef803946be9791044a4e97a4674c692b92",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=WI&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:58:08+00:00",
+      "bytes": 2350168,
+      "sha256": "da8bb755500c37d455a4b91b22f604d91712f691f9539c9fa43f0eae37069ca3",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=WI&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:58:07+00:00",
+      "bytes": 473099,
+      "sha256": "9eb3556994e705c5f55db30712450de3e35b27aaf1b5382407d36b22793d255c",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=WV&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:58:07+00:00",
+      "bytes": 740052,
+      "sha256": "b7bd83b80bed5774831bf40e4c9916a4165161c10cf4f4a2f1c294324c7d998c",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=WV&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:58:07+00:00",
+      "bytes": 253375,
+      "sha256": "bec2b0130120e7e2ad10de7bc6dd6c726e382b270080c11bf5f603c4f59ae5ed",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=WY&statCd=00003&parameterCd=00060&startDT=2006-01-01&endDT=2006-11-30&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:58:11+00:00",
+      "bytes": 1350279,
+      "sha256": "bf3b297301596c3d344413898482870cb725e3480e1013848072240597bce428",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/dv/?format=rdb&stateCd=WY&statCd=00003&parameterCd=00060&startDT=2025-11-01&endDT=2025-12-31&siteStatus=all",
+      "retrievedAt": "2026-11-04T23:58:11+00:00",
+      "bytes": 237015,
+      "sha256": "a640e3c67a478f96a24bfc8fe1b206dcfc1f414b52b1e1416b8850ba2f5f1adc",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=AL&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:56:39+00:00",
+      "bytes": 46732,
+      "sha256": "6e344857866971a89656fde1bdf5150bf09ea986278ef9f6111855b21226cea4",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=AR&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:56:39+00:00",
+      "bytes": 44977,
+      "sha256": "afde999a4c75fdce3818a15c08a69df88d95406009e0e666e415b0d42ebaf275",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=AZ&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:56:39+00:00",
+      "bytes": 64065,
+      "sha256": "7443da59ccda34130e8974291b9bfaed3c166497baa2fd5d5b284817326592bb",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=CA&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:56:45+00:00",
+      "bytes": 266907,
+      "sha256": "02cb5ca404c30bfad8dc3cd8eb491a7755976bf18afa54000c47b68180a40d46",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=CO&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:56:44+00:00",
+      "bytes": 122813,
+      "sha256": "86755fdf278bff7006aa1cf867e9ef1d58b298f0c96dfd8dc8f19739731333ac",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=CT&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:56:48+00:00",
+      "bytes": 23239,
+      "sha256": "a321d44cde69b44e9764ae8a4b4f3861f3a1936ee9a48a30757670a30c0cf113",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=DC&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:56:51+00:00",
+      "bytes": 4468,
+      "sha256": "7190265a7332d912015ca928f185f9df9f6f0e78636c24a54c0c86d75d8cbb26",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=DE&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:56:48+00:00",
+      "bytes": 10022,
+      "sha256": "2850015a7a0daabba1c64c356f63357a0c21da0b894d41e4afa843c01ffd38cb",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=FL&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:56:52+00:00",
+      "bytes": 147633,
+      "sha256": "de401c52bc823dc8c115acce86c764fb087254fa66d2c1e15d68f269e200386b",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=GA&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:56:56+00:00",
+      "bytes": 85457,
+      "sha256": "c9df7eb3aa2b0787a35d82d7ddb5f6ce7ea41cd6f87549e2fc2daf99274bd2b7",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=IA&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:56:59+00:00",
+      "bytes": 47413,
+      "sha256": "115d866b78a341ab73b09366a78a8b8850fdf5e518117d025fd41b825fcecf05",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=ID&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:56:56+00:00",
+      "bytes": 78233,
+      "sha256": "54b0809c545122fd5ffbb6e591f8da7cb8dc5e555dd8ed2780433f4b0e994882",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=IL&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:56:59+00:00",
+      "bytes": 61029,
+      "sha256": "b090a89d8b51a5deb269ae633d5e78f8b50e9164d6768594dbf0b3d5052625e1",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=IN&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:56:59+00:00",
+      "bytes": 64804,
+      "sha256": "f0b24b5364e7d1f7c0aeefeafcaf1045d40d479c276baf7ac6d2a64b5d0316db",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=KS&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:03+00:00",
+      "bytes": 55827,
+      "sha256": "8a0b3f1d4b2815ac99fb8a563e80d7c20bc0fb1b697d63d15268f6dd7e0cf748",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=KY&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:03+00:00",
+      "bytes": 44312,
+      "sha256": "34c27b5b90c9103dfcd9f4a23277bb99ff121a624a5c9ce541b0b514defc6f26",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=LA&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:07+00:00",
+      "bytes": 29750,
+      "sha256": "b23ed93ca8e7e63b17d3e91cde6c1ba41687a08e11f20d9f8d19aa7bf9ddf542",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=MA&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:12+00:00",
+      "bytes": 41187,
+      "sha256": "47f981f7d8e2a8975626977efc02f256cec77a42508560cb6d8bcfffe3bc9731",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=MD&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:11+00:00",
+      "bytes": 45683,
+      "sha256": "db249afc5cc3b3a31cf391d98aa8fe10639eb133100783b43c81b80ca1190e04",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=ME&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:07+00:00",
+      "bytes": 22399,
+      "sha256": "d8577c63503a17a704a259fb1574ffd200fd4978e10394d5df5f72414ec0ea0e",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=MI&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:11+00:00",
+      "bytes": 72542,
+      "sha256": "df3bfa1c5329605efafcb888577203ac82f37317207d2a1dc249ed0622fedc98",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=MN&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:18+00:00",
+      "bytes": 42562,
+      "sha256": "6086b99cdef6234b3d68e3f51c281a0f169b1666353364ce4c64b08e36fb855e",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=MO&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:22+00:00",
+      "bytes": 69024,
+      "sha256": "cd6118370e22342da236a2d62e5a8e71b829c720c1242408cf9f709bfcca29e2",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=MS&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:18+00:00",
+      "bytes": 35839,
+      "sha256": "769e1e9b62d573477a153280bc933f9827a98430f807dbbfb48a3d58f0aa70aa",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=MT&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:22+00:00",
+      "bytes": 76949,
+      "sha256": "34c8a2f06c338c94bbb11ac94c51b545f86da8210d3d008058ba7adf7f277937",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=NC&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:35+00:00",
+      "bytes": 69187,
+      "sha256": "253c65b9648bdcc6fdd9ff2106da4c6f2e0319d127aa7c7232f09e8b2d871383",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=ND&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:39+00:00",
+      "bytes": 45621,
+      "sha256": "e9aa4f6c493511df2f30d3556c439944c579feafa70b6b6519426f6821bab572",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=NE&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:26+00:00",
+      "bytes": 42440,
+      "sha256": "dfd8dbcf7e1b20bb9ff25db358f81712b8c89585ab94284dee8749a1fd69feee",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=NH&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:26+00:00",
+      "bytes": 19204,
+      "sha256": "6dd9897974783a53d3d8ef84b0e5556edd6de06a2143fcf403f822bc8e397792",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=NJ&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:30+00:00",
+      "bytes": 40602,
+      "sha256": "69305a3fef77493440e827b41e2d972a17599c4db78729ee518997174a5ab3b2",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=NM&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:30+00:00",
+      "bytes": 55087,
+      "sha256": "7deed369d749462dec9cd724c1afcc6aa1ce81ef40c5f0f7d5bd641f8d1fbea1",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=NV&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:26+00:00",
+      "bytes": 54901,
+      "sha256": "47106256a342148d0427f0cfb5cfea2b09b24573351ca0c1b79cac2ba06ed374",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=NY&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:35+00:00",
+      "bytes": 96504,
+      "sha256": "b754d0305d5d42a671e84698df433ec62295fc1a1e49a1b6876613b1d7550e1f",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=OH&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:39+00:00",
+      "bytes": 67172,
+      "sha256": "3096a3254f50000b026c84d0630b1930c5a803be0e71452e7bb110042bd8ba88",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=OK&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:39+00:00",
+      "bytes": 48829,
+      "sha256": "dfc50f6f0848ffafcca9f08812102a6518f37d1db5f9e84478bcdee9f5b0abd3",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=OR&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:42+00:00",
+      "bytes": 80181,
+      "sha256": "29d368af262cfcd42b33bb8992b33eeb26daf0d97a619b6166a57558b6b7a5e3",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=PA&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:43+00:00",
+      "bytes": 84461,
+      "sha256": "b38792035666ca56307b792ac06cd43fd1755634fd2401fd5b2fd63c7f0ddf99",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=RI&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:46+00:00",
+      "bytes": 13297,
+      "sha256": "6b16e9c4223b2efeecf911a5401fcc4363bcce14d4e915ebcf2e29e97a09f2e6",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=SC&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:46+00:00",
+      "bytes": 38333,
+      "sha256": "58f825878d3fa279c446b58bc3070abdddb16eee73f35394edd558db8e443898",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=SD&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:53+00:00",
+      "bytes": 40765,
+      "sha256": "b3b4c8944f2a20dfa1531be73abe5b89b94e8178311d0ef0b342125c526a7a6a",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=TN&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:53+00:00",
+      "bytes": 37757,
+      "sha256": "895f8c352909680045db600f99a9e9c67c16de7a1cb9f9781203b78db7cac4cd",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=TX&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:53+00:00",
+      "bytes": 151916,
+      "sha256": "65381dc10212e6f927695a566e6c800e19c0e3766d512ddf68b20eb88663bad2",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=UT&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:57+00:00",
+      "bytes": 57643,
+      "sha256": "33532ee4decafa5b579cf0c88353a752420b5b2e48914713ee2d7372d2b35576",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=VA&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:58:02+00:00",
+      "bytes": 54181,
+      "sha256": "28068807ead993de912ffa426ea29b7eed703efa3c3fa51120d9ad6939867499",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=VT&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:57:57+00:00",
+      "bytes": 20824,
+      "sha256": "1864f2b1b4ab6cd0320e00fc750a9439567313c676b8d9c0267bb666e45d4c77",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=WA&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:58:03+00:00",
+      "bytes": 81447,
+      "sha256": "35e02c63724ead1fd58449ab86bb99cf9776a8e9685395d07f7c5dbc4e493265",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=WI&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:58:07+00:00",
+      "bytes": 84352,
+      "sha256": "3711cbf4d37dd698b21951bbab4e1c3228a3d6d6aa3df81e675ff46081da0596",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=WV&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:58:07+00:00",
+      "bytes": 29750,
+      "sha256": "7d2a21737712d94ed3240642fa139a9ee7c8ddf3a19bb022bdd705c0a932838d",
+      "httpStatus": 200
+    },
+    {
+      "url": "https://waterservices.usgs.gov/nwis/site/?format=rdb&stateCd=WY&parameterCd=00060&hasDataTypeCd=dv&siteOutput=expanded&siteStatus=all&siteType=ST&startDt=2006-01-01&endDt=2025-12-31",
+      "retrievedAt": "2026-11-04T23:58:07+00:00",
+      "bytes": 54657,
+      "sha256": "aaff99275a207af665fc0684497a3cb27fb47e321d9b9895af2b11694f10a967",
+      "httpStatus": 200
+    }
+  ],
+  "completeDailySeriesMonthsUsed": {
+    "2006-01": 7105,
+    "2006-02": 7136,
+    "2006-03": 7171,
+    "2006-04": 7272,
+    "2006-05": 7303,
+    "2006-06": 7328,
+    "2006-07": 7365,
+    "2006-08": 7369,
+    "2006-09": 7331,
+    "2006-10": 7299,
+    "2025-12": 6041
+  },
+  "validationFile": "water_months_validation.json",
+  "months": [
+    {
+      "month": 1,
+      "monthName": "January",
+      "file": "water_months/01.json.gz",
+      "bytes": 799392,
+      "sha256": "5e8d5c6c2f41af2475c39407829e759a5d85db92707260eda2a004bd9b4f2044",
+      "coverage": {
+        "publishedStations": 10238,
+        "completeBaselineStations": 5360,
+        "partialBaselineStations": 4878,
+        "nByValidYears": {
+          "1": 368,
+          "2": 385,
+          "3": 324,
+          "4": 340,
+          "5": 257,
+          "6": 276,
+          "7": 198,
+          "8": 202,
+          "9": 211,
+          "10": 190,
+          "11": 220,
+          "12": 140,
+          "13": 196,
+          "14": 147,
+          "15": 207,
+          "16": 239,
+          "17": 212,
+          "18": 254,
+          "19": 512,
+          "20": 5360
+        },
+        "annualStationCounts": {
+          "2006": 7073,
+          "2007": 7146,
+          "2008": 7277,
+          "2009": 7368,
+          "2010": 7427,
+          "2011": 7530,
+          "2012": 7550,
+          "2013": 7646,
+          "2014": 7643,
+          "2015": 7759,
+          "2016": 7792,
+          "2017": 7682,
+          "2018": 7884,
+          "2019": 7927,
+          "2020": 8023,
+          "2021": 8043,
+          "2022": 8093,
+          "2023": 8079,
+          "2024": 8089,
+          "2025": 7920
+        },
+        "unresolvedSeriesCount": 26,
+        "statesWithPublishedStations": 49
+      },
+      "ambiguousStations": [
+        "USGS-01465500",
+        "USGS-01574500",
+        "USGS-02441390",
+        "USGS-02479310",
+        "USGS-03216600",
+        "USGS-03254693",
+        "USGS-03292555",
+        "USGS-03333700",
+        "USGS-04084445",
+        "USGS-04191500",
+        "USGS-04279000",
+        "USGS-05051500",
+        "USGS-05536890",
+        "USGS-06208500",
+        "USGS-06294000",
+        "USGS-06903900",
+        "USGS-08073500",
+        "USGS-08168932",
+        "USGS-09429210",
+        "USGS-09482500",
+        "USGS-09531800",
+        "USGS-11109398",
+        "USGS-11254000",
+        "USGS-11363930",
+        "USGS-11429500",
+        "USGS-13087505"
+      ]
+    },
+    {
+      "month": 2,
+      "monthName": "February",
+      "file": "water_months/02.json.gz",
+      "bytes": 799846,
+      "sha256": "8bc0b044ced09f1aa5c65d4a984a747e3fc02a96fe6f862de37745015b560bd0",
+      "coverage": {
+        "publishedStations": 10253,
+        "completeBaselineStations": 5375,
+        "partialBaselineStations": 4878,
+        "nByValidYears": {
+          "1": 390,
+          "2": 372,
+          "3": 319,
+          "4": 341,
+          "5": 253,
+          "6": 283,
+          "7": 199,
+          "8": 197,
+          "9": 220,
+          "10": 177,
+          "11": 224,
+          "12": 138,
+          "13": 196,
+          "14": 162,
+          "15": 196,
+          "16": 241,
+          "17": 216,
+          "18": 255,
+          "19": 499,
+          "20": 5375
+        },
+        "annualStationCounts": {
+          "2006": 7103,
+          "2007": 7159,
+          "2008": 7285,
+          "2009": 7379,
+          "2010": 7450,
+          "2011": 7532,
+          "2012": 7585,
+          "2013": 7664,
+          "2014": 7619,
+          "2015": 7760,
+          "2016": 7791,
+          "2017": 7752,
+          "2018": 7887,
+          "2019": 7919,
+          "2020": 8039,
+          "2021": 8030,
+          "2022": 8100,
+          "2023": 8094,
+          "2024": 8086,
+          "2025": 7878
+        },
+        "unresolvedSeriesCount": 26,
+        "statesWithPublishedStations": 49
+      },
+      "ambiguousStations": [
+        "USGS-01465500",
+        "USGS-01574500",
+        "USGS-02441390",
+        "USGS-02479310",
+        "USGS-03216600",
+        "USGS-03254693",
+        "USGS-03292555",
+        "USGS-03333700",
+        "USGS-04084445",
+        "USGS-04191500",
+        "USGS-04279000",
+        "USGS-05051500",
+        "USGS-05536890",
+        "USGS-06208500",
+        "USGS-06294000",
+        "USGS-06903900",
+        "USGS-08073500",
+        "USGS-08168932",
+        "USGS-09429210",
+        "USGS-09482500",
+        "USGS-09531800",
+        "USGS-11109398",
+        "USGS-11254000",
+        "USGS-11363930",
+        "USGS-11429500",
+        "USGS-13087505"
+      ]
+    },
+    {
+      "month": 3,
+      "monthName": "March",
+      "file": "water_months/03.json.gz",
+      "bytes": 814132,
+      "sha256": "ffe262a11e2729a9db6938956e9cb12bb1dbc0b383b774b29baf4805ea440f8d",
+      "coverage": {
+        "publishedStations": 10322,
+        "completeBaselineStations": 5420,
+        "partialBaselineStations": 4902,
+        "nByValidYears": {
+          "1": 375,
+          "2": 379,
+          "3": 320,
+          "4": 344,
+          "5": 255,
+          "6": 290,
+          "7": 201,
+          "8": 192,
+          "9": 221,
+          "10": 184,
+          "11": 216,
+          "12": 135,
+          "13": 210,
+          "14": 161,
+          "15": 192,
+          "16": 253,
+          "17": 214,
+          "18": 268,
+          "19": 492,
+          "20": 5420
+        },
+        "annualStationCounts": {
+          "2006": 7138,
+          "2007": 7199,
+          "2008": 7348,
+          "2009": 7417,
+          "2010": 7510,
+          "2011": 7594,
+          "2012": 7611,
+          "2013": 7726,
+          "2014": 7702,
+          "2015": 7856,
+          "2016": 7852,
+          "2017": 7864,
+          "2018": 7941,
+          "2019": 7991,
+          "2020": 8120,
+          "2021": 8116,
+          "2022": 8169,
+          "2023": 8156,
+          "2024": 8153,
+          "2025": 7911
+        },
+        "unresolvedSeriesCount": 26,
+        "statesWithPublishedStations": 49
+      },
+      "ambiguousStations": [
+        "USGS-01465500",
+        "USGS-01574500",
+        "USGS-02441390",
+        "USGS-02479310",
+        "USGS-03216600",
+        "USGS-03254693",
+        "USGS-03292555",
+        "USGS-03333700",
+        "USGS-04084445",
+        "USGS-04191500",
+        "USGS-04279000",
+        "USGS-05051500",
+        "USGS-05536890",
+        "USGS-06208500",
+        "USGS-06294000",
+        "USGS-06903900",
+        "USGS-08073500",
+        "USGS-08168932",
+        "USGS-09429210",
+        "USGS-09482500",
+        "USGS-09531800",
+        "USGS-11109398",
+        "USGS-11254000",
+        "USGS-11363930",
+        "USGS-11429500",
+        "USGS-13087505"
+      ]
+    },
+    {
+      "month": 4,
+      "monthName": "April",
+      "file": "water_months/04.json.gz",
+      "bytes": 822645,
+      "sha256": "6f3461d7be29493f2f1a955e01d897e9ca948c4391fc0a69838ebc05816a14eb",
+      "coverage": {
+        "publishedStations": 10505,
+        "completeBaselineStations": 5434,
+        "partialBaselineStations": 5071,
+        "nByValidYears": {
+          "1": 382,
+          "2": 398,
+          "3": 340,
+          "4": 338,
+          "5": 258,
+          "6": 301,
+          "7": 204,
+          "8": 196,
+          "9": 230,
+          "10": 188,
+          "11": 238,
+          "12": 150,
+          "13": 201,
+          "14": 177,
+          "15": 196,
+          "16": 254,
+          "17": 215,
+          "18": 263,
+          "19": 542,
+          "20": 5434
+        },
+        "annualStationCounts": {
+          "2006": 7239,
+          "2007": 7336,
+          "2008": 7444,
+          "2009": 7529,
+          "2010": 7635,
+          "2011": 7694,
+          "2012": 7742,
+          "2013": 7827,
+          "2014": 7811,
+          "2015": 7961,
+          "2016": 7960,
+          "2017": 7948,
+          "2018": 8034,
+          "2019": 8111,
+          "2020": 8237,
+          "2021": 8221,
+          "2022": 8272,
+          "2023": 8258,
+          "2024": 8248,
+          "2025": 7965
+        },
+        "unresolvedSeriesCount": 26,
+        "statesWithPublishedStations": 49
+      },
+      "ambiguousStations": [
+        "USGS-01465500",
+        "USGS-01574500",
+        "USGS-02441390",
+        "USGS-02479310",
+        "USGS-03216600",
+        "USGS-03254693",
+        "USGS-03292555",
+        "USGS-03333700",
+        "USGS-04084445",
+        "USGS-04191500",
+        "USGS-04279000",
+        "USGS-05051500",
+        "USGS-05536890",
+        "USGS-06208500",
+        "USGS-06294000",
+        "USGS-06903900",
+        "USGS-08073500",
+        "USGS-08168932",
+        "USGS-09429210",
+        "USGS-09482500",
+        "USGS-09531800",
+        "USGS-11109398",
+        "USGS-11254000",
+        "USGS-11363930",
+        "USGS-11429500",
+        "USGS-13087505"
+      ]
+    },
+    {
+      "month": 5,
+      "monthName": "May",
+      "file": "water_months/05.json.gz",
+      "bytes": 830293,
+      "sha256": "9d454c5e0d32709a45c58314ae6a11fb9aeef7993ad4e88eb85edef7c5252fb4",
+      "coverage": {
+        "publishedStations": 10517,
+        "completeBaselineStations": 5440,
+        "partialBaselineStations": 5077,
+        "nByValidYears": {
+          "1": 356,
+          "2": 392,
+          "3": 359,
+          "4": 335,
+          "5": 266,
+          "6": 280,
+          "7": 218,
+          "8": 209,
+          "9": 225,
+          "10": 188,
+          "11": 236,
+          "12": 149,
+          "13": 201,
+          "14": 192,
+          "15": 188,
+          "16": 247,
+          "17": 221,
+          "18": 281,
+          "19": 534,
+          "20": 5440
+        },
+        "annualStationCounts": {
+          "2006": 7269,
+          "2007": 7354,
+          "2008": 7484,
+          "2009": 7548,
+          "2010": 7662,
+          "2011": 7697,
+          "2012": 7763,
+          "2013": 7833,
+          "2014": 7839,
+          "2015": 8003,
+          "2016": 7989,
+          "2017": 7975,
+          "2018": 8077,
+          "2019": 8123,
+          "2020": 8251,
+          "2021": 8247,
+          "2022": 8298,
+          "2023": 8266,
+          "2024": 8257,
+          "2025": 7953
+        },
+        "unresolvedSeriesCount": 26,
+        "statesWithPublishedStations": 49
+      },
+      "ambiguousStations": [
+        "USGS-01465500",
+        "USGS-01574500",
+        "USGS-02441390",
+        "USGS-02479310",
+        "USGS-03216600",
+        "USGS-03254693",
+        "USGS-03292555",
+        "USGS-03333700",
+        "USGS-04084445",
+        "USGS-04191500",
+        "USGS-04279000",
+        "USGS-05051500",
+        "USGS-05536890",
+        "USGS-06208500",
+        "USGS-06294000",
+        "USGS-06903900",
+        "USGS-08073500",
+        "USGS-08168932",
+        "USGS-09429210",
+        "USGS-09482500",
+        "USGS-09531800",
+        "USGS-11109398",
+        "USGS-11254000",
+        "USGS-11363930",
+        "USGS-11429500",
+        "USGS-13087505"
+      ]
+    },
+    {
+      "month": 6,
+      "monthName": "June",
+      "file": "water_months/06.json.gz",
+      "bytes": 820379,
+      "sha256": "cfd754612236c1e2fe7e91e1d90b0c249292c52ddf41516095514aa0f00005c9",
+      "coverage": {
+        "publishedStations": 10542,
+        "completeBaselineStations": 5444,
+        "partialBaselineStations": 5098,
+        "nByValidYears": {
+          "1": 354,
+          "2": 404,
+          "3": 354,
+          "4": 328,
+          "5": 283,
+          "6": 279,
+          "7": 202,
+          "8": 211,
+          "9": 232,
+          "10": 184,
+          "11": 237,
+          "12": 151,
+          "13": 195,
+          "14": 198,
+          "15": 191,
+          "16": 239,
+          "17": 226,
+          "18": 277,
+          "19": 553,
+          "20": 5444
+        },
+        "annualStationCounts": {
+          "2006": 7296,
+          "2007": 7371,
+          "2008": 7517,
+          "2009": 7566,
+          "2010": 7676,
+          "2011": 7722,
+          "2012": 7796,
+          "2013": 7859,
+          "2014": 7879,
+          "2015": 8016,
+          "2016": 7996,
+          "2017": 7995,
+          "2018": 8102,
+          "2019": 8136,
+          "2020": 8260,
+          "2021": 8274,
+          "2022": 8321,
+          "2023": 8283,
+          "2024": 8295,
+          "2025": 7925
+        },
+        "unresolvedSeriesCount": 26,
+        "statesWithPublishedStations": 49
+      },
+      "ambiguousStations": [
+        "USGS-01465500",
+        "USGS-01574500",
+        "USGS-02441390",
+        "USGS-02479310",
+        "USGS-03216600",
+        "USGS-03254693",
+        "USGS-03292555",
+        "USGS-03333700",
+        "USGS-04084445",
+        "USGS-04191500",
+        "USGS-04279000",
+        "USGS-05051500",
+        "USGS-05536890",
+        "USGS-06208500",
+        "USGS-06294000",
+        "USGS-06903900",
+        "USGS-08073500",
+        "USGS-08168932",
+        "USGS-09429210",
+        "USGS-09482500",
+        "USGS-09531800",
+        "USGS-11109398",
+        "USGS-11254000",
+        "USGS-11363930",
+        "USGS-11429500",
+        "USGS-13087505"
+      ]
+    },
+    {
+      "month": 7,
+      "monthName": "July",
+      "file": "water_months/07.json.gz",
+      "bytes": 819498,
+      "sha256": "7d72de29b4d9b618e14709bb0a6c61b05147389f9bf477a28943bab6aebdd9d6",
+      "coverage": {
+        "publishedStations": 10549,
+        "completeBaselineStations": 5433,
+        "partialBaselineStations": 5116,
+        "nByValidYears": {
+          "1": 353,
+          "2": 384,
+          "3": 364,
+          "4": 340,
+          "5": 274,
+          "6": 274,
+          "7": 204,
+          "8": 210,
+          "9": 226,
+          "10": 212,
+          "11": 218,
+          "12": 152,
+          "13": 181,
+          "14": 194,
+          "15": 209,
+          "16": 226,
+          "17": 236,
+          "18": 262,
+          "19": 597,
+          "20": 5433
+        },
+        "annualStationCounts": {
+          "2006": 7332,
+          "2007": 7383,
+          "2008": 7545,
+          "2009": 7605,
+          "2010": 7701,
+          "2011": 7750,
+          "2012": 7815,
+          "2013": 7872,
+          "2014": 7893,
+          "2015": 8009,
+          "2016": 8003,
+          "2017": 8026,
+          "2018": 8121,
+          "2019": 8162,
+          "2020": 8269,
+          "2021": 8280,
+          "2022": 8335,
+          "2023": 8315,
+          "2024": 8301,
+          "2025": 7905
+        },
+        "unresolvedSeriesCount": 26,
+        "statesWithPublishedStations": 49
+      },
+      "ambiguousStations": [
+        "USGS-01465500",
+        "USGS-01574500",
+        "USGS-02441390",
+        "USGS-02479310",
+        "USGS-03216600",
+        "USGS-03254693",
+        "USGS-03292555",
+        "USGS-03333700",
+        "USGS-04084445",
+        "USGS-04191500",
+        "USGS-04279000",
+        "USGS-05051500",
+        "USGS-05536890",
+        "USGS-06208500",
+        "USGS-06294000",
+        "USGS-06903900",
+        "USGS-08073500",
+        "USGS-08168932",
+        "USGS-09429210",
+        "USGS-09482500",
+        "USGS-09531800",
+        "USGS-11109398",
+        "USGS-11254000",
+        "USGS-11363930",
+        "USGS-11429500",
+        "USGS-13087505"
+      ]
+    },
+    {
+      "month": 8,
+      "monthName": "August",
+      "file": "water_months/08.json.gz",
+      "bytes": 812386,
+      "sha256": "3e4dd3f62f4b0d3b7d4c30a7c3065691fdf4054becc526ba3e759ff7b1f7369b",
+      "coverage": {
+        "publishedStations": 10547,
+        "completeBaselineStations": 5416,
+        "partialBaselineStations": 5131,
+        "nByValidYears": {
+          "1": 361,
+          "2": 369,
+          "3": 365,
+          "4": 329,
+          "5": 272,
+          "6": 290,
+          "7": 197,
+          "8": 217,
+          "9": 217,
+          "10": 207,
+          "11": 217,
+          "12": 174,
+          "13": 170,
+          "14": 203,
+          "15": 189,
+          "16": 232,
+          "17": 235,
+          "18": 277,
+          "19": 610,
+          "20": 5416
+        },
+        "annualStationCounts": {
+          "2006": 7336,
+          "2007": 7403,
+          "2008": 7553,
+          "2009": 7609,
+          "2010": 7723,
+          "2011": 7774,
+          "2012": 7814,
+          "2013": 7870,
+          "2014": 7898,
+          "2015": 8035,
+          "2016": 7995,
+          "2017": 8026,
+          "2018": 8121,
+          "2019": 8193,
+          "2020": 8265,
+          "2021": 8288,
+          "2022": 8325,
+          "2023": 8316,
+          "2024": 8298,
+          "2025": 7871
+        },
+        "unresolvedSeriesCount": 26,
+        "statesWithPublishedStations": 49
+      },
+      "ambiguousStations": [
+        "USGS-01465500",
+        "USGS-01574500",
+        "USGS-02441390",
+        "USGS-02479310",
+        "USGS-03216600",
+        "USGS-03254693",
+        "USGS-03292555",
+        "USGS-03333700",
+        "USGS-04084445",
+        "USGS-04191500",
+        "USGS-04279000",
+        "USGS-05051500",
+        "USGS-05536890",
+        "USGS-06208500",
+        "USGS-06294000",
+        "USGS-06903900",
+        "USGS-08073500",
+        "USGS-08168932",
+        "USGS-09429210",
+        "USGS-09482500",
+        "USGS-09531800",
+        "USGS-11109398",
+        "USGS-11254000",
+        "USGS-11363930",
+        "USGS-11429500",
+        "USGS-13087505"
+      ]
+    },
+    {
+      "month": 9,
+      "monthName": "September",
+      "file": "water_months/09.json.gz",
+      "bytes": 801594,
+      "sha256": "3de91b80167ba6d54f5b9f203081db182725b07280414a8bc49a832cbf63a59f",
+      "coverage": {
+        "publishedStations": 10489,
+        "completeBaselineStations": 5337,
+        "partialBaselineStations": 5152,
+        "nByValidYears": {
+          "1": 370,
+          "2": 363,
+          "3": 393,
+          "4": 288,
+          "5": 267,
+          "6": 273,
+          "7": 188,
+          "8": 212,
+          "9": 234,
+          "10": 189,
+          "11": 203,
+          "12": 182,
+          "13": 175,
+          "14": 215,
+          "15": 185,
+          "16": 239,
+          "17": 242,
+          "18": 277,
+          "19": 657,
+          "20": 5337
+        },
+        "annualStationCounts": {
+          "2006": 7299,
+          "2007": 7351,
+          "2008": 7491,
+          "2009": 7531,
+          "2010": 7671,
+          "2011": 7697,
+          "2012": 7796,
+          "2013": 7818,
+          "2014": 7863,
+          "2015": 7990,
+          "2016": 7981,
+          "2017": 8042,
+          "2018": 8117,
+          "2019": 8203,
+          "2020": 8238,
+          "2021": 8289,
+          "2022": 8307,
+          "2023": 8312,
+          "2024": 8260,
+          "2025": 7776
+        },
+        "unresolvedSeriesCount": 25,
+        "statesWithPublishedStations": 49
+      },
+      "ambiguousStations": [
+        "USGS-01465500",
+        "USGS-01574500",
+        "USGS-02441390",
+        "USGS-02479310",
+        "USGS-03216600",
+        "USGS-03254693",
+        "USGS-03292555",
+        "USGS-03333700",
+        "USGS-04084445",
+        "USGS-04191500",
+        "USGS-04279000",
+        "USGS-05051500",
+        "USGS-05536890",
+        "USGS-06208500",
+        "USGS-06294000",
+        "USGS-06903900",
+        "USGS-08073500",
+        "USGS-08168932",
+        "USGS-09429210",
+        "USGS-09482500",
+        "USGS-09531800",
+        "USGS-11109398",
+        "USGS-11363930",
+        "USGS-11429500",
+        "USGS-13087505"
+      ]
+    },
+    {
+      "month": 10,
+      "monthName": "October",
+      "file": "water_months/10.json.gz",
+      "bytes": 801963,
+      "sha256": "baf3dc33544fdf09df9aa605caf08d181315745f6d2d2e3af43b3f720351144b",
+      "coverage": {
+        "publishedStations": 10414,
+        "completeBaselineStations": 4995,
+        "partialBaselineStations": 5419,
+        "nByValidYears": {
+          "1": 398,
+          "2": 384,
+          "3": 387,
+          "4": 275,
+          "5": 279,
+          "6": 236,
+          "7": 193,
+          "8": 214,
+          "9": 228,
+          "10": 181,
+          "11": 195,
+          "12": 201,
+          "13": 151,
+          "14": 225,
+          "15": 173,
+          "16": 205,
+          "17": 248,
+          "18": 333,
+          "19": 913,
+          "20": 4995
+        },
+        "annualStationCounts": {
+          "2006": 7267,
+          "2007": 7346,
+          "2008": 7482,
+          "2009": 7510,
+          "2010": 7602,
+          "2011": 7621,
+          "2012": 7725,
+          "2013": 7757,
+          "2014": 7827,
+          "2015": 7875,
+          "2016": 7833,
+          "2017": 7965,
+          "2018": 8033,
+          "2019": 8100,
+          "2020": 8137,
+          "2021": 8190,
+          "2022": 8210,
+          "2023": 8203,
+          "2024": 8112,
+          "2025": 7370
+        },
+        "unresolvedSeriesCount": 26,
+        "statesWithPublishedStations": 49
+      },
+      "ambiguousStations": [
+        "USGS-01465500",
+        "USGS-01574500",
+        "USGS-02441390",
+        "USGS-02479310",
+        "USGS-03216600",
+        "USGS-03254693",
+        "USGS-03292555",
+        "USGS-03333700",
+        "USGS-04084445",
+        "USGS-04191500",
+        "USGS-04279000",
+        "USGS-05051500",
+        "USGS-05536890",
+        "USGS-06208500",
+        "USGS-06294000",
+        "USGS-06903900",
+        "USGS-08073500",
+        "USGS-08168932",
+        "USGS-09429210",
+        "USGS-09482500",
+        "USGS-09531800",
+        "USGS-11109398",
+        "USGS-11254000",
+        "USGS-11363930",
+        "USGS-11429500",
+        "USGS-13087505"
+      ]
+    },
+    {
+      "month": 11,
+      "monthName": "November",
+      "file": "water_months/11.json.gz",
+      "bytes": 766984,
+      "sha256": "ccb2957ac0715e726443eaf0698e612acd3d63fbfba6fbe3653afb7580855e9d",
+      "coverage": {
+        "publishedStations": 10225,
+        "completeBaselineStations": 4494,
+        "partialBaselineStations": 5731,
+        "nByValidYears": {
+          "1": 335,
+          "2": 387,
+          "3": 390,
+          "4": 264,
+          "5": 265,
+          "6": 218,
+          "7": 217,
+          "8": 202,
+          "9": 221,
+          "10": 180,
+          "11": 188,
+          "12": 200,
+          "13": 151,
+          "14": 190,
+          "15": 175,
+          "16": 211,
+          "17": 248,
+          "18": 341,
+          "19": 1348,
+          "20": 4494
+        },
+        "annualStationCounts": {
+          "2006": 7173,
+          "2007": 7298,
+          "2008": 7400,
+          "2009": 7446,
+          "2010": 7556,
+          "2011": 7577,
+          "2012": 7647,
+          "2013": 7670,
+          "2014": 7754,
+          "2015": 7815,
+          "2016": 7766,
+          "2017": 7858,
+          "2018": 7932,
+          "2019": 8026,
+          "2020": 8056,
+          "2021": 8117,
+          "2022": 8124,
+          "2023": 8112,
+          "2024": 7985,
+          "2025": 6518
+        },
+        "unresolvedSeriesCount": 26,
+        "statesWithPublishedStations": 49
+      },
+      "ambiguousStations": [
+        "USGS-01465500",
+        "USGS-01574500",
+        "USGS-02441390",
+        "USGS-02479310",
+        "USGS-03216600",
+        "USGS-03254693",
+        "USGS-03292555",
+        "USGS-03333700",
+        "USGS-04084445",
+        "USGS-04191500",
+        "USGS-04279000",
+        "USGS-05051500",
+        "USGS-05536890",
+        "USGS-06208500",
+        "USGS-06294000",
+        "USGS-06903900",
+        "USGS-08073500",
+        "USGS-08168932",
+        "USGS-09429210",
+        "USGS-09482500",
+        "USGS-09531800",
+        "USGS-11109398",
+        "USGS-11254000",
+        "USGS-11363930",
+        "USGS-11429500",
+        "USGS-13087505"
+      ]
+    },
+    {
+      "month": 12,
+      "monthName": "December",
+      "file": "water_months/12.json.gz",
+      "bytes": 786727,
+      "sha256": "1fb0208458a9f6cf3580a72655557317bfbe98899af619a1c38ae4d8df25f2a3",
+      "coverage": {
+        "publishedStations": 10187,
+        "completeBaselineStations": 4179,
+        "partialBaselineStations": 6008,
+        "nByValidYears": {
+          "1": 339,
+          "2": 388,
+          "3": 379,
+          "4": 279,
+          "5": 263,
+          "6": 213,
+          "7": 217,
+          "8": 186,
+          "9": 214,
+          "10": 190,
+          "11": 183,
+          "12": 195,
+          "13": 152,
+          "14": 187,
+          "15": 179,
+          "16": 212,
+          "17": 257,
+          "18": 370,
+          "19": 1605,
+          "20": 4179
+        },
+        "annualStationCounts": {
+          "2006": 7157,
+          "2007": 7270,
+          "2008": 7364,
+          "2009": 7428,
+          "2010": 7519,
+          "2011": 7570,
+          "2012": 7624,
+          "2013": 7646,
+          "2014": 7733,
+          "2015": 7780,
+          "2016": 7721,
+          "2017": 7881,
+          "2018": 7924,
+          "2019": 8018,
+          "2020": 8051,
+          "2021": 8072,
+          "2022": 8082,
+          "2023": 8102,
+          "2024": 7952,
+          "2025": 6028
+        },
+        "unresolvedSeriesCount": 26,
+        "statesWithPublishedStations": 49
+      },
+      "ambiguousStations": [
+        "USGS-01465500",
+        "USGS-01574500",
+        "USGS-02441390",
+        "USGS-02479310",
+        "USGS-03216600",
+        "USGS-03254693",
+        "USGS-03292555",
+        "USGS-03333700",
+        "USGS-04084445",
+        "USGS-04191500",
+        "USGS-04279000",
+        "USGS-05051500",
+        "USGS-05536890",
+        "USGS-06208500",
+        "USGS-06294000",
+        "USGS-06903900",
+        "USGS-08073500",
+        "USGS-08168932",
+        "USGS-09429210",
+        "USGS-09482500",
+        "USGS-09531800",
+        "USGS-11109398",
+        "USGS-11254000",
+        "USGS-11363930",
+        "USGS-11429500",
+        "USGS-13087505"
+      ]
+    }
+  ]
+}
