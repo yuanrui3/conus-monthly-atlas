@@ -1,0 +1,873 @@
+{
+  "release": "v0.8",
+  "source_commit": "85ae48c28437887d492dceb9da001acdd2c6492b",
+  "web_root": "docs",
+  "algorithm": "sha256",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 87,
+      "sha256": "4efaba4e98d9bb204f0c86dcecb89c68bfb8f0951b27186b379382d786491ec8"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 72,
+      "sha256": "81790134b156461c5d2687adb249557c9c652e956557c397e76b081239798955"
+    },
+    {
+      "path": "PUBLISHING.md",
+      "bytes": 4068,
+      "sha256": "2a3c2e3536d3e5a714a13bbf7e040fbfd88a8c3f6da4493493fd33aa404db7c3"
+    },
+    {
+      "path": "Publish-GitHubPages.ps1",
+      "bytes": 7842,
+      "sha256": "958a7809446b9374b62acfddde3bfc8ef2257924197e27ccd4000192833b4cff"
+    },
+    {
+      "path": "README.md",
+      "bytes": 14567,
+      "sha256": "43ceb740d8ccdb5406592414d3c969a6da5d5c4ee17ee8ef696072ea662b71fc"
+    },
+    {
+      "path": "docs/.nojekyll",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/app.js",
+      "bytes": 53920,
+      "sha256": "e23442dfeda2314ba16091f66830308a6d13851b41e7cd043c301aa2aa6d5d4d"
+    },
+    {
+      "path": "docs/atlas_links.js",
+      "bytes": 833,
+      "sha256": "204d2923b9f2a5773ab3197713c81a7df78d2ac70071f2dc60c52c6560859f48"
+    },
+    {
+      "path": "docs/bridges.js",
+      "bytes": 2778,
+      "sha256": "e65c94967f2d3dd5286a577970b1de544a2422f261bf5c0902d80ceef3f168fe"
+    },
+    {
+      "path": "docs/building_source_loader.js",
+      "bytes": 6371,
+      "sha256": "958c0ac3f9ec73e385813bec88d25a667d69b50019d2c576c112eea8e1103ee4"
+    },
+    {
+      "path": "docs/data/badin_map.webp",
+      "bytes": 347640,
+      "sha256": "32dcc97ac1d6eee1c396313c81ecf16e992a4dc363ed741807a7ba3b4b20b385"
+    },
+    {
+      "path": "docs/data/badin_trails.json",
+      "bytes": 74322,
+      "sha256": "337baa564d0a6437827bc4d570cb358cf2c7c155587a41e4bdd9ea28f662dcc4"
+    },
+    {
+      "path": "docs/data/bridge_AL.json",
+      "bytes": 1342748,
+      "sha256": "c99925e26362db1661ff5af2b63bc06c8dd975298bb7d843b28867da314743cb"
+    },
+    {
+      "path": "docs/data/bridge_AR.json",
+      "bytes": 1276808,
+      "sha256": "d9485dce4a2d2b178ce6bb222e7e5ec8fe78ede8b69ecbeaa7886e5c8348ae0e"
+    },
+    {
+      "path": "docs/data/bridge_AZ.json",
+      "bytes": 671041,
+      "sha256": "eb1fe9b01b9cd10d7069576086ebb10fbd40b938dad4629557d64088a92a76f5"
+    },
+    {
+      "path": "docs/data/bridge_CA.json",
+      "bytes": 2370736,
+      "sha256": "81d4c85040415d5e2b0cac1a6d6b6bbd0af6186a33e028985f331f935704f0d7"
+    },
+    {
+      "path": "docs/data/bridge_CO.json",
+      "bytes": 841487,
+      "sha256": "af05526207d2e26d712e0ac5930617f625c01a04983f035a88e0ad456cca2cf3"
+    },
+    {
+      "path": "docs/data/bridge_CT.json",
+      "bytes": 391964,
+      "sha256": "27b9640e72a32cfcb6299cecd61ec4227d0f3e42f722682beb0512f07513f966"
+    },
+    {
+      "path": "docs/data/bridge_DC.json",
+      "bytes": 23711,
+      "sha256": "9af69fd7ef3d09d627aca1b62ba366673bb0b62050bf101c634c9c62b00847cc"
+    },
+    {
+      "path": "docs/data/bridge_DE.json",
+      "bytes": 74467,
+      "sha256": "eb7edf270027642dd71f943ca4f966b707b242310f8cb6b1084bfdab0691817c"
+    },
+    {
+      "path": "docs/data/bridge_FL.json",
+      "bytes": 1159231,
+      "sha256": "d28284a802b27225a4fc28e35eed64e31e61005f9e29e58b207059ac3b0f2774"
+    },
+    {
+      "path": "docs/data/bridge_GA.json",
+      "bytes": 1457461,
+      "sha256": "9de856f9038d45c125c11d8226d2665fce570a5fdcb4d452a36b556e351228d7"
+    },
+    {
+      "path": "docs/data/bridge_IA.json",
+      "bytes": 1917931,
+      "sha256": "77e7bf580bb2799df3a9772cd50e9ad2b12f24e36fd32d981606b5aac9c5c26d"
+    },
+    {
+      "path": "docs/data/bridge_ID.json",
+      "bytes": 447963,
+      "sha256": "5213a335ec1ab7e652c55861fc8348daab883b2aea85606aa4b2a2b2fccb0e98"
+    },
+    {
+      "path": "docs/data/bridge_IL.json",
+      "bytes": 2404562,
+      "sha256": "77637024a4b89a7a4345fb32a38b2b95648834c7ae96ce60d6be4175544aaf38"
+    },
+    {
+      "path": "docs/data/bridge_IN.json",
+      "bytes": 1605073,
+      "sha256": "763e2d009210dcc49032c685f4e612b72a93c8bc76480e03d7055eee3ffcfa39"
+    },
+    {
+      "path": "docs/data/bridge_KS.json",
+      "bytes": 2414978,
+      "sha256": "3c639b4871ed2d485cef4ee639710e8e538288774ee24598b82cd4ec333bde86"
+    },
+    {
+      "path": "docs/data/bridge_KY.json",
+      "bytes": 1289244,
+      "sha256": "2ed45e94aeb5666581dc4922f713733ab583514e2cbcd29e86251005bcda11d6"
+    },
+    {
+      "path": "docs/data/bridge_LA.json",
+      "bytes": 1140528,
+      "sha256": "65d87d4e3e28e2f8f12d6e04b46cc4fa01a5c5622db9a172c29a70febcaeba30"
+    },
+    {
+      "path": "docs/data/bridge_MA.json",
+      "bytes": 534010,
+      "sha256": "aa1badddbe1b4174f1150c9a28247d50c5e6c739db473e22bca02f729c2985b6"
+    },
+    {
+      "path": "docs/data/bridge_MD.json",
+      "bytes": 479983,
+      "sha256": "41e59438cd96eb13890a42dccb6da3528b6187a97a08953e106508265e9ecb0e"
+    },
+    {
+      "path": "docs/data/bridge_ME.json",
+      "bytes": 212686,
+      "sha256": "f55b12fcf66d8a078619fd5e85c82c19d90170f09def6639d50804da44183309"
+    },
+    {
+      "path": "docs/data/bridge_MI.json",
+      "bytes": 1063083,
+      "sha256": "56e2501dd4ebb2cc208334c6757f53c8ed3af2cc82e8f2e111a6539b980539dc"
+    },
+    {
+      "path": "docs/data/bridge_MN.json",
+      "bytes": 1079371,
+      "sha256": "6d182acffcf8026cc406bdfcb2d01a1f56eb2ea78e44de64bebf09ab2b8d53a2"
+    },
+    {
+      "path": "docs/data/bridge_MO.json",
+      "bytes": 1922360,
+      "sha256": "6a6699858a7ccb85bcebd96a5fba933bca37944d8323d9ca120d64552dc35c32"
+    },
+    {
+      "path": "docs/data/bridge_MS.json",
+      "bytes": 1545350,
+      "sha256": "8b5e10b19ef4fe2225d3d9bf81a998e40006e564c41bab3f441368f05f080f6b"
+    },
+    {
+      "path": "docs/data/bridge_MT.json",
+      "bytes": 484402,
+      "sha256": "b5d11ccaafbb95f12b9cab360a7bb332ff951e010f915e30208f4ba4bb0656ff"
+    },
+    {
+      "path": "docs/data/bridge_NC.json",
+      "bytes": 1735511,
+      "sha256": "96abd6c1cfd583698c656cc6f498b06e45500277edc4f5194540395dafb24208"
+    },
+    {
+      "path": "docs/data/bridge_ND.json",
+      "bytes": 404192,
+      "sha256": "a450a574e64195790613dacbd3f47a156b026fcb757a73500b028238e4a8fd43"
+    },
+    {
+      "path": "docs/data/bridge_NE.json",
+      "bytes": 1229494,
+      "sha256": "9787d9ea771dcfbe884028947bef283220ee2aa93b99f805454d7fb06cb1943f"
+    },
+    {
+      "path": "docs/data/bridge_NH.json",
+      "bytes": 237110,
+      "sha256": "20dc6f414fa6ad7c435c0e09c190321ee8e0387e1d4c5380453ecc481823a337"
+    },
+    {
+      "path": "docs/data/bridge_NJ.json",
+      "bytes": 623620,
+      "sha256": "79b895c330cea5f103fc0b6764d78e4d7ee6d2699d29363914ce403f2a2d769a"
+    },
+    {
+      "path": "docs/data/bridge_NM.json",
+      "bytes": 385282,
+      "sha256": "91351dfd203be6d6f25a86df6a3b1c96598b7b3ed303a4f0c7cf85830c53a340"
+    },
+    {
+      "path": "docs/data/bridge_NV.json",
+      "bytes": 166227,
+      "sha256": "36de7a745abc4a07e80c0fde9ea192191ba4cfa8564d18c83747f057eda240c4"
+    },
+    {
+      "path": "docs/data/bridge_NY.json",
+      "bytes": 1719087,
+      "sha256": "ded93bb5a5fe7e6605a0e63c97ac29e281fc1b41df11eacc62a09cfbd2a5ccd7"
+    },
+    {
+      "path": "docs/data/bridge_OH.json",
+      "bytes": 2340701,
+      "sha256": "84f790901842bfcf4c9318d5b6177a25548c819d654b43e4c780c5fc125a29d3"
+    },
+    {
+      "path": "docs/data/bridge_OK.json",
+      "bytes": 1988549,
+      "sha256": "02d7dd19efeb5909155837afb8d6c710dcac00e34092686027a0a9db9c26d6c7"
+    },
+    {
+      "path": "docs/data/bridge_OR.json",
+      "bytes": 809081,
+      "sha256": "9b8f6e7d157d0fc71e156a9a027c9768117f78ac07bf6f38e735f6ce5833fb67"
+    },
+    {
+      "path": "docs/data/bridge_PA.json",
+      "bytes": 2272844,
+      "sha256": "4273b1dc4c91edf7d2dd9642ee5323e01d2cc37cbae1e4787a61968fbecba09d"
+    },
+    {
+      "path": "docs/data/bridge_RI.json",
+      "bytes": 77486,
+      "sha256": "0a31549c7d2b8df368140e64f9b0c31daa56c16a62efaf838fd4670b839fab44"
+    },
+    {
+      "path": "docs/data/bridge_SC.json",
+      "bytes": 845442,
+      "sha256": "3f3a928c940700c9b83fd0b79bf8e2950c06f4d74f8eacfe1db29c0ba06c4b10"
+    },
+    {
+      "path": "docs/data/bridge_SD.json",
+      "bytes": 526294,
+      "sha256": "6361a4cccbceddc0f5aaeced29782093419c21e9191928e160388fb54245d83f"
+    },
+    {
+      "path": "docs/data/bridge_TN.json",
+      "bytes": 1781393,
+      "sha256": "ad466183863b89150ba7a7ba048c56e306c5b5e34a7443178ad68902c4b0fa48"
+    },
+    {
+      "path": "docs/data/bridge_TX.json",
+      "bytes": 5241139,
+      "sha256": "af73330984a62a58dbda17c2b6b41c00d3c62fccdb030f825b9ffceca94c1c62"
+    },
+    {
+      "path": "docs/data/bridge_UT.json",
+      "bytes": 295780,
+      "sha256": "28e24970ba4ffca7b3b1526199c7976aca155af0f0823990ed457809d83de59c"
+    },
+    {
+      "path": "docs/data/bridge_VA.json",
+      "bytes": 1441571,
+      "sha256": "6ce222ed41263dc27d7fdd1179c9a387dbcd345726058ea5170241c74d09b1ed"
+    },
+    {
+      "path": "docs/data/bridge_VT.json",
+      "bytes": 265086,
+      "sha256": "f5df44f092627344914fa7d584e80b1d354ce44656969e979216af7115fe4e43"
+    },
+    {
+      "path": "docs/data/bridge_WA.json",
+      "bytes": 775944,
+      "sha256": "915ddedf3fa898879b9fbdbe0523187b76124075f83bc640059d5b8b875155a4"
+    },
+    {
+      "path": "docs/data/bridge_WI.json",
+      "bytes": 1342847,
+      "sha256": "f0cf9edbd07e171b83ed692b1177a6aaed9b56adafff8545b7d7fc39370ae536"
+    },
+    {
+      "path": "docs/data/bridge_WV.json",
+      "bytes": 706163,
+      "sha256": "804a82d11b20b466d5d3c2fe5db47eb9bc04bae6aacca28469cf42b3437596e4"
+    },
+    {
+      "path": "docs/data/bridge_WY.json",
+      "bytes": 261328,
+      "sha256": "ed38762ba30f3b87c69e06b71993ef3249f9789b13f603d2da9360576a50de5e"
+    },
+    {
+      "path": "docs/data/bridge_exclusions.json",
+      "bytes": 178935,
+      "sha256": "8e5f747019c97aad65aa23fc00963cadfbf1711deefb5ac535c660aa02787383"
+    },
+    {
+      "path": "docs/data/bridge_metadata.json",
+      "bytes": 26052,
+      "sha256": "b69b52c703666a9c42e3a7fb87a4d2d1f82cbddba3010abfed37e47e4200e67f"
+    },
+    {
+      "path": "docs/data/bridge_points.json",
+      "bytes": 12777474,
+      "sha256": "9b75a8f114242c8aec211199f43f691289948fd7bfc749ac77f64fb64991e30f"
+    },
+    {
+      "path": "docs/data/building_source.json",
+      "bytes": 63213,
+      "sha256": "5b9a11363bc9eb9683b1563f7e5925313530f8d7e6492b412669432c3e006895"
+    },
+    {
+      "path": "docs/data/civilian_vehicle_tests.csv",
+      "bytes": 7624,
+      "sha256": "2166b909e261992a2123cdd0fa00c8389ea13f048406c805a1c0ad4ced6f0dff"
+    },
+    {
+      "path": "docs/data/civilian_vehicle_tests.json",
+      "bytes": 12721,
+      "sha256": "4170d668ff7cf7c6ba436b908bdc35a9ef46c7194c283832991aa4d75cf4b6ee"
+    },
+    {
+      "path": "docs/data/climate.json",
+      "bytes": 9099395,
+      "sha256": "b0cffb0dae68d8c5e0e77bf15edb4c524b5594bbb5ea9331d7f5cd1dba8d5269"
+    },
+    {
+      "path": "docs/data/climate_manifest.json",
+      "bytes": 14889,
+      "sha256": "6d452146204193be5672e9da0634664246a71d9ebaab7eefe8d3b499ba45b3d6"
+    },
+    {
+      "path": "docs/data/climate_months/01.json.gz",
+      "bytes": 1286178,
+      "sha256": "133e79ba6e0edeb6f32c30d29a6c49281c697a535710ab983cae6a68c027e583"
+    },
+    {
+      "path": "docs/data/climate_months/02.json.gz",
+      "bytes": 1286901,
+      "sha256": "0dacbed3c65f9edd12b85d86b81846fd12e7f7b39521f0b14ee9c3ebadca2fdc"
+    },
+    {
+      "path": "docs/data/climate_months/03.json.gz",
+      "bytes": 1276213,
+      "sha256": "a25536ee75f5e5b927c2fcdb2a10a927a91d19e51127f0e2ff5c319424b7cd95"
+    },
+    {
+      "path": "docs/data/climate_months/04.json.gz",
+      "bytes": 1266244,
+      "sha256": "004eeb2900a5e357d7545bd6687b37104940f25c3397d1fb70093f7f91e64175"
+    },
+    {
+      "path": "docs/data/climate_months/05.json.gz",
+      "bytes": 1273490,
+      "sha256": "ba23ca617c28cfb027cb6b63beb5c019a25fa81eb691545065db6bb5d7214f2e"
+    },
+    {
+      "path": "docs/data/climate_months/06.json.gz",
+      "bytes": 1286878,
+      "sha256": "b33588407067e8069e7a12a1f0f24168ae343d2424b59130505cd6e18ad864a5"
+    },
+    {
+      "path": "docs/data/climate_months/07.json.gz",
+      "bytes": 1282686,
+      "sha256": "b6a2f868c13c51b83e2847fe160a10cfc3d9140556ecad2a49fbb818f63a131c"
+    },
+    {
+      "path": "docs/data/climate_months/08.json.gz",
+      "bytes": 1273839,
+      "sha256": "3c5652a3a3c9d6eee24c1682e607e8213ae6bd1cd19bae3392064e96b0533b7e"
+    },
+    {
+      "path": "docs/data/climate_months/09.json.gz",
+      "bytes": 1272136,
+      "sha256": "1d768dba0b5032eabab4e65e997adc74f08d787d8740728e97397e762e897925"
+    },
+    {
+      "path": "docs/data/climate_months/10.json.gz",
+      "bytes": 1263455,
+      "sha256": "fb4477c273af1f2a3c845240954996f3835b7f024ed1b2ed3f62a40859420d1c"
+    },
+    {
+      "path": "docs/data/climate_months/12.json.gz",
+      "bytes": 1284999,
+      "sha256": "ce1a64242af4f886ac00c3ac0ce0540a96feb6b366896272cbae1966102fd624"
+    },
+    {
+      "path": "docs/data/climate_months/manifest.json",
+      "bytes": 175483,
+      "sha256": "8051a619a1671fb36ce467466713268f7fdc4cbdea8907fb877c29a23ff7dbb5"
+    },
+    {
+      "path": "docs/data/elevation.json",
+      "bytes": 711621,
+      "sha256": "3034b185fbb97fdf33643a82a6bcaca7e7b51deab6602da69f8b7a28ede87055"
+    },
+    {
+      "path": "docs/data/hydro_overview.geojson",
+      "bytes": 3985991,
+      "sha256": "3208bd3a84c07f71c673fd3262d6206da950b990ad0fbf9efd3293f49916f85d"
+    },
+    {
+      "path": "docs/data/hydro_overview_metadata.json",
+      "bytes": 12976,
+      "sha256": "b2576c9b9484a2d03dd3464c6c3cf1d72d294be721afcb2a20c3e73632867569"
+    },
+    {
+      "path": "docs/data/hydrology_validation.json",
+      "bytes": 1571,
+      "sha256": "eefb9a162ee129c42624755259afc451875d2a1a7171de71e722e0256a696ae7"
+    },
+    {
+      "path": "docs/data/landcover.json",
+      "bytes": 2593760,
+      "sha256": "ae805598d98d69386caa4a21d4317218f1cc9ea3944031fda617f20710f508e5"
+    },
+    {
+      "path": "docs/data/landcover_detail_source.json",
+      "bytes": 15609,
+      "sha256": "9be5a47e86a4aa9e6ac459abe0588fbe64c468728b1da64b73d2faabb81087d6"
+    },
+    {
+      "path": "docs/data/landcover_geometry_validation.json",
+      "bytes": 15556,
+      "sha256": "44b30d0a23b7f5ede6c6a846d07cde7f359726dbcd79d174f856bd035af0271d"
+    },
+    {
+      "path": "docs/data/landcover_manifest.json",
+      "bytes": 5555,
+      "sha256": "a740ec669d622899daef86e23d5b804806da4944fa1618b32f29f836e70d9777"
+    },
+    {
+      "path": "docs/data/landcover_validation.json",
+      "bytes": 8424,
+      "sha256": "fccf2419f09e23b58aa13f3cb54fb4419d6d401e06c35cfbd118c57e9e1aec16"
+    },
+    {
+      "path": "docs/data/project_spec.json",
+      "bytes": 34013,
+      "sha256": "7020b559bcb27ac9b5fc6e0e5278dc30d60676b3e58a89d16dba71c7b1be70cb"
+    },
+    {
+      "path": "docs/data/regional_slope.json.gz",
+      "bytes": 527491,
+      "sha256": "fad1363b5b858fbe5b58eed94ed32ea022aa85f7f048fe9e078912e68dba090b"
+    },
+    {
+      "path": "docs/data/regional_slope_metadata.json",
+      "bytes": 30707,
+      "sha256": "82e16101a25c623df7dfb32994c579dc323ddce1adf80cdb44acb66bb6b1a470"
+    },
+    {
+      "path": "docs/data/river_flow_coverage_by_state.csv",
+      "bytes": 20008,
+      "sha256": "4a21246b563d3e99fd8fe84d25366daefedce0fac8968ac94b5abcc2a944121b"
+    },
+    {
+      "path": "docs/data/seasonal_ice.json.gz",
+      "bytes": 133668,
+      "sha256": "d9697e4adb0492e3cb82c228903890d63389262d7f02b6c2aada0824ddbc0170"
+    },
+    {
+      "path": "docs/data/seasonal_ice_manifest.json",
+      "bytes": 10120,
+      "sha256": "50f84197752d7652630a854390865cfc668539324f7c1faa7fc46ca3162e75ba"
+    },
+    {
+      "path": "docs/data/seasonal_ice_validation.json",
+      "bytes": 16806,
+      "sha256": "f9fee4df12f90a3d0125e0276c1ef672f3e673df8992172b19b5bb407bb31b08"
+    },
+    {
+      "path": "docs/data/seasonal_snow.json.gz",
+      "bytes": 133086,
+      "sha256": "11eb7274ddd635e038ac6d1c81bef65e87d6b58d060afd16cda9eb93d4b30254"
+    },
+    {
+      "path": "docs/data/seasonal_snow_sources.json.gz",
+      "bytes": 382326,
+      "sha256": "bbbe3f3c4e797e410ca720f513317fa21cde2c2a7c687cb5dc23617a8af43c07"
+    },
+    {
+      "path": "docs/data/source_catalog.json",
+      "bytes": 58743,
+      "sha256": "66f0bb3fbdee2504076c04db268762ca598470e3f7392bcd877feebcb1fc9106"
+    },
+    {
+      "path": "docs/data/states.geojson",
+      "bytes": 262121,
+      "sha256": "db4395f7a49b4ec69325884194475776f847b0581e97b3036c481b5c00f03751"
+    },
+    {
+      "path": "docs/data/validation.json",
+      "bytes": 7442,
+      "sha256": "523ed215d17f91aa851a3733a5bfb9f50dcd6d8f108052874bb182a49965b723"
+    },
+    {
+      "path": "docs/data/water_manifest.json",
+      "bytes": 539369,
+      "sha256": "177999dec611c39009820c1f0b4d0c72e36b51aa4e066e306407d22a30682242"
+    },
+    {
+      "path": "docs/data/water_months/01.json.gz",
+      "bytes": 799392,
+      "sha256": "5e8d5c6c2f41af2475c39407829e759a5d85db92707260eda2a004bd9b4f2044"
+    },
+    {
+      "path": "docs/data/water_months/02.json.gz",
+      "bytes": 799846,
+      "sha256": "8bc0b044ced09f1aa5c65d4a984a747e3fc02a96fe6f862de37745015b560bd0"
+    },
+    {
+      "path": "docs/data/water_months/03.json.gz",
+      "bytes": 814132,
+      "sha256": "ffe262a11e2729a9db6938956e9cb12bb1dbc0b383b774b29baf4805ea440f8d"
+    },
+    {
+      "path": "docs/data/water_months/04.json.gz",
+      "bytes": 822645,
+      "sha256": "6f3461d7be29493f2f1a955e01d897e9ca948c4391fc0a69838ebc05816a14eb"
+    },
+    {
+      "path": "docs/data/water_months/05.json.gz",
+      "bytes": 830293,
+      "sha256": "9d454c5e0d32709a45c58314ae6a11fb9aeef7993ad4e88eb85edef7c5252fb4"
+    },
+    {
+      "path": "docs/data/water_months/06.json.gz",
+      "bytes": 820379,
+      "sha256": "cfd754612236c1e2fe7e91e1d90b0c249292c52ddf41516095514aa0f00005c9"
+    },
+    {
+      "path": "docs/data/water_months/07.json.gz",
+      "bytes": 819498,
+      "sha256": "7d72de29b4d9b618e14709bb0a6c61b05147389f9bf477a28943bab6aebdd9d6"
+    },
+    {
+      "path": "docs/data/water_months/08.json.gz",
+      "bytes": 812386,
+      "sha256": "3e4dd3f62f4b0d3b7d4c30a7c3065691fdf4054becc526ba3e759ff7b1f7369b"
+    },
+    {
+      "path": "docs/data/water_months/09.json.gz",
+      "bytes": 801594,
+      "sha256": "3de91b80167ba6d54f5b9f203081db182725b07280414a8bc49a832cbf63a59f"
+    },
+    {
+      "path": "docs/data/water_months/10.json.gz",
+      "bytes": 801963,
+      "sha256": "baf3dc33544fdf09df9aa605caf08d181315745f6d2d2e3af43b3f720351144b"
+    },
+    {
+      "path": "docs/data/water_months/11.json.gz",
+      "bytes": 766984,
+      "sha256": "ccb2957ac0715e726443eaf0698e612acd3d63fbfba6fbe3653afb7580855e9d"
+    },
+    {
+      "path": "docs/data/water_months/12.json.gz",
+      "bytes": 786727,
+      "sha256": "1fb0208458a9f6cf3580a72655557317bfbe98899af619a1c38ae4d8df25f2a3"
+    },
+    {
+      "path": "docs/data/water_months_manifest.json",
+      "bytes": 81955,
+      "sha256": "ad41d35a4d6bbb5d053f5b13251a34ab5d10530bc2d5881a363df2ca8533976a"
+    },
+    {
+      "path": "docs/data/water_months_validation.json",
+      "bytes": 15117,
+      "sha256": "9f45391e3ab512765fe44f9303981ed145b105acf3469255028e82fbb35a3ba6"
+    },
+    {
+      "path": "docs/data/water_streamflow.json",
+      "bytes": 9698796,
+      "sha256": "0e1d191fd6b6db297f32a472123f37fec82ce406714a6645b8ea87e9a8ae2bb8"
+    },
+    {
+      "path": "docs/data/water_validation.json",
+      "bytes": 5816,
+      "sha256": "b702445b18c4ee2913ccb367c16b2197ea8e126b949490bc1a5c4960d52f0dde"
+    },
+    {
+      "path": "docs/detail.js",
+      "bytes": 21748,
+      "sha256": "05556ba48e27509b4f425ea1c253117600c3d416ba8923cbb2c214792533288b"
+    },
+    {
+      "path": "docs/detail_canvas.js",
+      "bytes": 19311,
+      "sha256": "822d93338546aa5b7440b1867f7a62adfecd04f560e5c18a53541c1c8465d431"
+    },
+    {
+      "path": "docs/environment_source_loader.js",
+      "bytes": 2922,
+      "sha256": "2fafa6a2916e429e1613a93d409a0d7e48e702a70c924f56ad2c0cb0c19cbf52"
+    },
+    {
+      "path": "docs/evidence.css",
+      "bytes": 4384,
+      "sha256": "b5d2f6b5a9bb64acae6f0f6cbb4187f80c749acb043c4ca8f1ffbd5cc754721a"
+    },
+    {
+      "path": "docs/evidence.js",
+      "bytes": 4627,
+      "sha256": "0ff7a3816122f92117516aa012d65b0ecf85882e821c28ecf06ba199026f233d"
+    },
+    {
+      "path": "docs/index.html",
+      "bytes": 38691,
+      "sha256": "78497f7222f9cb3bfc936e46119ea7a94156cf36c29698976b2eee77d2a5753d"
+    },
+    {
+      "path": "docs/landcover_detail_loader.js",
+      "bytes": 3734,
+      "sha256": "1772e366090c5cda7b50e83edc35e4dcee2102d92fb42e498368a4ef02d0a2cc"
+    },
+    {
+      "path": "docs/month_controls.js",
+      "bytes": 733,
+      "sha256": "194b8827936e279c0b5401f61d265a96ea5063d9569abf97cd0477cbb6bb78b4"
+    },
+    {
+      "path": "docs/month_data.js",
+      "bytes": 817,
+      "sha256": "c139f91c87c6cab465e8d62ccfe045e5d7ee04e80cb073594a24df6f4ccd5bd7"
+    },
+    {
+      "path": "docs/months.css",
+      "bytes": 1238,
+      "sha256": "fd6485a6b5b230b4be018e728d9a4da85a1e76807ec030a2f20b605a75f6273d"
+    },
+    {
+      "path": "docs/seasonal_overlays.css",
+      "bytes": 2871,
+      "sha256": "7a21ee4f1eea61c6ec474f82ff26d4917ec169f96c4b9f36188dda84a8c2fd01"
+    },
+    {
+      "path": "docs/seasonal_overlays.js",
+      "bytes": 16213,
+      "sha256": "658e4b138a690800c4b5a082f2f6cd8a256f4784c644ca90e2f5c234c8707377"
+    },
+    {
+      "path": "docs/styles.css",
+      "bytes": 49209,
+      "sha256": "1ea5f0ba2987c7d65908f568d63b9bae969372cdd1deca473db8e1ff12d4de05"
+    },
+    {
+      "path": "docs/trail_guide.css",
+      "bytes": 6132,
+      "sha256": "ec844730a6f09012dfa505a8b52cecd89dd570564fe774499256ad7f52b509bd"
+    },
+    {
+      "path": "docs/trail_guide.js",
+      "bytes": 12786,
+      "sha256": "8a5167a2b9c951120a1c768288298e7eeebaaa193b7692a91ce2d6bab222a5f2"
+    },
+    {
+      "path": "docs/vehicle_tests.css",
+      "bytes": 1781,
+      "sha256": "31ae87ef903623cc5457a2b72e866be5b95e0c24eb63cf3a9362a84e130c3b74"
+    },
+    {
+      "path": "docs/vehicle_tests.js",
+      "bytes": 3772,
+      "sha256": "e129181a2f7de85d0bb5beab15c536b42c9386d6ef94338f37032377a828bf86"
+    },
+    {
+      "path": "docs/vendor/maplibre-gl-LICENSE.txt",
+      "bytes": 5984,
+      "sha256": "ee5fc05a0677eaf69601d2c7db0d9ecd6cc27c3abc1d0733bc9ed34707cf8ef2"
+    },
+    {
+      "path": "docs/vendor/maplibre-gl-worker.mjs",
+      "bytes": 519372,
+      "sha256": "0bf06492bdb7ba3d4132b78e435621bfba60d5250967991c02b1a73affea8cd5"
+    },
+    {
+      "path": "docs/vendor/maplibre-gl.css",
+      "bytes": 71596,
+      "sha256": "a90798a1953017790e590f7e1bd35ff103a8a4263972cb47290b78adf86f8c20"
+    },
+    {
+      "path": "docs/vendor/maplibre-gl.mjs",
+      "bytes": 1108049,
+      "sha256": "fbbdf8ddd9a48e49059a4be6795a4f214a711314bb5809f72d3730b48e7897e3"
+    },
+    {
+      "path": "docs/vendor/pmtiles-LICENSE.txt",
+      "bytes": 1713,
+      "sha256": "0371c38f338835f7fc13ed71176f3d92144e22c8b736a31cced57adbbeb647b3"
+    },
+    {
+      "path": "docs/vendor/pmtiles-fflate-LICENSE.txt",
+      "bytes": 1069,
+      "sha256": "805f6cb28bb8b6d3a0badd83c93bccd9671fa01a3b4b92b7042b0743325ac243"
+    },
+    {
+      "path": "docs/vendor/pmtiles.js",
+      "bytes": 20229,
+      "sha256": "caf981bc46f6327ee7e65d5dc964d89d38a69f60edca2bd4c5c890c21b554c6c"
+    },
+    {
+      "path": "docs/vendor/pmtiles.mjs",
+      "bytes": 20512,
+      "sha256": "9f7a27d03d06cb941f7dbd2789968689205d5550ace71cf967562c3fa5a485f9"
+    },
+    {
+      "path": "docs/vendor/vector_tile-LICENSE.txt",
+      "bytes": 3945,
+      "sha256": "3f51bfb7214044935494e39428b417e49c2808c6d5c94bbf556daa932aa0d51c"
+    },
+    {
+      "path": "docs/vendor/vector_tile-PROVENANCE.json",
+      "bytes": 6249,
+      "sha256": "5a05a5b58496b98e5ff64a47cfe4344db518a2284713b59b5aea1d20a5c7725c"
+    },
+    {
+      "path": "docs/vendor/vector_tile.mjs",
+      "bytes": 24491,
+      "sha256": "07a5d0a5d6cbdbc1cbbc49f1131a60b745e8a12df5a78026837120fbc9e08faf"
+    },
+    {
+      "path": "docs/water.js",
+      "bytes": 19584,
+      "sha256": "11e8e2c37914daa9b1eab34d867fe283847221de0b41a10a2be938ee211d4199"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 78,
+      "sha256": "bc9c39a33c5d0ba7f6af8bb291f9326c39190facaf71d970cf0952c310d38efa"
+    },
+    {
+      "path": "scripts/bridge_README.md",
+      "bytes": 5570,
+      "sha256": "9b7b58788fecb67cbb22828e0580aaaa1bfa9fb3424cb6eae25106b767002309"
+    },
+    {
+      "path": "scripts/bridge_build.py",
+      "bytes": 17189,
+      "sha256": "f38d023236b462a913e402218af522db8aa1eaeb5047cd41d7cca09d3ba2a6b9"
+    },
+    {
+      "path": "scripts/build_badin_trails.py",
+      "bytes": 7146,
+      "sha256": "01eb3d72b594985c185520badb262c85e66ab762e1edf1839b80a09544eee30d"
+    },
+    {
+      "path": "scripts/build_regional_slope.py",
+      "bytes": 8670,
+      "sha256": "e6a3049454bd739ab0215e8a5326ab384cd8e1f2c21e10dd49717c9042fa6025"
+    },
+    {
+      "path": "scripts/build_seasonal_ice.py",
+      "bytes": 13368,
+      "sha256": "aaed8a2b518ea2dcc91b639897b2004ea4c5b8f7ed476f12581f2e783e4292f6"
+    },
+    {
+      "path": "scripts/build_seasonal_snow.py",
+      "bytes": 15208,
+      "sha256": "fb56825c9f917a2da902a2182456ebf7c1b0753e76faf014663ed281611c124c"
+    },
+    {
+      "path": "scripts/building_source_probe.mjs",
+      "bytes": 7065,
+      "sha256": "2e0dac3ef3219c86cb89ebd10bfeaa4eb249fbfefc848aec4497e1a369db2da0"
+    },
+    {
+      "path": "scripts/climate_all_months.py",
+      "bytes": 16002,
+      "sha256": "43ae3dc155a10d428223b29e63490cba0a4de249af062a63b1bae51eae55baa1"
+    },
+    {
+      "path": "scripts/climate_build.py",
+      "bytes": 19624,
+      "sha256": "3eac441ac6be8b16a21968ee3ed75e2b07db8469da81337f1dfa4b9889738dd2"
+    },
+    {
+      "path": "scripts/climate_requirements.txt",
+      "bytes": 31,
+      "sha256": "4f6fbccc39ac2f7fd4b7bf29e77f394b82c7082137a99dc57353677858d071c3"
+    },
+    {
+      "path": "scripts/climate_unit_reference.json",
+      "bytes": 28979,
+      "sha256": "8b7ca262430442498e307e61e64b272710ac27844e294ae739f73859124e9ab7"
+    },
+    {
+      "path": "scripts/context_boundaries.py",
+      "bytes": 4480,
+      "sha256": "bcca7e0c89f0e217cc2007be1843c4ea9f859587d60975a74c8c3a6fbeb0e9fc"
+    },
+    {
+      "path": "scripts/context_elevation.py",
+      "bytes": 6392,
+      "sha256": "cb04660104e7bd71e9b1904320136ad14caaa85901a87912317d267ac49d62e1"
+    },
+    {
+      "path": "scripts/flow_state_coverage.py",
+      "bytes": 1148,
+      "sha256": "318cd26bedc3dc6b25aa8f6ebdbf0a05e612a43ccca6f6eb9f1565ae83d21b59"
+    },
+    {
+      "path": "scripts/hydro_overview_README.md",
+      "bytes": 5146,
+      "sha256": "79acc41b42306e1bbc2c82e4b751ded9de50702341c288578a60df567e2808e4"
+    },
+    {
+      "path": "scripts/hydro_overview_build.py",
+      "bytes": 15974,
+      "sha256": "1f8a356661a4fe40041da64f02076de002aff550e6e2199e9f766ba5079ba193"
+    },
+    {
+      "path": "scripts/hydro_overview_requirements.txt",
+      "bytes": 28,
+      "sha256": "2f792b39a221c547d86d8ed2e89f4cf52a79d4a47729acd53cd0eafa59dd26b5"
+    },
+    {
+      "path": "scripts/landcover_build.py",
+      "bytes": 18445,
+      "sha256": "3828847626304ae2087edb6e4fa71467589402797375c3885988d91573d580ae"
+    },
+    {
+      "path": "scripts/landcover_detail_probe.py",
+      "bytes": 14181,
+      "sha256": "670e049c879c6431c9894f6ad927e33fee54a6cb4aaddc5bde1735707658c0a1"
+    },
+    {
+      "path": "scripts/landcover_validate_geometry.py",
+      "bytes": 8559,
+      "sha256": "ad1b928af4234ab559f89fa3434e47fc7ddf9659efc08300939719449f30d7c0"
+    },
+    {
+      "path": "scripts/verify_atlas.py",
+      "bytes": 6319,
+      "sha256": "2d7635babf709bd7b8650402f2ef4f455ed404166d9d8ca678517a5f790687ee"
+    },
+    {
+      "path": "scripts/verify_hydrology.py",
+      "bytes": 4302,
+      "sha256": "82eb3ea9ad075b2adf081e8cf4954c14709853dd5894f705447fa1c99046a662"
+    },
+    {
+      "path": "scripts/water_build.py",
+      "bytes": 25203,
+      "sha256": "dc56ca9922c636c10f627b989f7deb12f96edf90ec3183c52e6f600fa6eb81f8"
+    },
+    {
+      "path": "scripts/water_months_build.py",
+      "bytes": 13891,
+      "sha256": "cfb5527e58d842845dbcd58a688242c6c08955cabd50a0eea12f12d7c6d81196"
+    }
+  ]
+}
