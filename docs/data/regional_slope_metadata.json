@@ -1,0 +1,611 @@
+{
+  "product": "Regional mean terrain slope (degrees)",
+  "source": {
+    "title": "USGS 3DEP Elevation ImageServer",
+    "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer",
+    "sourceElevationSamplingM": 500,
+    "time": "Static terrain; DEM vintage varies across source coverage.",
+    "retrievedAt": "2026-11-05T00:38:11.157265+00:00"
+  },
+  "units": "degrees above horizontal (not percent grade)",
+  "calculation": "Request 500 m elevation samples in NAD83 / CONUS Albers, EPSG:5070 with bilinear interpolation and a one-sample halo around each tile. Calculate Horn 3\u00d73 horizontal gradient from metre-based vertical and horizontal units; require all nine samples valid. Angle is atan(hypot(dz/dx,dz/dy)) in degrees. GDAL average resampling across valid contributing slope values gives each 0.05\u00b0 overview cell. Clip centers to bundled contiguous-state boundaries and exclude generalized mapped lake centers. This is not slope computed from the 11 km ETOPO elevation overlay.",
+  "support": "500 m input samples (nominally 1.5 km 3\u00d73 footprint); 0.05\u00b0 display cells, roughly 5.6 km north\u2013south, narrower east\u2013west. Albers grid distances have small projection scale variation. No local grade or current condition inferred.",
+  "tileCount": 51,
+  "tiles": [
+    {
+      "bounds5070": [
+        -2500500,
+        999500,
+        -1999500,
+        1500500
+      ],
+      "bytes": 525994,
+      "sha256": "455f721edd344e25d563ad986ef36066b80d3167790a0b39b71a5aa33d81f4a7",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-2500500%2C999500%2C-1999500%2C1500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -2500500,
+        1499500,
+        -1999500,
+        2000500
+      ],
+      "bytes": 2492074,
+      "sha256": "7208680e844d8e25cddeb2d950e980d2436deec0114edd9a592bf8f0ba5af705",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-2500500%2C1499500%2C-1999500%2C2000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -2500500,
+        1999500,
+        -1999500,
+        2500500
+      ],
+      "bytes": 3016362,
+      "sha256": "0af32b0c50580c83e8324ff6ed0bbfdcf231227ed5a526169d726fb815a41cac",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-2500500%2C1999500%2C-1999500%2C2500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -2500500,
+        2499500,
+        -1999500,
+        3000500
+      ],
+      "bytes": 2033322,
+      "sha256": "a8282734ec630a43545fe2a4680ee67d87d506b8535b83a97537a94be8da7261",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-2500500%2C2499500%2C-1999500%2C3000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -2500500,
+        2999500,
+        -1999500,
+        3500500
+      ],
+      "bytes": 2098858,
+      "sha256": "33d5acc7b6022fe321fd404e033d06dbcb4285a8ffa8033f0ecf0f7c49e2d2fd",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-2500500%2C2999500%2C-1999500%2C3500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -2000500,
+        999500,
+        -1499500,
+        1500500
+      ],
+      "bytes": 3999402,
+      "sha256": "8a00fe78e430a08da010d5488e8bf541af28427797801594466b217a700c3769",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-2000500%2C999500%2C-1499500%2C1500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -2000500,
+        1499500,
+        -1499500,
+        2000500
+      ],
+      "bytes": 4196010,
+      "sha256": "ebe0de996a5582495f24debb485c174b6ecd6994ffffcfa02c7e326049efa568",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-2000500%2C1499500%2C-1499500%2C2000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -2000500,
+        1999500,
+        -1499500,
+        2500500
+      ],
+      "bytes": 4196010,
+      "sha256": "d6cfaabd842be64ae5e83d10d82e213a490d60ac0f6e5f4e70a27d84cc9aa7b7",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-2000500%2C1999500%2C-1499500%2C2500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -2000500,
+        2499500,
+        -1499500,
+        3000500
+      ],
+      "bytes": 4196010,
+      "sha256": "4bf0bb91b0f171028fb26a62a8730418d7a947762c062f21ddd96e61d558f446",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-2000500%2C2499500%2C-1499500%2C3000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -2000500,
+        2999500,
+        -1499500,
+        3500500
+      ],
+      "bytes": 4196010,
+      "sha256": "7a4edd1011cb67b61bf577fe786762f2ac83eb4edb9264393f452a8abff23e40",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-2000500%2C2999500%2C-1499500%2C3500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -1500500,
+        499500,
+        -999500,
+        1000500
+      ],
+      "bytes": 4130474,
+      "sha256": "2565330e675ce00f7d7eb849f4a5d4e2c2f0399dc1d6ec2bbb9f837b42f2d8cd",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-1500500%2C499500%2C-999500%2C1000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -1500500,
+        999500,
+        -999500,
+        1500500
+      ],
+      "bytes": 4196010,
+      "sha256": "a56b65d90081ed834a1115639b76ae5baf6c50e2734402267320c265a1d237c4",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-1500500%2C999500%2C-999500%2C1500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -1500500,
+        1499500,
+        -999500,
+        2000500
+      ],
+      "bytes": 4196010,
+      "sha256": "602afe1aca2fc4ff92ad3588c1f9a18fe750478fa9c39d219a642ae50fee8d97",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-1500500%2C1499500%2C-999500%2C2000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -1500500,
+        1999500,
+        -999500,
+        2500500
+      ],
+      "bytes": 4196010,
+      "sha256": "c3e7d621f7adbd4579906775b524d612abd1f589b203faf5c0428da430d48034",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-1500500%2C1999500%2C-999500%2C2500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -1500500,
+        2499500,
+        -999500,
+        3000500
+      ],
+      "bytes": 4196010,
+      "sha256": "a3002f15a3eb1e13793542ab3366ec94c7ef67c2fad2bd50cb64b6ff35055f19",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-1500500%2C2499500%2C-999500%2C3000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -1500500,
+        2999500,
+        -999500,
+        3500500
+      ],
+      "bytes": 4196010,
+      "sha256": "443c204c68696307a75f681f727c0ac79a0611d42ab76e22cc6364fc201278e0",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-1500500%2C2999500%2C-999500%2C3500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -1000500,
+        499500,
+        -499500,
+        1000500
+      ],
+      "bytes": 4196010,
+      "sha256": "13ed08db1e828d0d16d61c3ba13eb3982db6ac29b41e5188bbad6bf4ef1429cd",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-1000500%2C499500%2C-499500%2C1000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -1000500,
+        999500,
+        -499500,
+        1500500
+      ],
+      "bytes": 4196010,
+      "sha256": "a09e3ac03bbc616e432c88699255d84986c929cb3a20f89a339aba9addcd4ce0",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-1000500%2C999500%2C-499500%2C1500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -1000500,
+        1499500,
+        -499500,
+        2000500
+      ],
+      "bytes": 4196010,
+      "sha256": "60126afe17cf0fbf7f8bbeab4319aa325fab85cfef932c9659a9eb4011fa8781",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-1000500%2C1499500%2C-499500%2C2000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -1000500,
+        1999500,
+        -499500,
+        2500500
+      ],
+      "bytes": 4196010,
+      "sha256": "991b163362b8443c6a57ec046ca4765f19236f75e803697896d5a3fe0d3a705c",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-1000500%2C1999500%2C-499500%2C2500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -1000500,
+        2499500,
+        -499500,
+        3000500
+      ],
+      "bytes": 4196010,
+      "sha256": "1ee29c6e22ec02b70d1255985ebc5e0359feff96686300e28dfedd5741e73d7d",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-1000500%2C2499500%2C-499500%2C3000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -500500,
+        -500,
+        500,
+        500500
+      ],
+      "bytes": 3278506,
+      "sha256": "d028a4b3eabf7c7f9851aa73fc75ac1001c47644a7fe2a0feca596bad59c5529",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-500500%2C-500%2C500%2C500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -500500,
+        499500,
+        500,
+        1000500
+      ],
+      "bytes": 4130474,
+      "sha256": "561738314e55de50479aaf1026b7e9102e8b177a7b2b10139bd26b891791c69a",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-500500%2C499500%2C500%2C1000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -500500,
+        999500,
+        500,
+        1500500
+      ],
+      "bytes": 4196010,
+      "sha256": "270b4f542f3b84fe8bfe14c3a3093a47b1766e1ed9e20b214de32dac760df002",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-500500%2C999500%2C500%2C1500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -500500,
+        1499500,
+        500,
+        2000500
+      ],
+      "bytes": 4196010,
+      "sha256": "a83f52eaae972deea47f3698f889686b5dd125f27dc9942e9ba60e96c4e8d169",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-500500%2C1499500%2C500%2C2000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -500500,
+        1999500,
+        500,
+        2500500
+      ],
+      "bytes": 4196010,
+      "sha256": "c5548b32058f15c31cba5e9085ffbfd6caee710ff6f0a642fb80a39d09c73c09",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-500500%2C1999500%2C500%2C2500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -500500,
+        2499500,
+        500,
+        3000500
+      ],
+      "bytes": 4196010,
+      "sha256": "fa182254e45b7bd3027d21fb8fcd4f710cf223028fb2b7a638b63442e014b8c2",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-500500%2C2499500%2C500%2C3000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -500,
+        499500,
+        500500,
+        1000500
+      ],
+      "bytes": 2885290,
+      "sha256": "a16b7b227ebef75cec22818b5fc76388ed78e5434529c860f87dade752b2da0c",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-500%2C499500%2C500500%2C1000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -500,
+        999500,
+        500500,
+        1500500
+      ],
+      "bytes": 4196010,
+      "sha256": "09e902f1d76169801bb31ff3266a38e888da0dcca4f0024093d3c3b50a16a320",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-500%2C999500%2C500500%2C1500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -500,
+        1499500,
+        500500,
+        2000500
+      ],
+      "bytes": 4196010,
+      "sha256": "53bd260d9dc6f5f9eba148eb2bf4d858197ae771f1e50ef80c58fb6537d35efc",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-500%2C1499500%2C500500%2C2000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -500,
+        1999500,
+        500500,
+        2500500
+      ],
+      "bytes": 4196010,
+      "sha256": "a671b468a00da598704403219cda05203eb5d9748f595c159c44ce06d244ac67",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-500%2C1999500%2C500500%2C2500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        -500,
+        2499500,
+        500500,
+        3000500
+      ],
+      "bytes": 4196010,
+      "sha256": "9dae658ea8885d43524c3ebab1794dfcb764c4327ecc2c162fa39f35cc15dbfb",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=-500%2C2499500%2C500500%2C3000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        499500,
+        499500,
+        1000500,
+        1000500
+      ],
+      "bytes": 2164394,
+      "sha256": "0f4b3505bc49d87f039c74a3a6d571131f3b3bba3c54c705ddb5a84a3d5b3062",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=499500%2C499500%2C1000500%2C1000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        499500,
+        999500,
+        1000500,
+        1500500
+      ],
+      "bytes": 4196010,
+      "sha256": "60338d3fbebb3a8ab37fe93d590ded560efafd5782f90023805194c94c2cbf19",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=499500%2C999500%2C1000500%2C1500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        499500,
+        1499500,
+        1000500,
+        2000500
+      ],
+      "bytes": 4196010,
+      "sha256": "301b160a63a601aa256c48df13ca1c11ae6173b21e8314e62447186cafa8ac54",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=499500%2C1499500%2C1000500%2C2000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        499500,
+        1999500,
+        1000500,
+        2500500
+      ],
+      "bytes": 4196010,
+      "sha256": "9e06f73294ae3d31b275e78469166f4ef07d28bbd8a4035d50bc94dbc559a8e0",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=499500%2C1999500%2C1000500%2C2500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        499500,
+        2499500,
+        1000500,
+        3000500
+      ],
+      "bytes": 4196010,
+      "sha256": "2e17420ea6e235e239b4890cdf5dbe12e0cea702e1c8c4ad2cad0cdb1e9e5a97",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=499500%2C2499500%2C1000500%2C3000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        999500,
+        -500,
+        1500500,
+        500500
+      ],
+      "bytes": 591530,
+      "sha256": "ce7a51cc02b5d3408f85f44e1016bd605eb98e9e5e6fe04c3d20cc54b3e72446",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=999500%2C-500%2C1500500%2C500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        999500,
+        499500,
+        1500500,
+        1000500
+      ],
+      "bytes": 2885290,
+      "sha256": "eb65bd54ae2e7fabce044968f27022cdfefdd54929bbd7c920ea1713b932612f",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=999500%2C499500%2C1500500%2C1000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        999500,
+        999500,
+        1500500,
+        1500500
+      ],
+      "bytes": 4064938,
+      "sha256": "fb0f71af5cfde372273632ff61c374668bd1ee686dac7b44bb7bee3a5fd296e0",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=999500%2C999500%2C1500500%2C1500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        999500,
+        1499500,
+        1500500,
+        2000500
+      ],
+      "bytes": 4196010,
+      "sha256": "4fdf00dc70c83179389eeb684ba83d2f22b8817e8ca0cd3369fead6c6652ec4e",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=999500%2C1499500%2C1500500%2C2000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        999500,
+        1999500,
+        1500500,
+        2500500
+      ],
+      "bytes": 4196010,
+      "sha256": "65679ba4bc3462d324e279d9e6a1c81840f62a09ef480e544188281a6ed6cc2e",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=999500%2C1999500%2C1500500%2C2500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        1499500,
+        -500,
+        2000500,
+        500500
+      ],
+      "bytes": 460458,
+      "sha256": "39e342e0bb8df38b2c3db939fb34b7f53fe273424d719b443b07a83b2059b4ec",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=1499500%2C-500%2C2000500%2C500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        1499500,
+        499500,
+        2000500,
+        1000500
+      ],
+      "bytes": 394922,
+      "sha256": "476d42bd863c12687a1f64c4ff81644f43842dbe5fb742574482fedfe7cc3b4a",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=1499500%2C499500%2C2000500%2C1000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        1499500,
+        999500,
+        2000500,
+        1500500
+      ],
+      "bytes": 919210,
+      "sha256": "e4c967606e991d8e7ccd5128e2f563e4f08c540992f5cb978e1cbe99b0f8c348",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=1499500%2C999500%2C2000500%2C1500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        1499500,
+        1499500,
+        2000500,
+        2000500
+      ],
+      "bytes": 2885290,
+      "sha256": "40bd110b42a77444451a911433853f1dfb640aa54961996f87ee0dcd8bd240d5",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=1499500%2C1499500%2C2000500%2C2000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        1499500,
+        1999500,
+        2000500,
+        2500500
+      ],
+      "bytes": 3868330,
+      "sha256": "db145f5251c276ea82c4a10429e176450ec8084f3784d171b1da3be6dc200277",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=1499500%2C1999500%2C2000500%2C2500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        1499500,
+        2499500,
+        2000500,
+        3000500
+      ],
+      "bytes": 4196010,
+      "sha256": "b03fca6e6051a2e98331a1120491d223fffc844ddab05a0999ef29306fb64ed3",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=1499500%2C2499500%2C2000500%2C3000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        1999500,
+        1999500,
+        2500500,
+        2500500
+      ],
+      "bytes": 525994,
+      "sha256": "9bc054d38ab12dcd065df32136ca97b7ad8a6a1cd899a99f9632ba9b41715815",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=1999500%2C1999500%2C2500500%2C2500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        1999500,
+        2499500,
+        2500500,
+        3000500
+      ],
+      "bytes": 3212970,
+      "sha256": "3cbdffae1e5ed83fc4f0ce87339ceb9a9d193d246551068041918fad48883250",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=1999500%2C2499500%2C2500500%2C3000500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    },
+    {
+      "bounds5070": [
+        1999500,
+        2999500,
+        2500500,
+        3500500
+      ],
+      "bytes": 3802794,
+      "sha256": "4bbf1bcfa5bfbd876ba79d80d3fc7559db265c2d652c1b30a71ef9ae2ba988b1",
+      "url": "https://elevation.nationalmap.gov/arcgis/rest/services/3DEPElevation/ImageServer/exportImage?bbox=1999500%2C2999500%2C2500500%2C3500500&bboxSR=5070&imageSR=5070&size=1002%2C1002&format=tiff&pixelType=F32&renderingRule=%7B%22rasterFunction%22%3A%22None%22%7D&interpolation=RSP_BilinearInterpolation&adjustAspectRatio=false&f=image"
+    }
+  ],
+  "floatDataRange": [
+    0.0,
+    27.307
+  ],
+  "validOverviewCells": 326757,
+  "publishedRoundingDegrees": 0.01,
+  "sha256": "fad1363b5b858fbe5b58eed94ed32ea022aa85f7f048fe9e078912e68dba090b",
+  "validation": {
+    "crsDimensionsTransformAndFormatChecked": true,
+    "flatPlaneAndAnalyticalTiltTestsPassed": true,
+    "checkPoints": [
+      {
+        "lon": -105.73,
+        "lat": 40.31,
+        "value": 11.44
+      },
+      {
+        "lon": -80.48,
+        "lat": 26.27,
+        "value": 0.01
+      },
+      {
+        "lon": -86.28,
+        "lat": 39.89,
+        "value": 0.4
+      },
+      {
+        "lon": -87,
+        "lat": 43.5,
+        "value": null
+      }
+    ],
+    "allFiniteAnglesPhysical": true
+  }
+}
